@@ -3,7 +3,7 @@
 **Project ideas students can safely start — screened before anyone sees them.**
 
 Project Scout finds fresh GitHub repositories, open "good first issue" tickets, paper code and Hugging Face
-models, datasets and Spaces for students majoring in Quant, Finance/FinTech, Software Engineering,
+models, datasets and Spaces for students majoring in Quant, Finance/FinTech, Accounting, Software Engineering,
 Cybersecurity, Data Analytics, Project Management and Digital Marketing — then puts everything through one
 publishing gate before it reaches a Discord channel or a Telegram bot.
 

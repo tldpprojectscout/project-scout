@@ -67,6 +67,7 @@ TERMS = {
     "swe": ["code", "coder", "sql", "game"],
     "cyber": ["security", "phishing", "vulnerability"],
     "data": ["tabular", "classification", "forecasting"],
+    "accounting": ["invoice", "receipt", "accounting", "audit"],
     "pm": ["summarization", "meeting"],
     "marketing": ["sentiment", "marketing", "reviews", "twitter"],
 }

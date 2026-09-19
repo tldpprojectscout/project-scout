@@ -147,6 +147,7 @@ def case_of_the_week() -> dict[str, str]:
     for key, repos, label in (("cyber", ["redcanaryco/atomic-red-team", "SigmaHQ/sigma"], "Cybersecurity"),
                               ("swe", ["donnemartin/system-design-primer", "aosabook/aosabook"], "Software Engineering"),
                               ("marketing", ["PostHog/posthog.com", "mautic/user-documentation"], "Digital Marketing"),
+                              ("accounting", ["beancount/beancount", "frappe/erpnext"], "Accounting"),
                               ("fintech", ["OpenBB-finance/OpenBB"], "Finance / FinTech"),
                               ("quant", ["QuantConnect/Lean"], "Quant")):
         lines = []

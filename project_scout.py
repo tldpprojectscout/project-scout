@@ -36,6 +36,9 @@ MAJORS = {
     "fintech": ("💳 Finance / FinTech",
                 'fintech OR payments OR "personal finance" OR "open banking" OR "stock market" OR "financial data"',
                 "finance", "https://github.com/topics/fintech"),
+    "accounting": ("🧾 Accounting",
+                   'accounting OR bookkeeping OR invoicing OR "double-entry" OR "financial statements" OR XBRL',  # 5 OR max: GitHub rejects a 6th operator
+                   "accounting", "https://github.com/topics/accounting"),
     "swe": ("💻 Software Engineering",
             '"build your own" OR "from scratch" OR "project ideas" OR "portfolio project" OR "full stack"',
             "software", "https://github.com/codecrafters-io/build-your-own-x"),
@@ -157,6 +160,17 @@ COURSES = {
         ("Risk management & credit", '"risk management" OR "credit scoring" OR "fraud detection" OR "credit risk"'),
         ("Real estate finance", '"real estate" OR mortgage OR amortization OR REIT'),
     ],
+    "accounting": [
+        ("Financial accounting & the ledger", '"double-entry" OR "general ledger" OR bookkeeping OR "chart of accounts"'),
+        ("Financial statement analysis", '"financial statements" OR "income statement" OR "balance sheet" OR "ratio analysis"'),
+        ("SEC filings & XBRL", 'XBRL OR "sec edgar" OR "10-K" OR "financial reporting"'),
+        ("Managerial & cost accounting", '"cost accounting" OR "managerial accounting" OR budgeting OR "variance analysis"'),
+        ("Auditing & internal controls", 'auditing OR "internal controls" OR "audit trail" OR "audit log" OR SOX'),
+        ("Tax", '"tax calculator" OR "income tax" OR "sales tax" OR "tax filing" OR VAT'),
+        ("Accounting information systems", '"accounting software" OR invoicing OR payroll OR "expense tracking" OR ERP'),
+        ("Forensic accounting & fraud", '"fraud detection" OR benford OR "forensic accounting" OR "anomaly detection"'),
+        ("Excel & spreadsheet automation", 'excel OR xlsx OR spreadsheet OR openpyxl OR "google sheets"'),
+    ],
     "pm": [
         ("Scrum", 'scrum OR sprint OR "scrum master" OR "sprint planning" OR retrospective'),
         ("Jira", 'jira OR "jira api" OR "jira automation" OR "jira dashboard"'),
@@ -201,6 +215,9 @@ CASES = {
     "marketing": [("PostHog/posthog.com", "product-analytics docs and tutorials; write a how-to"),
                   ("mautic/user-documentation", "marketing-automation docs; 150+ open issues"),
                   ("https://www.kaggle.com/datasets?search=marketing", "marketing datasets for your own case write-up")],
+    "accounting": [("beancount/beancount", "double-entry in plain text; docs and bank-importer issues welcome newcomers"),
+                   ("frappe/erpnext", "a full ERP with real accounting modules; open issues are well documented"),
+                   ("https://www.sec.gov/edgar/search/", "SEC EDGAR full-text search — pick a filing and write your own case (read-only)")],
     "fintech": [("OpenBB-finance/OpenBB", "contribute an analysis or data integration to the open-source terminal"),
                 ("https://www.kaggle.com/competitions?searchQuery=finance", "finance competitions with public write-ups")],
     "quant": [("QuantConnect/Lean", "the open backtesting engine; research and strategy contributions"),
@@ -275,6 +292,18 @@ PATHS = {
         [("OpenBB-finance/OpenBB", "a DCF or comparables analysis notebook on 3 public companies using OpenBB data — your capstone"),
          ("tldpprojectscout/tldp-case-studies", "write it up as your case")],
     ],
+    "accounting": [
+        [("Asabeneh/30-Days-Of-Python", "Python first: days 1–15 — enough to read a CSV and loop over the rows"),
+         ("jvns/pandas-cookbook", "the first three notebooks, redone on a spreadsheet you already have"),
+         ("beancount/beancount", "record one month of transactions (yours or made up) as double-entry text; run the balance report")],
+        [("frappe/books", "run it and book a small company's month: invoices, bills, payments — then export the trial balance"),
+         ("dgunning/edgartools", "pull one company's 10-K, extract the income statement, compare three years in pandas")],
+        [("firstcontributions/first-contributions", "your first pull request, 20 minutes"),
+         ("beancount/beancount", "fix a docs example, or add an importer for a bank CSV format"),
+         ("invoice-x/invoice2data", "add or fix a template so it parses an invoice it currently misses")],
+        [("dgunning/edgartools", "ratio analysis of 5 companies in one industry straight from their XBRL filings, and what the numbers say — your capstone"),
+         ("tldpprojectscout/tldp-case-studies", "write it up as your case")],
+    ],
     "pm": [
         [("https://scrumguides.org/", "read the Scrum Guide (13 pages) and write a one-page summary in your own words"),
          ("https://openpracticelibrary.com/", "pick 5 practices; explain when you'd use each"),
@@ -317,6 +346,9 @@ CHALLENGE = {
               ("stefan-jansen/machine-learning-for-trading", "reproduce a chapter on new data and report what changed")],
     "fintech": [("OpenBB-finance/OpenBB", "contribute a data integration or analysis command"),
                 ("plaid/pattern", "extend the sample banking app with a new feature end to end")],
+    "accounting": [("Arelle/Arelle", "validate a real XBRL filing and explain every error it reports"),
+                   ("PSLmodels/Tax-Calculator", "model one tax-law change and report who it moves money to"),
+                   ("erdogant/benfordslaw", "run Benford's law over a public transaction set and say what a fraud examiner would do next")],
     "pm": [("makeplane/plane", "run a real club or hackathon team through a full sprint cycle and publish the metrics"),
            ("https://www.pmi.org/certifications/certified-associate-capm", "start CAPM prep; use the capstone as your logged experience")],
     "marketing": [("PostHog/posthog", "instrument a real product and run a proper A/B experiment"),
@@ -412,7 +444,7 @@ AI_OK = {"swe", "data"}
 # a bare word + arxiv returns generic AI repos; a field phrase keeps research on-major
 RESEARCH_ANCHOR = {"trading": '"quantitative finance"', "finance": '"financial"', "software": '"software engineering"',
                    "security": "cybersecurity", "data": '"data analysis"', '"project management"': '"project management"',
-                   "marketing": '"digital marketing"'}
+                   "marketing": '"digital marketing"', "accounting": '"accounting"'}
 
 # Mission-driven orgs whose GitHub repos welcome outside contributors (good-first-issues) — resume-ready experience.
 # Each GitHub org -> display name. LinkedIn is login-walled, so rows link to a LinkedIn company search, not a scrape.
@@ -449,6 +481,8 @@ STARTERS = {
              "awesomedata/awesome-public-datasets", "streamlit/streamlit", "academic/awesome-datascience",
              "microsoft/PowerBI-Developer-Samples", "microsoft/powerbi-desktop-samples", "tableau/TabPy",
              "tableau/server-client-python", "tableau/hyper-api-samples"],
+    "accounting": ["frappe/books", "beancount/beancount", "ledger/ledger", "akaunting/akaunting",
+                   "invoiceninja/invoiceninja", "dgunning/edgartools", "Arelle/Arelle", "invoice-x/invoice2data"],
     "pm": ["dend/awesome-product-management", "opf/openproject", "makeplane/plane", "wekan/wekan",
            "mattermost-community/focalboard"],
     "marketing": ["PostHog/posthog", "umami-software/umami", "matomo-org/matomo", "mautic/mautic", "knadh/listmonk",
@@ -531,6 +565,7 @@ STARTER_WHY = {
     "swe": "project tutorials → build-your-own-X → app idea lists (easy/medium/hard) → roadmaps → a full CS curriculum",
     "cyber": "tools & resources list → OWASP cheat sheets → a deliberately vulnerable app to practice on → testing guide → payloads → ATT&CK map",
     "data": "beginner course → free textbook with notebooks → ML course → public datasets → dashboards in Python → resources list → Power BI samples (Microsoft) → Tableau TabPy, API client and Hyper samples",
+    "accounting": "free accounting software you can actually run → plain-text double-entry (beancount, ledger) → invoicing to study → SEC filings and XBRL in Python → invoice data extraction",
     "pm": "PM resources list → three open-source PM tools to run, study or contribute to → kanban you can extend",
     "marketing": "product analytics → two web-analytics platforms → marketing automation → newsletters → workflow automation",
 }
@@ -1206,6 +1241,10 @@ def self_check() -> None:
     clones = [{"full_name": f"{o}/Ghostfolio-Dashboard", "description": "d", "language": "TypeScript", "size": 500, "stargazers_count": 28} for o in ("aa", "bb", "cc")]
     assert not legit(clones[0], clones)
     assert legit({"full_name": "trufflesecurity/trufflehog", "description": "Find, verify, and analyze leaked credentials", "language": "Go", "size": 52242, "stargazers_count": 27939})
+    # GitHub search rejects a 6th AND/OR/NOT operator with a 422, so no query may carry more than five ORs
+    queries = ([m[1] for m in MAJORS.values()] + [q for subs in BUILD_QUERIES.values() for _, q, _ in subs]
+               + [q for cs in COURSES.values() for _, q in cs] + [d[1] for d in CYBER_DOMAINS.values()])
+    assert max(q.count(" OR ") for q in queries) <= 5, max(queries, key=lambda q: q.count(" OR "))
     print("self-check ok")
 
 

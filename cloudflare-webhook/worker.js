@@ -6,7 +6,7 @@
  * in that file — or whose screening record has expired, or that is older than the freshness window — is never shown.
  * If the snapshot is missing, degraded, or stale (no screening in 36 h) every repo lane replies with PAUSE_MSG.
  *
- * Telegram commands: /quant /fintech /swe /cyber /data /pm /marketing [keywords] · /oss <major> · /research <major>
+ * Telegram commands: /quant /fintech /accounting /swe /cyber /data /pm /marketing [keywords] · /oss <major> · /research <major>
  *                    /orgs · /basics <major> · /path <major> · /cases <major> · /hackathons · /courses · /domains
  * Secrets: TELEGRAM_BOT_TOKEN, WEBHOOK_SECRET, OWNER_CHAT_ID (lock to one chat; remove to open to a channel).
  */
@@ -22,9 +22,10 @@ const DISCORD_LIMIT = 2000, TELEGRAM_LIMIT = 4096;
 export const MAJORS = {
   quant: { label: "📈 Quant" }, fintech: { label: "💳 Finance / FinTech" }, swe: { label: "💻 Software Engineering" },
   cyber: { label: "🔐 Cybersecurity" }, data: { label: "📊 Data Analytics" }, pm: { label: "📋 Project Management" },
+  accounting: { label: "🧾 Accounting" },
   marketing: { label: "📣 Digital Marketing" },
 };
-const ALIAS = { finance: "fintech", software: "swe", security: "cyber", analytics: "data", project: "pm", projectmanagement: "pm", digitalmarketing: "marketing", seo: "marketing" };
+const ALIAS = { acct: "accounting", accountancy: "accounting", bookkeeping: "accounting", audit: "accounting", tax: "accounting", finance: "fintech", software: "swe", security: "cyber", analytics: "data", project: "pm", projectmanagement: "pm", digitalmarketing: "marketing", seo: "marketing" };
 export const LANES = { build: { label: "🧪 Build this" }, oss: { label: "🤝 Contribute" }, research: { label: "🔬 Research" } };
 export const OTHER_LANES = ["orgs", "start", "hackathons", "cases", "path", "hf", "projects"];
 const LANE_ALIAS = { contribute: "oss", opensource: "oss", paper: "research", papers: "research", new: "build",
@@ -48,6 +49,8 @@ export const COURSES = {
   fintech: { fin3000: "FIN 3000 Principles of Finance", fin3610: "FIN 3610 Corporate Finance", fin3710: "FIN 3710 Investment Analysis",
     modeling: "Financial modeling & valuation", statements: "Financial statement analysis", options: "Derivatives & options", bonds: "Fixed income",
     fx: "International finance & FX", markets: "Financial markets & trading", personal: "Personal finance & fintech apps", risk: "Risk management & credit", realestate: "Real estate finance" },
+  accounting: { ledger: "Financial accounting & the ledger", statements: "Financial statement analysis", xbrl: "SEC filings & XBRL", cost: "Managerial & cost accounting",
+    audit: "Auditing & internal controls", tax: "Tax", ais: "Accounting information systems", fraud: "Forensic accounting & fraud", excel: "Excel & spreadsheet automation" },
   pm: { scrum: "Scrum", jira: "Jira", confluence: "Confluence", kanban: "Kanban", metrics: "Agile metrics & reporting", roadmap: "Roadmaps & OKRs",
     stories: "Requirements & user stories", risk: "Risk, stakeholders & schedules" },
 };
@@ -367,8 +370,8 @@ export function renderDomain(pub, d, isMd = false) {
 }
 export function coursesHelp(major) {
   const m = COURSES[major] ? major : null;
-  if (!m) return "<b>🎓 Course-aligned searches</b>\n/courses quant · /courses fintech · /courses pm";
-  const cmd = { quant: "/quant", fintech: "/fintech", pm: "/pm" }[m];
+  if (!m) return "<b>🎓 Course-aligned searches</b>\n/courses quant · /courses fintech · /courses accounting · /courses pm";
+  const cmd = { quant: "/quant", fintech: "/fintech", accounting: "/accounting", pm: "/pm" }[m];
   return `<b>🎓 ${MAJORS[m].label} — course codes you can search</b>\n` + Object.entries(COURSES[m]).map(([k, name]) => `${cmd} ${k} — ${name}`).join("\n") +
     `\nAdd keywords after the code: <code>${cmd} ${Object.keys(COURSES[m])[0]} python</code>`;
 }
@@ -420,8 +423,9 @@ export function answerFor(pub, lane, major, extra, isMd, now = Date.now()) {
 const HELP =
   "<b>Project Scout</b> — GitHub project ideas by major, pre-screened.\n\n" +
   "<b>New here? Start with /path &lt;major&gt;</b> — your whole year in order, stage by stage.\n" +
-  "/quant · /fintech · /swe · /cyber · /data · /pm · /marketing — fresh repos to build\n" +
+  "/quant · /fintech · /accounting · /swe · /cyber · /data · /pm · /marketing — fresh repos to build\n" +
   "  /swe sql · /swe frontend · /data powerbi · /data tableau · /cyber d1…d8 (/domains lists them)\n" +
+  "  /accounting xbrl · /accounting audit · /accounting tax — accounting topics (/courses accounting lists them)\n" +
   "  /quant mth9821 · /fintech fin3710 · /pm jira — Baruch course-aligned (/courses quant lists codes)\n" +
   "  Add a level: <code>/cyber beginner</code> · <code>/data intermediate</code> · <code>/swe advanced</code>\n" +
   "/oss &lt;major&gt; — repos with open <i>good first issue</i> tickets\n" +

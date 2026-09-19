@@ -25,7 +25,7 @@ APP = os.environ.get("DISCORD_APP_ID") or getattr(s, "DISCORD_APP_ID", "")
 TOKEN = os.environ.get("DISCORD_BOT_TOKEN") or getattr(s, "DISCORD_BOT_TOKEN", "")
 
 MAJORS = [("Quant", "quant"), ("Finance / FinTech", "fintech"), ("Software Engineering", "swe"),
-          ("Cybersecurity", "cyber"), ("Data Analytics", "data"), ("Project Management", "pm"), ("Digital Marketing", "marketing")]
+          ("Cybersecurity", "cyber"), ("Data Analytics", "data"), ("Accounting", "accounting"), ("Project Management", "pm"), ("Digital Marketing", "marketing")]
 LANES = [("Learning path (your year in order — start here)", "path"),
          ("Start here (idea lists, roadmaps, beginner basics)", "start"),
          ("Build this (fresh repos)", "build"), ("Contribute (good first issues)", "oss"),

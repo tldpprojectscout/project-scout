@@ -34,6 +34,7 @@ SYNTHETIC = {
     "swe": "Build a command-line to-do app that saves tasks to a local JSON file: add, list, complete, delete. No network, no database — just your code and a file.",
     "cyber": "Write a password-strength checker: score a password on length, character classes and a small built-in list of common passwords, and explain the score. All local, no wordlist download.",
     "data": "Generate a synthetic 'store sales' table in code (dates, products, prices, quantities), then compute monthly revenue, the top product and a simple chart. You create the data, so there is nothing to download.",
+    "accounting": "Build a double-entry ledger in code: post ten journal entries to a JSON file, then print a trial balance — and a check that fails when debits and credits do not match. Nothing to download, nothing to install.",
     "pm": "Model a 3-sprint project in a JSON file: epics, stories, estimates. Write a script that prints a burndown table. No tools to install beyond your language.",
     "marketing": "Build a UTM-link builder: given a base URL and campaign fields, output correctly-encoded tracking URLs and validate them. Pure string handling, no external service.",
 }

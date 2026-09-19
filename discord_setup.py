@@ -55,7 +55,7 @@ TEXT, VOICE, CATEGORY, FORUM = 0, 2, 4, 15
 
 MAJOR_ROLES = {"quant": ("Quant", 0x2ECC71), "fintech": ("Finance/FinTech", 0x1ABC9C), "swe": ("SWE", 0x3498DB),
                "cyber": ("Cybersecurity", 0xE74C3C), "data": ("Data Analytics", 0x9B59B6),
-               "pm": ("Project Management", 0xF1C40F), "marketing": ("Digital Marketing", 0xE67E22)}
+               "accounting": ("Accounting", 0xD35400), "pm": ("Project Management", 0xF1C40F), "marketing": ("Digital Marketing", 0xE67E22)}
 
 # category -> gated? , [(name, topic, type, feed key)]
 LAYOUT = {
@@ -74,6 +74,7 @@ LAYOUT = {
         ("🔐│cybersecurity", "Fresh cybersecurity repos, good-first-issues and paper code. React 🙋 to claim.", FORUM, "cyber"),
         ("📈│quant", "Fresh quant repos, good-first-issues and paper code. React 🙋 to claim.", FORUM, "quant"),
         ("💳│finance-fintech", "Fresh finance/fintech repos, good-first-issues and paper code. React 🙋 to claim.", FORUM, "fintech"),
+        ("🧾│accounting", "Fresh accounting repos, good-first-issues and paper code — ledgers, invoicing, XBRL/SEC filings, audit and fraud analytics. React 🙋 to claim.", FORUM, "accounting"),
         ("📋│project-management", "Fresh project-management tools and good-first-issues. React 🙋 to claim.", FORUM, "pm"),
         ("📣│digital-marketing", "Fresh marketing/SEO/analytics repos and good-first-issues. React 🙋 to claim.", FORUM, "marketing"),
         ("🤝│open-source-orgs", "Non-profit, public-sector and company repos you can contribute to — resume-ready.", FORUM, "orgs"),
@@ -612,7 +613,7 @@ Private server for the 45 TLDP students. Please don't share the invite link.
 
 **What's here once you're in**
 • **🛠️ build-your-sandbox / 🧰 safe-sandboxes** — set up a free sandbox first (Colab, Binder or Codespaces) so nothing you run can touch your machine. Do this before browsing the feed.
-• **Feed forums** (📊 data-analytics · 💻 swe · 🔐 cybersecurity · 📈 quant · 💳 finance-fintech · 📋 project-management · 📣 digital-marketing) — every 6 hours the Project Scout bot opens a post with fresh GitHub repos for that major: things to build, open-source repos with *good first issues*, and new paper code. Each row shows 🟢 starter / 🟡 intermediate / 🔴 advanced.
+• **Feed forums** (📊 data-analytics · 💻 swe · 🔐 cybersecurity · 📈 quant · 💳 finance-fintech · 🧾 accounting · 📋 project-management · 📣 digital-marketing) — every 6 hours the Project Scout bot opens a post with fresh GitHub repos for that major: things to build, open-source repos with *good first issues*, and new paper code. Each row shows 🟢 starter / 🟡 intermediate / 🔴 advanced.
 • **React 🙋 on a post to claim it.** Every Friday the bot lists who claimed what in #find-a-team so you can team up.
 • **🤝 open-source-orgs** — non-profit, public-sector and company repos that welcome contributors, with a LinkedIn link and a ready-to-paste resume line.
 • **#scout-search** — search on demand: `/scout major:Cybersecurity`, `/scout lane:Contribute major:Data Analytics`, `/scout lane:Orgs keywords:python`.
