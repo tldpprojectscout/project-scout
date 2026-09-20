@@ -153,3 +153,21 @@ class ProjectLadder(unittest.TestCase):
                 self.assertGreater(len(todo), 40)          # a task, not a label
             self.assertTrue({e[0] for e in entries} == set(ps.LEVELS3), major)   # all three levels present
             self.assertTrue({e[1] for e in entries} == {"Python", "SQL"}, major)  # both languages present
+
+
+class ToMarkdown(unittest.TestCase):
+    """Every Telegram tag the feed emits must become Discord markdown, never escaped literal HTML."""
+
+    def test_code_becomes_a_backtick_span(self):
+        import project_scout as ps
+        out = ps.to_markdown("Need first: <code>pip install transformers torch</code>")
+        self.assertEqual(out, "Need first: `pip install transformers torch`")
+
+    def test_code_span_is_not_markdown_escaped_inside(self):
+        import project_scout as ps
+        out = ps.to_markdown("<code>pip install my_pkg[all] &amp;&amp; ls</code>")
+        self.assertEqual(out, "`pip install my_pkg[all] && ls`")
+
+    def test_untagged_angle_brackets_still_escaped(self):
+        import project_scout as ps
+        self.assertIn(r"\<script\>", ps.to_markdown("&lt;script&gt;"))

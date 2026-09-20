@@ -1154,6 +1154,8 @@ def to_markdown(text: str) -> str:
     text = re.sub(r'<a href="([^"]+)">([^<]*)</a>', lambda m: stash(f"[{md_esc(unesc(m.group(2)))}](<{m.group(1)}>)"), text)
     text = re.sub(r"</?b>", lambda m: stash("**"), text)
     text = re.sub(r"</?i>", lambda m: stash("*"), text)
+    # whole element, like <a>: markdown-escaping inside a code span would print the backslashes literally
+    text = re.sub(r"<code>(.*?)</code>", lambda m: stash("`" + unesc(m.group(1)).replace("`", "'") + "`"), text, flags=re.S)
     text = md_esc(unesc(text))  # entities decoded only after our own tags are stashed, so "&lt;i&gt;" can't become a tag
     return re.sub(r"\x00(\d+)\x00", lambda m: keep[int(m.group(1))], text)
 
