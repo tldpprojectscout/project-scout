@@ -9,7 +9,13 @@ import gate
 import pipeline
 import scan
 
-NOW = datetime(2026, 9, 16, 12, 0, tzinfo=timezone.utc)
+# Relative to the real clock, NOT a hardcoded date. validate_published() takes no
+# `now` argument, so gate.eligible() inside it reads datetime.now() — a frozen NOW
+# here meant the fixtures aged out in real time and the suite went red on its own.
+# It did, on 2026-09-27: records built as NOW + 10 days expired and CI (digest.yml,
+# weekly.yml run `python -m unittest` as a blocking step) failed before publishing.
+# test_gate.py can keep its fixed date because it passes NOW explicitly on every call.
+NOW = datetime.now(timezone.utc)
 SHA = "a" * 40
 FRESH = (NOW - timedelta(days=2)).date().isoformat()
 
@@ -220,7 +226,7 @@ class SnapshotValidation(unittest.TestCase):
 
     def test_expired_record_rejected(self):
         rec = good_rec("a/b"); rec["expires"] = (NOW - timedelta(days=1)).isoformat()
-        ok, _ = pipeline.validate_published(self.pub({"swe|build|": [frow("a/b")]}), store_of(rec), self.quar, NOW)
+        ok, _ = pipeline.validate_published(self.pub({"swe|build|": [frow("a/b")]}), store_of(rec), self.quar, self.meta)
         self.assertFalse(ok)
 
 
