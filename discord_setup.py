@@ -86,11 +86,6 @@ LAYOUT = {
         ("help", "Stuck on git, a PR, an environment? Ask here.", TEXT, None),
         ("general-chat", "Everything else.", TEXT, None),
     ]),
-    "🎯 SPRING REQUIREMENTS": (True, [
-        ("🏁│nyc-hackathons", "In-person hackathons in the NYC area, city-wide + private + public sector, updated every 6 h from Devpost and MLH. Attend one by spring. Reply in a post to find teammates.", FORUM, "hackathons"),
-        ("🎓│capstone", "Your capstone project, judged in spring. Post your idea, repo link, weekly progress, and questions for staff.", TEXT, None),
-        ("📁│case-studies", "Contribute to real case-study collections, and add your own case to github.com/tldpprojectscout/tldp-case-studies. Every merged case is announced here with your name. Monday: case of the week.", TEXT, "cases"),
-    ]),
     "🧑‍💻 PRACTICE & REVIEW": (True, [
         ("🧑‍💻│code-review-practice", "All tech majors: post code, a repo link or a short video walkthrough and get an interview-style code review from peers and staff. Read the pinned rubric first.", FORUM, None),
         ("🛡️│cyber-review-practice", "Cybersecurity: post lab write-ups, detection rules, scripts or video walkthroughs and get reviewed the way a security interview panel would. Read the pinned rubric first.", FORUM, None),
@@ -98,6 +93,11 @@ LAYOUT = {
         ("🔌│mcp-servers-for-codex", "Plug real data and tools into Codex with MCP servers. One post per major with copy-paste install commands. Read the top post first.", FORUM, None),
         ("🎬│git-in-10-minutes", "Never used Git or GitHub? Ten short videos (5–10 min each) from verified or widely watched channels, in order: what Git is → first commit → push → branches → pull requests. Watch one, do it, reply with a question.", FORUM, None),
         ("🤗│huggingface-in-10-minutes", "Short videos from Hugging Face's own channel on using the platform — the Hub, datasets, repos, Spaces — and how it connects to GitHub. Watch one, do the 'Then do this' line, reply with a question.", FORUM, None),
+    ]),
+    "🎯 SPRING REQUIREMENTS": (True, [
+        ("🏁│nyc-hackathons", "In-person hackathons in the NYC area, city-wide + private + public sector, updated every 6 h from Devpost and MLH. Attend one by spring. Reply in a post to find teammates.", FORUM, "hackathons"),
+        ("🎓│capstone", "Your capstone project, judged in spring. Post your idea, repo link, weekly progress, and questions for staff.", TEXT, None),
+        ("📁│case-studies", "Contribute to real case-study collections, and add your own case to github.com/tldpprojectscout/tldp-case-studies. Every merged case is announced here with your name. Monday: case of the week.", TEXT, "cases"),
     ]),
     "🎧 STUDY ROOMS": (True, [("Study Room 1", "", VOICE, None), ("Study Room 2", "", VOICE, None)]),
 }
