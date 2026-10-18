@@ -73,12 +73,12 @@
 "0x504B0304/bes-qemu": {
 "full_name": "0x504B0304/bes-qemu",
 "sha": "e57911d5fa00d28a3f69321c7bdbdca5abda8016",
-"at": "2026-10-17T20:36:47+00:00",
+"at": "2026-10-18T20:41:34+00:00",
 "language": "C",
 "size": 1049,
 "pushed_at": "2026-10-11",
 "created_at": "2026-10-08",
-"stars": 10,
+"stars": 11,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -142,7 +142,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T20:36:47+00:00"
+"expires": "2026-10-19T20:41:34+00:00"
 },
 "0xBakeer/deepseek-v41-flash-spark": {
 "full_name": "0xBakeer/deepseek-v41-flash-spark",
@@ -274,7 +274,7 @@
 "0xSero/dsv41-flash-offload": {
 "full_name": "0xSero/dsv41-flash-offload",
 "sha": "08802b6fe00101830d75733d2a7c2dd386e121e3",
-"at": "2026-10-16T16:38:33+00:00",
+"at": "2026-10-18T20:41:55+00:00",
 "language": "Python",
 "size": 372,
 "pushed_at": "2026-10-05",
@@ -291,7 +291,7 @@
 "README link: link to a raw IP address (private)",
 "README link: non-web link scheme oci:",
 "required scanner not run: osv=error",
-"soft: 142 stars on a 14-day-old repo (bought stars)"
+"soft: 145 stars on a 16-day-old repo (bought stars)"
 ],
 "coverage": {
 "primary_language": "Python",
@@ -352,10 +352,10 @@
 "README link: non-web link scheme oci:"
 ],
 "vet_soft": [
-"142 stars on a 14-day-old repo (bought stars)"
+"145 stars on a 16-day-old repo (bought stars)"
 ]
 },
-"expires": "2026-10-18T16:38:33+00:00"
+"expires": "2026-10-20T20:41:55+00:00"
 },
 "100yenadmin/hermes-teammates": {
 "full_name": "100yenadmin/hermes-teammates",
@@ -794,8 +794,8 @@
 },
 "AGGIB/Stroq": {
 "full_name": "AGGIB/Stroq",
-"sha": "cd9ad4039c5a84e24553f995c5fbf80a0ec3ed67",
-"at": "2026-10-18T15:52:19+00:00",
+"sha": "35dcf183a777b8f0e75981f8f5200849969a1376",
+"at": "2026-10-18T20:42:13+00:00",
 "language": "TypeScript",
 "size": 22712,
 "pushed_at": "2026-09-17",
@@ -818,7 +818,7 @@
 "primary_language": "TypeScript",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 45826078,
+"bytes": 45828833,
 "files": 2324,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -889,7 +889,7 @@
 "Scorecard: unmaintained"
 ]
 },
-"expires": "2026-10-20T15:52:19+00:00"
+"expires": "2026-10-20T20:42:13+00:00"
 },
 "AI-FanGe/Microduck-build-tutorial": {
 "full_name": "AI-FanGe/Microduck-build-tutorial",
@@ -1223,10 +1223,84 @@
 },
 "expires": "2026-10-19T10:42:49+00:00"
 },
+"AIwithhassan/free-claude-code-omniroute-cheatsheet": {
+"full_name": "AIwithhassan/free-claude-code-omniroute-cheatsheet",
+"sha": "ed331f863aa41793e778a78fbbd2a450787f4156",
+"at": "2026-10-18T20:43:07+00:00",
+"language": "HTML",
+"size": 16768,
+"pushed_at": "2026-10-13",
+"created_at": "2026-10-13",
+"stars": 11,
+"curated": false,
+"scanner": {
+"semgrep": "1.177.0",
+"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
+},
+"policy_version": 2,
+"result": "incomplete",
+"reasons": [
+"required scanner not run: osv=error"
+],
+"coverage": {
+"primary_language": "HTML",
+"supported": true,
+"note": "generic + language rules",
+"bytes": 22570128,
+"files": 27,
+"notebooks_extracted": 0,
+"semgrepignore_removed": 0,
+"signals": {
+"has_tests": false,
+"has_dockerfile": false,
+"compose_services": 0,
+"has_k8s": false,
+"has_terraform": false,
+"dep_count": 0,
+"readme_bytes": 11265,
+"top_level_entries": 5
+},
+"engines_not_ran": [
+"osv=error"
+],
+"code_scan_result": "incomplete",
+"blocking": [],
+"advisory": {
+"osv_vulnerabilities": 0
+},
+"engines": {
+"semgrep": "ran",
+"yara": "ran",
+"clamav": "ran",
+"osv": "error"
+},
+"yara": {
+"status": "ran",
+"hits": []
+},
+"clamav": {
+"status": "ran",
+"hits": []
+},
+"osv": {
+"status": "error",
+"malicious": [],
+"vulnerable": 0
+},
+"links": {
+"block": [],
+"warn": [],
+"error": null
+},
+"vet_hard": [],
+"vet_soft": []
+},
+"expires": "2026-10-19T20:43:07+00:00"
+},
 "AKSHRK-Dev/Storia": {
 "full_name": "AKSHRK-Dev/Storia",
 "sha": "7928f5d5f7903097c1eaa34827eeec2c943eeaaf",
-"at": "2026-10-17T20:38:18+00:00",
+"at": "2026-10-18T20:43:24+00:00",
 "language": "Java",
 "size": 11418,
 "pushed_at": "2026-10-06",
@@ -1295,10 +1369,10 @@
 },
 "vet_hard": [],
 "vet_soft": [
-"owner account is 77 days old"
+"owner account is 78 days old"
 ]
 },
-"expires": "2026-10-18T20:38:18+00:00"
+"expires": "2026-10-19T20:43:24+00:00"
 },
 "AMAP-ML/LoopArena": {
 "full_name": "AMAP-ML/LoopArena",
@@ -1418,12 +1492,12 @@
 "AbdelStark/awesome-typesafe-jev": {
 "full_name": "AbdelStark/awesome-typesafe-jev",
 "sha": "2b112825ccaa281ae32ef222709fe56ea7ac27ce",
-"at": "2026-10-16T16:39:38+00:00",
+"at": "2026-10-18T20:43:41+00:00",
 "language": "HTML",
-"size": 25487,
-"pushed_at": "2026-10-14",
+"size": 26019,
+"pushed_at": "2026-10-16",
 "created_at": "2026-09-17",
-"stars": 593,
+"stars": 595,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -1432,7 +1506,6 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"soft: 594 stars on a 29-day-old repo (bought stars)",
 "soft: README link: chat invite link discord.com",
 "soft: README link: chat invite link discord.gg"
 ],
@@ -1491,16 +1564,15 @@
 "vet_hard": [],
 "vet_soft": [
 "README link: chat invite link discord.com",
-"README link: chat invite link discord.gg",
-"594 stars on a 29-day-old repo (bought stars)"
+"README link: chat invite link discord.gg"
 ]
 },
-"expires": "2026-10-18T16:39:38+00:00"
+"expires": "2026-10-20T20:43:41+00:00"
 },
 "AbdullaAlzarooni/ultimate-real-estate-calculator": {
 "full_name": "AbdullaAlzarooni/ultimate-real-estate-calculator",
 "sha": "8e56c7f40c4718dfa87c3f936a646bbe49a73096",
-"at": "2026-10-17T20:38:37+00:00",
+"at": "2026-10-18T20:44:05+00:00",
 "language": "HTML",
 "size": 28056,
 "pushed_at": "2026-10-16",
@@ -1568,10 +1640,10 @@
 },
 "vet_hard": [],
 "vet_soft": [
-"owner account is 45 days old"
+"owner account is 46 days old"
 ]
 },
-"expires": "2026-10-18T20:38:37+00:00"
+"expires": "2026-10-19T20:44:05+00:00"
 },
 "Abhishek-Gali/HookRelay": {
 "full_name": "Abhishek-Gali/HookRelay",
@@ -1655,7 +1727,7 @@
 "Adudeguyman/ComfyUI-HyperFlow-H3": {
 "full_name": "Adudeguyman/ComfyUI-HyperFlow-H3",
 "sha": "99778905b0074a622af7ba45901d31b28bca5d53",
-"at": "2026-10-17T20:39:00+00:00",
+"at": "2026-10-18T20:44:26+00:00",
 "language": "Python",
 "size": 5979,
 "pushed_at": "2026-10-01",
@@ -1724,7 +1796,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T20:39:00+00:00"
+"expires": "2026-10-19T20:44:26+00:00"
 },
 "AetherLabsAI/Video2World": {
 "full_name": "AetherLabsAI/Video2World",
@@ -1974,12 +2046,12 @@
 "AhmetBozgeyik/Faturaport-Public-API": {
 "full_name": "AhmetBozgeyik/Faturaport-Public-API",
 "sha": "e4dc652bece5a5c4994f4504ba399fdfb3b6e3a2",
-"at": "2026-10-17T20:39:20+00:00",
+"at": "2026-10-18T20:44:43+00:00",
 "language": "JavaScript",
 "size": 105,
 "pushed_at": "2026-10-13",
 "created_at": "2026-10-12",
-"stars": 14,
+"stars": 15,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -2043,7 +2115,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T20:39:20+00:00"
+"expires": "2026-10-19T20:44:43+00:00"
 },
 "Aimee51819/FileFlipper": {
 "full_name": "Aimee51819/FileFlipper",
@@ -2197,7 +2269,7 @@
 "Akxan/google-seo-mcp": {
 "full_name": "Akxan/google-seo-mcp",
 "sha": "04c659934c4c26cb10f706188b9d5b51726145ec",
-"at": "2026-10-16T16:41:08+00:00",
+"at": "2026-10-18T20:44:58+00:00",
 "language": "TypeScript",
 "size": 1148,
 "pushed_at": "2026-09-17",
@@ -2268,7 +2340,7 @@
 ],
 "vet_soft": []
 },
-"expires": "2026-10-18T16:41:08+00:00"
+"expires": "2026-10-20T20:44:58+00:00"
 },
 "Alchemist-Jo/textbook-anything": {
 "full_name": "Alchemist-Jo/textbook-anything",
@@ -2546,8 +2618,8 @@
 },
 "Alledor/perf-orbit-pwa": {
 "full_name": "Alledor/perf-orbit-pwa",
-"sha": "e31d94ed37ef29f8299e4448fc4e5cf21888ada1",
-"at": "2026-10-18T15:53:28+00:00",
+"sha": "41c996f4691a9c5d1e046ae947bd10c259f12bef",
+"at": "2026-10-18T20:45:16+00:00",
 "language": "HTML",
 "size": 213,
 "pushed_at": "2026-10-05",
@@ -2568,7 +2640,7 @@
 "primary_language": "HTML",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 195707,
+"bytes": 195814,
 "files": 6,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -2621,7 +2693,7 @@
 ],
 "vet_soft": []
 },
-"expires": "2026-10-20T15:53:28+00:00"
+"expires": "2026-10-20T20:45:16+00:00"
 },
 "Alura-Imersao-Engenharia-de-dados-2026/projeto-aviacao-anac": {
 "full_name": "Alura-Imersao-Engenharia-de-dados-2026/projeto-aviacao-anac",
@@ -2940,7 +3012,7 @@
 "ArcHelps/systems-engineering-skills": {
 "full_name": "ArcHelps/systems-engineering-skills",
 "sha": "279b09e0b2ae15e2ff0db5cadef6614a41fdcf13",
-"at": "2026-10-17T20:41:16+00:00",
+"at": "2026-10-18T20:46:30+00:00",
 "language": "Python",
 "size": 417,
 "pushed_at": "2026-10-03",
@@ -3009,7 +3081,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T20:41:16+00:00"
+"expires": "2026-10-19T20:46:30+00:00"
 },
 "Arcanum-Sec/hyc": {
 "full_name": "Arcanum-Sec/hyc",
@@ -3534,12 +3606,12 @@
 "BaaRai/ARTEX": {
 "full_name": "BaaRai/ARTEX",
 "sha": "7ef07417549a6cfc126731ad704644f92f968760",
-"at": "2026-10-16T16:43:53+00:00",
+"at": "2026-10-18T20:46:48+00:00",
 "language": "Go",
 "size": 10053,
 "pushed_at": "2026-10-16",
 "created_at": "2026-10-08",
-"stars": 15,
+"stars": 22,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -3609,7 +3681,7 @@
 ],
 "vet_soft": []
 },
-"expires": "2026-10-18T16:43:53+00:00"
+"expires": "2026-10-20T20:46:48+00:00"
 },
 "BaichengDanny/awesome-ai-for-cybersecurity-papers": {
 "full_name": "BaichengDanny/awesome-ai-for-cybersecurity-papers",
@@ -3687,8 +3759,8 @@
 },
 "BekbolatBolebay/LunarEC": {
 "full_name": "BekbolatBolebay/LunarEC",
-"sha": "3770978aa6cdf95f0eeb6396f19e1300c20efb6c",
-"at": "2026-10-18T15:55:24+00:00",
+"sha": "598fac9ff005546f514c4ab9bba652aa659088d4",
+"at": "2026-10-18T20:47:35+00:00",
 "language": "TypeScript",
 "size": 33225,
 "pushed_at": "2026-09-30",
@@ -3706,7 +3778,7 @@
 "primary_language": "TypeScript",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 1420572,
+"bytes": 1420570,
 "files": 1352,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -3754,7 +3826,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-01T15:55:24+00:00"
+"expires": "2026-11-01T20:47:35+00:00"
 },
 "Blackfrost-AI/Cyber-Frost-Harness": {
 "full_name": "Blackfrost-AI/Cyber-Frost-Harness",
@@ -3837,7 +3909,7 @@
 "CDCgov/ww-inference-model": {
 "full_name": "CDCgov/ww-inference-model",
 "sha": "3e92fea29a0b96212e1690dbdcaeb8abfe19cc4f",
-"at": "2026-10-17T20:43:01+00:00",
+"at": "2026-10-18T20:48:13+00:00",
 "language": "R",
 "size": 1892,
 "pushed_at": "2026-10-05",
@@ -3906,7 +3978,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T20:43:01+00:00"
+"expires": "2026-10-19T20:48:13+00:00"
 },
 "CecuTheMag/Kant": {
 "full_name": "CecuTheMag/Kant",
@@ -4004,7 +4076,7 @@
 "Ch3nOff/dual-loop-controller": {
 "full_name": "Ch3nOff/dual-loop-controller",
 "sha": "ddde51323e1f0ba0f34e878453455315accbcb3b",
-"at": "2026-10-16T16:46:39+00:00",
+"at": "2026-10-18T20:48:59+00:00",
 "language": "Python",
 "size": 64570,
 "pushed_at": "2026-10-09",
@@ -4039,7 +4111,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T16:46:39+00:00"
+"expires": "2026-10-20T20:48:59+00:00"
 },
 "ChiefGyk3D/Clouds-Against-Humanity": {
 "full_name": "ChiefGyk3D/Clouds-Against-Humanity",
@@ -4197,8 +4269,8 @@
 },
 "ChiemTrieuMinh/Neo-Strafe-Sprint": {
 "full_name": "ChiemTrieuMinh/Neo-Strafe-Sprint",
-"sha": "c2192bd2be3faf434b89478733245fe0fd0d1f54",
-"at": "2026-10-18T15:56:01+00:00",
+"sha": "509f254bb96c7fff7bf5f0291f117c3b8e3be828",
+"at": "2026-10-18T20:49:04+00:00",
 "language": "HTML",
 "size": 225,
 "pushed_at": "2026-10-05",
@@ -4219,7 +4291,7 @@
 "primary_language": "HTML",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 195017,
+"bytes": 195069,
 "files": 6,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -4272,12 +4344,12 @@
 ],
 "vet_soft": []
 },
-"expires": "2026-10-20T15:56:01+00:00"
+"expires": "2026-10-20T20:49:04+00:00"
 },
 "CliMA/Oceananigans.jl": {
 "full_name": "CliMA/Oceananigans.jl",
-"sha": "9e7418f106a5c4522ed3e47b62d66b7a04b80095",
-"at": "2026-10-18T04:37:09+00:00",
+"sha": "266741249e3f59fae7a58df8e4eabd67fe3631ad",
+"at": "2026-10-18T20:49:26+00:00",
 "language": "Julia",
 "size": 62205,
 "pushed_at": "2026-10-17",
@@ -4312,7 +4384,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T04:37:09+00:00"
+"expires": "2026-10-20T20:49:26+00:00"
 },
 "CluvexStudio/Strata": {
 "full_name": "CluvexStudio/Strata",
@@ -4388,8 +4460,8 @@
 },
 "CoWork-OS/CoWork-OS": {
 "full_name": "CoWork-OS/CoWork-OS",
-"sha": "4c33602871e787219ef805222228c1392e56a0ad",
-"at": "2026-10-18T15:56:26+00:00",
+"sha": "abf972f4d2bc29830de4ceb99dfb5c4ed32c9005",
+"at": "2026-10-18T20:49:31+00:00",
 "language": "TypeScript",
 "size": 123376,
 "pushed_at": "2026-10-18",
@@ -4437,7 +4509,7 @@
 "README link: chat invite link discord.gg"
 ]
 },
-"expires": "2026-10-20T15:56:26+00:00"
+"expires": "2026-10-20T20:49:31+00:00"
 },
 "CodeByPinar/riskops": {
 "full_name": "CodeByPinar/riskops",
@@ -4604,8 +4676,8 @@
 },
 "ComputerUseAgent/AutoCua": {
 "full_name": "ComputerUseAgent/AutoCua",
-"sha": "44160eb72bf9b210170571a5fa0a7246b55fe77a",
-"at": "2026-10-18T15:56:29+00:00",
+"sha": "887b5627128ba2fc1f666ad16ce8e32edba6a894",
+"at": "2026-10-18T20:49:35+00:00",
 "language": "Python",
 "size": 14384,
 "pushed_at": "2026-10-17",
@@ -4629,7 +4701,7 @@
 "primary_language": "Python",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 21367012,
+"bytes": 21372228,
 "files": 505,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -4640,7 +4712,7 @@
 "has_k8s": false,
 "has_terraform": false,
 "dep_count": 0,
-"readme_bytes": 68214,
+"readme_bytes": 68707,
 "top_level_entries": 21
 },
 "engines_not_ran": [],
@@ -4691,12 +4763,12 @@
 "owner account is 9 days old"
 ]
 },
-"expires": "2026-10-20T15:56:29+00:00"
+"expires": "2026-10-20T20:49:35+00:00"
 },
 "Continuum-AI-Corp/Orca-AI-Incident-Archive": {
 "full_name": "Continuum-AI-Corp/Orca-AI-Incident-Archive",
 "sha": "64dcf0009dd994c7dd9eb3b6c7cd818e6d599730",
-"at": "2026-10-16T16:47:56+00:00",
+"at": "2026-10-18T20:55:12+00:00",
 "language": "HTML",
 "size": 8921,
 "pushed_at": "2026-10-01",
@@ -4767,12 +4839,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T16:47:56+00:00"
+"expires": "2026-10-20T20:55:12+00:00"
 },
 "Continuum-AI-Corp/orcarouter-tools-skills": {
 "full_name": "Continuum-AI-Corp/orcarouter-tools-skills",
 "sha": "cd71d08aa375f05994e3d36e19aacc0e5f072ce3",
-"at": "2026-10-17T20:45:02+00:00",
+"at": "2026-10-18T20:55:38+00:00",
 "language": "JavaScript",
 "size": 7055,
 "pushed_at": "2026-10-15",
@@ -4841,7 +4913,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T20:45:02+00:00"
+"expires": "2026-10-19T20:55:38+00:00"
 },
 "CrocSwap/integer-mult-bounds": {
 "full_name": "CrocSwap/integer-mult-bounds",
@@ -5318,7 +5390,7 @@
 "DaVVinCi/FactorForge": {
 "full_name": "DaVVinCi/FactorForge",
 "sha": "1e1d7ee590dad47bcb2012920ec7ddefa3d59ea0",
-"at": "2026-10-17T20:45:26+00:00",
+"at": "2026-10-18T20:55:56+00:00",
 "language": "Python",
 "size": 1132,
 "pushed_at": "2026-09-21",
@@ -5387,7 +5459,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T20:45:26+00:00"
+"expires": "2026-10-19T20:55:56+00:00"
 },
 "DanFessler/trellis": {
 "full_name": "DanFessler/trellis",
@@ -5549,8 +5621,8 @@
 },
 "Dark9cloud/blue-streak-sync": {
 "full_name": "Dark9cloud/blue-streak-sync",
-"sha": "a231ff40a83be38dacb09a684731a3123859068d",
-"at": "2026-10-18T16:02:36+00:00",
+"sha": "da90172b2ad4c35efd918c59901ea83d964265af",
+"at": "2026-10-18T20:56:11+00:00",
 "language": "HTML",
 "size": 220,
 "pushed_at": "2026-10-05",
@@ -5571,7 +5643,7 @@
 "primary_language": "HTML",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 199660,
+"bytes": 199768,
 "files": 6,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -5624,7 +5696,7 @@
 ],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:02:36+00:00"
+"expires": "2026-10-20T20:56:11+00:00"
 },
 "DefectDojo/django-DefectDojo": {
 "full_name": "DefectDojo/django-DefectDojo",
@@ -5748,8 +5820,8 @@
 },
 "Dicklesworthstone/franken_accounting": {
 "full_name": "Dicklesworthstone/franken_accounting",
-"sha": "0ae6b88ddc4ff1a0b44c40f0ac1d2366796b4682",
-"at": "2026-10-18T11:07:47+00:00",
+"sha": "c5870edf8c4cd36874ba357d508e9ffd859cc619",
+"at": "2026-10-18T20:56:34+00:00",
 "language": "Rust",
 "size": 9209,
 "pushed_at": "2026-10-17",
@@ -5767,8 +5839,8 @@
 "primary_language": "Rust",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 15886100,
-"files": 704,
+"bytes": 16409573,
+"files": 723,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -5778,7 +5850,7 @@
 "has_k8s": false,
 "has_terraform": false,
 "dep_count": 0,
-"readme_bytes": 62982,
+"readme_bytes": 64128,
 "top_level_entries": 19
 },
 "engines_not_ran": [],
@@ -5814,7 +5886,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-01T11:07:47+00:00"
+"expires": "2026-11-01T20:56:34+00:00"
 },
 "DjangoCRM/django-crm": {
 "full_name": "DjangoCRM/django-crm",
@@ -6236,7 +6308,7 @@
 "Erutaner/CLADE": {
 "full_name": "Erutaner/CLADE",
 "sha": "8489aeaad2e1ad96b31de3bf34d716109846e889",
-"at": "2026-10-17T20:46:40+00:00",
+"at": "2026-10-18T20:57:05+00:00",
 "language": "Python",
 "size": 5621,
 "pushed_at": "2026-09-15",
@@ -6305,7 +6377,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T20:46:40+00:00"
+"expires": "2026-10-19T20:57:05+00:00"
 },
 "Eurekaleo/awesome-ai-for-games": {
 "full_name": "Eurekaleo/awesome-ai-for-games",
@@ -6438,13 +6510,13 @@
 },
 "Fazmin/cve-intel": {
 "full_name": "Fazmin/cve-intel",
-"sha": "9e14da01d5da7ea9c4951342a9aaf1d03a3f2268",
-"at": "2026-10-18T16:03:19+00:00",
+"sha": "d19c71622d5b2c1379fbb1ac26d0593e12a9e9da",
+"at": "2026-10-18T20:57:45+00:00",
 "language": "Rust",
 "size": 7708,
 "pushed_at": "2026-10-18",
 "created_at": "2026-10-18",
-"stars": 32,
+"stars": 40,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -6462,7 +6534,7 @@
 "primary_language": "Rust",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 8352892,
+"bytes": 8352965,
 "files": 65,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -6519,7 +6591,7 @@
 ],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:03:19+00:00"
+"expires": "2026-10-20T20:57:45+00:00"
 },
 "Felix-Theodore-Zeng/eight-market-quant-ai": {
 "full_name": "Felix-Theodore-Zeng/eight-market-quant-ai",
@@ -6635,7 +6707,7 @@
 "GSA/MasteringAgenticAISystems_supplementals": {
 "full_name": "GSA/MasteringAgenticAISystems_supplementals",
 "sha": "f896914aa030a30d1737cdfce61e41d9db763562",
-"at": "2026-10-16T16:53:29+00:00",
+"at": "2026-10-18T20:58:03+00:00",
 "language": "Python",
 "size": 500856,
 "pushed_at": "2026-10-12",
@@ -6670,7 +6742,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T16:53:29+00:00"
+"expires": "2026-10-20T20:58:03+00:00"
 },
 "GamePhanesStudio/GamePhanes": {
 "full_name": "GamePhanesStudio/GamePhanes",
@@ -6748,7 +6820,7 @@
 "Geisteswille/aicorpusx-python": {
 "full_name": "Geisteswille/aicorpusx-python",
 "sha": "4b3d17c4fcbd1ec075ce4dd10f1d2d8a4b83199c",
-"at": "2026-10-17T20:47:38+00:00",
+"at": "2026-10-18T20:58:07+00:00",
 "language": "Python",
 "size": 875,
 "pushed_at": "2026-09-28",
@@ -6818,7 +6890,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T20:47:38+00:00"
+"expires": "2026-10-19T20:58:07+00:00"
 },
 "GeminiLight/SocialCoach": {
 "full_name": "GeminiLight/SocialCoach",
@@ -6898,7 +6970,7 @@
 "Gen-Verse/JEPA-Anything": {
 "full_name": "Gen-Verse/JEPA-Anything",
 "sha": "c6e6c88f3ef75a4ce7acd660d6fa5779d995512c",
-"at": "2026-10-17T20:47:53+00:00",
+"at": "2026-10-18T20:58:21+00:00",
 "language": "Python",
 "size": 1443,
 "pushed_at": "2026-09-18",
@@ -6967,12 +7039,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T20:47:53+00:00"
+"expires": "2026-10-19T20:58:21+00:00"
 },
 "Gen-Verse/ScienceBuddy": {
 "full_name": "Gen-Verse/ScienceBuddy",
 "sha": "53177995fd549068cbe25282273bed771e843f50",
-"at": "2026-10-17T20:48:09+00:00",
+"at": "2026-10-18T20:58:35+00:00",
 "language": "Python",
 "size": 12359,
 "pushed_at": "2026-09-17",
@@ -7041,7 +7113,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T20:48:09+00:00"
+"expires": "2026-10-19T20:58:35+00:00"
 },
 "Greminn/ha-spatial-context": {
 "full_name": "Greminn/ha-spatial-context",
@@ -7190,7 +7262,7 @@
 "Hamidooh/witness-vault": {
 "full_name": "Hamidooh/witness-vault",
 "sha": "825f6f3243abef94fdcc1c36100239b474ff45d9",
-"at": "2026-10-17T20:50:22+00:00",
+"at": "2026-10-18T21:00:34+00:00",
 "language": "Python",
 "size": 32,
 "pushed_at": "2026-10-01",
@@ -7258,10 +7330,10 @@
 },
 "vet_hard": [],
 "vet_soft": [
-"82 stars on a 16-day-old repo (bought stars)"
+"82 stars on a 17-day-old repo (bought stars)"
 ]
 },
-"expires": "2026-10-18T20:50:22+00:00"
+"expires": "2026-10-19T21:00:34+00:00"
 },
 "Harvil1/codeAgent": {
 "full_name": "Harvil1/codeAgent",
@@ -7353,8 +7425,8 @@
 },
 "HeyPuter/everything": {
 "full_name": "HeyPuter/everything",
-"sha": "4b9779e5adc1c707357d72a2bb226b5b8e63ebd8",
-"at": "2026-10-18T11:08:55+00:00",
+"sha": "117ca2437141e2aef1b7dd21939aa7d443450225",
+"at": "2026-10-18T21:00:48+00:00",
 "language": "JavaScript",
 "size": 416027,
 "pushed_at": "2026-10-17",
@@ -7388,10 +7460,10 @@
 },
 "vet_hard": [],
 "vet_soft": [
-"2123 stars on a 4-day-old repo (bought stars)"
+"2198 stars on a 5-day-old repo (bought stars)"
 ]
 },
-"expires": "2026-10-20T11:08:55+00:00"
+"expires": "2026-10-20T21:00:48+00:00"
 },
 "Hrpp1433223/Equity-Research-Agent": {
 "full_name": "Hrpp1433223/Equity-Research-Agent",
@@ -7669,7 +7741,7 @@
 "IBM/mcp-context-forge": {
 "full_name": "IBM/mcp-context-forge",
 "sha": "86af292eeea89c155b437758b52e3b4b83fb9702",
-"at": "2026-10-16T16:57:50+00:00",
+"at": "2026-10-18T21:00:52+00:00",
 "language": "Python",
 "size": 460183,
 "pushed_at": "2026-10-12",
@@ -7708,7 +7780,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T16:57:50+00:00"
+"expires": "2026-10-20T21:00:52+00:00"
 },
 "Ildana-ai/paperless-export": {
 "full_name": "Ildana-ai/paperless-export",
@@ -7948,7 +8020,7 @@
 "Infinihash/scanrelay": {
 "full_name": "Infinihash/scanrelay",
 "sha": "d89448265782167902910d9e47581d434c7010f3",
-"at": "2026-10-17T20:50:39+00:00",
+"at": "2026-10-18T21:00:57+00:00",
 "language": "Python",
 "size": 63,
 "pushed_at": "2026-10-07",
@@ -8017,7 +8089,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T20:50:39+00:00"
+"expires": "2026-10-19T21:00:57+00:00"
 },
 "Infrasity-Labs/developer-marketing-jobs": {
 "full_name": "Infrasity-Labs/developer-marketing-jobs",
@@ -8099,7 +8171,7 @@
 "Itz-Murali/Social-Downloader-Web": {
 "full_name": "Itz-Murali/Social-Downloader-Web",
 "sha": "161a380fca18dda0142698127018b037f4bdd9ce",
-"at": "2026-10-17T20:50:57+00:00",
+"at": "2026-10-18T21:01:11+00:00",
 "language": "JavaScript",
 "size": 366,
 "pushed_at": "2026-09-13",
@@ -8168,12 +8240,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T20:50:57+00:00"
+"expires": "2026-10-19T21:01:11+00:00"
 },
 "JA-cmd-wq/RK3588-AntiUAV-Tracker": {
 "full_name": "JA-cmd-wq/RK3588-AntiUAV-Tracker",
 "sha": "bcbe87247705c2cfad1dc56f656074fbe07fc094",
-"at": "2026-10-16T16:59:09+00:00",
+"at": "2026-10-18T21:01:25+00:00",
 "language": "Python",
 "size": 40323,
 "pushed_at": "2026-10-03",
@@ -8242,7 +8314,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T16:59:09+00:00"
+"expires": "2026-10-20T21:01:25+00:00"
 },
 "Jakeschincariol/trader-skill": {
 "full_name": "Jakeschincariol/trader-skill",
@@ -8481,7 +8553,7 @@
 "Jinssi/AuthFlowMap": {
 "full_name": "Jinssi/AuthFlowMap",
 "sha": "59a58163a94119e917f3ee8d4460e1bb8ea33db9",
-"at": "2026-10-16T16:59:33+00:00",
+"at": "2026-10-18T21:01:47+00:00",
 "language": "HTML",
 "size": 2178,
 "pushed_at": "2026-10-02",
@@ -8495,7 +8567,7 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"52 stars on a 16-day-old repo (bought stars)"
+"52 stars on a 18-day-old repo (bought stars)"
 ],
 "coverage": {
 "primary_language": "HTML",
@@ -8546,11 +8618,11 @@
 "error": null
 },
 "vet_hard": [
-"52 stars on a 16-day-old repo (bought stars)"
+"52 stars on a 18-day-old repo (bought stars)"
 ],
 "vet_soft": []
 },
-"expires": "2026-10-18T16:59:33+00:00"
+"expires": "2026-10-20T21:01:47+00:00"
 },
 "JonBunator/Enterr": {
 "full_name": "JonBunator/Enterr",
@@ -8882,8 +8954,8 @@
 },
 "KnifeLemon/Filee": {
 "full_name": "KnifeLemon/Filee",
-"sha": "ff56a0cd1e2516516df3737d8d1cfb7ac69738dc",
-"at": "2026-10-17T04:35:54+00:00",
+"sha": "e2dbc00f0623963d5ade4972b4113c6bf943d5c0",
+"at": "2026-10-18T21:02:05+00:00",
 "language": "C#",
 "size": 8442,
 "pushed_at": "2026-10-12",
@@ -8897,15 +8969,15 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"1299 stars on a 17-day-old repo (bought stars)",
-"required scanner not run: osv=error"
+"3937 stars on a 19-day-old repo (bought stars)",
+"code scan: tldp.shell-download-pipe"
 ],
 "coverage": {
 "primary_language": "C#",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 7844190,
-"files": 532,
+"bytes": 7971983,
+"files": 545,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -8915,14 +8987,16 @@
 "has_k8s": false,
 "has_terraform": false,
 "dep_count": 0,
-"readme_bytes": 11158,
+"readme_bytes": 11217,
 "top_level_entries": 20
 },
 "engines_not_ran": [
 "osv=error"
 ],
-"code_scan_result": "incomplete",
-"blocking": [],
+"code_scan_result": "withheld",
+"blocking": [
+"tldp.shell-download-pipe"
+],
 "advisory": {
 "osv_vulnerabilities": 0
 },
@@ -8951,11 +9025,11 @@
 "error": null
 },
 "vet_hard": [
-"1299 stars on a 17-day-old repo (bought stars)"
+"3937 stars on a 19-day-old repo (bought stars)"
 ],
 "vet_soft": []
 },
-"expires": "2026-10-19T04:35:54+00:00"
+"expires": "2026-10-20T21:02:05+00:00"
 },
 "KorroAi/unwalled": {
 "full_name": "KorroAi/unwalled",
@@ -9196,7 +9270,7 @@
 "Leonard-WYH/OmniPick": {
 "full_name": "Leonard-WYH/OmniPick",
 "sha": "6f0d1ff87557b9506ae57f881ded7ed549d7bbbe",
-"at": "2026-10-17T20:52:12+00:00",
+"at": "2026-10-18T21:02:26+00:00",
 "language": "Python",
 "size": 53551,
 "pushed_at": "2026-09-23",
@@ -9265,7 +9339,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T20:52:12+00:00"
+"expires": "2026-10-19T21:02:26+00:00"
 },
 "Li-Evan/awesome-jev": {
 "full_name": "Li-Evan/awesome-jev",
@@ -9658,7 +9732,7 @@
 "LorenzoTonet/Intro_to_ML_26-27": {
 "full_name": "LorenzoTonet/Intro_to_ML_26-27",
 "sha": "7817f92c0721f2f2e94fa28dad972d08250a7f11",
-"at": "2026-10-17T20:53:07+00:00",
+"at": "2026-10-18T21:02:58+00:00",
 "language": "Jupyter Notebook",
 "size": 3067,
 "pushed_at": "2026-10-08",
@@ -9670,9 +9744,9 @@
 "ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
 },
 "policy_version": 2,
-"result": "incomplete",
+"result": "fail",
 "reasons": [
-"required scanner not run: osv=error"
+"yara: TLDP_Known_Malware_Family"
 ],
 "coverage": {
 "primary_language": "Jupyter Notebook",
@@ -9695,7 +9769,7 @@
 "engines_not_ran": [
 "osv=error"
 ],
-"code_scan_result": "incomplete",
+"code_scan_result": "withheld",
 "blocking": [],
 "advisory": {
 "osv_vulnerabilities": 0
@@ -9708,7 +9782,9 @@
 },
 "yara": {
 "status": "ran",
-"hits": []
+"hits": [
+"TLDP_Known_Malware_Family@Labs/Lab-01_Data_generation.ipynb"
+]
 },
 "clamav": {
 "status": "ran",
@@ -9727,12 +9803,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T20:53:07+00:00"
+"expires": "2026-10-20T21:02:58+00:00"
 },
 "LosaLosSantos/aurelio-finance": {
 "full_name": "LosaLosSantos/aurelio-finance",
-"sha": "2be2ddb2b95dad0947314c818f952c3412e8e861",
-"at": "2026-10-17T15:42:03+00:00",
+"sha": "e8ce2dc553af84a04b26a369df97857fe1c97bc1",
+"at": "2026-10-18T21:06:13+00:00",
 "language": "Python",
 "size": 12920,
 "pushed_at": "2026-10-16",
@@ -9750,8 +9826,8 @@
 "primary_language": "Python",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 6473120,
-"files": 406,
+"bytes": 6538814,
+"files": 412,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -9796,10 +9872,10 @@
 },
 "vet_hard": [],
 "vet_soft": [
-"3950 stars on a 10-day-old repo (bought stars)"
+"3956 stars on a 12-day-old repo (bought stars)"
 ]
 },
-"expires": "2026-10-31T15:42:03+00:00"
+"expires": "2026-11-01T21:06:13+00:00"
 },
 "LovelessCodes/StoryForge": {
 "full_name": "LovelessCodes/StoryForge",
@@ -10083,12 +10159,12 @@
 "MISP/misp-galaxy": {
 "full_name": "MISP/misp-galaxy",
 "sha": "61b0c5d0e09d1d1d656b2d155b1b39bed3e45736",
-"at": "2026-10-16T17:06:30+00:00",
+"at": "2026-10-18T21:06:40+00:00",
 "language": "Python",
-"size": 57586,
-"pushed_at": "2026-10-08",
+"size": 57700,
+"pushed_at": "2026-10-16",
 "created_at": "2016-02-27",
-"stars": 646,
+"stars": 648,
 "curated": true,
 "scanner": {
 "semgrep": "1.177.0",
@@ -10180,12 +10256,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T17:06:30+00:00"
+"expires": "2026-10-20T21:06:40+00:00"
 },
 "MLO-lab/LeVJEPA": {
 "full_name": "MLO-lab/LeVJEPA",
 "sha": "3ea0dda16030bc0fd6472bf809fc0a0ad836a812",
-"at": "2026-10-17T20:57:19+00:00",
+"at": "2026-10-18T21:07:31+00:00",
 "language": "Jupyter Notebook",
 "size": 1392,
 "pushed_at": "2026-09-02",
@@ -10197,9 +10273,9 @@
 "ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
 },
 "policy_version": 2,
-"result": "incomplete",
+"result": "fail",
 "reasons": [
-"required scanner not run: osv=error"
+"yara: TLDP_Obfuscated_Payload"
 ],
 "coverage": {
 "primary_language": "Jupyter Notebook",
@@ -10222,7 +10298,7 @@
 "engines_not_ran": [
 "osv=error"
 ],
-"code_scan_result": "incomplete",
+"code_scan_result": "withheld",
 "blocking": [],
 "advisory": {
 "WARNING": 1,
@@ -10236,7 +10312,9 @@
 },
 "yara": {
 "status": "ran",
-"hits": []
+"hits": [
+"TLDP_Obfuscated_Payload@notebooks/training_workshop.ipynb"
+]
 },
 "clamav": {
 "status": "ran",
@@ -10255,17 +10333,17 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T20:57:19+00:00"
+"expires": "2026-10-20T21:07:31+00:00"
 },
 "MSR-Orchard/AutoEnvScaling": {
 "full_name": "MSR-Orchard/AutoEnvScaling",
-"sha": "2b38259ac0ab5983c7de21df0f50696ab43e8869",
-"at": "2026-10-18T11:10:36+00:00",
+"sha": "285b456e8ddb0743573e7a275eb1d10b3da7292c",
+"at": "2026-10-18T21:08:43+00:00",
 "language": "Python",
 "size": 1500,
 "pushed_at": "2026-10-16",
 "created_at": "2026-09-29",
-"stars": 23,
+"stars": 24,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -10280,8 +10358,8 @@
 "primary_language": "Python",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 2509720,
-"files": 198,
+"bytes": 2541331,
+"files": 201,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -10335,12 +10413,12 @@
 "owner account is 85 days old"
 ]
 },
-"expires": "2026-10-20T11:10:36+00:00"
+"expires": "2026-10-20T21:08:43+00:00"
 },
 "MUdevelops/SmartBiz-ERP": {
 "full_name": "MUdevelops/SmartBiz-ERP",
 "sha": "3e0dbefef44f6e7e52e709dd7e48234dd7a1ecbd",
-"at": "2026-10-17T20:58:35+00:00",
+"at": "2026-10-18T21:09:01+00:00",
 "language": "Java",
 "size": 3562,
 "pushed_at": "2026-09-25",
@@ -10408,10 +10486,10 @@
 },
 "vet_hard": [],
 "vet_soft": [
-"owner account is 44 days old"
+"owner account is 45 days old"
 ]
 },
-"expires": "2026-10-18T20:58:35+00:00"
+"expires": "2026-10-19T21:09:01+00:00"
 },
 "MagicCube/hyper-hinge": {
 "full_name": "MagicCube/hyper-hinge",
@@ -10485,8 +10563,8 @@
 },
 "MakazhanAlpamys/soup-wall": {
 "full_name": "MakazhanAlpamys/soup-wall",
-"sha": "449bb38649b52b38cd1b6406e4f0553434b88f59",
-"at": "2026-10-18T16:05:06+00:00",
+"sha": "bc3e873ac10d131df0fe352f4488261d62d8e6b3",
+"at": "2026-10-18T21:09:18+00:00",
 "language": "Rust",
 "size": 391,
 "pushed_at": "2026-09-17",
@@ -10507,8 +10585,8 @@
 "primary_language": "Rust",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 30980898,
-"files": 1280,
+"bytes": 31477147,
+"files": 1305,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -10565,12 +10643,12 @@
 ],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:05:06+00:00"
+"expires": "2026-10-20T21:09:18+00:00"
 },
 "Mastershort/neonplan3d": {
 "full_name": "Mastershort/neonplan3d",
-"sha": "8280160b2c0e4c02b3205d58ab018290f95f617f",
-"at": "2026-10-18T04:44:06+00:00",
+"sha": "60dd02e451aff56b7c13ec95573e959cdbdf4601",
+"at": "2026-10-18T21:10:30+00:00",
 "language": "TypeScript",
 "size": 41833,
 "pushed_at": "2026-10-11",
@@ -10584,15 +10662,15 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"792 stars on a 20-day-old repo (bought stars)",
+"808 stars on a 20-day-old repo (bought stars)",
 "soft: README link: chat invite link discord.gg"
 ],
 "coverage": {
 "primary_language": "TypeScript",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 32879921,
-"files": 501,
+"bytes": 32901553,
+"files": 502,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -10639,13 +10717,13 @@
 "error": null
 },
 "vet_hard": [
-"792 stars on a 20-day-old repo (bought stars)"
+"808 stars on a 20-day-old repo (bought stars)"
 ],
 "vet_soft": [
 "README link: chat invite link discord.gg"
 ]
 },
-"expires": "2026-10-20T04:44:06+00:00"
+"expires": "2026-10-20T21:10:30+00:00"
 },
 "MathiasDrizzy/lazymark": {
 "full_name": "MathiasDrizzy/lazymark",
@@ -10795,7 +10873,7 @@
 "MaximeRivest/tiny-classifiers": {
 "full_name": "MaximeRivest/tiny-classifiers",
 "sha": "b58ee5f272adaf56e721ba4e44a5cbbc4d7e1dc7",
-"at": "2026-10-17T21:00:13+00:00",
+"at": "2026-10-18T21:11:37+00:00",
 "language": "JavaScript",
 "size": 2318,
 "pushed_at": "2026-09-27",
@@ -10864,10 +10942,10 @@
 },
 "vet_hard": [],
 "vet_soft": [
-"76 stars on a 20-day-old repo (bought stars)"
+"76 stars on a 21-day-old repo (bought stars)"
 ]
 },
-"expires": "2026-10-18T21:00:13+00:00"
+"expires": "2026-10-19T21:11:37+00:00"
 },
 "Mengqi-Lei/texglot": {
 "full_name": "Mengqi-Lei/texglot",
@@ -11349,12 +11427,12 @@
 "NRG-Wardog/sidestore-auto-refresh": {
 "full_name": "NRG-Wardog/sidestore-auto-refresh",
 "sha": "7aff2fcc6163b91c6a4e8f6403de90e003e0baab",
-"at": "2026-10-17T21:00:37+00:00",
+"at": "2026-10-18T21:12:00+00:00",
 "language": "Python",
-"size": 17975,
-"pushed_at": "2026-10-17",
+"size": 18717,
+"pushed_at": "2026-10-18",
 "created_at": "2026-08-29",
-"stars": 160,
+"stars": 161,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -11418,7 +11496,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:00:37+00:00"
+"expires": "2026-10-19T21:12:00+00:00"
 },
 "NUKnightLab/sql-mysteries": {
 "full_name": "NUKnightLab/sql-mysteries",
@@ -11662,7 +11740,7 @@
 "NandunSamarasekara/Urban-flow-analytics": {
 "full_name": "NandunSamarasekara/Urban-flow-analytics",
 "sha": "4fdeec4402dd8369ee42beb4533c2460b4687aa8",
-"at": "2026-10-17T21:00:56+00:00",
+"at": "2026-10-18T21:12:18+00:00",
 "language": "Jupyter Notebook",
 "size": 2843,
 "pushed_at": "2026-09-27",
@@ -11733,7 +11811,7 @@
 "only 2 commit(s)"
 ]
 },
-"expires": "2026-10-18T21:00:56+00:00"
+"expires": "2026-10-19T21:12:18+00:00"
 },
 "NannyML/The-Little-Book-of-ML-Metrics": {
 "full_name": "NannyML/The-Little-Book-of-ML-Metrics",
@@ -11778,12 +11856,12 @@
 "NeuroVision-Studio/NeuraVision": {
 "full_name": "NeuroVision-Studio/NeuraVision",
 "sha": "cbeb4b8d43b5a08245ad284d7d641dea41b4cf8f",
-"at": "2026-10-16T17:12:51+00:00",
+"at": "2026-10-18T21:12:34+00:00",
 "language": "PHP",
 "size": 4850,
 "pushed_at": "2026-10-15",
 "created_at": "2026-10-15",
-"stars": 91,
+"stars": 106,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -11792,9 +11870,9 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"91 stars on a 1-day-old repo (bought stars)",
+"123 stars on a 3-day-old repo (bought stars)",
 "soft: only 1 commit(s)",
-"soft: owner account is 1 days old",
+"soft: owner account is 3 days old",
 "yara: TLDP_Obfuscated_Payload"
 ],
 "coverage": {
@@ -11852,19 +11930,19 @@
 "error": null
 },
 "vet_hard": [
-"91 stars on a 1-day-old repo (bought stars)"
+"123 stars on a 3-day-old repo (bought stars)"
 ],
 "vet_soft": [
 "only 1 commit(s)",
-"owner account is 1 days old"
+"owner account is 3 days old"
 ]
 },
-"expires": "2026-10-18T17:12:51+00:00"
+"expires": "2026-10-20T21:12:34+00:00"
 },
 "NineThree/HeadUnitWireless-CarPlay": {
 "full_name": "NineThree/HeadUnitWireless-CarPlay",
 "sha": "31f73bffb656e42b8202f7835d71867acd5fc2e8",
-"at": "2026-10-17T21:01:15+00:00",
+"at": "2026-10-18T21:13:47+00:00",
 "language": "Kotlin",
 "size": 4088,
 "pushed_at": "2026-10-09",
@@ -11934,7 +12012,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:01:15+00:00"
+"expires": "2026-10-19T21:13:47+00:00"
 },
 "NixOS/nix-security-tracker": {
 "full_name": "NixOS/nix-security-tracker",
@@ -12400,7 +12478,7 @@
 "OWASP/API-Security": {
 "full_name": "OWASP/API-Security",
 "sha": "33cea37b2ffde3e2e62f6b5d79a029a22a846633",
-"at": "2026-10-17T21:01:39+00:00",
+"at": "2026-10-18T21:14:09+00:00",
 "language": "Dockerfile",
 "size": 48226,
 "pushed_at": "2026-09-21",
@@ -12470,7 +12548,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:01:39+00:00"
+"expires": "2026-10-19T21:14:09+00:00"
 },
 "OWASP/ASVS": {
 "full_name": "OWASP/ASVS",
@@ -12514,8 +12592,8 @@
 },
 "OWASP/CheatSheetSeries": {
 "full_name": "OWASP/CheatSheetSeries",
-"sha": "1c3144a85e9aa1b50bef773683405fcc626ce6e1",
-"at": "2026-10-18T16:06:52+00:00",
+"sha": "d4557b9605a633e66fd4617aa06247c3f3b4b105",
+"at": "2026-10-18T21:15:06+00:00",
 "language": "JavaScript",
 "size": 2807700,
 "pushed_at": "2026-10-17",
@@ -12552,7 +12630,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:06:52+00:00"
+"expires": "2026-10-20T21:15:06+00:00"
 },
 "OWASP/Nest": {
 "full_name": "OWASP/Nest",
@@ -12672,7 +12750,7 @@
 "OWASP/SecurityShepherd": {
 "full_name": "OWASP/SecurityShepherd",
 "sha": "cff3958abf7a18cfc84fe6bed9dd6698631b2cee",
-"at": "2026-10-16T17:17:13+00:00",
+"at": "2026-10-18T21:15:10+00:00",
 "language": "Java",
 "size": 191522,
 "pushed_at": "2026-10-09",
@@ -12719,12 +12797,12 @@
 "README link: URL shortener bit.ly (destination hidden)"
 ]
 },
-"expires": "2026-10-18T17:17:13+00:00"
+"expires": "2026-10-20T21:15:10+00:00"
 },
 "OWASP/cornucopia": {
 "full_name": "OWASP/cornucopia",
 "sha": "924f20e593ff2ac832aa0551683476c47dee34f2",
-"at": "2026-10-16T17:17:17+00:00",
+"at": "2026-10-18T21:15:14+00:00",
 "language": "Python",
 "size": 964029,
 "pushed_at": "2026-10-12",
@@ -12759,7 +12837,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T17:17:17+00:00"
+"expires": "2026-10-20T21:15:14+00:00"
 },
 "OWASP/cve-lite-cli": {
 "full_name": "OWASP/cve-lite-cli",
@@ -13071,8 +13149,8 @@
 },
 "OWASP/www-community": {
 "full_name": "OWASP/www-community",
-"sha": "ce2814653f497a7a9ebadce39ce7f84bb3c603e4",
-"at": "2026-10-18T04:45:14+00:00",
+"sha": "2bfb723194784e2280f62723eb8dad04169cf06f",
+"at": "2026-10-18T21:15:20+00:00",
 "language": "HTML",
 "size": 226180,
 "pushed_at": "2026-10-11",
@@ -13107,7 +13185,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T04:45:14+00:00"
+"expires": "2026-10-20T21:15:20+00:00"
 },
 "OWASP/www-project-webshield-library": {
 "full_name": "OWASP/www-project-webshield-library",
@@ -13183,7 +13261,7 @@
 "Omni-Scientist/Awesome-AI-Scientist": {
 "full_name": "Omni-Scientist/Awesome-AI-Scientist",
 "sha": "496e7f75edf547019bd710b3ba698f32bba73adf",
-"at": "2026-10-17T21:03:13+00:00",
+"at": "2026-10-18T21:15:23+00:00",
 "language": "Python",
 "size": 2097,
 "pushed_at": "2026-09-09",
@@ -13253,7 +13331,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:03:13+00:00"
+"expires": "2026-10-19T21:15:23+00:00"
 },
 "OneHumanAI/onehuman": {
 "full_name": "OneHumanAI/onehuman",
@@ -13684,7 +13762,7 @@
 "Pluviobyte/dot2api": {
 "full_name": "Pluviobyte/dot2api",
 "sha": "66a761505ff73c5dca730260efcaeb5697db81ad",
-"at": "2026-10-17T21:03:34+00:00",
+"at": "2026-10-18T21:15:41+00:00",
 "language": "Python",
 "size": 123,
 "pushed_at": "2026-10-06",
@@ -13752,10 +13830,10 @@
 },
 "vet_hard": [],
 "vet_soft": [
-"207 stars on a 11-day-old repo (bought stars)"
+"207 stars on a 12-day-old repo (bought stars)"
 ]
 },
-"expires": "2026-10-18T21:03:34+00:00"
+"expires": "2026-10-19T21:15:41+00:00"
 },
 "PolyU-VCLab/PVD": {
 "full_name": "PolyU-VCLab/PVD",
@@ -13831,8 +13909,8 @@
 },
 "PostHog/posthog": {
 "full_name": "PostHog/posthog",
-"sha": "42891eaf33babb34328375fd98ca7487317ca868",
-"at": "2026-10-18T16:07:03+00:00",
+"sha": "08c3ef1caee8c09166b5792cc67424a5b79af0be",
+"at": "2026-10-18T21:15:55+00:00",
 "language": "Python",
 "size": 8085592,
 "pushed_at": "2026-10-18",
@@ -13867,7 +13945,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:07:03+00:00"
+"expires": "2026-10-20T21:15:55+00:00"
 },
 "PostHog/posthog.com": {
 "full_name": "PostHog/posthog.com",
@@ -13969,8 +14047,8 @@
 },
 "ProteoWizard/pwiz": {
 "full_name": "ProteoWizard/pwiz",
-"sha": "aef14947719baca90496f4708b41b3ab50500d47",
-"at": "2026-10-18T16:07:08+00:00",
+"sha": "1be16fdafe4d2c11ba1cb38962f7c4baaca53ebf",
+"at": "2026-10-18T21:16:00+00:00",
 "language": "C#",
 "size": 5235853,
 "pushed_at": "2026-10-18",
@@ -14005,7 +14083,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:07:08+00:00"
+"expires": "2026-10-20T21:16:00+00:00"
 },
 "QiantangCredit/heimdall-agent": {
 "full_name": "QiantangCredit/heimdall-agent",
@@ -14598,7 +14676,7 @@
 "RankSpotAI/awesome-seo-mcp": {
 "full_name": "RankSpotAI/awesome-seo-mcp",
 "sha": "fa6423b7a0f15e4dadf87936fe05b5938adefc30",
-"at": "2026-10-17T21:04:33+00:00",
+"at": "2026-10-18T21:16:06+00:00",
 "language": "Python",
 "size": 32,
 "pushed_at": "2026-09-14",
@@ -14668,12 +14746,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:04:33+00:00"
+"expires": "2026-10-19T21:16:06+00:00"
 },
 "Rimagination/easyplot": {
 "full_name": "Rimagination/easyplot",
 "sha": "d150e0167f15551cbfb5549076b99c43ad07272a",
-"at": "2026-10-17T21:04:47+00:00",
+"at": "2026-10-18T21:16:19+00:00",
 "language": "HTML",
 "size": 7100,
 "pushed_at": "2026-09-29",
@@ -14743,10 +14821,10 @@
 },
 "vet_hard": [],
 "vet_soft": [
-"98 stars on a 24-day-old repo (bought stars)"
+"100 stars on a 25-day-old repo (bought stars)"
 ]
 },
-"expires": "2026-10-18T21:04:47+00:00"
+"expires": "2026-10-19T21:16:19+00:00"
 },
 "RishabhEvans/Twitch-AIO": {
 "full_name": "RishabhEvans/Twitch-AIO",
@@ -15037,7 +15115,7 @@
 "SagarBiswas-MultiHAT/The-BlackHAT-roadmap": {
 "full_name": "SagarBiswas-MultiHAT/The-BlackHAT-roadmap",
 "sha": "ca4cca131d1ce33f797419e292ececbefe912697",
-"at": "2026-10-16T17:24:03+00:00",
+"at": "2026-10-18T21:16:42+00:00",
 "language": "C",
 "size": 152885,
 "pushed_at": "2026-09-26",
@@ -15072,12 +15150,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T17:24:03+00:00"
+"expires": "2026-10-20T21:16:42+00:00"
 },
 "Sahil-SS9/agent-personas": {
 "full_name": "Sahil-SS9/agent-personas",
 "sha": "0b76d13d5b7d6d53e6475c8bc100409d8992286c",
-"at": "2026-10-17T21:05:12+00:00",
+"at": "2026-10-18T21:16:45+00:00",
 "language": "Python",
 "size": 1137,
 "pushed_at": "2026-09-30",
@@ -15146,12 +15224,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:05:12+00:00"
+"expires": "2026-10-19T21:16:45+00:00"
 },
 "Sakikoo0/codekeel": {
 "full_name": "Sakikoo0/codekeel",
 "sha": "4656835215c5a08b0da73cdd183f066c848dcdca",
-"at": "2026-10-17T21:05:36+00:00",
+"at": "2026-10-18T21:17:06+00:00",
 "language": "Python",
 "size": 773,
 "pushed_at": "2026-09-12",
@@ -15221,12 +15299,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:05:36+00:00"
+"expires": "2026-10-19T21:17:06+00:00"
 },
 "SalamLang/Salam": {
 "full_name": "SalamLang/Salam",
-"sha": "20bb01d2833260a7c7c9b90bae6bb1cfb3554ab2",
-"at": "2026-10-18T16:07:41+00:00",
+"sha": "0ca558e281027dec1e966c32ec8cd16c878a3b77",
+"at": "2026-10-18T21:17:22+00:00",
 "language": "TeX",
 "size": 102592,
 "pushed_at": "2026-10-18",
@@ -15282,7 +15360,7 @@
 "README link: chat invite link t.me"
 ]
 },
-"expires": "2026-10-20T16:07:41+00:00"
+"expires": "2026-10-20T21:17:22+00:00"
 },
 "Salehswt/AFTERMATH": {
 "full_name": "Salehswt/AFTERMATH",
@@ -15534,8 +15612,8 @@
 },
 "Sha-dow-thorne/MCT-Schulungskosten-Planer": {
 "full_name": "Sha-dow-thorne/MCT-Schulungskosten-Planer",
-"sha": "38cea51a27ea1db520c725dea0ecc637b4d11a5e",
-"at": "2026-10-18T16:07:44+00:00",
+"sha": "e395a48ef55b1daf22b22fa99f38aac4c7131e9f",
+"at": "2026-10-18T21:17:27+00:00",
 "language": "HTML",
 "size": 239,
 "pushed_at": "2026-10-05",
@@ -15557,7 +15635,7 @@
 "primary_language": "HTML",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 195966,
+"bytes": 196060,
 "files": 6,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -15612,7 +15690,7 @@
 "owner account is 88 days old"
 ]
 },
-"expires": "2026-10-20T16:07:44+00:00"
+"expires": "2026-10-20T21:17:27+00:00"
 },
 "Sheltercosmo/JevSDSQL": {
 "full_name": "Sheltercosmo/JevSDSQL",
@@ -16186,7 +16264,7 @@
 "SoShinySoChrome/human-incident-response-framework": {
 "full_name": "SoShinySoChrome/human-incident-response-framework",
 "sha": "a96c4c339ba52e9df2a1246247ce93ab3879d6aa",
-"at": "2026-10-17T21:06:23+00:00",
+"at": "2026-10-18T21:17:50+00:00",
 "language": "HTML",
 "size": 887,
 "pushed_at": "2026-09-18",
@@ -16255,7 +16333,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:06:23+00:00"
+"expires": "2026-10-19T21:17:50+00:00"
 },
 "Soju06/codex-lb": {
 "full_name": "Soju06/codex-lb",
@@ -16469,8 +16547,8 @@
 },
 "Southclaws/storyden": {
 "full_name": "Southclaws/storyden",
-"sha": "4313face4da1bf470f4b39b85bb6ef104b3ebcae",
-"at": "2026-10-18T16:09:06+00:00",
+"sha": "dd29e6560d8153f82db87c9a5b87de92cf258061",
+"at": "2026-10-18T21:18:07+00:00",
 "language": "Go",
 "size": 198102,
 "pushed_at": "2026-10-18",
@@ -16505,7 +16583,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:09:06+00:00"
+"expires": "2026-10-20T21:18:07+00:00"
 },
 "SpeakingOfBrad/BIGWORDS.PAGE": {
 "full_name": "SpeakingOfBrad/BIGWORDS.PAGE",
@@ -16584,7 +16662,7 @@
 "SpikeNOIP/MachineLearning-playbook": {
 "full_name": "SpikeNOIP/MachineLearning-playbook",
 "sha": "ab7b8801304f6490e45a59aecdd4ebdaa107675c",
-"at": "2026-10-17T21:06:44+00:00",
+"at": "2026-10-18T21:18:11+00:00",
 "language": "Python",
 "size": 16152,
 "pushed_at": "2026-09-06",
@@ -16655,7 +16733,7 @@
 "only 1 commit(s)"
 ]
 },
-"expires": "2026-10-18T21:06:44+00:00"
+"expires": "2026-10-19T21:18:11+00:00"
 },
 "St0rn/SigLens": {
 "full_name": "St0rn/SigLens",
@@ -17491,8 +17569,8 @@
 },
 "Stensui/todo-bootcamp-lab": {
 "full_name": "Stensui/todo-bootcamp-lab",
-"sha": "40ea44ab97c2f855062e1958e1e54dac3701272d",
-"at": "2026-10-18T16:09:12+00:00",
+"sha": "2fe370475f4bf9936b81c276fb68332dde8982fb",
+"at": "2026-10-18T21:18:33+00:00",
 "language": "HTML",
 "size": 206,
 "pushed_at": "2026-10-05",
@@ -17513,7 +17591,7 @@
 "primary_language": "HTML",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 195795,
+"bytes": 195903,
 "files": 6,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -17566,7 +17644,7 @@
 ],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:09:12+00:00"
+"expires": "2026-10-20T21:18:33+00:00"
 },
 "Superalgos/Superalgos": {
 "full_name": "Superalgos/Superalgos",
@@ -17962,13 +18040,13 @@
 },
 "TannerMidd/pi-pocket": {
 "full_name": "TannerMidd/pi-pocket",
-"sha": "af0883f98efdac11e4ef2bacb64778e1b20b9ee5",
-"at": "2026-10-18T16:09:40+00:00",
+"sha": "2c6faa45c10671c556d8886dd0b9d0c165257a56",
+"at": "2026-10-18T21:18:57+00:00",
 "language": "TypeScript",
-"size": 7353,
+"size": 7503,
 "pushed_at": "2026-10-18",
 "created_at": "2026-10-04",
-"stars": 478,
+"stars": 484,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -17977,15 +18055,15 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"478 stars on a 14-day-old repo (bought stars)",
+"484 stars on a 14-day-old repo (bought stars)",
 "code scan: tldp.credential-store-access"
 ],
 "coverage": {
 "primary_language": "TypeScript",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 7102281,
-"files": 381,
+"bytes": 7163414,
+"files": 382,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -18031,11 +18109,11 @@
 "error": null
 },
 "vet_hard": [
-"478 stars on a 14-day-old repo (bought stars)"
+"484 stars on a 14-day-old repo (bought stars)"
 ],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:09:40+00:00"
+"expires": "2026-10-20T21:18:57+00:00"
 },
 "Tejashmakwana/astra-chatgpt-hyperframes": {
 "full_name": "Tejashmakwana/astra-chatgpt-hyperframes",
@@ -18270,8 +18348,8 @@
 },
 "TheMoonPeople/ChronicleTwo": {
 "full_name": "TheMoonPeople/ChronicleTwo",
-"sha": "b4bc674ff8f35a4ec3e449ff1b45563ea8adb0f1",
-"at": "2026-10-18T16:10:07+00:00",
+"sha": "7a595837ce814a178e2d200c82189f994b723031",
+"at": "2026-10-18T21:19:24+00:00",
 "language": "C++",
 "size": 13645,
 "pushed_at": "2026-10-15",
@@ -18291,8 +18369,8 @@
 "primary_language": "C++",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 126570478,
-"files": 7081,
+"bytes": 126651903,
+"files": 7087,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -18351,7 +18429,7 @@
 "owner account is 16 days old"
 ]
 },
-"expires": "2026-10-20T16:10:07+00:00"
+"expires": "2026-10-20T21:19:24+00:00"
 },
 "True-Utopian/vesper-antidetect-browser": {
 "full_name": "True-Utopian/vesper-antidetect-browser",
@@ -18799,11 +18877,11 @@
 },
 "VelaPayments/vela-payments": {
 "full_name": "VelaPayments/vela-payments",
-"sha": "25ff9b05615c1022dedd4c63bfe7bce536a3bd8c",
-"at": "2026-10-17T15:57:38+00:00",
+"sha": "8a3b0f564dc4ffb68950e48e982c05092fe1ad53",
+"at": "2026-10-18T21:21:17+00:00",
 "language": "TypeScript",
-"size": 5525,
-"pushed_at": "2026-10-06",
+"size": 5550,
+"pushed_at": "2026-10-18",
 "created_at": "2026-10-05",
 "stars": 131,
 "curated": false,
@@ -18814,15 +18892,15 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"131 stars on a 11-day-old repo (bought stars)",
-"soft: owner account is 11 days old"
+"131 stars on a 13-day-old repo (bought stars)",
+"soft: owner account is 13 days old"
 ],
 "coverage": {
 "primary_language": "TypeScript",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 3444485,
-"files": 289,
+"bytes": 3485752,
+"files": 290,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -18833,7 +18911,7 @@
 "has_terraform": false,
 "dep_count": 50,
 "readme_bytes": 10251,
-"top_level_entries": 29
+"top_level_entries": 30
 },
 "engines_not_ran": [],
 "code_scan_result": "pass",
@@ -18866,21 +18944,21 @@
 "error": null
 },
 "vet_hard": [
-"131 stars on a 11-day-old repo (bought stars)"
+"131 stars on a 13-day-old repo (bought stars)"
 ],
 "vet_soft": [
-"owner account is 11 days old"
+"owner account is 13 days old"
 ]
 },
-"expires": "2026-10-19T15:57:38+00:00"
+"expires": "2026-10-20T21:21:17+00:00"
 },
 "VelaPayments/vela-server": {
 "full_name": "VelaPayments/vela-server",
-"sha": "ab556edc7889fe9eef1ace4de0e31f7ef120c4d9",
-"at": "2026-10-17T15:57:58+00:00",
+"sha": "78d7196b841b93874d2a6d10c117befa9fa3e169",
+"at": "2026-10-18T21:21:38+00:00",
 "language": "TypeScript",
-"size": 1423,
-"pushed_at": "2026-10-06",
+"size": 1267,
+"pushed_at": "2026-10-18",
 "created_at": "2026-10-05",
 "stars": 131,
 "curated": false,
@@ -18891,15 +18969,15 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"131 stars on a 11-day-old repo (bought stars)",
-"soft: owner account is 11 days old"
+"131 stars on a 13-day-old repo (bought stars)",
+"soft: owner account is 13 days old"
 ],
 "coverage": {
 "primary_language": "TypeScript",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 2910715,
-"files": 277,
+"bytes": 2952071,
+"files": 278,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -18910,7 +18988,7 @@
 "has_terraform": false,
 "dep_count": 50,
 "readme_bytes": 11017,
-"top_level_entries": 23
+"top_level_entries": 24
 },
 "engines_not_ran": [],
 "code_scan_result": "pass",
@@ -18944,13 +19022,13 @@
 "error": null
 },
 "vet_hard": [
-"131 stars on a 11-day-old repo (bought stars)"
+"131 stars on a 13-day-old repo (bought stars)"
 ],
 "vet_soft": [
-"owner account is 11 days old"
+"owner account is 13 days old"
 ]
 },
-"expires": "2026-10-19T15:57:58+00:00"
+"expires": "2026-10-20T21:21:38+00:00"
 },
 "Velocidex/velociraptor": {
 "full_name": "Velocidex/velociraptor",
@@ -19130,7 +19208,7 @@
 "VulcanEon/awesome-gpt-image-2.5-prompts": {
 "full_name": "VulcanEon/awesome-gpt-image-2.5-prompts",
 "sha": "27a4e330fdbe936ef4739eac984a0130446bbaff",
-"at": "2026-10-17T21:08:54+00:00",
+"at": "2026-10-18T21:21:58+00:00",
 "language": "Python",
 "size": 4556,
 "pushed_at": "2026-09-14",
@@ -19200,7 +19278,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:08:54+00:00"
+"expires": "2026-10-19T21:21:58+00:00"
 },
 "WncFht/devin2api": {
 "full_name": "WncFht/devin2api",
@@ -19285,7 +19363,7 @@
 "Wyrcan-io/roadmap": {
 "full_name": "Wyrcan-io/roadmap",
 "sha": "05cecec2d2227f0d7bf781582a1b1f7cc3c90154",
-"at": "2026-10-17T21:09:10+00:00",
+"at": "2026-10-18T21:22:14+00:00",
 "language": "HTML",
 "size": 552,
 "pushed_at": "2026-09-10",
@@ -19353,10 +19431,10 @@
 },
 "vet_hard": [],
 "vet_soft": [
-"owner account is 80 days old"
+"owner account is 81 days old"
 ]
 },
-"expires": "2026-10-18T21:09:10+00:00"
+"expires": "2026-10-19T21:22:14+00:00"
 },
 "XLearning-SCU/HERO": {
 "full_name": "XLearning-SCU/HERO",
@@ -19443,7 +19521,7 @@
 "XSecurityCN/XProxy": {
 "full_name": "XSecurityCN/XProxy",
 "sha": "6a99ee01c844453abfec349d146955f1fcc7feb1",
-"at": "2026-10-17T21:09:24+00:00",
+"at": "2026-10-18T21:22:28+00:00",
 "language": "Kotlin",
 "size": 5815,
 "pushed_at": "2026-09-04",
@@ -19514,7 +19592,7 @@
 "only 2 commit(s)"
 ]
 },
-"expires": "2026-10-18T21:09:24+00:00"
+"expires": "2026-10-19T21:22:28+00:00"
 },
 "XiantingWu/PQCensus": {
 "full_name": "XiantingWu/PQCensus",
@@ -19676,8 +19754,8 @@
 },
 "Yoosseph/dental-scope": {
 "full_name": "Yoosseph/dental-scope",
-"sha": "bf661b9c102dcf01c81e2eaff49715139ec1c09e",
-"at": "2026-10-17T04:43:55+00:00",
+"sha": "f71423100c23259a7620cba2d281eaac2025fb90",
+"at": "2026-10-18T21:22:48+00:00",
 "language": "TypeScript",
 "size": 295165,
 "pushed_at": "2026-10-08",
@@ -19691,7 +19769,7 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"147 stars on a 21-day-old repo (bought stars)",
+"149 stars on a 22-day-old repo (bought stars)",
 "repository too large to scan (295165 KB > 60000 KB)"
 ],
 "coverage": {
@@ -19711,11 +19789,11 @@
 "error": null
 },
 "vet_hard": [
-"147 stars on a 21-day-old repo (bought stars)"
+"149 stars on a 22-day-old repo (bought stars)"
 ],
 "vet_soft": []
 },
-"expires": "2026-10-19T04:43:55+00:00"
+"expires": "2026-10-20T21:22:48+00:00"
 },
 "Yorko/mlcourse.ai": {
 "full_name": "Yorko/mlcourse.ai",
@@ -20077,7 +20155,7 @@
 "a-shygun/Terrascope": {
 "full_name": "a-shygun/Terrascope",
 "sha": "a904987890eac95ac6b18de72afc0ee89632f25f",
-"at": "2026-10-16T17:31:03+00:00",
+"at": "2026-10-18T21:22:53+00:00",
 "language": "Python",
 "size": 79206,
 "pushed_at": "2026-10-11",
@@ -20091,7 +20169,7 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"164 stars on a 17-day-old repo (bought stars)",
+"213 stars on a 20-day-old repo (bought stars)",
 "README link: non-web link scheme git+https:",
 "repository too large to scan (79206 KB > 60000 KB)"
 ],
@@ -20115,11 +20193,11 @@
 },
 "vet_hard": [
 "README link: non-web link scheme git+https:",
-"164 stars on a 17-day-old repo (bought stars)"
+"213 stars on a 20-day-old repo (bought stars)"
 ],
 "vet_soft": []
 },
-"expires": "2026-10-18T17:31:03+00:00"
+"expires": "2026-10-20T21:22:53+00:00"
 },
 "aabrole/claude-trading-desk": {
 "full_name": "aabrole/claude-trading-desk",
@@ -20478,8 +20556,8 @@
 },
 "actualbudget/actual": {
 "full_name": "actualbudget/actual",
-"sha": "8c2fa0e86be19c4630be5bc93e03096b5b1f7c0b",
-"at": "2026-10-18T16:13:00+00:00",
+"sha": "cc368d10c6df7070e1037daaa775df7c6f999570",
+"at": "2026-10-18T21:22:59+00:00",
 "language": "TypeScript",
 "size": 657808,
 "pushed_at": "2026-10-18",
@@ -20516,12 +20594,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:13:00+00:00"
+"expires": "2026-10-20T21:22:59+00:00"
 },
 "addonohnoba-cmd/clock-Sprint": {
 "full_name": "addonohnoba-cmd/clock-Sprint",
-"sha": "52a3ebd2a73860100a518d34ca4a4cebd65d3650",
-"at": "2026-10-18T16:13:02+00:00",
+"sha": "6b0f5f1f17f648129936817fa639511048a3fce7",
+"at": "2026-10-18T21:23:03+00:00",
 "language": "HTML",
 "size": 244,
 "pushed_at": "2026-10-05",
@@ -20535,14 +20613,14 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"56 stars on a 26-day-old repo (bought stars)",
+"56 stars on a 27-day-old repo (bought stars)",
 "yara: TLDP_Obfuscated_Payload"
 ],
 "coverage": {
 "primary_language": "HTML",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 204033,
+"bytes": 204133,
 "files": 6,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -20591,11 +20669,11 @@
 "error": null
 },
 "vet_hard": [
-"56 stars on a 26-day-old repo (bought stars)"
+"56 stars on a 27-day-old repo (bought stars)"
 ],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:13:02+00:00"
+"expires": "2026-10-20T21:23:03+00:00"
 },
 "aftermathlabs/discord-crasher": {
 "full_name": "aftermathlabs/discord-crasher",
@@ -20880,7 +20958,7 @@
 "agentscope-ai-java/sqlite-attach-lint": {
 "full_name": "agentscope-ai-java/sqlite-attach-lint",
 "sha": "ad1dea6b188f125cdb954cb8284e6b87628325bb",
-"at": "2026-10-17T21:10:51+00:00",
+"at": "2026-10-18T21:23:26+00:00",
 "language": "Python",
 "size": 35,
 "pushed_at": "2026-09-25",
@@ -20948,15 +21026,15 @@
 },
 "vet_hard": [],
 "vet_soft": [
-"owner account is 33 days old"
+"owner account is 34 days old"
 ]
 },
-"expires": "2026-10-18T21:10:51+00:00"
+"expires": "2026-10-19T21:23:26+00:00"
 },
 "ahirtonlopes/devfest-natal-2026": {
 "full_name": "ahirtonlopes/devfest-natal-2026",
 "sha": "5e10114d9538da76bf6d11a8ac846b1a37694b7c",
-"at": "2026-10-17T21:11:06+00:00",
+"at": "2026-10-18T21:23:40+00:00",
 "language": "Jupyter Notebook",
 "size": 17150,
 "pushed_at": "2026-09-21",
@@ -21025,7 +21103,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:11:06+00:00"
+"expires": "2026-10-19T21:23:40+00:00"
 },
 "aimardcr/ReCam": {
 "full_name": "aimardcr/ReCam",
@@ -21181,8 +21259,8 @@
 },
 "aixisstudio/Snitch": {
 "full_name": "aixisstudio/Snitch",
-"sha": "dad5358b814d022f6ab614f1b6483b05c77d587a",
-"at": "2026-10-17T11:07:50+00:00",
+"sha": "f11956fc2e3781a95d8730828c66cdebf1f2269e",
+"at": "2026-10-18T21:24:08+00:00",
 "language": "Python",
 "size": 69038,
 "pushed_at": "2026-10-15",
@@ -21196,7 +21274,7 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"373 stars on a 15-day-old repo (bought stars)",
+"413 stars on a 17-day-old repo (bought stars)",
 "README link: link to a raw IP address (private)",
 "README link: non-web link scheme file:",
 "repository too large to scan (69038 KB > 60000 KB)"
@@ -21223,11 +21301,11 @@
 "vet_hard": [
 "README link: link to a raw IP address (private)",
 "README link: non-web link scheme file:",
-"373 stars on a 15-day-old repo (bought stars)"
+"413 stars on a 17-day-old repo (bought stars)"
 ],
 "vet_soft": []
 },
-"expires": "2026-10-19T11:07:50+00:00"
+"expires": "2026-10-20T21:24:08+00:00"
 },
 "akaunting/akaunting": {
 "full_name": "akaunting/akaunting",
@@ -21324,8 +21402,8 @@
 },
 "aldimirosilva/Cumrooms-PUNCH-Trainer-Suite": {
 "full_name": "aldimirosilva/Cumrooms-PUNCH-Trainer-Suite",
-"sha": "3f7ee8b7adb00c3c74001cbb910853ea585ca4b7",
-"at": "2026-10-18T16:13:59+00:00",
+"sha": "2c44b9b602edf3d37932272aa74901f9f28a772e",
+"at": "2026-10-18T21:24:13+00:00",
 "language": "HTML",
 "size": 219,
 "pushed_at": "2026-10-05",
@@ -21339,14 +21417,14 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"56 stars on a 26-day-old repo (bought stars)",
+"56 stars on a 27-day-old repo (bought stars)",
 "required scanner not run: osv=error"
 ],
 "coverage": {
 "primary_language": "HTML",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 192122,
+"bytes": 192208,
 "files": 6,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -21393,11 +21471,11 @@
 "error": null
 },
 "vet_hard": [
-"56 stars on a 26-day-old repo (bought stars)"
+"56 stars on a 27-day-old repo (bought stars)"
 ],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:13:59+00:00"
+"expires": "2026-10-20T21:24:13+00:00"
 },
 "alexbarakov/amsterdam-by-building": {
 "full_name": "alexbarakov/amsterdam-by-building",
@@ -22228,7 +22306,7 @@
 "alvinunreal/awesome-submitlist": {
 "full_name": "alvinunreal/awesome-submitlist",
 "sha": "ce41399cd471587969e48a704d4160e8517ffe48",
-"at": "2026-10-17T21:14:21+00:00",
+"at": "2026-10-18T21:24:39+00:00",
 "language": "JavaScript",
 "size": 938,
 "pushed_at": "2026-09-14",
@@ -22297,12 +22375,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:14:21+00:00"
+"expires": "2026-10-19T21:24:39+00:00"
 },
 "amitshekhariitbhu/ai-engineer-roadmap": {
 "full_name": "amitshekhariitbhu/ai-engineer-roadmap",
 "sha": "0ac577cdef54355b6fea9dd73588d21af560bcc7",
-"at": "2026-10-17T21:14:36+00:00",
+"at": "2026-10-18T21:24:53+00:00",
 "language": "Markdown",
 "size": 52,
 "pushed_at": "2026-09-20",
@@ -22370,15 +22448,15 @@
 },
 "vet_hard": [],
 "vet_soft": [
-"262 stars on a 27-day-old repo (bought stars)"
+"263 stars on a 28-day-old repo (bought stars)"
 ]
 },
-"expires": "2026-10-18T21:14:36+00:00"
+"expires": "2026-10-19T21:24:53+00:00"
 },
 "amitshekhariitbhu/ai-engineering-course": {
 "full_name": "amitshekhariitbhu/ai-engineering-course",
 "sha": "1065a32117a12578d8752a8ae216a2e8d9c26989",
-"at": "2026-10-17T21:14:50+00:00",
+"at": "2026-10-18T21:25:07+00:00",
 "language": "Markdown",
 "size": 99,
 "pushed_at": "2026-10-06",
@@ -22446,10 +22524,10 @@
 },
 "vet_hard": [],
 "vet_soft": [
-"537 stars on a 24-day-old repo (bought stars)"
+"540 stars on a 25-day-old repo (bought stars)"
 ]
 },
-"expires": "2026-10-18T21:14:50+00:00"
+"expires": "2026-10-19T21:25:07+00:00"
 },
 "amrlazw/hermes-fleet-memory": {
 "full_name": "amrlazw/hermes-fleet-memory",
@@ -22615,7 +22693,7 @@
 "andreworia/claude-finance-skills": {
 "full_name": "andreworia/claude-finance-skills",
 "sha": "e19bba60ec18203161854532f283a19023c20d3d",
-"at": "2026-10-17T21:15:05+00:00",
+"at": "2026-10-18T21:25:21+00:00",
 "language": "Python",
 "size": 5547,
 "pushed_at": "2026-09-10",
@@ -22684,7 +22762,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:15:05+00:00"
+"expires": "2026-10-19T21:25:21+00:00"
 },
 "angel291592/caddiff": {
 "full_name": "angel291592/caddiff",
@@ -22846,7 +22924,7 @@
 "angusdevgo/Seep-Reverse-Lab": {
 "full_name": "angusdevgo/Seep-Reverse-Lab",
 "sha": "dc95a90cf689bc503a7317705d8d4760e620d074",
-"at": "2026-10-16T17:35:47+00:00",
+"at": "2026-10-18T21:25:39+00:00",
 "language": "Lua",
 "size": 218624,
 "pushed_at": "2026-10-06",
@@ -22860,7 +22938,7 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"1544 stars on a 22-day-old repo (bought stars)",
+"1671 stars on a 25-day-old repo (bought stars)",
 "README link: cracked / pirated software wording",
 "repository too large to scan (218624 KB > 60000 KB)"
 ],
@@ -22884,11 +22962,11 @@
 },
 "vet_hard": [
 "README link: cracked / pirated software wording",
-"1544 stars on a 22-day-old repo (bought stars)"
+"1671 stars on a 25-day-old repo (bought stars)"
 ],
 "vet_soft": []
 },
-"expires": "2026-10-18T17:35:47+00:00"
+"expires": "2026-10-20T21:25:39+00:00"
 },
 "anthonyli/laya-pilot": {
 "full_name": "anthonyli/laya-pilot",
@@ -22970,8 +23048,8 @@
 },
 "anujasid/mcp-for-blender-pro": {
 "full_name": "anujasid/mcp-for-blender-pro",
-"sha": "365f60ada67295114c5888a33f45b189b60e97a0",
-"at": "2026-10-17T11:10:10+00:00",
+"sha": "ce76f5c2623d264c8c8a2fe57b0830462555d61c",
+"at": "2026-10-18T21:25:43+00:00",
 "language": "Python",
 "size": 110244,
 "pushed_at": "2026-10-16",
@@ -22985,10 +23063,9 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"376 stars on a 1-day-old repo (bought stars)",
+"783 stars on a 2-day-old repo (bought stars)",
 "repository too large to scan (110244 KB > 60000 KB)",
-"soft: only 1 commit(s)",
-"soft: owner account is 1 days old"
+"soft: only 1 commit(s)"
 ],
 "coverage": {
 "primary_language": "Python",
@@ -23007,14 +23084,13 @@
 "error": null
 },
 "vet_hard": [
-"376 stars on a 1-day-old repo (bought stars)"
+"783 stars on a 2-day-old repo (bought stars)"
 ],
 "vet_soft": [
-"only 1 commit(s)",
-"owner account is 1 days old"
+"only 1 commit(s)"
 ]
 },
-"expires": "2026-10-19T11:10:10+00:00"
+"expires": "2026-10-20T21:25:43+00:00"
 },
 "aosabook/aosabook": {
 "full_name": "aosabook/aosabook",
@@ -23130,8 +23206,8 @@
 },
 "apache/datafusion-comet": {
 "full_name": "apache/datafusion-comet",
-"sha": "d60cc1dd5fe1223309ee1607811951b1dcd775cb",
-"at": "2026-10-17T21:15:24+00:00",
+"sha": "d0f367dc02520fe68f524db22083cc0af6e58bca",
+"at": "2026-10-18T21:25:49+00:00",
 "language": "Scala",
 "size": 91726,
 "pushed_at": "2026-10-17",
@@ -23170,7 +23246,7 @@
 "README link: chat invite link discord.gg"
 ]
 },
-"expires": "2026-10-19T21:15:24+00:00"
+"expires": "2026-10-20T21:25:49+00:00"
 },
 "apache/gravitino": {
 "full_name": "apache/gravitino",
@@ -23214,8 +23290,8 @@
 },
 "apache/magpie": {
 "full_name": "apache/magpie",
-"sha": "0d9c168b200837d1983c6780ee8b25d3d6de2092",
-"at": "2026-10-18T16:14:27+00:00",
+"sha": "ccb53a38843646e1d02f97b1a27253b82aa2675d",
+"at": "2026-10-18T21:25:53+00:00",
 "language": "Python",
 "size": 28871,
 "pushed_at": "2026-10-18",
@@ -23235,8 +23311,8 @@
 "primary_language": "Python",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 25668000,
-"files": 6618,
+"bytes": 25926378,
+"files": 6653,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -23258,7 +23334,7 @@
 "tldp.shell-download-pipe"
 ],
 "advisory": {
-"WARNING": 13,
+"WARNING": 15,
 "ERROR": 8,
 "osv_vulnerabilities": 0
 },
@@ -23289,7 +23365,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:14:27+00:00"
+"expires": "2026-10-20T21:25:53+00:00"
 },
 "apache/superset": {
 "full_name": "apache/superset",
@@ -24447,12 +24523,12 @@
 "aquasecurity/trivy": {
 "full_name": "aquasecurity/trivy",
 "sha": "9dd3e28d275544dd16463162e99471ac761eb9f0",
-"at": "2026-10-16T17:42:11+00:00",
+"at": "2026-10-18T21:27:29+00:00",
 "language": "Go",
-"size": 944519,
-"pushed_at": "2026-10-09",
+"size": 945406,
+"pushed_at": "2026-10-16",
 "created_at": "2019-04-11",
-"stars": 38313,
+"stars": 38484,
 "curated": true,
 "scanner": {
 "semgrep": "1.177.0",
@@ -24461,7 +24537,7 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"repository too large to scan (944519 KB > 60000 KB)"
+"repository too large to scan (945406 KB > 60000 KB)"
 ],
 "coverage": {
 "primary_language": "Go",
@@ -24482,7 +24558,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T17:42:11+00:00"
+"expires": "2026-10-20T21:27:29+00:00"
 },
 "architectds/collabosm": {
 "full_name": "architectds/collabosm",
@@ -24924,8 +25000,8 @@
 },
 "aryan24s-boop/math-drill-sprint": {
 "full_name": "aryan24s-boop/math-drill-sprint",
-"sha": "3b48b28825dd8d6ad6a155bdd0076834fac7d020",
-"at": "2026-10-18T16:16:13+00:00",
+"sha": "c2e82169ed8310c14eb041345c14a79394dcf6c3",
+"at": "2026-10-18T21:27:35+00:00",
 "language": "HTML",
 "size": 241,
 "pushed_at": "2026-10-05",
@@ -24939,14 +25015,14 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"56 stars on a 26-day-old repo (bought stars)",
+"56 stars on a 27-day-old repo (bought stars)",
 "required scanner not run: osv=error"
 ],
 "coverage": {
 "primary_language": "HTML",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 197355,
+"bytes": 197458,
 "files": 6,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -24993,16 +25069,16 @@
 "error": null
 },
 "vet_hard": [
-"56 stars on a 26-day-old repo (bought stars)"
+"56 stars on a 27-day-old repo (bought stars)"
 ],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:16:13+00:00"
+"expires": "2026-10-20T21:27:35+00:00"
 },
 "ashleydarosa/CC-Checker-Validator-Generator": {
 "full_name": "ashleydarosa/CC-Checker-Validator-Generator",
-"sha": "162a4044867c8ec478171f9842b7e9e11b4fb4d8",
-"at": "2026-10-18T16:16:38+00:00",
+"sha": "5331858fbef9b4c8e59c30ff97a2ee7e829c0fee",
+"at": "2026-10-18T21:27:58+00:00",
 "language": "Python",
 "size": 31435,
 "pushed_at": "2026-10-05",
@@ -25016,10 +25092,10 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"199 stars on a 26-day-old repo (bought stars)",
+"199 stars on a 27-day-old repo (bought stars)",
 "code scan: tldp.runtime-package-install",
 "malicious dependency: requests:GHSA-9hjg-9r4m-mvj7, requests:PYSEC-2026-1872",
-"soft: owner account is 83 days old"
+"soft: owner account is 84 days old"
 ],
 "coverage": {
 "primary_language": "Python",
@@ -25076,18 +25152,18 @@
 "error": null
 },
 "vet_hard": [
-"199 stars on a 26-day-old repo (bought stars)"
+"199 stars on a 27-day-old repo (bought stars)"
 ],
 "vet_soft": [
-"owner account is 83 days old"
+"owner account is 84 days old"
 ]
 },
-"expires": "2026-10-20T16:16:38+00:00"
+"expires": "2026-10-20T21:27:58+00:00"
 },
 "astronomiwe/tbc-sdk-python": {
 "full_name": "astronomiwe/tbc-sdk-python",
 "sha": "5b8c0bdb9fdfa5b512fe3bb09dda10b2393ffb02",
-"at": "2026-10-17T21:17:56+00:00",
+"at": "2026-10-18T21:29:28+00:00",
 "language": "Python",
 "size": 91,
 "pushed_at": "2026-10-11",
@@ -25157,7 +25233,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:17:56+00:00"
+"expires": "2026-10-19T21:29:28+00:00"
 },
 "atharvadeosthale/takeone": {
 "full_name": "atharvadeosthale/takeone",
@@ -25432,8 +25508,8 @@
 },
 "avri22222/TS-Forge": {
 "full_name": "avri22222/TS-Forge",
-"sha": "d9711bbafe6227c2c02e6160e8c12b8f3613eace",
-"at": "2026-10-18T16:18:19+00:00",
+"sha": "a7de8df37ecc1e79842cc287e77eea105a4a0da4",
+"at": "2026-10-18T21:29:44+00:00",
 "language": "HTML",
 "size": 149,
 "pushed_at": "2026-10-05",
@@ -25454,7 +25530,7 @@
 "primary_language": "HTML",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 81596,
+"bytes": 81682,
 "files": 5,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -25505,7 +25581,7 @@
 ],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:18:19+00:00"
+"expires": "2026-10-20T21:29:44+00:00"
 },
 "awarexone/AXguard": {
 "full_name": "awarexone/AXguard",
@@ -25635,7 +25711,7 @@
 "aws/aws-cdk": {
 "full_name": "aws/aws-cdk",
 "sha": "1f752b67bfdd52181273e9ffb17ae9005c16b9f9",
-"at": "2026-10-16T17:45:09+00:00",
+"at": "2026-10-18T21:30:00+00:00",
 "language": "TypeScript",
 "size": 1554997,
 "pushed_at": "2026-10-12",
@@ -25670,12 +25746,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T17:45:09+00:00"
+"expires": "2026-10-20T21:30:00+00:00"
 },
 "aws/aws-sdk-pandas": {
 "full_name": "aws/aws-sdk-pandas",
 "sha": "bf49e1926b63df7694f2fc4069dab69b7fbb8c11",
-"at": "2026-10-16T17:45:13+00:00",
+"at": "2026-10-18T21:30:05+00:00",
 "language": "Python",
 "size": 32657,
 "pushed_at": "2026-10-12",
@@ -25747,7 +25823,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T17:45:13+00:00"
+"expires": "2026-10-20T21:30:05+00:00"
 },
 "aya-rs/aya": {
 "full_name": "aya-rs/aya",
@@ -26017,7 +26093,7 @@
 "baoerger/editable-ppt-rebuilder": {
 "full_name": "baoerger/editable-ppt-rebuilder",
 "sha": "d45fe0c37c08df13f49b6709b403522787e01187",
-"at": "2026-10-16T17:45:40+00:00",
+"at": "2026-10-18T21:30:30+00:00",
 "language": "Python",
 "size": 835,
 "pushed_at": "2026-09-21",
@@ -26031,7 +26107,7 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"52 stars on a 25-day-old repo (bought stars)"
+"52 stars on a 27-day-old repo (bought stars)"
 ],
 "coverage": {
 "primary_language": "Python",
@@ -26082,11 +26158,11 @@
 "error": null
 },
 "vet_hard": [
-"52 stars on a 25-day-old repo (bought stars)"
+"52 stars on a 27-day-old repo (bought stars)"
 ],
 "vet_soft": []
 },
-"expires": "2026-10-18T17:45:40+00:00"
+"expires": "2026-10-20T21:30:30+00:00"
 },
 "bas3line/ascii": {
 "full_name": "bas3line/ascii",
@@ -26253,12 +26329,12 @@
 "bigcapitalhq/bigcapital": {
 "full_name": "bigcapitalhq/bigcapital",
 "sha": "b83c0cfe4afe04a678bb028030ad84c590767983",
-"at": "2026-10-16T17:45:59+00:00",
+"at": "2026-10-18T21:30:46+00:00",
 "language": "TypeScript",
-"size": 47068,
+"size": 47073,
 "pushed_at": "2026-10-16",
 "created_at": "2021-09-21",
-"stars": 3939,
+"stars": 3942,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -26329,7 +26405,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T17:45:59+00:00"
+"expires": "2026-10-20T21:30:46+00:00"
 },
 "bilalyazicioglu/tincan-cli": {
 "full_name": "bilalyazicioglu/tincan-cli",
@@ -26492,8 +26568,8 @@
 },
 "bitfocus/companion": {
 "full_name": "bitfocus/companion",
-"sha": "af1e52c11c8f34fe7b508bd30e591ce4583dca8d",
-"at": "2026-10-18T16:18:39+00:00",
+"sha": "911113ebc181bd45f946b1056750220c5b4049d3",
+"at": "2026-10-18T21:33:17+00:00",
 "language": "TypeScript",
 "size": 138003,
 "pushed_at": "2026-10-18",
@@ -26528,7 +26604,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:18:39+00:00"
+"expires": "2026-10-20T21:33:17+00:00"
 },
 "bl4ckarch/go-responder": {
 "full_name": "bl4ckarch/go-responder",
@@ -26603,7 +26679,7 @@
 "bl4ckr0ss3/ttpscope": {
 "full_name": "bl4ckr0ss3/ttpscope",
 "sha": "6fb40b50127f43ada04d9ea6b0505a0b58dcb3b1",
-"at": "2026-10-17T21:19:35+00:00",
+"at": "2026-10-18T21:33:21+00:00",
 "language": "C",
 "size": 266,
 "pushed_at": "2026-10-12",
@@ -26673,7 +26749,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:19:35+00:00"
+"expires": "2026-10-19T21:33:21+00:00"
 },
 "bl888m/jev-bot": {
 "full_name": "bl888m/jev-bot",
@@ -26924,8 +27000,8 @@
 },
 "braindecode/braindecode": {
 "full_name": "braindecode/braindecode",
-"sha": "1fffe570f56c78e6c5a6d053737eaf25609b32d5",
-"at": "2026-10-18T16:18:42+00:00",
+"sha": "5f721b0bf470c7bcbbbd7985c69d37d203d3d558",
+"at": "2026-10-18T21:33:36+00:00",
 "language": "Python",
 "size": 25209,
 "pushed_at": "2026-10-18",
@@ -26945,7 +27021,7 @@
 "primary_language": "Python",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 25457790,
+"bytes": 25453475,
 "files": 469,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -26995,7 +27071,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-19T16:18:42+00:00"
+"expires": "2026-10-19T21:33:36+00:00"
 },
 "brayniac6-glitch/Project-Okran": {
 "full_name": "brayniac6-glitch/Project-Okran",
@@ -27146,7 +27222,7 @@
 "brunnojob/secure-payment-pos-core": {
 "full_name": "brunnojob/secure-payment-pos-core",
 "sha": "ecaca5b3ab8900b988ee7cc00d199650cffbb38b",
-"at": "2026-10-17T21:20:24+00:00",
+"at": "2026-10-18T21:34:08+00:00",
 "language": "Kotlin",
 "size": 120,
 "pushed_at": "2026-10-11",
@@ -27216,7 +27292,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:20:24+00:00"
+"expires": "2026-10-19T21:34:08+00:00"
 },
 "brunnojob/zero-trust-auth-gateway": {
 "full_name": "brunnojob/zero-trust-auth-gateway",
@@ -27291,7 +27367,7 @@
 "buberlo/jev-trader": {
 "full_name": "buberlo/jev-trader",
 "sha": "15d089e656d968fabb750bde8ebeec6d0da1ac7d",
-"at": "2026-10-17T21:20:39+00:00",
+"at": "2026-10-18T21:34:22+00:00",
 "language": "Python",
 "size": 82,
 "pushed_at": "2026-09-19",
@@ -27362,12 +27438,12 @@
 "only 1 commit(s)"
 ]
 },
-"expires": "2026-10-18T21:20:39+00:00"
+"expires": "2026-10-19T21:34:22+00:00"
 },
 "buildwithhanif/hyperframe-pro": {
 "full_name": "buildwithhanif/hyperframe-pro",
 "sha": "9a135673d71c616763497a90c820d72eae943dca",
-"at": "2026-10-17T21:20:54+00:00",
+"at": "2026-10-18T21:34:36+00:00",
 "language": "JavaScript",
 "size": 4248,
 "pushed_at": "2026-09-25",
@@ -27439,7 +27515,7 @@
 "only 2 commit(s)"
 ]
 },
-"expires": "2026-10-18T21:20:54+00:00"
+"expires": "2026-10-19T21:34:36+00:00"
 },
 "bytebase/bytebase": {
 "full_name": "bytebase/bytebase",
@@ -27485,8 +27561,8 @@
 },
 "c9dev/penguin-mail": {
 "full_name": "c9dev/penguin-mail",
-"sha": "91c6b6867bce4ad385dcc433775dfde19ffe54ec",
-"at": "2026-10-18T16:19:16+00:00",
+"sha": "13496fc4baa01d47eee0e8eb294de4c20a458cd6",
+"at": "2026-10-18T21:34:51+00:00",
 "language": "Rust",
 "size": 30432,
 "pushed_at": "2026-10-18",
@@ -27500,15 +27576,15 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"479 stars on a 28-day-old repo (bought stars)",
+"482 stars on a 29-day-old repo (bought stars)",
 "code scan: secrets:detected-google-oauth-access-token, tldp.shell-download-pipe"
 ],
 "coverage": {
 "primary_language": "Rust",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 23056107,
-"files": 1168,
+"bytes": 26029083,
+"files": 1176,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -27518,7 +27594,7 @@
 "has_k8s": false,
 "has_terraform": false,
 "dep_count": 0,
-"readme_bytes": 23560,
+"readme_bytes": 23647,
 "top_level_entries": 41
 },
 "engines_not_ran": [],
@@ -27556,16 +27632,16 @@
 "error": null
 },
 "vet_hard": [
-"479 stars on a 28-day-old repo (bought stars)"
+"482 stars on a 29-day-old repo (bought stars)"
 ],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:19:16+00:00"
+"expires": "2026-10-20T21:34:51+00:00"
 },
 "carverauto/serviceradar": {
 "full_name": "carverauto/serviceradar",
-"sha": "0d3b49fe762a90ae829916b32ae75281fb85c18b",
-"at": "2026-10-18T11:34:13+00:00",
+"sha": "675d1ebbb07e56dc7acef56e7379edb252134868",
+"at": "2026-10-18T21:35:31+00:00",
 "language": "Elixir",
 "size": 922564,
 "pushed_at": "2026-10-18",
@@ -27613,7 +27689,7 @@
 "README link: chat invite link discord.gg"
 ]
 },
-"expires": "2026-10-20T11:34:13+00:00"
+"expires": "2026-10-20T21:35:31+00:00"
 },
 "cask/cask": {
 "full_name": "cask/cask",
@@ -28239,7 +28315,7 @@
 "cisagov/ScubaGear": {
 "full_name": "cisagov/ScubaGear",
 "sha": "2446ad723b7f55031cc02c8aca244d731d468cba",
-"at": "2026-10-16T17:51:07+00:00",
+"at": "2026-10-18T21:35:38+00:00",
 "language": "PowerShell",
 "size": 49053,
 "pushed_at": "2026-10-12",
@@ -28274,12 +28350,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T17:51:07+00:00"
+"expires": "2026-10-20T21:35:38+00:00"
 },
 "cisagov/ScubaGoggles": {
 "full_name": "cisagov/ScubaGoggles",
 "sha": "720aa8cfb2340fe39a1304bc11bd03f9953cb971",
-"at": "2026-10-16T17:51:10+00:00",
+"at": "2026-10-18T21:35:41+00:00",
 "language": "Python",
 "size": 7515,
 "pushed_at": "2026-09-21",
@@ -28351,12 +28427,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T17:51:10+00:00"
+"expires": "2026-10-20T21:35:41+00:00"
 },
 "cisagov/ansible-role-guacamole": {
 "full_name": "cisagov/ansible-role-guacamole",
 "sha": "f454e08e66ff0b815eece7aff5afa34b063efe28",
-"at": "2026-10-16T17:51:36+00:00",
+"at": "2026-10-18T21:36:04+00:00",
 "language": "Shell",
 "size": 1523,
 "pushed_at": "2026-10-08",
@@ -28427,7 +28503,7 @@
 ],
 "vet_soft": []
 },
-"expires": "2026-10-18T17:51:36+00:00"
+"expires": "2026-10-20T21:36:04+00:00"
 },
 "cisagov/ansible-role-openvpn": {
 "full_name": "cisagov/ansible-role-openvpn",
@@ -28794,7 +28870,7 @@
 "click6067-ship-it/token-tv": {
 "full_name": "click6067-ship-it/token-tv",
 "sha": "65585eb4e0b72bf4dc191d8c8fa082901850b73c",
-"at": "2026-10-16T17:51:54+00:00",
+"at": "2026-10-18T21:36:20+00:00",
 "language": "Python",
 "size": 9251,
 "pushed_at": "2026-10-13",
@@ -28808,7 +28884,7 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"70 stars on a 14-day-old repo (bought stars)"
+"70 stars on a 16-day-old repo (bought stars)"
 ],
 "coverage": {
 "primary_language": "Python",
@@ -28860,11 +28936,11 @@
 "error": null
 },
 "vet_hard": [
-"70 stars on a 14-day-old repo (bought stars)"
+"70 stars on a 16-day-old repo (bought stars)"
 ],
 "vet_soft": []
 },
-"expires": "2026-10-18T17:51:54+00:00"
+"expires": "2026-10-20T21:36:20+00:00"
 },
 "clidey/whodb": {
 "full_name": "clidey/whodb",
@@ -29387,12 +29463,12 @@
 "codecrafters-io/build-your-own-x": {
 "full_name": "codecrafters-io/build-your-own-x",
 "sha": "aa17439b62f384511a5561ce308e9598b94d8989",
-"at": "2026-10-17T21:23:17+00:00",
+"at": "2026-10-18T21:36:40+00:00",
 "language": "Markdown",
 "size": 1086,
 "pushed_at": "2026-07-14",
 "created_at": "2018-05-09",
-"stars": 552217,
+"stars": 554162,
 "curated": true,
 "scanner": {
 "semgrep": "1.177.0",
@@ -29456,7 +29532,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:23:17+00:00"
+"expires": "2026-10-19T21:36:40+00:00"
 },
 "codextde/autoseo": {
 "full_name": "codextde/autoseo",
@@ -29620,8 +29696,8 @@
 },
 "cp2k/cp2k": {
 "full_name": "cp2k/cp2k",
-"sha": "702cc3d81422b92864ecdd7f544c21c56c04adca",
-"at": "2026-10-18T16:21:28+00:00",
+"sha": "f6c7e1d6e4538564667591a51bda8dc52854de82",
+"at": "2026-10-18T21:36:55+00:00",
 "language": "Fortran",
 "size": 323502,
 "pushed_at": "2026-10-18",
@@ -29656,7 +29732,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:21:28+00:00"
+"expires": "2026-10-20T21:36:55+00:00"
 },
 "craftsail/craftsail-growth": {
 "full_name": "craftsail/craftsail-growth",
@@ -30049,8 +30125,8 @@
 },
 "cynicalight/reader": {
 "full_name": "cynicalight/reader",
-"sha": "2c6b75da064aeb713f48b08b62ea6bbc384029f0",
-"at": "2026-10-18T16:21:31+00:00",
+"sha": "8f972e119e818247090be705fca97424caebfef5",
+"at": "2026-10-18T21:37:00+00:00",
 "language": "TypeScript",
 "size": 25173,
 "pushed_at": "2026-10-17",
@@ -30064,7 +30140,7 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"218 stars on a 15-day-old repo (bought stars)",
+"219 stars on a 15-day-old repo (bought stars)",
 "README link: link to a raw IP address (private)",
 "README link: non-web link scheme reader:"
 ],
@@ -30072,8 +30148,8 @@
 "primary_language": "TypeScript",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 27985258,
-"files": 727,
+"bytes": 28022827,
+"files": 734,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -30124,11 +30200,11 @@
 "vet_hard": [
 "README link: link to a raw IP address (private)",
 "README link: non-web link scheme reader:",
-"218 stars on a 15-day-old repo (bought stars)"
+"219 stars on a 15-day-old repo (bought stars)"
 ],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:21:31+00:00"
+"expires": "2026-10-20T21:37:00+00:00"
 },
 "d4ncboz/museai": {
 "full_name": "d4ncboz/museai",
@@ -30221,7 +30297,7 @@
 "da-vinci-noob/pi-jev-model-router": {
 "full_name": "da-vinci-noob/pi-jev-model-router",
 "sha": "b9d39e1d9ab671d87808117691ccc23ce05fcb15",
-"at": "2026-10-17T21:24:28+00:00",
+"at": "2026-10-18T21:37:50+00:00",
 "language": "TypeScript",
 "size": 102,
 "pushed_at": "2026-09-29",
@@ -30290,12 +30366,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:24:28+00:00"
+"expires": "2026-10-19T21:37:50+00:00"
 },
 "damienbod/angular-auth-oidc-client": {
 "full_name": "damienbod/angular-auth-oidc-client",
-"sha": "94d874d75265e8ec718676313decf2cbe8236db2",
-"at": "2026-10-18T16:22:23+00:00",
+"sha": "52448a0b5880198b038e19d8aab4bc5be29a875d",
+"at": "2026-10-18T21:38:04+00:00",
 "language": "TypeScript",
 "size": 18662,
 "pushed_at": "2026-10-18",
@@ -30316,7 +30392,7 @@
 "primary_language": "TypeScript",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 6879211,
+"bytes": 6856656,
 "files": 869,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -30328,7 +30404,7 @@
 "has_terraform": false,
 "dep_count": 35,
 "readme_bytes": 8625,
-"top_level_entries": 23
+"top_level_entries": 24
 },
 "engines_not_ran": [],
 "code_scan_result": "withheld",
@@ -30369,7 +30445,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:22:23+00:00"
+"expires": "2026-10-20T21:38:04+00:00"
 },
 "daniel-hauser/moneyman": {
 "full_name": "daniel-hauser/moneyman",
@@ -30639,12 +30715,12 @@
 "darrenprx/lolPing": {
 "full_name": "darrenprx/lolPing",
 "sha": "2b8cdcb725738cdc4c112b35d06996c438fcc295",
-"at": "2026-10-16T17:55:02+00:00",
+"at": "2026-10-18T21:38:39+00:00",
 "language": "TypeScript",
 "size": 67095,
 "pushed_at": "2026-10-16",
 "created_at": "2026-10-02",
-"stars": 1536,
+"stars": 1545,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -30653,7 +30729,7 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"1540 stars on a 13-day-old repo (bought stars)",
+"1652 stars on a 16-day-old repo (bought stars)",
 "repository too large to scan (67095 KB > 60000 KB)"
 ],
 "coverage": {
@@ -30673,11 +30749,11 @@
 "error": null
 },
 "vet_hard": [
-"1540 stars on a 13-day-old repo (bought stars)"
+"1652 stars on a 16-day-old repo (bought stars)"
 ],
 "vet_soft": []
 },
-"expires": "2026-10-18T17:55:02+00:00"
+"expires": "2026-10-20T21:38:39+00:00"
 },
 "data-privacy-stack/presidio": {
 "full_name": "data-privacy-stack/presidio",
@@ -30849,8 +30925,8 @@
 },
 "datlechin/pitboard": {
 "full_name": "datlechin/pitboard",
-"sha": "b2df61f567c08290ae474254c2d68e380f18db9b",
-"at": "2026-10-18T16:22:52+00:00",
+"sha": "8656d87155eb0a11e2723bdc846648c2428ac684",
+"at": "2026-10-18T21:38:44+00:00",
 "language": "Rust",
 "size": 4157,
 "pushed_at": "2026-10-05",
@@ -30872,7 +30948,7 @@
 "primary_language": "Rust",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 11624457,
+"bytes": 11633263,
 "files": 931,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -30930,7 +31006,7 @@
 "66 stars on a 27-day-old repo (bought stars)"
 ]
 },
-"expires": "2026-10-20T16:22:52+00:00"
+"expires": "2026-10-20T21:38:44+00:00"
 },
 "datosh/nixos-vex": {
 "full_name": "datosh/nixos-vex",
@@ -31005,8 +31081,8 @@
 },
 "debezium/debezium": {
 "full_name": "debezium/debezium",
-"sha": "b0081950aa3ec04d5072c5a61fcc2ec46b205a3d",
-"at": "2026-10-18T16:23:24+00:00",
+"sha": "667cef1af75f5278db479d13c32caa07e524c3ea",
+"at": "2026-10-18T21:39:14+00:00",
 "language": "Java",
 "size": 92851,
 "pushed_at": "2026-10-16",
@@ -31044,7 +31120,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:23:24+00:00"
+"expires": "2026-10-20T21:39:14+00:00"
 },
 "deepakness/cogsend": {
 "full_name": "deepakness/cogsend",
@@ -31197,7 +31273,7 @@
 "deepseek-ai/DeepEP-Ascend": {
 "full_name": "deepseek-ai/DeepEP-Ascend",
 "sha": "3b25377d04b24fc6154698ded78a2bcb2c59afff",
-"at": "2026-10-17T21:24:46+00:00",
+"at": "2026-10-18T21:39:18+00:00",
 "language": "C++",
 "size": 142,
 "pushed_at": "2026-09-30",
@@ -31265,10 +31341,10 @@
 },
 "vet_hard": [],
 "vet_soft": [
-"260 stars on a 17-day-old repo (bought stars)"
+"260 stars on a 18-day-old repo (bought stars)"
 ]
 },
-"expires": "2026-10-18T21:24:46+00:00"
+"expires": "2026-10-19T21:39:18+00:00"
 },
 "deimantasnork/captains-deck": {
 "full_name": "deimantasnork/captains-deck",
@@ -31431,8 +31507,8 @@
 },
 "demisto/content": {
 "full_name": "demisto/content",
-"sha": "eaf99ed8537d06ae2706a51e63febd15587822f2",
-"at": "2026-10-18T16:23:27+00:00",
+"sha": "8d9e1a29ae498d3850885fb602c642f373bf39ee",
+"at": "2026-10-18T21:39:35+00:00",
 "language": "Python",
 "size": 1343084,
 "pushed_at": "2026-10-18",
@@ -31467,17 +31543,17 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:23:27+00:00"
+"expires": "2026-10-20T21:39:35+00:00"
 },
 "dend/awesome-product-management": {
 "full_name": "dend/awesome-product-management",
 "sha": "826bca19f74e3968dc12ef00003c4cfbdde7a79b",
-"at": "2026-10-17T21:25:02+00:00",
+"at": "2026-10-18T21:39:39+00:00",
 "language": "CSS",
 "size": 42337,
 "pushed_at": "2026-09-07",
 "created_at": "2019-03-04",
-"stars": 2403,
+"stars": 2420,
 "curated": true,
 "scanner": {
 "semgrep": "1.177.0",
@@ -31541,7 +31617,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:25:02+00:00"
+"expires": "2026-10-19T21:39:39+00:00"
 },
 "dependency-check/DependencyCheck": {
 "full_name": "dependency-check/DependencyCheck",
@@ -31626,7 +31702,7 @@
 "derekross/omandroid": {
 "full_name": "derekross/omandroid",
 "sha": "1155a7c352edf6313fb4e2ff02f054c9cb1902b6",
-"at": "2026-10-16T17:56:38+00:00",
+"at": "2026-10-18T21:39:59+00:00",
 "language": "Python",
 "size": 3439,
 "pushed_at": "2026-10-13",
@@ -31698,20 +31774,20 @@
 },
 "vet_hard": [],
 "vet_soft": [
-"112 stars on a 4-day-old repo (bought stars)"
+"118 stars on a 6-day-old repo (bought stars)"
 ]
 },
-"expires": "2026-10-18T17:56:38+00:00"
+"expires": "2026-10-20T21:39:59+00:00"
 },
 "derekross/omarchy-mobile": {
 "full_name": "derekross/omarchy-mobile",
 "sha": "1155a7c352edf6313fb4e2ff02f054c9cb1902b6",
-"at": "2026-10-16T17:57:29+00:00",
+"at": "2026-10-18T21:40:47+00:00",
 "language": "Python",
-"size": 15433,
-"pushed_at": "2026-10-15",
+"size": 15562,
+"pushed_at": "2026-10-16",
 "created_at": "2026-10-12",
-"stars": 105,
+"stars": 117,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -31778,10 +31854,10 @@
 },
 "vet_hard": [],
 "vet_soft": [
-"112 stars on a 4-day-old repo (bought stars)"
+"118 stars on a 6-day-old repo (bought stars)"
 ]
 },
-"expires": "2026-10-18T17:57:29+00:00"
+"expires": "2026-10-20T21:40:47+00:00"
 },
 "dev-luigi/neural-network-digits": {
 "full_name": "dev-luigi/neural-network-digits",
@@ -31956,8 +32032,8 @@
 },
 "dgunning/edgartools": {
 "full_name": "dgunning/edgartools",
-"sha": "4f11882ab3e0f6766a1d8a61e8f4102e371da78c",
-"at": "2026-10-18T16:23:30+00:00",
+"sha": "684a2db806e4db2c3491ea0903d6589fef8752d1",
+"at": "2026-10-18T21:41:35+00:00",
 "language": "Python",
 "size": 751623,
 "pushed_at": "2026-10-17",
@@ -31992,7 +32068,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:23:30+00:00"
+"expires": "2026-10-20T21:41:35+00:00"
 },
 "dhava-gautama/AirCard-Windows": {
 "full_name": "dhava-gautama/AirCard-Windows",
@@ -32139,7 +32215,7 @@
 "diip3sh/feel": {
 "full_name": "diip3sh/feel",
 "sha": "c9b22fa42b25757852d7c3aa621344d13882a519",
-"at": "2026-10-16T17:58:24+00:00",
+"at": "2026-10-18T21:41:39+00:00",
 "language": "JavaScript",
 "size": 7576,
 "pushed_at": "2026-10-13",
@@ -32213,12 +32289,12 @@
 ],
 "vet_soft": []
 },
-"expires": "2026-10-18T17:58:24+00:00"
+"expires": "2026-10-20T21:41:39+00:00"
 },
 "dj-stripe/dj-stripe": {
 "full_name": "dj-stripe/dj-stripe",
 "sha": "40882bbcd7e44710244372dec44d9f0e494c7432",
-"at": "2026-10-17T21:25:29+00:00",
+"at": "2026-10-18T21:41:55+00:00",
 "language": "Python",
 "size": 7975,
 "pushed_at": "2026-09-14",
@@ -32288,7 +32364,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:25:29+00:00"
+"expires": "2026-10-19T21:41:55+00:00"
 },
 "dlt-hub/dlt": {
 "full_name": "dlt-hub/dlt",
@@ -32530,8 +32606,8 @@
 },
 "dota2modmanager/dota2-mod-manager": {
 "full_name": "dota2modmanager/dota2-mod-manager",
-"sha": "f842194b3f2ac1391caf287580670568433a0d85",
-"at": "2026-10-18T16:23:34+00:00",
+"sha": "bd3c68e372a6d3b2bff24ee785627333a9d50dee",
+"at": "2026-10-18T21:42:15+00:00",
 "language": "TypeScript",
 "size": 88106,
 "pushed_at": "2026-10-18",
@@ -32581,7 +32657,7 @@
 "owner account is 25 days old"
 ]
 },
-"expires": "2026-10-20T16:23:34+00:00"
+"expires": "2026-10-20T21:42:15+00:00"
 },
 "dreautall/waterfly-iii": {
 "full_name": "dreautall/waterfly-iii",
@@ -32936,7 +33012,7 @@
 "edgedelta/project-arena": {
 "full_name": "edgedelta/project-arena",
 "sha": "fc232a3fb38b2d49d5fbc8589071623e13f2c963",
-"at": "2026-10-17T21:26:51+00:00",
+"at": "2026-10-18T21:42:20+00:00",
 "language": "Python",
 "size": 178,
 "pushed_at": "2026-10-02",
@@ -33005,7 +33081,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:26:51+00:00"
+"expires": "2026-10-19T21:42:20+00:00"
 },
 "edison-land/paragravity": {
 "full_name": "edison-land/paragravity",
@@ -33134,7 +33210,7 @@
 "edujbarrios/astscribe": {
 "full_name": "edujbarrios/astscribe",
 "sha": "4fa33332c19c88395d6e3f3a586efc0be7976fec",
-"at": "2026-10-16T18:01:04+00:00",
+"at": "2026-10-18T21:42:36+00:00",
 "language": "Python",
 "size": 468,
 "pushed_at": "2026-10-14",
@@ -33210,7 +33286,7 @@
 ],
 "vet_soft": []
 },
-"expires": "2026-10-18T18:01:04+00:00"
+"expires": "2026-10-20T21:42:36+00:00"
 },
 "efim0v/brow": {
 "full_name": "efim0v/brow",
@@ -33366,8 +33442,8 @@
 },
 "elastic/beats": {
 "full_name": "elastic/beats",
-"sha": "02d90c89c682160e7a336f121e0a54be480f438c",
-"at": "2026-10-16T18:01:26+00:00",
+"sha": "65ae3d393dc140115f5aa15e24b0d7b14d5b8ead",
+"at": "2026-10-18T21:42:52+00:00",
 "language": "Go",
 "size": 540112,
 "pushed_at": "2026-10-12",
@@ -33402,12 +33478,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T18:01:26+00:00"
+"expires": "2026-10-20T21:42:52+00:00"
 },
 "elastic/connectors": {
 "full_name": "elastic/connectors",
 "sha": "8ee24a548a02cb3a2617c090be12e38e98b85e0b",
-"at": "2026-10-16T18:01:29+00:00",
+"at": "2026-10-18T21:42:57+00:00",
 "language": "Python",
 "size": 11573,
 "pushed_at": "2026-10-12",
@@ -33478,17 +33554,17 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T18:01:29+00:00"
+"expires": "2026-10-20T21:42:57+00:00"
 },
 "elastic/detection-rules": {
 "full_name": "elastic/detection-rules",
 "sha": "a61fa31804a7ba981444fde0b2f1e9dd5c977ab1",
-"at": "2026-10-16T18:01:58+00:00",
+"at": "2026-10-18T21:43:21+00:00",
 "language": "Python",
-"size": 566186,
-"pushed_at": "2026-10-09",
+"size": 566301,
+"pushed_at": "2026-10-17",
 "created_at": "2020-06-17",
-"stars": 2715,
+"stars": 2725,
 "curated": true,
 "scanner": {
 "semgrep": "1.177.0",
@@ -33497,7 +33573,7 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"repository too large to scan (566186 KB > 60000 KB)"
+"repository too large to scan (566301 KB > 60000 KB)"
 ],
 "coverage": {
 "primary_language": "Python",
@@ -33520,12 +33596,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T18:01:58+00:00"
+"expires": "2026-10-20T21:43:21+00:00"
 },
 "elastic/elastic-agent": {
 "full_name": "elastic/elastic-agent",
 "sha": "44a9334a3903d72deefdb4537bc358a5dbd5eefe",
-"at": "2026-10-16T18:02:02+00:00",
+"at": "2026-10-18T21:43:25+00:00",
 "language": "Go",
 "size": 515929,
 "pushed_at": "2026-09-28",
@@ -33560,12 +33636,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T18:02:02+00:00"
+"expires": "2026-10-20T21:43:25+00:00"
 },
 "elastic/elasticsearch": {
 "full_name": "elastic/elasticsearch",
-"sha": "9df53afd7c6054b65e753349ef347cf3e7ba11d1",
-"at": "2026-10-18T16:24:18+00:00",
+"sha": "e3102ff5baa4621ab1ab8c9d2354ace4596f5022",
+"at": "2026-10-18T21:43:31+00:00",
 "language": "Java",
 "size": 1803956,
 "pushed_at": "2026-10-12",
@@ -33601,7 +33677,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:24:18+00:00"
+"expires": "2026-10-20T21:43:31+00:00"
 },
 "elastic/kibana": {
 "full_name": "elastic/kibana",
@@ -33646,7 +33722,7 @@
 "elastic/package-registry": {
 "full_name": "elastic/package-registry",
 "sha": "381dd43d7cfd1653dc48019599e6978f6bd7d6c0",
-"at": "2026-10-16T18:02:14+00:00",
+"at": "2026-10-18T21:43:35+00:00",
 "language": "Go",
 "size": 70803,
 "pushed_at": "2026-10-05",
@@ -33681,7 +33757,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T18:02:14+00:00"
+"expires": "2026-10-20T21:43:35+00:00"
 },
 "eldarshiraliyev/BugScanner": {
 "full_name": "eldarshiraliyev/BugScanner",
@@ -33932,8 +34008,8 @@
 },
 "emersonjds/santi": {
 "full_name": "emersonjds/santi",
-"sha": "bc8737c77a234910c3713a9fe1f4807566f6cdf9",
-"at": "2026-10-18T05:01:20+00:00",
+"sha": "95796b1091cd4ca404ac92217ca96fa6993836a7",
+"at": "2026-10-18T21:43:41+00:00",
 "language": "TypeScript",
 "size": 3734,
 "pushed_at": "2026-10-18",
@@ -33954,7 +34030,7 @@
 "primary_language": "TypeScript",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 4875033,
+"bytes": 4879742,
 "files": 732,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -33965,7 +34041,7 @@
 "has_k8s": false,
 "has_terraform": false,
 "dep_count": 0,
-"readme_bytes": 9980,
+"readme_bytes": 12289,
 "top_level_entries": 22
 },
 "engines_not_ran": [],
@@ -34007,7 +34083,7 @@
 ],
 "vet_soft": []
 },
-"expires": "2026-10-20T05:01:20+00:00"
+"expires": "2026-10-20T21:43:41+00:00"
 },
 "engineai-robotics/engineai_navigation": {
 "full_name": "engineai-robotics/engineai_navigation",
@@ -34244,7 +34320,7 @@
 "erkanz/radtel-RT950PRO": {
 "full_name": "erkanz/radtel-RT950PRO",
 "sha": "51c84d407a6ba617581aa49f77c6b409699a9aa8",
-"at": "2026-10-17T21:27:43+00:00",
+"at": "2026-10-18T21:44:07+00:00",
 "language": "Python",
 "size": 326,
 "pushed_at": "2026-09-13",
@@ -34313,7 +34389,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:27:43+00:00"
+"expires": "2026-10-19T21:44:07+00:00"
 },
 "ethnv/BUYIN": {
 "full_name": "ethnv/BUYIN",
@@ -34957,8 +35033,8 @@
 },
 "finos/architecture-as-code": {
 "full_name": "finos/architecture-as-code",
-"sha": "a4cfa1b65e802cee9196da8db8199fe285eaebdb",
-"at": "2026-10-18T16:24:43+00:00",
+"sha": "8d842fb1a46f59358b9d0ddf61047c9d86a13912",
+"at": "2026-10-18T21:44:23+00:00",
 "language": "TypeScript",
 "size": 101593,
 "pushed_at": "2026-10-18",
@@ -34993,12 +35069,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:24:43+00:00"
+"expires": "2026-10-20T21:44:23+00:00"
 },
 "firecrawl/firecrawl": {
 "full_name": "firecrawl/firecrawl",
-"sha": "7ccc8f4e99571cd3e66f437cce0edb8dfa02c8a7",
-"at": "2026-10-18T05:02:18+00:00",
+"sha": "ed7470731eb4d061178732c3cc6846ea20bb98aa",
+"at": "2026-10-18T21:44:27+00:00",
 "language": "TypeScript",
 "size": 185443,
 "pushed_at": "2026-10-18",
@@ -35036,7 +35112,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T05:02:18+00:00"
+"expires": "2026-10-20T21:44:27+00:00"
 },
 "firefly-iii/firefly-iii": {
 "full_name": "firefly-iii/firefly-iii",
@@ -35080,8 +35156,8 @@
 },
 "firstcontributions/first-contributions": {
 "full_name": "firstcontributions/first-contributions",
-"sha": "a049a08e9be8046be06b8691fb2a998c9e7fadf7",
-"at": "2026-10-18T16:24:46+00:00",
+"sha": "7967b419175246fdfed8cfcd5d24543c5afd62ba",
+"at": "2026-10-18T21:44:33+00:00",
 "language": null,
 "size": 52609,
 "pushed_at": "2026-10-18",
@@ -35116,7 +35192,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:24:46+00:00"
+"expires": "2026-10-20T21:44:33+00:00"
 },
 "fitzforge/polestar": {
 "full_name": "fitzforge/polestar",
@@ -35513,8 +35589,8 @@
 },
 "frappe/erpnext": {
 "full_name": "frappe/erpnext",
-"sha": "b365eb695844e1db9a7484df255c428cefe6e57e",
-"at": "2026-10-18T16:24:50+00:00",
+"sha": "7b5179fbd348c1ffdd1643ee139716811939b94b",
+"at": "2026-10-18T21:44:40+00:00",
 "language": "Python",
 "size": 1975477,
 "pushed_at": "2026-10-18",
@@ -35553,12 +35629,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:24:50+00:00"
+"expires": "2026-10-20T21:44:40+00:00"
 },
 "frappe/frappe": {
 "full_name": "frappe/frappe",
-"sha": "ec6e65cb5a18ecda14364f85a04e8f0b91e59414",
-"at": "2026-10-18T16:24:52+00:00",
+"sha": "3929973b5b40f5a5246a81406292fd612eba397c",
+"at": "2026-10-18T21:44:44+00:00",
 "language": "Python",
 "size": 969779,
 "pushed_at": "2026-10-18",
@@ -35595,12 +35671,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:24:52+00:00"
+"expires": "2026-10-20T21:44:44+00:00"
 },
 "frisket-dev/frisket": {
 "full_name": "frisket-dev/frisket",
-"sha": "fb1b73e0ae0765077e80b670ce83d743c8db6c7c",
-"at": "2026-10-18T16:24:55+00:00",
+"sha": "49e62eb53b2c5bfe4a21f14f1180c3992ebc564e",
+"at": "2026-10-18T21:44:47+00:00",
 "language": "Python",
 "size": 26144,
 "pushed_at": "2026-09-21",
@@ -35621,7 +35697,7 @@
 "primary_language": "Python",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 65048637,
+"bytes": 65051427,
 "files": 4546,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -35676,7 +35752,7 @@
 ],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:24:55+00:00"
+"expires": "2026-10-20T21:44:47+00:00"
 },
 "fruitflydev/flycoinrh": {
 "full_name": "fruitflydev/flycoinrh",
@@ -35995,8 +36071,8 @@
 },
 "gergelyszabo94/csgo-trader-extension": {
 "full_name": "gergelyszabo94/csgo-trader-extension",
-"sha": "05eb775ac3da30d668c81f598cc63a89eab000f5",
-"at": "2026-10-18T05:04:24+00:00",
+"sha": "83db65f801b4965c6b60ad38a547a4f7f6821b1f",
+"at": "2026-10-18T21:46:55+00:00",
 "language": "JavaScript",
 "size": 29204,
 "pushed_at": "2026-10-17",
@@ -36016,7 +36092,7 @@
 "primary_language": "JavaScript",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 26708644,
+"bytes": 26708684,
 "files": 488,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -36068,7 +36144,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T05:04:24+00:00"
+"expires": "2026-10-20T21:46:55+00:00"
 },
 "ghostfolio/ghostfolio": {
 "full_name": "ghostfolio/ghostfolio",
@@ -36398,14 +36474,14 @@
 },
 "goauthentik/authentik": {
 "full_name": "goauthentik/authentik",
-"sha": "0bf3eb26917c7fdbee26b48ea8cc0145f3bdc9d5",
-"at": "2026-10-17T21:31:56+00:00",
+"sha": "f24849562f3728f6a4e63859c1566e54be165b89",
+"at": "2026-10-18T21:47:26+00:00",
 "language": "Python",
-"size": 761637,
-"pushed_at": "2026-10-16",
+"size": 761891,
+"pushed_at": "2026-10-17",
 "created_at": "2019-12-30",
-"stars": 25976,
-"curated": false,
+"stars": 25993,
+"curated": true,
 "scanner": {
 "semgrep": "1.177.0",
 "ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
@@ -36413,7 +36489,7 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"repository too large to scan (761637 KB > 60000 KB)"
+"repository too large to scan (761891 KB > 60000 KB)"
 ],
 "coverage": {
 "primary_language": "Python",
@@ -36434,7 +36510,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-19T21:31:56+00:00"
+"expires": "2026-10-20T21:47:26+00:00"
 },
 "gongdear/cline-pilot": {
 "full_name": "gongdear/cline-pilot",
@@ -36715,8 +36791,8 @@
 },
 "google/adk-go": {
 "full_name": "google/adk-go",
-"sha": "74faa9ab6bf58b47653ed275f4aa86a93e76280a",
-"at": "2026-10-17T05:01:57+00:00",
+"sha": "90efa8d01506e26f142d2855d3559fa9bb76722e",
+"at": "2026-10-18T21:47:31+00:00",
 "language": "Go",
 "size": 34381,
 "pushed_at": "2026-09-28",
@@ -36736,8 +36812,8 @@
 "primary_language": "Go",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 19072002,
-"files": 1124,
+"bytes": 19413196,
+"files": 1127,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -36766,7 +36842,8 @@
 "yara": {
 "status": "ran",
 "hits": [
-"TLDP_Obfuscated_Payload@cmd/launcher/web/webui/distr/chunk-OGD5RHV2.js"
+"TLDP_Obfuscated_Payload@cmd/launcher/web/webui/distr/chunk-OGD5RHV2.js",
+"TLDP_Obfuscated_Payload@cmd/launcher/web/webui/distr/main-I3DI43ZQ.js"
 ]
 },
 "clamav": {
@@ -36786,7 +36863,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-19T05:01:57+00:00"
+"expires": "2026-10-20T21:47:31+00:00"
 },
 "google/gemma.cpp": {
 "full_name": "google/gemma.cpp",
@@ -37057,7 +37134,7 @@
 "google/yggdrasil-decision-forests": {
 "full_name": "google/yggdrasil-decision-forests",
 "sha": "3008fcea4e5746fddb1b4c46827f142f3158d67c",
-"at": "2026-10-16T18:53:42+00:00",
+"at": "2026-10-18T21:49:56+00:00",
 "language": "C++",
 "size": 52703,
 "pushed_at": "2026-09-28",
@@ -37071,7 +37148,8 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"malicious dependency: requests:GHSA-9hjg-9r4m-mvj7, requests:PYSEC-2026-1872"
+"malicious dependency: requests:GHSA-9hjg-9r4m-mvj7, requests:PYSEC-2026-1872",
+"yara: TLDP_Obfuscated_Payload"
 ],
 "coverage": {
 "primary_language": "C++",
@@ -37107,7 +37185,9 @@
 },
 "yara": {
 "status": "ran",
-"hits": []
+"hits": [
+"TLDP_Obfuscated_Payload@documentation/public/docs/tutorial/pav_calibration_theory.ipynb"
+]
 },
 "clamav": {
 "status": "ran",
@@ -37129,7 +37209,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T18:53:42+00:00"
+"expires": "2026-10-20T21:49:56+00:00"
 },
 "govdirectory/website": {
 "full_name": "govdirectory/website",
@@ -37564,7 +37644,7 @@
 "groundingpi/GroundingPI": {
 "full_name": "groundingpi/GroundingPI",
 "sha": "090932430bbbeea004cfa461767ede7f563c0f3a",
-"at": "2026-10-16T18:58:54+00:00",
+"at": "2026-10-18T21:54:20+00:00",
 "language": "Python",
 "size": 17604,
 "pushed_at": "2026-10-14",
@@ -37578,9 +37658,9 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"102 stars on a 16-day-old repo (bought stars)",
+"125 stars on a 18-day-old repo (bought stars)",
 "README link: link to a raw IP address (private)",
-"soft: owner account is 45 days old"
+"soft: owner account is 47 days old"
 ],
 "coverage": {
 "primary_language": "Python",
@@ -37635,18 +37715,18 @@
 },
 "vet_hard": [
 "README link: link to a raw IP address (private)",
-"102 stars on a 16-day-old repo (bought stars)"
+"125 stars on a 18-day-old repo (bought stars)"
 ],
 "vet_soft": [
-"owner account is 45 days old"
+"owner account is 47 days old"
 ]
 },
-"expires": "2026-10-18T18:58:54+00:00"
+"expires": "2026-10-20T21:54:20+00:00"
 },
 "guardana/guardana": {
 "full_name": "guardana/guardana",
-"sha": "b5914217b9958875aad5a9197cfcd9182afb752f",
-"at": "2026-10-18T16:27:44+00:00",
+"sha": "85260c7bb44c960c623a21bbd41450b815281d20",
+"at": "2026-10-18T21:55:11+00:00",
 "language": "Python",
 "size": 22686,
 "pushed_at": "2026-10-18",
@@ -37667,8 +37747,8 @@
 "primary_language": "Python",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 20677843,
-"files": 1839,
+"bytes": 20694395,
+"files": 1840,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -37720,7 +37800,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:27:44+00:00"
+"expires": "2026-10-20T21:55:11+00:00"
 },
 "guiIhermevieira/sentinel": {
 "full_name": "guiIhermevieira/sentinel",
@@ -38026,8 +38106,8 @@
 },
 "hackforla/website": {
 "full_name": "hackforla/website",
-"sha": "564858cc7364466feb023c24a388d17e9ff640f3",
-"at": "2026-10-18T11:49:39+00:00",
+"sha": "acfb1e139764813e9d9a234320ee563795233f37",
+"at": "2026-10-18T21:56:03+00:00",
 "language": "JavaScript",
 "size": 140754,
 "pushed_at": "2026-10-12",
@@ -38062,7 +38142,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T11:49:39+00:00"
+"expires": "2026-10-20T21:56:03+00:00"
 },
 "hahwul/urx": {
 "full_name": "hahwul/urx",
@@ -38448,7 +38528,7 @@
 "hawaiicoco/slotvox": {
 "full_name": "hawaiicoco/slotvox",
 "sha": "a66d2911f6185b52c841507d338b395fd4aaee96",
-"at": "2026-10-17T21:33:29+00:00",
+"at": "2026-10-18T21:56:09+00:00",
 "language": "Python",
 "size": 458,
 "pushed_at": "2026-09-30",
@@ -38518,7 +38598,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:33:29+00:00"
+"expires": "2026-10-19T21:56:09+00:00"
 },
 "hcengineering/platform": {
 "full_name": "hcengineering/platform",
@@ -39037,7 +39117,7 @@
 "hunkim/ai-is-fast-your-tests-are-slow": {
 "full_name": "hunkim/ai-is-fast-your-tests-are-slow",
 "sha": "9b076d08ffb5e6dd1e652b67984d533a6251810b",
-"at": "2026-10-17T21:34:09+00:00",
+"at": "2026-10-18T21:56:28+00:00",
 "language": "Python",
 "size": 1082,
 "pushed_at": "2026-09-29",
@@ -39107,7 +39187,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:34:09+00:00"
+"expires": "2026-10-19T21:56:28+00:00"
 },
 "ibisjp/ibis-office": {
 "full_name": "ibisjp/ibis-office",
@@ -39412,7 +39492,7 @@
 "imajij/do_waqt_ki_roti": {
 "full_name": "imajij/do_waqt_ki_roti",
 "sha": "bea5256ff2cf5e3b5fa9223691b7c425497fde6f",
-"at": "2026-10-17T21:34:25+00:00",
+"at": "2026-10-18T21:56:44+00:00",
 "language": "Python",
 "size": 33,
 "pushed_at": "2026-10-07",
@@ -39483,7 +39563,7 @@
 "only 1 commit(s)"
 ]
 },
-"expires": "2026-10-18T21:34:25+00:00"
+"expires": "2026-10-19T21:56:44+00:00"
 },
 "immortalhowwl/fly-high": {
 "full_name": "immortalhowwl/fly-high",
@@ -40665,8 +40745,8 @@
 },
 "issuerd/issuerd": {
 "full_name": "issuerd/issuerd",
-"sha": "43aca6c81b42162952fe655d26fbb799f24e01dc",
-"at": "2026-10-17T11:22:54+00:00",
+"sha": "1ca1ba16443f20fd052dc45cbf452d68dfd2cf20",
+"at": "2026-10-18T21:57:03+00:00",
 "language": "Rust",
 "size": 21362,
 "pushed_at": "2026-10-07",
@@ -40680,15 +40760,15 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"52 stars on a 23-day-old repo (bought stars)",
+"58 stars on a 25-day-old repo (bought stars)",
 "code scan: tldp.shell-download-pipe",
-"soft: owner account is 26 days old"
+"soft: owner account is 28 days old"
 ],
 "coverage": {
 "primary_language": "Rust",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 30666051,
+"bytes": 30667292,
 "files": 905,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -40699,7 +40779,7 @@
 "has_k8s": false,
 "has_terraform": false,
 "dep_count": 0,
-"readme_bytes": 23947,
+"readme_bytes": 24307,
 "top_level_entries": 41
 },
 "engines_not_ran": [],
@@ -40736,18 +40816,18 @@
 "error": null
 },
 "vet_hard": [
-"52 stars on a 23-day-old repo (bought stars)"
+"58 stars on a 25-day-old repo (bought stars)"
 ],
 "vet_soft": [
-"owner account is 26 days old"
+"owner account is 28 days old"
 ]
 },
-"expires": "2026-10-19T11:22:54+00:00"
+"expires": "2026-10-20T21:57:03+00:00"
 },
 "iweld/SQL_Coding_Challenge": {
 "full_name": "iweld/SQL_Coding_Challenge",
 "sha": "6ba60472d5bbd925323c00864ad4d9c87b990c5b",
-"at": "2026-10-17T21:34:44+00:00",
+"at": "2026-10-18T21:57:39+00:00",
 "language": "PLpgSQL",
 "size": 2576,
 "pushed_at": "2024-02-01",
@@ -40816,7 +40896,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:34:44+00:00"
+"expires": "2026-10-19T21:57:39+00:00"
 },
 "izzy-Ti/fayda-mcp": {
 "full_name": "izzy-Ti/fayda-mcp",
@@ -41178,7 +41258,7 @@
 "jayleaton/qwen-image21-tensorfold-rtx": {
 "full_name": "jayleaton/qwen-image21-tensorfold-rtx",
 "sha": "f91845527f095bbc1b87bd9b3960f893e7c9efc1",
-"at": "2026-10-17T21:35:00+00:00",
+"at": "2026-10-18T21:57:55+00:00",
 "language": "Python",
 "size": 596,
 "pushed_at": "2026-10-03",
@@ -41248,17 +41328,17 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:35:00+00:00"
+"expires": "2026-10-19T21:57:55+00:00"
 },
 "je-suis-tm/quant-trading": {
 "full_name": "je-suis-tm/quant-trading",
 "sha": "611b73f2c3f577ac5b28aaa19ac8c43d3236c7a5",
-"at": "2026-10-17T21:35:15+00:00",
+"at": "2026-10-18T21:58:10+00:00",
 "language": "Python",
 "size": 13020,
 "pushed_at": "2026-06-20",
 "created_at": "2018-04-03",
-"stars": 10950,
+"stars": 11055,
 "curated": true,
 "scanner": {
 "semgrep": "1.177.0",
@@ -41322,7 +41402,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:35:15+00:00"
+"expires": "2026-10-19T21:58:10+00:00"
 },
 "jellyfin/jellyfin": {
 "full_name": "jellyfin/jellyfin",
@@ -41573,8 +41653,8 @@
 },
 "joinmarket-webui/jam": {
 "full_name": "joinmarket-webui/jam",
-"sha": "4b9b5a71d2f025727073af5b4844d24c5dff0b17",
-"at": "2026-10-18T16:28:50+00:00",
+"sha": "d669e66d357689756c9223206e6ab36b9840e0ca",
+"at": "2026-10-18T21:58:31+00:00",
 "language": "TypeScript",
 "size": 30303,
 "pushed_at": "2026-10-18",
@@ -41592,8 +41672,8 @@
 "primary_language": "TypeScript",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 10217788,
-"files": 685,
+"bytes": 10238658,
+"files": 690,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -41639,7 +41719,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-01T16:28:50+00:00"
+"expires": "2026-11-01T21:58:31+00:00"
 },
 "jpolec/hetzner-cloud-audit-skills": {
 "full_name": "jpolec/hetzner-cloud-audit-skills",
@@ -41840,13 +41920,13 @@
 },
 "juliobsz/skills": {
 "full_name": "juliobsz/skills",
-"sha": "461fab3d9fbf5a7e3aa30101f94f4eaeca965181",
-"at": "2026-10-17T05:07:51+00:00",
+"sha": "f193f6745aae738e9d54a0ca28792822e4777a63",
+"at": "2026-10-18T21:58:58+00:00",
 "language": "TypeScript",
 "size": 1055,
 "pushed_at": "2026-10-16",
 "created_at": "2026-10-12",
-"stars": 375,
+"stars": 388,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -41855,14 +41935,14 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"375 stars on a 5-day-old repo (bought stars)"
+"397 stars on a 6-day-old repo (bought stars)"
 ],
 "coverage": {
 "primary_language": "TypeScript",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 1543042,
-"files": 104,
+"bytes": 1633909,
+"files": 111,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -41872,8 +41952,8 @@
 "has_k8s": false,
 "has_terraform": false,
 "dep_count": 0,
-"readme_bytes": 15115,
-"top_level_entries": 9
+"readme_bytes": 18214,
+"top_level_entries": 10
 },
 "engines_not_ran": [],
 "code_scan_result": "pass",
@@ -41906,11 +41986,11 @@
 "error": null
 },
 "vet_hard": [
-"375 stars on a 5-day-old repo (bought stars)"
+"397 stars on a 6-day-old repo (bought stars)"
 ],
 "vet_soft": []
 },
-"expires": "2026-10-19T05:07:51+00:00"
+"expires": "2026-10-20T21:58:58+00:00"
 },
 "juspay/hyperswitch": {
 "full_name": "juspay/hyperswitch",
@@ -42025,7 +42105,7 @@
 "jvogan/claude-binder-lane": {
 "full_name": "jvogan/claude-binder-lane",
 "sha": "530bf491abf8c076b8bb0baddac5e0b8bb2b61e9",
-"at": "2026-10-17T21:35:40+00:00",
+"at": "2026-10-18T21:59:14+00:00",
 "language": "Python",
 "size": 4253,
 "pushed_at": "2026-09-30",
@@ -42095,12 +42175,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:35:40+00:00"
+"expires": "2026-10-19T21:59:14+00:00"
 },
 "kaifcodec/phonsint": {
 "full_name": "kaifcodec/phonsint",
 "sha": "f1f37480d08814901475797697846e8b02f9861f",
-"at": "2026-10-17T21:36:24+00:00",
+"at": "2026-10-18T21:59:52+00:00",
 "language": "Python",
 "size": 40,
 "pushed_at": "2026-09-30",
@@ -42169,7 +42249,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:36:24+00:00"
+"expires": "2026-10-19T21:59:52+00:00"
 },
 "karan/Projects": {
 "full_name": "karan/Projects",
@@ -42213,8 +42293,8 @@
 },
 "keenableai/needle": {
 "full_name": "keenableai/needle",
-"sha": "debe6ee1ef3e0071b894189df1c1664aeb553c31",
-"at": "2026-10-18T05:06:16+00:00",
+"sha": "ed665ed2d865f23a9cba8ec8e2208f33ce0857d0",
+"at": "2026-10-18T22:00:06+00:00",
 "language": "Python",
 "size": 103472,
 "pushed_at": "2026-09-24",
@@ -42249,7 +42329,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T05:06:16+00:00"
+"expires": "2026-10-20T22:00:06+00:00"
 },
 "keithligh/hk-traffic-intelligence": {
 "full_name": "keithligh/hk-traffic-intelligence",
@@ -42332,12 +42412,12 @@
 "kernc/backtesting.py": {
 "full_name": "kernc/backtesting.py",
 "sha": "ca2e2611621e472542ba90f7243a1fa06a7d7108",
-"at": "2026-10-17T21:36:42+00:00",
+"at": "2026-10-18T22:00:10+00:00",
 "language": "Python",
 "size": 17483,
 "pushed_at": "2026-08-05",
 "created_at": "2019-01-02",
-"stars": 9028,
+"stars": 9065,
 "curated": true,
 "scanner": {
 "semgrep": "1.177.0",
@@ -42403,12 +42483,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:36:42+00:00"
+"expires": "2026-10-19T22:00:10+00:00"
 },
 "kevinbadi/seo-agent-kit": {
 "full_name": "kevinbadi/seo-agent-kit",
 "sha": "3502e8a69db75050ad79025b460238467d1658bb",
-"at": "2026-10-17T21:39:45+00:00",
+"at": "2026-10-18T22:02:42+00:00",
 "language": "JavaScript",
 "size": 70,
 "pushed_at": "2026-10-05",
@@ -42477,7 +42557,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:39:45+00:00"
+"expires": "2026-10-19T22:02:42+00:00"
 },
 "keycloak/keycloak": {
 "full_name": "keycloak/keycloak",
@@ -42561,8 +42641,8 @@
 },
 "kingrishabdugar/fizzdoc": {
 "full_name": "kingrishabdugar/fizzdoc",
-"sha": "fa8105291fc7276e34c760772b8f71e77d80bf15",
-"at": "2026-10-18T16:29:20+00:00",
+"sha": "e7fa1978d48d156fc25013e7cf9a1bfe774f4ae0",
+"at": "2026-10-18T22:02:58+00:00",
 "language": "HTML",
 "size": 206013,
 "pushed_at": "2026-10-10",
@@ -42597,7 +42677,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:29:20+00:00"
+"expires": "2026-10-20T22:02:58+00:00"
 },
 "kiurakku/GramFuzz": {
 "full_name": "kiurakku/GramFuzz",
@@ -42839,8 +42919,8 @@
 },
 "knadh/listmonk": {
 "full_name": "knadh/listmonk",
-"sha": "524039e59bf8dd15ceaffdddf0d5e9c29622aa3d",
-"at": "2026-10-18T12:01:06+00:00",
+"sha": "33896f18bcc9136327cee26e38ebbb23e9f39717",
+"at": "2026-10-18T22:03:02+00:00",
 "language": "Go",
 "size": 52902,
 "pushed_at": "2026-10-18",
@@ -42858,8 +42938,8 @@
 "primary_language": "Go",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 7730196,
-"files": 463,
+"bytes": 7636214,
+"files": 464,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -42868,7 +42948,7 @@
 "compose_services": 6,
 "has_k8s": false,
 "has_terraform": false,
-"dep_count": 62,
+"dep_count": 57,
 "readme_bytes": 2138,
 "top_level_entries": 34
 },
@@ -42876,9 +42956,9 @@
 "code_scan_result": "pass",
 "blocking": [],
 "advisory": {
-"WARNING": 291,
+"WARNING": 294,
 "ERROR": 1,
-"osv_vulnerabilities": 60
+"osv_vulnerabilities": 19
 },
 "engines": {
 "semgrep": "ran",
@@ -42897,7 +42977,7 @@
 "osv": {
 "status": "ran",
 "malicious": [],
-"vulnerable": 60
+"vulnerable": 19
 },
 "links": {
 "block": [],
@@ -42907,7 +42987,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-17T12:01:06+00:00"
+"expires": "2026-11-17T22:03:02+00:00"
 },
 "kobebeefg/ikea-clock-lab": {
 "full_name": "kobebeefg/ikea-clock-lab",
@@ -43071,7 +43151,7 @@
 "koldunovn/mitgcm-jax": {
 "full_name": "koldunovn/mitgcm-jax",
 "sha": "435933403830182db3d16a69283582bc172d6583",
-"at": "2026-10-17T21:40:40+00:00",
+"at": "2026-10-18T22:03:36+00:00",
 "language": "Python",
 "size": 4157,
 "pushed_at": "2026-10-09",
@@ -43142,7 +43222,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:40:40+00:00"
+"expires": "2026-10-19T22:03:36+00:00"
 },
 "konflux-ci/konflux-ci": {
 "full_name": "konflux-ci/konflux-ci",
@@ -43221,8 +43301,8 @@
 },
 "kosli-dev/ergo": {
 "full_name": "kosli-dev/ergo",
-"sha": "93d2b30a80bf9ad8655df9156d252fbbfaaaee4d",
-"at": "2026-10-18T16:30:18+00:00",
+"sha": "db03e5f3bb71f3580c14ce2929ced17b2314d067",
+"at": "2026-10-18T22:04:34+00:00",
 "language": "Open Policy Agent",
 "size": 1641,
 "pushed_at": "2026-10-12",
@@ -43257,12 +43337,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:30:18+00:00"
+"expires": "2026-10-20T22:04:34+00:00"
 },
 "ktaletsk/jevframe": {
 "full_name": "ktaletsk/jevframe",
 "sha": "16bd3eae69b71284a75747fb4bf199b14ba1b075",
-"at": "2026-10-17T21:41:49+00:00",
+"at": "2026-10-18T22:04:37+00:00",
 "language": "Python",
 "size": 405,
 "pushed_at": "2026-09-24",
@@ -43331,12 +43411,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:41:49+00:00"
+"expires": "2026-10-19T22:04:37+00:00"
 },
 "kulchankas/paranoid": {
 "full_name": "kulchankas/paranoid",
 "sha": "b5bbdcead155ae9c2dae8a1f393f122e36306c88",
-"at": "2026-10-17T21:42:04+00:00",
+"at": "2026-10-18T22:04:52+00:00",
 "language": "Python",
 "size": 339,
 "pushed_at": "2026-09-27",
@@ -43407,12 +43487,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:42:04+00:00"
+"expires": "2026-10-19T22:04:52+00:00"
 },
 "kuratlielia/arc-library": {
 "full_name": "kuratlielia/arc-library",
 "sha": "b40c8906e8cc55cba920113be856b2e6d964885a",
-"at": "2026-10-16T19:12:31+00:00",
+"at": "2026-10-18T22:05:07+00:00",
 "language": "TypeScript",
 "size": 20271,
 "pushed_at": "2026-10-07",
@@ -43426,7 +43506,7 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"793 stars on a 22-day-old repo (bought stars)",
+"815 stars on a 24-day-old repo (bought stars)",
 "README link: password-protected download",
 "required scanner not run: osv=error"
 ],
@@ -43484,11 +43564,11 @@
 },
 "vet_hard": [
 "README link: password-protected download",
-"793 stars on a 22-day-old repo (bought stars)"
+"815 stars on a 24-day-old repo (bought stars)"
 ],
 "vet_soft": []
 },
-"expires": "2026-10-18T19:12:31+00:00"
+"expires": "2026-10-20T22:05:07+00:00"
 },
 "kurelas/text-humanizer": {
 "full_name": "kurelas/text-humanizer",
@@ -43772,8 +43852,8 @@
 },
 "lamb2k/re4dc": {
 "full_name": "lamb2k/re4dc",
-"sha": "ab83148db93b0300fa184d5acdbc3b1477de739a",
-"at": "2026-10-18T12:02:39+00:00",
+"sha": "293aefcd373f968939c40517193c9691e75fe26d",
+"at": "2026-10-18T22:05:38+00:00",
 "language": "C++",
 "size": 31837,
 "pushed_at": "2026-10-12",
@@ -43791,8 +43871,8 @@
 "primary_language": "C++",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 59233192,
-"files": 3658,
+"bytes": 60775125,
+"files": 4158,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -43802,7 +43882,7 @@
 "has_k8s": false,
 "has_terraform": false,
 "dep_count": 0,
-"readme_bytes": 11739,
+"readme_bytes": 7641,
 "top_level_entries": 20
 },
 "engines_not_ran": [],
@@ -43840,7 +43920,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-01T12:02:39+00:00"
+"expires": "2026-11-01T22:05:38+00:00"
 },
 "laurinml/Immich-Insights": {
 "full_name": "laurinml/Immich-Insights",
@@ -44044,12 +44124,12 @@
 "lerocha/chinook-database": {
 "full_name": "lerocha/chinook-database",
 "sha": "7f67772503d71ba90f19283c38e93923addb43fa",
-"at": "2026-10-17T21:42:26+00:00",
+"at": "2026-10-18T22:07:14+00:00",
 "language": "TSQL",
 "size": 25485,
 "pushed_at": "2025-10-05",
 "created_at": "2014-11-03",
-"stars": 2625,
+"stars": 2627,
 "curated": true,
 "scanner": {
 "semgrep": "1.177.0",
@@ -44113,17 +44193,17 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:42:26+00:00"
+"expires": "2026-10-19T22:07:14+00:00"
 },
 "letehaha/moneymatter": {
 "full_name": "letehaha/moneymatter",
-"sha": "808fb1490099529b57108df2ff6b4c401d346dde",
-"at": "2026-10-17T16:23:33+00:00",
+"sha": "458ac441e35e2b2ba732b6d514692c1e0c2f0a0c",
+"at": "2026-10-18T22:07:32+00:00",
 "language": "TypeScript",
-"size": 41246,
-"pushed_at": "2026-10-16",
+"size": 41113,
+"pushed_at": "2026-10-18",
 "created_at": "2025-02-19",
-"stars": 174,
+"stars": 176,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -44136,8 +44216,8 @@
 "primary_language": "TypeScript",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 45763300,
-"files": 5418,
+"bytes": 45786958,
+"files": 5420,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -44184,7 +44264,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-31T16:23:33+00:00"
+"expires": "2026-11-01T22:07:32+00:00"
 },
 "liquiditymapperfast/liquiditymapperfast.github.io": {
 "full_name": "liquiditymapperfast/liquiditymapperfast.github.io",
@@ -44309,10 +44389,10 @@
 },
 "logicrw/awesome-jev-projects": {
 "full_name": "logicrw/awesome-jev-projects",
-"sha": "0908c108ee16466f23e9ddb70f1bcc563ca70f3b",
-"at": "2026-10-18T16:30:58+00:00",
+"sha": "4a1349eef560a15128f41881f66677c19e53e2a2",
+"at": "2026-10-18T22:09:16+00:00",
 "language": "JavaScript",
-"size": 18749,
+"size": 20816,
 "pushed_at": "2026-10-18",
 "created_at": "2026-09-18",
 "stars": 685,
@@ -44330,8 +44410,8 @@
 "primary_language": "JavaScript",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 15694452,
-"files": 1062,
+"bytes": 15727472,
+"files": 1064,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -44380,7 +44460,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:30:58+00:00"
+"expires": "2026-10-20T22:09:16+00:00"
 },
 "lokutor-ai/ito": {
 "full_name": "lokutor-ai/ito",
@@ -44424,8 +44504,8 @@
 },
 "ltoinel/Carbure": {
 "full_name": "ltoinel/Carbure",
-"sha": "b3e666a7c1c93802aba902588892202a3306d873",
-"at": "2026-10-18T16:31:29+00:00",
+"sha": "de4aace60e310cd973ad7394f1f65b6f104b6945",
+"at": "2026-10-18T22:09:45+00:00",
 "language": "PHP",
 "size": 44018,
 "pushed_at": "2026-10-17",
@@ -44445,8 +44525,8 @@
 "primary_language": "PHP",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 37658540,
-"files": 369,
+"bytes": 11151344,
+"files": 410,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -44456,7 +44536,7 @@
 "has_k8s": false,
 "has_terraform": false,
 "dep_count": 0,
-"readme_bytes": 11383,
+"readme_bytes": 13336,
 "top_level_entries": 31
 },
 "engines_not_ran": [],
@@ -44465,7 +44545,7 @@
 "tldp.shell-download-pipe"
 ],
 "advisory": {
-"WARNING": 3,
+"WARNING": 4,
 "osv_vulnerabilities": 0
 },
 "engines": {
@@ -44489,13 +44569,17 @@
 },
 "links": {
 "block": [],
-"warn": [],
+"warn": [
+"chat invite link discord.gg"
+],
 "error": null
 },
 "vet_hard": [],
-"vet_soft": []
+"vet_soft": [
+"README link: chat invite link discord.gg"
+]
 },
-"expires": "2026-10-20T16:31:29+00:00"
+"expires": "2026-10-20T22:09:45+00:00"
 },
 "lucasmarkes/hairline": {
 "full_name": "lucasmarkes/hairline",
@@ -44936,7 +45020,7 @@
 "mahdamin/esp-idf-injection-ng": {
 "full_name": "mahdamin/esp-idf-injection-ng",
 "sha": "697bd7f062713cd37874d49d2b2da3bd48b9b293",
-"at": "2026-10-17T21:44:28+00:00",
+"at": "2026-10-18T22:10:08+00:00",
 "language": "C",
 "size": 386,
 "pushed_at": "2026-10-03",
@@ -45007,7 +45091,7 @@
 "only 1 commit(s)"
 ]
 },
-"expires": "2026-10-18T21:44:28+00:00"
+"expires": "2026-10-19T22:10:08+00:00"
 },
 "majorminorlabs/tools-talaria": {
 "full_name": "majorminorlabs/tools-talaria",
@@ -45292,7 +45376,7 @@
 "marcosmodly/marketing-skill": {
 "full_name": "marcosmodly/marketing-skill",
 "sha": "fed7a2a97994cf66a050a64c6c407b7571611250",
-"at": "2026-10-17T21:44:44+00:00",
+"at": "2026-10-18T22:10:24+00:00",
 "language": "HTML",
 "size": 43907,
 "pushed_at": "2026-10-09",
@@ -45362,7 +45446,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:44:44+00:00"
+"expires": "2026-10-19T22:10:24+00:00"
 },
 "marianabsctba/BSC_DLP_Community": {
 "full_name": "marianabsctba/BSC_DLP_Community",
@@ -45443,8 +45527,8 @@
 },
 "marketcalls/openalgo": {
 "full_name": "marketcalls/openalgo",
-"sha": "930bf89d3eec0c4a8b949e50044dcaedc5518bc7",
-"at": "2026-10-18T16:31:52+00:00",
+"sha": "2b52f466124c863185a0fb6931fe5e1d16d825d0",
+"at": "2026-10-18T22:10:43+00:00",
 "language": "Python",
 "size": 397426,
 "pushed_at": "2026-10-18",
@@ -45483,7 +45567,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:31:52+00:00"
+"expires": "2026-10-20T22:10:43+00:00"
 },
 "marketcalls/openscript": {
 "full_name": "marketcalls/openscript",
@@ -45557,8 +45641,8 @@
 },
 "martinguirado95-ux/untangling-ml-complexity": {
 "full_name": "martinguirado95-ux/untangling-ml-complexity",
-"sha": "a9c2a3fd2c39abc008fd1c4b1210cbac1319aeb7",
-"at": "2026-10-18T16:31:55+00:00",
+"sha": "41e3de51459c47ce0866b8fafac32994d4d50fb5",
+"at": "2026-10-18T22:10:47+00:00",
 "language": "HTML",
 "size": 227,
 "pushed_at": "2026-10-05",
@@ -45572,14 +45656,14 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"56 stars on a 26-day-old repo (bought stars)",
+"56 stars on a 27-day-old repo (bought stars)",
 "required scanner not run: osv=error"
 ],
 "coverage": {
 "primary_language": "HTML",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 198243,
+"bytes": 198333,
 "files": 6,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -45626,11 +45710,11 @@
 "error": null
 },
 "vet_hard": [
-"56 stars on a 26-day-old repo (bought stars)"
+"56 stars on a 27-day-old repo (bought stars)"
 ],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:31:55+00:00"
+"expires": "2026-10-20T22:10:47+00:00"
 },
 "masaleem-oss/Fengard": {
 "full_name": "masaleem-oss/Fengard",
@@ -45718,12 +45802,12 @@
 "matomo-org/matomo": {
 "full_name": "matomo-org/matomo",
 "sha": "7c2e22f15242acfac42d3522372328b9f64ad693",
-"at": "2026-10-16T19:19:41+00:00",
+"at": "2026-10-18T22:11:09+00:00",
 "language": "PHP",
-"size": 387618,
-"pushed_at": "2026-10-09",
+"size": 386137,
+"pushed_at": "2026-10-17",
 "created_at": "2011-03-30",
-"stars": 21938,
+"stars": 21959,
 "curated": true,
 "scanner": {
 "semgrep": "1.177.0",
@@ -45732,7 +45816,7 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"repository too large to scan (387618 KB > 60000 KB)"
+"repository too large to scan (386137 KB > 60000 KB)"
 ],
 "coverage": {
 "primary_language": "PHP",
@@ -45753,12 +45837,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T19:19:41+00:00"
+"expires": "2026-10-20T22:11:09+00:00"
 },
 "matrixorigin/matrixone": {
 "full_name": "matrixorigin/matrixone",
-"sha": "6519d920837fcb76b3ad329c28df7e967ffa0fb1",
-"at": "2026-10-18T16:32:19+00:00",
+"sha": "7b911aea687455af8788af07eb65952f1eda5796",
+"at": "2026-10-18T22:11:13+00:00",
 "language": "Go",
 "size": 273186,
 "pushed_at": "2026-10-18",
@@ -45793,7 +45877,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:32:19+00:00"
+"expires": "2026-10-20T22:11:13+00:00"
 },
 "mattermost-community/focalboard": {
 "full_name": "mattermost-community/focalboard",
@@ -45883,8 +45967,8 @@
 },
 "mattermost/mattermost": {
 "full_name": "mattermost/mattermost",
-"sha": "f5227e664f4b37437c8b110912dbf1c71e07c812",
-"at": "2026-10-18T05:09:24+00:00",
+"sha": "f38678d08d67a4d21ea3821f78b530ea7f8f8ec2",
+"at": "2026-10-18T22:11:18+00:00",
 "language": "TypeScript",
 "size": 1367349,
 "pushed_at": "2026-10-17",
@@ -45919,12 +46003,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T05:09:24+00:00"
+"expires": "2026-10-20T22:11:18+00:00"
 },
 "matthewdonsemail-lab/log": {
 "full_name": "matthewdonsemail-lab/log",
-"sha": "d0ec177f3c22314458bd05151ef14f27e344a018",
-"at": "2026-10-17T16:28:44+00:00",
+"sha": "433bf6148bcece070dcc7d007d8efa4d34c41fb5",
+"at": "2026-10-18T22:11:22+00:00",
 "language": "HTML",
 "size": 220264,
 "pushed_at": "2026-09-25",
@@ -45964,7 +46048,7 @@
 ],
 "vet_soft": []
 },
-"expires": "2026-10-19T16:28:44+00:00"
+"expires": "2026-10-20T22:11:22+00:00"
 },
 "mautic/mautic": {
 "full_name": "mautic/mautic",
@@ -46156,8 +46240,8 @@
 },
 "mealie-recipes/mealie": {
 "full_name": "mealie-recipes/mealie",
-"sha": "3f9f280eed316b9eebd5b06cae39b2eb49462df1",
-"at": "2026-10-18T12:06:35+00:00",
+"sha": "f4b4f87ec44a9a3dbeec9365b2b035223cb87e72",
+"at": "2026-10-18T22:11:27+00:00",
 "language": "Python",
 "size": 453622,
 "pushed_at": "2026-10-18",
@@ -46194,7 +46278,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T12:06:35+00:00"
+"expires": "2026-10-20T22:11:27+00:00"
 },
 "megareborndev/Twitch-AIO": {
 "full_name": "megareborndev/Twitch-AIO",
@@ -46286,8 +46370,8 @@
 },
 "mehmetbulutaktas458-dev/Aozora-Forge": {
 "full_name": "mehmetbulutaktas458-dev/Aozora-Forge",
-"sha": "cdcc2f6c9e2b753200cd78a0eac2b4c911bd63e5",
-"at": "2026-10-18T16:32:23+00:00",
+"sha": "4121bb3551930263cf85db1a68fda05a53203047",
+"at": "2026-10-18T22:11:31+00:00",
 "language": "HTML",
 "size": 252,
 "pushed_at": "2026-10-05",
@@ -46301,14 +46385,14 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"57 stars on a 26-day-old repo (bought stars)",
+"57 stars on a 27-day-old repo (bought stars)",
 "yara: TLDP_Obfuscated_Payload"
 ],
 "coverage": {
 "primary_language": "HTML",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 196846,
+"bytes": 196975,
 "files": 6,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -46357,11 +46441,11 @@
 "error": null
 },
 "vet_hard": [
-"57 stars on a 26-day-old repo (bought stars)"
+"57 stars on a 27-day-old repo (bought stars)"
 ],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:32:23+00:00"
+"expires": "2026-10-20T22:11:31+00:00"
 },
 "meroxis/nuvabill": {
 "full_name": "meroxis/nuvabill",
@@ -46489,7 +46573,7 @@
 "metacoglabs/hypergraph": {
 "full_name": "metacoglabs/hypergraph",
 "sha": "f1a819cc2b9a282423c19fd3c7c5cba72afc82bf",
-"at": "2026-10-17T21:46:01+00:00",
+"at": "2026-10-18T22:11:54+00:00",
 "language": "Java",
 "size": 2587,
 "pushed_at": "2026-10-15",
@@ -46559,17 +46643,17 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:46:01+00:00"
+"expires": "2026-10-19T22:11:54+00:00"
 },
 "metasfresh/metasfresh": {
 "full_name": "metasfresh/metasfresh",
 "sha": "501b48f7c603debff62324122916e85b6e19c4aa",
-"at": "2026-10-16T19:20:55+00:00",
+"at": "2026-10-18T22:12:19+00:00",
 "language": "Java",
-"size": 382273,
-"pushed_at": "2026-10-16",
+"size": 381794,
+"pushed_at": "2026-10-17",
 "created_at": "2015-10-06",
-"stars": 2449,
+"stars": 2451,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -46578,7 +46662,7 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"repository too large to scan (382273 KB > 60000 KB)"
+"repository too large to scan (381794 KB > 60000 KB)"
 ],
 "coverage": {
 "primary_language": "Java",
@@ -46599,12 +46683,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T19:20:55+00:00"
+"expires": "2026-10-20T22:12:19+00:00"
 },
 "microsoft/AzureTRE": {
 "full_name": "microsoft/AzureTRE",
 "sha": "0c5027e990d6832e21bafc1dc004594e9e945d1d",
-"at": "2026-10-16T19:20:59+00:00",
+"at": "2026-10-18T22:12:23+00:00",
 "language": "Python",
 "size": 66741,
 "pushed_at": "2026-10-05",
@@ -46639,7 +46723,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T19:20:59+00:00"
+"expires": "2026-10-20T22:12:23+00:00"
 },
 "microsoft/Data-Science-For-Beginners": {
 "full_name": "microsoft/Data-Science-For-Beginners",
@@ -46809,8 +46893,8 @@
 },
 "microsoft/PowerToys": {
 "full_name": "microsoft/PowerToys",
-"sha": "bd916bd7738e0d0170649998450f923bfd7a1648",
-"at": "2026-10-17T05:16:16+00:00",
+"sha": "88a197d891e4225e017fc47c04742a0fb65aa45e",
+"at": "2026-10-18T22:12:28+00:00",
 "language": "C",
 "size": 526725,
 "pushed_at": "2026-10-05",
@@ -46845,12 +46929,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-19T05:16:16+00:00"
+"expires": "2026-10-20T22:12:28+00:00"
 },
 "microsoft/PyRIT": {
 "full_name": "microsoft/PyRIT",
-"sha": "e6329b56fc135d2c20d51cdd818a31856fdb0d2d",
-"at": "2026-10-18T12:07:04+00:00",
+"sha": "991d0583e606cf45868dca63151b246ff4bbca17",
+"at": "2026-10-18T22:12:32+00:00",
 "language": "Python",
 "size": 482475,
 "pushed_at": "2026-10-18",
@@ -46887,7 +46971,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T12:07:04+00:00"
+"expires": "2026-10-20T22:12:32+00:00"
 },
 "microsoft/Security-101": {
 "full_name": "microsoft/Security-101",
@@ -47258,8 +47342,8 @@
 },
 "microsoft/vscode": {
 "full_name": "microsoft/vscode",
-"sha": "d3f2d15a9321b7a3b4f16824926d6b1fc9c42206",
-"at": "2026-10-18T16:32:49+00:00",
+"sha": "1694e2264f0a4406d813d50aa23f176e5484b344",
+"at": "2026-10-18T22:12:40+00:00",
 "language": "TypeScript",
 "size": 1543799,
 "pushed_at": "2026-10-12",
@@ -47294,7 +47378,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:32:49+00:00"
+"expires": "2026-10-20T22:12:40+00:00"
 },
 "mikehasa/golive-skill": {
 "full_name": "mikehasa/golive-skill",
@@ -48663,7 +48747,7 @@
 "mozilla/uniffi-rs": {
 "full_name": "mozilla/uniffi-rs",
 "sha": "c31f4bc025c7a31eae56b49107f50e6d38e76bc7",
-"at": "2026-10-16T19:24:41+00:00",
+"at": "2026-10-18T22:12:50+00:00",
 "language": "Rust",
 "size": 70088,
 "pushed_at": "2026-10-02",
@@ -48698,12 +48782,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T19:24:41+00:00"
+"expires": "2026-10-20T22:12:50+00:00"
 },
 "mozilla/wpt-sync": {
 "full_name": "mozilla/wpt-sync",
 "sha": "5e54133995956bf416f595fcee301ec518b946ee",
-"at": "2026-10-17T21:46:43+00:00",
+"at": "2026-10-18T22:12:54+00:00",
 "language": "Python",
 "size": 6819,
 "pushed_at": "2026-09-18",
@@ -48772,7 +48856,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:46:43+00:00"
+"expires": "2026-10-19T22:12:54+00:00"
 },
 "mptwaktusolat/app_waktu_solat_malaysia": {
 "full_name": "mptwaktusolat/app_waktu_solat_malaysia",
@@ -48994,8 +49078,8 @@
 },
 "msoedov/agentic_security": {
 "full_name": "msoedov/agentic_security",
-"sha": "fbfce94012c8033587d30b77c01050d3a2dc68bb",
-"at": "2026-10-18T16:35:34+00:00",
+"sha": "b6a5669060fb0119109f08f65b6b1d91ab97febe",
+"at": "2026-10-18T22:13:17+00:00",
 "language": "Python",
 "size": 22247,
 "pushed_at": "2026-10-18",
@@ -49013,7 +49097,7 @@
 "primary_language": "Python",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 12580931,
+"bytes": 12580938,
 "files": 230,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -49062,12 +49146,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-01T16:35:34+00:00"
+"expires": "2026-11-01T22:13:17+00:00"
 },
 "munich-quantum-toolkit/bench": {
 "full_name": "munich-quantum-toolkit/bench",
-"sha": "4b8d85091fec30b01200262a6c86721cf98c0802",
-"at": "2026-10-18T12:09:26+00:00",
+"sha": "f24063a8822b063534b25322b1b1eaa40a7b3eda",
+"at": "2026-10-18T22:13:40+00:00",
 "language": "Python",
 "size": 15463,
 "pushed_at": "2026-10-17",
@@ -49139,7 +49223,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T12:09:26+00:00"
+"expires": "2026-10-20T22:13:40+00:00"
 },
 "murongg/SubLane": {
 "full_name": "murongg/SubLane",
@@ -49501,7 +49585,7 @@
 "nasa/HK": {
 "full_name": "nasa/HK",
 "sha": "760a13f0ddcfa45142cdd265fd1d4473124c0cbe",
-"at": "2026-10-17T21:51:23+00:00",
+"at": "2026-10-18T22:13:58+00:00",
 "language": "C",
 "size": 10471,
 "pushed_at": "2026-10-08",
@@ -49571,7 +49655,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:51:23+00:00"
+"expires": "2026-10-19T22:13:58+00:00"
 },
 "nasa/PSP": {
 "full_name": "nasa/PSP",
@@ -49651,7 +49735,7 @@
 "nasa/SC": {
 "full_name": "nasa/SC",
 "sha": "87c0d4d7dee5f4057dd5b8f883dee091336e5841",
-"at": "2026-10-17T21:51:39+00:00",
+"at": "2026-10-18T22:14:12+00:00",
 "language": "C",
 "size": 10136,
 "pushed_at": "2026-10-08",
@@ -49721,12 +49805,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:51:39+00:00"
+"expires": "2026-10-19T22:14:12+00:00"
 },
 "nasa/TrickHLA": {
 "full_name": "nasa/TrickHLA",
 "sha": "c7bce7d63857642d964dd464471f6c120d003853",
-"at": "2026-10-17T21:52:01+00:00",
+"at": "2026-10-18T22:14:31+00:00",
 "language": "C++",
 "size": 33016,
 "pushed_at": "2026-10-12",
@@ -49796,12 +49880,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:52:01+00:00"
+"expires": "2026-10-19T22:14:31+00:00"
 },
 "nasa/api-docs": {
 "full_name": "nasa/api-docs",
 "sha": "e05c7649a26976da6c0d0248afc92932751c7982",
-"at": "2026-10-17T21:53:08+00:00",
+"at": "2026-10-18T22:15:26+00:00",
 "language": "SCSS",
 "size": 17841,
 "pushed_at": "2026-09-21",
@@ -49870,12 +49954,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:53:08+00:00"
+"expires": "2026-10-19T22:15:26+00:00"
 },
 "nasa/cFE": {
 "full_name": "nasa/cFE",
 "sha": "09d7fa5bd2a6505ff60578c3aa47b957316b01ef",
-"at": "2026-10-17T21:53:38+00:00",
+"at": "2026-10-18T22:15:52+00:00",
 "language": "C",
 "size": 51011,
 "pushed_at": "2026-10-09",
@@ -49945,12 +50029,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:53:38+00:00"
+"expires": "2026-10-19T22:15:52+00:00"
 },
 "nasa/cFS": {
 "full_name": "nasa/cFS",
 "sha": "3ce9b2734f3979935b7ab93acee1758fc96cbb93",
-"at": "2026-10-17T21:54:07+00:00",
+"at": "2026-10-18T22:16:18+00:00",
 "language": "C",
 "size": 6487,
 "pushed_at": "2026-10-12",
@@ -50020,7 +50104,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:54:07+00:00"
+"expires": "2026-10-19T22:16:18+00:00"
 },
 "nasa/cFS-GroundSystem": {
 "full_name": "nasa/cFS-GroundSystem",
@@ -50096,7 +50180,7 @@
 "nasa/elf2cfetbl": {
 "full_name": "nasa/elf2cfetbl",
 "sha": "2ad012beb9a09d7eaad2e18383c522ad0238cf7e",
-"at": "2026-10-17T21:54:25+00:00",
+"at": "2026-10-18T22:16:34+00:00",
 "language": "C",
 "size": 261,
 "pushed_at": "2026-10-08",
@@ -50166,12 +50250,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:54:25+00:00"
+"expires": "2026-10-19T22:16:34+00:00"
 },
 "nasa/osal": {
 "full_name": "nasa/osal",
 "sha": "422c6b8fd1e993423107388060e693df320dba6c",
-"at": "2026-10-17T21:54:39+00:00",
+"at": "2026-10-18T22:16:47+00:00",
 "language": "C",
 "size": 13495,
 "pushed_at": "2026-10-08",
@@ -50241,12 +50325,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:54:39+00:00"
+"expires": "2026-10-19T22:16:47+00:00"
 },
 "nasa/progpy": {
 "full_name": "nasa/progpy",
 "sha": "7c2688a44603ccb0c0994e51d611e931d3695ac0",
-"at": "2026-10-17T21:55:05+00:00",
+"at": "2026-10-18T22:17:11+00:00",
 "language": "Python",
 "size": 40474,
 "pushed_at": "2026-09-29",
@@ -50316,12 +50400,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:55:05+00:00"
+"expires": "2026-10-19T22:17:11+00:00"
 },
 "nasa/sample_app": {
 "full_name": "nasa/sample_app",
 "sha": "d7302f8167d832ed116bd3a4994cd8a17d434682",
-"at": "2026-10-17T21:55:52+00:00",
+"at": "2026-10-18T22:17:52+00:00",
 "language": "C",
 "size": 363,
 "pushed_at": "2026-10-08",
@@ -50390,7 +50474,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:55:52+00:00"
+"expires": "2026-10-19T22:17:52+00:00"
 },
 "nasa/spacewasm": {
 "full_name": "nasa/spacewasm",
@@ -50537,8 +50621,8 @@
 },
 "nateships/rolle": {
 "full_name": "nateships/rolle",
-"sha": "8e625bb7ae5fe9ff995eb4a7e76248f51c27df6b",
-"at": "2026-10-18T16:37:59+00:00",
+"sha": "851da9a7084e47f7076293e676a239607d932fd1",
+"at": "2026-10-18T22:18:07+00:00",
 "language": "Go",
 "size": 35694,
 "pushed_at": "2026-09-17",
@@ -50611,7 +50695,7 @@
 "Scorecard: unmaintained"
 ]
 },
-"expires": "2026-10-20T16:37:59+00:00"
+"expires": "2026-10-20T22:18:07+00:00"
 },
 "naype888-cloud/nava-robertson-schrodinger": {
 "full_name": "naype888-cloud/nava-robertson-schrodinger",
@@ -50734,7 +50818,7 @@
 "neerazz/hermes-antigravity-oauth": {
 "full_name": "neerazz/hermes-antigravity-oauth",
 "sha": "3dbb079f710a8ff53af7a4e01495dab0a31e5b75",
-"at": "2026-10-17T21:56:08+00:00",
+"at": "2026-10-18T22:18:51+00:00",
 "language": "Python",
 "size": 123,
 "pushed_at": "2026-09-28",
@@ -50802,10 +50886,10 @@
 },
 "vet_hard": [],
 "vet_soft": [
-"71 stars on a 19-day-old repo (bought stars)"
+"71 stars on a 20-day-old repo (bought stars)"
 ]
 },
-"expires": "2026-10-18T21:56:08+00:00"
+"expires": "2026-10-19T22:18:51+00:00"
 },
 "neomjs/neo": {
 "full_name": "neomjs/neo",
@@ -50963,8 +51047,8 @@
 },
 "ng-native/ng-native": {
 "full_name": "ng-native/ng-native",
-"sha": "45f8409b42871e7c460afa78263e7ee1d3866b8c",
-"at": "2026-10-18T16:38:56+00:00",
+"sha": "794632d76f5b060f966e36bf5b6d83ae6a7da210",
+"at": "2026-10-18T22:19:07+00:00",
 "language": "TypeScript",
 "size": 14371,
 "pushed_at": "2026-10-11",
@@ -50978,15 +51062,15 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"559 stars on a 20-day-old repo (bought stars)",
+"559 stars on a 21-day-old repo (bought stars)",
 "code scan: tldp.shell-download-pipe"
 ],
 "coverage": {
 "primary_language": "TypeScript",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 25857132,
-"files": 3133,
+"bytes": 26127086,
+"files": 3154,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -51032,11 +51116,11 @@
 "error": null
 },
 "vet_hard": [
-"559 stars on a 20-day-old repo (bought stars)"
+"559 stars on a 21-day-old repo (bought stars)"
 ],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:38:56+00:00"
+"expires": "2026-10-20T22:19:07+00:00"
 },
 "nickelsec/bough": {
 "full_name": "nickelsec/bough",
@@ -51124,12 +51208,12 @@
 "nilbuild/developer-roadmap": {
 "full_name": "nilbuild/developer-roadmap",
 "sha": "2584fbd03baaa934d7388086bf0ca90f52462277",
-"at": "2026-10-16T19:34:47+00:00",
+"at": "2026-10-18T22:20:15+00:00",
 "language": "TypeScript",
-"size": 364459,
-"pushed_at": "2026-10-09",
+"size": 364607,
+"pushed_at": "2026-10-16",
 "created_at": "2017-03-15",
-"stars": 369047,
+"stars": 369709,
 "curated": true,
 "scanner": {
 "semgrep": "1.177.0",
@@ -51138,7 +51222,7 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"repository too large to scan (364459 KB > 60000 KB)"
+"repository too large to scan (364607 KB > 60000 KB)"
 ],
 "coverage": {
 "primary_language": "TypeScript",
@@ -51159,7 +51243,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T19:34:47+00:00"
+"expires": "2026-10-20T22:20:15+00:00"
 },
 "nmamzada/quantis": {
 "full_name": "nmamzada/quantis",
@@ -51284,7 +51368,7 @@
 "nmatt0/mithril": {
 "full_name": "nmatt0/mithril",
 "sha": "470e4e776ec2525885b056675dcc831f5685699d",
-"at": "2026-10-17T21:58:07+00:00",
+"at": "2026-10-18T22:20:19+00:00",
 "language": "C++",
 "size": 442,
 "pushed_at": "2026-09-18",
@@ -51353,14 +51437,14 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:58:07+00:00"
+"expires": "2026-10-19T22:20:19+00:00"
 },
 "nota-daw/nota": {
 "full_name": "nota-daw/nota",
-"sha": "129312256539505f8329e9a0198258e87d9e277e",
-"at": "2026-10-18T05:12:46+00:00",
+"sha": "07333512e3d1e1c394d10c04ec5b03f0c4e6a879",
+"at": "2026-10-18T22:20:35+00:00",
 "language": "C#",
-"size": 41858,
+"size": 41856,
 "pushed_at": "2026-10-18",
 "created_at": "2026-08-25",
 "stars": 91,
@@ -51374,14 +51458,14 @@
 "reasons": [
 "code scan: tldp.shell-download-pipe",
 "soft: README link: chat invite link discord.gg",
-"soft: owner account is 53 days old"
+"soft: owner account is 54 days old"
 ],
 "coverage": {
 "primary_language": "C#",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 26039725,
-"files": 1339,
+"bytes": 26059832,
+"files": 1342,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -51432,10 +51516,10 @@
 "vet_hard": [],
 "vet_soft": [
 "README link: chat invite link discord.gg",
-"owner account is 53 days old"
+"owner account is 54 days old"
 ]
 },
-"expires": "2026-10-20T05:12:46+00:00"
+"expires": "2026-10-20T22:20:35+00:00"
 },
 "nuxyel/bend-ml": {
 "full_name": "nuxyel/bend-ml",
@@ -51519,7 +51603,7 @@
 "nwk0112-collab/Open-ChatBI": {
 "full_name": "nwk0112-collab/Open-ChatBI",
 "sha": "7a254fd71472e472764d94cfa7bc4f7a29cad05a",
-"at": "2026-10-17T21:59:30+00:00",
+"at": "2026-10-18T22:21:14+00:00",
 "language": "Python",
 "size": 9512,
 "pushed_at": "2026-09-19",
@@ -51589,7 +51673,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:59:30+00:00"
+"expires": "2026-10-19T22:21:14+00:00"
 },
 "oauth2-proxy/oauth2-proxy": {
 "full_name": "oauth2-proxy/oauth2-proxy",
@@ -51669,7 +51753,7 @@
 "oguzhankayan/etsy-engine": {
 "full_name": "oguzhankayan/etsy-engine",
 "sha": "9bf86d3711dd510d38e6d36010584e8c0730abee",
-"at": "2026-10-17T21:59:51+00:00",
+"at": "2026-10-18T22:21:34+00:00",
 "language": "Python",
 "size": 408,
 "pushed_at": "2026-10-02",
@@ -51739,7 +51823,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T21:59:51+00:00"
+"expires": "2026-10-19T22:21:34+00:00"
 },
 "onehumanbeing/esp32-iphone-agent": {
 "full_name": "onehumanbeing/esp32-iphone-agent",
@@ -51906,12 +51990,12 @@
 "openbao/openbao": {
 "full_name": "openbao/openbao",
 "sha": "bf725ab89f288525375561ef5cec585fa406be8d",
-"at": "2026-10-16T19:40:49+00:00",
+"at": "2026-10-18T22:21:51+00:00",
 "language": "Go",
-"size": 321066,
-"pushed_at": "2026-10-08",
+"size": 320532,
+"pushed_at": "2026-10-16",
 "created_at": "2023-11-09",
-"stars": 8364,
+"stars": 8503,
 "curated": true,
 "scanner": {
 "semgrep": "1.177.0",
@@ -51920,7 +52004,7 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"repository too large to scan (321066 KB > 60000 KB)"
+"repository too large to scan (320532 KB > 60000 KB)"
 ],
 "coverage": {
 "primary_language": "Go",
@@ -51941,12 +52025,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T19:40:49+00:00"
+"expires": "2026-10-20T22:21:51+00:00"
 },
 "openbq-org/OpenBB": {
 "full_name": "openbq-org/OpenBB",
-"sha": "cbf37e1f98a61d4e17ff1df43441fd4004774cac",
-"at": "2026-10-18T05:13:55+00:00",
+"sha": "78020ee4b864ab50b8c1f56373877c2b4e7fb623",
+"at": "2026-10-18T22:21:55+00:00",
 "language": "Python",
 "size": 2438530,
 "pushed_at": "2026-10-17",
@@ -51985,7 +52069,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T05:13:55+00:00"
+"expires": "2026-10-20T22:21:55+00:00"
 },
 "openfoodfoundation/openfoodnetwork": {
 "full_name": "openfoodfoundation/openfoodnetwork",
@@ -52153,8 +52237,8 @@
 },
 "organicmaps/organicmaps": {
 "full_name": "organicmaps/organicmaps",
-"sha": "6d7c1b39d4e64403865051f31afb61b9e6e1e03d",
-"at": "2026-10-17T16:41:45+00:00",
+"sha": "e78a075b7ae77bb31510918a26545d77ea4ae690",
+"at": "2026-10-18T22:22:01+00:00",
 "language": "C++",
 "size": 9992306,
 "pushed_at": "2026-10-17",
@@ -52191,7 +52275,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-19T16:41:45+00:00"
+"expires": "2026-10-20T22:22:01+00:00"
 },
 "orlp/polyxor": {
 "full_name": "orlp/polyxor",
@@ -52353,12 +52437,12 @@
 "ossu/computer-science": {
 "full_name": "ossu/computer-science",
 "sha": "33d44a44e3526ede8e862bf1ad50ae5ae7a2f112",
-"at": "2026-10-17T22:02:18+00:00",
+"at": "2026-10-18T22:22:06+00:00",
 "language": "HTML",
 "size": 1783,
 "pushed_at": "2026-07-14",
 "created_at": "2014-05-04",
-"stars": 209828,
+"stars": 210091,
 "curated": true,
 "scanner": {
 "semgrep": "1.177.0",
@@ -52426,7 +52510,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T22:02:18+00:00"
+"expires": "2026-10-19T22:22:06+00:00"
 },
 "owasp-noir/noir": {
 "full_name": "owasp-noir/noir",
@@ -52471,7 +52555,7 @@
 "palavogikos-collab/myDATA": {
 "full_name": "palavogikos-collab/myDATA",
 "sha": "86fecf20e4ddfe9c646c964208a62c124cf29dd0",
-"at": "2026-10-17T22:02:45+00:00",
+"at": "2026-10-18T22:22:28+00:00",
 "language": "Python",
 "size": 85,
 "pushed_at": "2026-09-24",
@@ -52540,15 +52624,15 @@
 },
 "vet_hard": [],
 "vet_soft": [
-"owner account is 24 days old"
+"owner account is 25 days old"
 ]
 },
-"expires": "2026-10-18T22:02:45+00:00"
+"expires": "2026-10-19T22:22:28+00:00"
 },
 "pandas-dev/pandas": {
 "full_name": "pandas-dev/pandas",
-"sha": "910ef5492e6be9052ff6dfbcc15cd1f2c80caeb3",
-"at": "2026-10-18T05:14:06+00:00",
+"sha": "4a7d5bf9fda9ba4707217c796bbc75866b532111",
+"at": "2026-10-18T22:22:42+00:00",
 "language": "Python",
 "size": 419614,
 "pushed_at": "2026-10-18",
@@ -52583,7 +52667,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T05:14:06+00:00"
+"expires": "2026-10-20T22:22:42+00:00"
 },
 "paradedb/paradedb": {
 "full_name": "paradedb/paradedb",
@@ -52780,7 +52864,7 @@
 "pennersr/django-allauth": {
 "full_name": "pennersr/django-allauth",
 "sha": "5ea117e72397adbd8ca6bc61c692d64ecca4d31b",
-"at": "2026-10-16T19:42:01+00:00",
+"at": "2026-10-18T22:22:47+00:00",
 "language": "Python",
 "size": 22257,
 "pushed_at": "2026-10-16",
@@ -52857,7 +52941,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T19:42:01+00:00"
+"expires": "2026-10-20T22:22:47+00:00"
 },
 "pentest-tv/knossos": {
 "full_name": "pentest-tv/knossos",
@@ -53434,12 +53518,12 @@
 "practical-tutorials/project-based-learning": {
 "full_name": "practical-tutorials/project-based-learning",
 "sha": "4a680a837c99a3b2037f55f455bf9626fd134655",
-"at": "2026-10-17T22:03:09+00:00",
+"at": "2026-10-18T22:23:27+00:00",
 "language": "Python",
 "size": 470,
-"pushed_at": "2026-10-05",
+"pushed_at": "2026-10-12",
 "created_at": "2017-04-12",
-"stars": 286221,
+"stars": 287083,
 "curated": true,
 "scanner": {
 "semgrep": "1.177.0",
@@ -53504,14 +53588,14 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T22:03:09+00:00"
+"expires": "2026-10-19T22:23:27+00:00"
 },
 "primer/brand": {
 "full_name": "primer/brand",
 "sha": "7ea777930c4311c024bea467dc98a17cec07db6d",
-"at": "2026-10-16T19:43:05+00:00",
+"at": "2026-10-18T22:23:41+00:00",
 "language": "TypeScript",
-"size": 1788754,
+"size": 1788106,
 "pushed_at": "2026-10-16",
 "created_at": "2022-02-04",
 "stars": 144,
@@ -53523,7 +53607,7 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"repository too large to scan (1788754 KB > 60000 KB)"
+"repository too large to scan (1788106 KB > 60000 KB)"
 ],
 "coverage": {
 "primary_language": "TypeScript",
@@ -53544,12 +53628,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T19:43:05+00:00"
+"expires": "2026-10-20T22:23:41+00:00"
 },
 "probberechts/soccerdata": {
 "full_name": "probberechts/soccerdata",
-"sha": "9f88462696ee7bd74c9847e9c0bc709cec30a70a",
-"at": "2026-10-18T12:11:39+00:00",
+"sha": "b507432742119ba3897533895c92ac3a4f2b9259",
+"at": "2026-10-18T22:23:45+00:00",
 "language": "Python",
 "size": 22793,
 "pushed_at": "2026-10-17",
@@ -53569,8 +53653,8 @@
 "primary_language": "Python",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 3999460,
-"files": 89,
+"bytes": 4003448,
+"files": 92,
 "notebooks_extracted": 10,
 "semgrepignore_removed": 0,
 "signals": {
@@ -53579,7 +53663,7 @@
 "compose_services": 0,
 "has_k8s": false,
 "has_terraform": false,
-"dep_count": 284,
+"dep_count": 277,
 "readme_bytes": 4020,
 "top_level_entries": 15
 },
@@ -53618,7 +53702,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T12:11:39+00:00"
+"expires": "2026-10-20T22:23:45+00:00"
 },
 "projectdiscovery/nuclei": {
 "full_name": "projectdiscovery/nuclei",
@@ -53845,13 +53929,13 @@
 },
 "pyca/cryptography": {
 "full_name": "pyca/cryptography",
-"sha": "6179e1c39ed0019cf27168420eff6b3ab1840ef9",
-"at": "2026-10-17T16:43:59+00:00",
+"sha": "784596f85e0e389b0a6ba84996f10036c2431e95",
+"at": "2026-10-18T22:25:07+00:00",
 "language": "Python",
-"size": 89961,
-"pushed_at": "2026-10-09",
+"size": 89890,
+"pushed_at": "2026-10-17",
 "created_at": "2013-08-07",
-"stars": 7800,
+"stars": 7809,
 "curated": true,
 "scanner": {
 "semgrep": "1.177.0",
@@ -53860,7 +53944,7 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"repository too large to scan (89961 KB > 60000 KB)"
+"repository too large to scan (89890 KB > 60000 KB)"
 ],
 "coverage": {
 "primary_language": "Python",
@@ -53881,7 +53965,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-19T16:43:59+00:00"
+"expires": "2026-10-20T22:25:07+00:00"
 },
 "pypa/hatch": {
 "full_name": "pypa/hatch",
@@ -54184,8 +54268,8 @@
 },
 "radareorg/radare2": {
 "full_name": "radareorg/radare2",
-"sha": "f8131ed32f74162e204d7d4184b5fe4b7f2eaa07",
-"at": "2026-10-18T16:41:47+00:00",
+"sha": "ddb6e722e70bf3960449ad09ee1571f4917b0da0",
+"at": "2026-10-18T22:25:13+00:00",
 "language": "C",
 "size": 213112,
 "pushed_at": "2026-10-18",
@@ -54225,12 +54309,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:41:47+00:00"
+"expires": "2026-10-20T22:25:13+00:00"
 },
 "radionordestinter/multilingual-review-sentiment-lab": {
 "full_name": "radionordestinter/multilingual-review-sentiment-lab",
-"sha": "9112a0329bbd80d1a3111a6b0a0293db58e3cc7c",
-"at": "2026-10-18T16:41:50+00:00",
+"sha": "fb106fac5bcf5b740b48b526103a49f37421ecd8",
+"at": "2026-10-18T22:25:16+00:00",
 "language": "HTML",
 "size": 281,
 "pushed_at": "2026-10-05",
@@ -54244,14 +54328,14 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"53 stars on a 26-day-old repo (bought stars)",
+"53 stars on a 27-day-old repo (bought stars)",
 "required scanner not run: osv=error"
 ],
 "coverage": {
 "primary_language": "HTML",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 197069,
+"bytes": 197163,
 "files": 6,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -54298,16 +54382,16 @@
 "error": null
 },
 "vet_hard": [
-"53 stars on a 26-day-old repo (bought stars)"
+"53 stars on a 27-day-old repo (bought stars)"
 ],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:41:50+00:00"
+"expires": "2026-10-20T22:25:16+00:00"
 },
 "ram0verflow/ram0verflow": {
 "full_name": "ram0verflow/ram0verflow",
-"sha": "0392a5370bf5cfc813d0c718fdddac890ef7f279",
-"at": "2026-10-18T16:42:14+00:00",
+"sha": "b10ac00431b6878bc48222604f4d31bba3b4a6b4",
+"at": "2026-10-18T22:25:39+00:00",
 "language": "Python",
 "size": 1130217,
 "pushed_at": "2026-09-19",
@@ -54342,7 +54426,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:42:14+00:00"
+"expires": "2026-10-20T22:25:39+00:00"
 },
 "ranaroussi/yfinance": {
 "full_name": "ranaroussi/yfinance",
@@ -54421,8 +54505,8 @@
 },
 "razzaqehtisham13-wq/Ronin-Terminal": {
 "full_name": "razzaqehtisham13-wq/Ronin-Terminal",
-"sha": "524d783cfeb0a7110317b64bbdb838c45c88070d",
-"at": "2026-10-18T16:42:36+00:00",
+"sha": "dba67c1e62c265ebcd9b8e52c2905444da4dbd3f",
+"at": "2026-10-18T22:25:42+00:00",
 "language": "HTML",
 "size": 220,
 "pushed_at": "2026-10-05",
@@ -54436,14 +54520,14 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"53 stars on a 26-day-old repo (bought stars)",
+"53 stars on a 27-day-old repo (bought stars)",
 "required scanner not run: osv=error"
 ],
 "coverage": {
 "primary_language": "HTML",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 192571,
+"bytes": 192665,
 "files": 6,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -54490,11 +54574,11 @@
 "error": null
 },
 "vet_hard": [
-"53 stars on a 26-day-old repo (bought stars)"
+"53 stars on a 27-day-old repo (bought stars)"
 ],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:42:36+00:00"
+"expires": "2026-10-20T22:25:42+00:00"
 },
 "rbartoli/obsidian-tela-theme": {
 "full_name": "rbartoli/obsidian-tela-theme",
@@ -54568,13 +54652,13 @@
 },
 "reacher-z/Awesome-REA": {
 "full_name": "reacher-z/Awesome-REA",
-"sha": "4fa712728e1b28fc72619c517d5966890447cfa8",
-"at": "2026-10-18T16:43:00+00:00",
+"sha": "a81e07b30acedf5c79e23ac3cf409733b5b3a843",
+"at": "2026-10-18T22:26:05+00:00",
 "language": "Python",
-"size": 5581,
+"size": 11861,
 "pushed_at": "2026-10-18",
 "created_at": "2026-10-16",
-"stars": 30,
+"stars": 41,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -54587,7 +54671,7 @@
 "primary_language": "Python",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 13522395,
+"bytes": 13974373,
 "files": 184,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -54598,7 +54682,7 @@
 "has_k8s": false,
 "has_terraform": false,
 "dep_count": 0,
-"readme_bytes": 187916,
+"readme_bytes": 222300,
 "top_level_entries": 15
 },
 "engines_not_ran": [],
@@ -54636,7 +54720,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-01T16:43:00+00:00"
+"expires": "2026-11-01T22:26:05+00:00"
 },
 "reake/tanstack-start-i18n-template": {
 "full_name": "reake/tanstack-start-i18n-template",
@@ -54799,12 +54883,12 @@
 "realworld-apps/realworld": {
 "full_name": "realworld-apps/realworld",
 "sha": "ebbcdeb8d55b42a3a613c787560498b8ef10003f",
-"at": "2026-10-17T22:05:46+00:00",
+"at": "2026-10-18T22:26:32+00:00",
 "language": "TypeScript",
 "size": 35605,
 "pushed_at": "2026-08-26",
 "created_at": "2016-02-26",
-"stars": 84266,
+"stars": 84300,
 "curated": true,
 "scanner": {
 "semgrep": "1.177.0",
@@ -54868,7 +54952,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T22:05:46+00:00"
+"expires": "2026-10-19T22:26:32+00:00"
 },
 "redcanaryco/atomic-red-team": {
 "full_name": "redcanaryco/atomic-red-team",
@@ -55450,12 +55534,12 @@
 "rfordatascience/tidytuesday": {
 "full_name": "rfordatascience/tidytuesday",
 "sha": "b2258ae949e3c64099c4e6d00ff4b68dba1d6d0e",
-"at": "2026-10-16T19:46:42+00:00",
+"at": "2026-10-18T22:26:51+00:00",
 "language": "HTML",
-"size": 2193671,
-"pushed_at": "2026-10-05",
+"size": 2198883,
+"pushed_at": "2026-10-12",
 "created_at": "2018-03-14",
-"stars": 8427,
+"stars": 8446,
 "curated": true,
 "scanner": {
 "semgrep": "1.177.0",
@@ -55464,7 +55548,7 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"repository too large to scan (2193671 KB > 60000 KB)"
+"repository too large to scan (2198883 KB > 60000 KB)"
 ],
 "coverage": {
 "primary_language": "HTML",
@@ -55487,12 +55571,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T19:46:42+00:00"
+"expires": "2026-10-20T22:26:51+00:00"
 },
 "rhiever/evident-charts": {
 "full_name": "rhiever/evident-charts",
 "sha": "d90c98d1db1bdbf93d801469004ae00dd137db97",
-"at": "2026-10-17T22:06:06+00:00",
+"at": "2026-10-18T22:26:55+00:00",
 "language": "Python",
 "size": 658,
 "pushed_at": "2026-10-06",
@@ -55560,15 +55644,15 @@
 },
 "vet_hard": [],
 "vet_soft": [
-"60 stars on a 22-day-old repo (bought stars)"
+"60 stars on a 23-day-old repo (bought stars)"
 ]
 },
-"expires": "2026-10-18T22:06:06+00:00"
+"expires": "2026-10-19T22:26:55+00:00"
 },
 "rit3zh/morphlet": {
 "full_name": "rit3zh/morphlet",
 "sha": "609b39181ce0824de472e2b107fec72350c6c508",
-"at": "2026-10-17T22:06:23+00:00",
+"at": "2026-10-18T22:27:12+00:00",
 "language": "TypeScript",
 "size": 6959,
 "pushed_at": "2026-10-06",
@@ -55636,15 +55720,15 @@
 },
 "vet_hard": [],
 "vet_soft": [
-"244 stars on a 12-day-old repo (bought stars)"
+"245 stars on a 13-day-old repo (bought stars)"
 ]
 },
-"expires": "2026-10-18T22:06:23+00:00"
+"expires": "2026-10-19T22:27:12+00:00"
 },
 "rizinorg/rizin": {
 "full_name": "rizinorg/rizin",
-"sha": "b242fe58693d037a868b53b5e4575d2170d21493",
-"at": "2026-10-18T16:43:45+00:00",
+"sha": "f380387375ce9929656c8c9cf50e0d8033757a95",
+"at": "2026-10-18T22:27:32+00:00",
 "language": "C",
 "size": 169753,
 "pushed_at": "2026-10-18",
@@ -55683,7 +55767,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:43:45+00:00"
+"expires": "2026-10-20T22:27:32+00:00"
 },
 "robertmartin8/AmericanPutConvexity": {
 "full_name": "robertmartin8/AmericanPutConvexity",
@@ -55728,12 +55812,12 @@
 "robonuggets/skill-creator-plus": {
 "full_name": "robonuggets/skill-creator-plus",
 "sha": "13446e8bb45c2d656c393ecf0948c9b2379296ad",
-"at": "2026-10-17T22:06:47+00:00",
+"at": "2026-10-18T22:27:36+00:00",
 "language": "Python",
 "size": 171,
 "pushed_at": "2026-10-05",
 "created_at": "2026-10-04",
-"stars": 60,
+"stars": 63,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -55796,10 +55880,10 @@
 },
 "vet_hard": [],
 "vet_soft": [
-"62 stars on a 12-day-old repo (bought stars)"
+"63 stars on a 13-day-old repo (bought stars)"
 ]
 },
-"expires": "2026-10-18T22:06:47+00:00"
+"expires": "2026-10-19T22:27:36+00:00"
 },
 "roboterax/video-prediction-policy-2": {
 "full_name": "roboterax/video-prediction-policy-2",
@@ -55955,12 +56039,12 @@
 "rotki/rotki": {
 "full_name": "rotki/rotki",
 "sha": "3114ecdfd58234a0e7a82d2a637fb4e10af63dac",
-"at": "2026-10-16T19:47:46+00:00",
+"at": "2026-10-18T22:27:50+00:00",
 "language": "Python",
-"size": 527715,
+"size": 527912,
 "pushed_at": "2026-10-16",
 "created_at": "2018-03-05",
-"stars": 4048,
+"stars": 4049,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -55969,7 +56053,7 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"repository too large to scan (527715 KB > 60000 KB)"
+"repository too large to scan (527912 KB > 60000 KB)"
 ],
 "coverage": {
 "primary_language": "Python",
@@ -55990,12 +56074,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T19:47:46+00:00"
+"expires": "2026-10-20T22:27:50+00:00"
 },
 "ruc-datalab/SkillAdam": {
 "full_name": "ruc-datalab/SkillAdam",
 "sha": "b6c9640f7a9e0d5e3a500c25bc4e6369eeca78f1",
-"at": "2026-10-17T22:07:03+00:00",
+"at": "2026-10-18T22:27:54+00:00",
 "language": "Python",
 "size": 3423,
 "pushed_at": "2026-09-23",
@@ -56064,7 +56148,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T22:07:03+00:00"
+"expires": "2026-10-19T22:27:54+00:00"
 },
 "rudrakshkarpe/agentsmd-cli": {
 "full_name": "rudrakshkarpe/agentsmd-cli",
@@ -56726,7 +56810,7 @@
 "sandeepmb/agent-governor": {
 "full_name": "sandeepmb/agent-governor",
 "sha": "135f94ccdf5202b658e8e0f62f28d920d59f7307",
-"at": "2026-10-17T22:09:34+00:00",
+"at": "2026-10-18T22:28:45+00:00",
 "language": "Python",
 "size": 295,
 "pushed_at": "2026-09-13",
@@ -56795,7 +56879,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T22:09:34+00:00"
+"expires": "2026-10-19T22:28:45+00:00"
 },
 "saurabhmahawar/presto_mongodb_workshop": {
 "full_name": "saurabhmahawar/presto_mongodb_workshop",
@@ -57234,13 +57318,13 @@
 },
 "semrincaballero/Polymarket-Prediction-Bot": {
 "full_name": "semrincaballero/Polymarket-Prediction-Bot",
-"sha": "1d3202f352b7317998a12b17c006e1a05a2a5ad9",
-"at": "2026-10-18T16:43:50+00:00",
+"sha": "9de84d301aaae06724abab86bf4d731067acc3e2",
+"at": "2026-10-18T22:29:04+00:00",
 "language": "Python",
-"size": 13644,
+"size": 13646,
 "pushed_at": "2026-10-18",
 "created_at": "2026-10-12",
-"stars": 150,
+"stars": 151,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -57308,12 +57392,12 @@
 "owner account is 81 days old"
 ]
 },
-"expires": "2026-10-20T16:43:50+00:00"
+"expires": "2026-10-20T22:29:04+00:00"
 },
 "sermakarevich/harness": {
 "full_name": "sermakarevich/harness",
 "sha": "844fcfdcc18450b6c7530436ea70680c036dd568",
-"at": "2026-10-17T22:11:48+00:00",
+"at": "2026-10-18T22:29:55+00:00",
 "language": "Python",
 "size": 723,
 "pushed_at": "2026-09-29",
@@ -57383,7 +57467,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T22:11:48+00:00"
+"expires": "2026-10-19T22:29:55+00:00"
 },
 "shader-effects-inc/shaders": {
 "full_name": "shader-effects-inc/shaders",
@@ -57467,7 +57551,7 @@
 "shaheeryasirofficial/SmuggleMyPayload": {
 "full_name": "shaheeryasirofficial/SmuggleMyPayload",
 "sha": "a37236434f773d9073d07b5b9411bbee71c451f1",
-"at": "2026-10-17T22:12:04+00:00",
+"at": "2026-10-18T22:30:10+00:00",
 "language": "Python",
 "size": 4883,
 "pushed_at": "2026-09-15",
@@ -57536,7 +57620,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T22:12:04+00:00"
+"expires": "2026-10-19T22:30:10+00:00"
 },
 "shahidazam2020-oss/SmartPhotoVision-": {
 "full_name": "shahidazam2020-oss/SmartPhotoVision-",
@@ -57616,12 +57700,12 @@
 "sherlock-project/sherlock": {
 "full_name": "sherlock-project/sherlock",
 "sha": "e40a45ec2a074b90703b3b4b842c8a3adbd6ada3",
-"at": "2026-10-17T22:12:20+00:00",
+"at": "2026-10-18T22:30:26+00:00",
 "language": "Python",
 "size": 19087,
-"pushed_at": "2026-10-17",
+"pushed_at": "2026-10-18",
 "created_at": "2018-12-24",
-"stars": 94352,
+"stars": 94406,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -57687,7 +57771,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T22:12:20+00:00"
+"expires": "2026-10-19T22:30:26+00:00"
 },
 "shinthink/blitzstrike": {
 "full_name": "shinthink/blitzstrike",
@@ -58036,12 +58120,12 @@
 "sigstore/cosign": {
 "full_name": "sigstore/cosign",
 "sha": "cfeaa4a435c9d42cf724b3e1aac20c1cc09c4be7",
-"at": "2026-10-16T19:53:57+00:00",
+"at": "2026-10-18T22:30:41+00:00",
 "language": "Go",
-"size": 26985,
-"pushed_at": "2026-10-08",
+"size": 26945,
+"pushed_at": "2026-10-16",
 "created_at": "2021-02-04",
-"stars": 6355,
+"stars": 6369,
 "curated": true,
 "scanner": {
 "semgrep": "1.177.0",
@@ -58106,7 +58190,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T19:53:57+00:00"
+"expires": "2026-10-20T22:30:41+00:00"
 },
 "simonro/edge-scanner": {
 "full_name": "simonro/edge-scanner",
@@ -58261,6 +58345,80 @@
 "vet_soft": []
 },
 "expires": "2026-10-21T19:42:33+00:00"
+},
+"smashburger-dev/socratic-workshop": {
+"full_name": "smashburger-dev/socratic-workshop",
+"sha": "a3d7134c40984670ff7d17967b1c56cae288ee81",
+"at": "2026-10-18T22:31:29+00:00",
+"language": "HTML",
+"size": 1051,
+"pushed_at": "2026-10-18",
+"created_at": "2026-10-17",
+"stars": 12,
+"curated": false,
+"scanner": {
+"semgrep": "1.177.0",
+"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
+},
+"policy_version": 2,
+"result": "incomplete",
+"reasons": [
+"required scanner not run: osv=error"
+],
+"coverage": {
+"primary_language": "HTML",
+"supported": true,
+"note": "generic + language rules",
+"bytes": 833345,
+"files": 19,
+"notebooks_extracted": 0,
+"semgrepignore_removed": 0,
+"signals": {
+"has_tests": false,
+"has_dockerfile": false,
+"compose_services": 0,
+"has_k8s": false,
+"has_terraform": false,
+"dep_count": 0,
+"readme_bytes": 3964,
+"top_level_entries": 10
+},
+"engines_not_ran": [
+"osv=error"
+],
+"code_scan_result": "incomplete",
+"blocking": [],
+"advisory": {
+"osv_vulnerabilities": 0
+},
+"engines": {
+"semgrep": "ran",
+"yara": "ran",
+"clamav": "ran",
+"osv": "error"
+},
+"yara": {
+"status": "ran",
+"hits": []
+},
+"clamav": {
+"status": "ran",
+"hits": []
+},
+"osv": {
+"status": "error",
+"malicious": [],
+"vulnerable": 0
+},
+"links": {
+"block": [],
+"warn": [],
+"error": null
+},
+"vet_hard": [],
+"vet_soft": []
+},
+"expires": "2026-10-19T22:31:29+00:00"
 },
 "sno-ai/sno-station": {
 "full_name": "sno-ai/sno-station",
@@ -58427,7 +58585,7 @@
 "socai-io/jev-social": {
 "full_name": "socai-io/jev-social",
 "sha": "2f02e6f4c60943e679993634ad1017b0c97efff5",
-"at": "2026-10-16T19:55:46+00:00",
+"at": "2026-10-18T22:31:44+00:00",
 "language": "JavaScript",
 "size": 7915,
 "pushed_at": "2026-10-01",
@@ -58441,7 +58599,6 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"171 stars on a 28-day-old repo (bought stars)",
 "README link: link to a raw IP address (private)",
 "required scanner not run: osv=error",
 "soft: README link: chat invite link discord.gg"
@@ -58501,14 +58658,13 @@
 "error": null
 },
 "vet_hard": [
-"README link: link to a raw IP address (private)",
-"171 stars on a 28-day-old repo (bought stars)"
+"README link: link to a raw IP address (private)"
 ],
 "vet_soft": [
 "README link: chat invite link discord.gg"
 ]
 },
-"expires": "2026-10-18T19:55:46+00:00"
+"expires": "2026-10-20T22:31:44+00:00"
 },
 "soft-track/soft-track": {
 "full_name": "soft-track/soft-track",
@@ -58588,8 +58744,8 @@
 },
 "sonicmountain/Trade-Bot-Hyperliquid": {
 "full_name": "sonicmountain/Trade-Bot-Hyperliquid",
-"sha": "56e15c4a186ed81eee52e4c720ec1a73c24dfdd8",
-"at": "2026-10-18T16:44:43+00:00",
+"sha": "00b2b9b0c281068193709d3a0db57d53fcc40c96",
+"at": "2026-10-18T22:32:02+00:00",
 "language": "Python",
 "size": 13693,
 "pushed_at": "2026-10-17",
@@ -58666,7 +58822,7 @@
 "owner account is 85 days old"
 ]
 },
-"expires": "2026-10-20T16:44:43+00:00"
+"expires": "2026-10-20T22:32:02+00:00"
 },
 "sopersone/cabbage-trading-machine": {
 "full_name": "sopersone/cabbage-trading-machine",
@@ -58848,8 +59004,8 @@
 },
 "sqlfluff/sqlfluff": {
 "full_name": "sqlfluff/sqlfluff",
-"sha": "521d06e0c18cea8be733ed2eac4840522c3a2e62",
-"at": "2026-10-18T12:24:49+00:00",
+"sha": "0db31efe679fc1810fc8c35e4e43f5014ab3971b",
+"at": "2026-10-18T22:32:51+00:00",
 "language": "Python",
 "size": 55178,
 "pushed_at": "2026-10-16",
@@ -58870,8 +59026,8 @@
 "primary_language": "Python",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 25516042,
-"files": 6140,
+"bytes": 25750292,
+"files": 6176,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -58924,7 +59080,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T12:24:49+00:00"
+"expires": "2026-10-20T22:32:51+00:00"
 },
 "stefan-jansen/machine-learning-for-trading": {
 "full_name": "stefan-jansen/machine-learning-for-trading",
@@ -59081,8 +59237,8 @@
 },
 "storytold/gridcraft": {
 "full_name": "storytold/gridcraft",
-"sha": "c30fa3f1cf324603f3bfc0171689b1d4083b40e5",
-"at": "2026-10-18T05:20:51+00:00",
+"sha": "66ce6be4743f4227047f76f56815520f824e6d81",
+"at": "2026-10-18T22:34:11+00:00",
 "language": "Rust",
 "size": 6302,
 "pushed_at": "2026-10-16",
@@ -59097,15 +59253,15 @@
 "result": "fail",
 "reasons": [
 "README link: link to a raw IP address (private)",
-"soft: 5628 stars on a 11-day-old repo (bought stars)",
+"soft: 5727 stars on a 11-day-old repo (bought stars)",
 "soft: README link: chat invite link discord.gg"
 ],
 "coverage": {
 "primary_language": "Rust",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 9332727,
-"files": 414,
+"bytes": 9333866,
+"files": 415,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -59115,7 +59271,7 @@
 "has_k8s": false,
 "has_terraform": false,
 "dep_count": 0,
-"readme_bytes": 22970,
+"readme_bytes": 23418,
 "top_level_entries": 23
 },
 "engines_not_ran": [],
@@ -59157,10 +59313,10 @@
 ],
 "vet_soft": [
 "README link: chat invite link discord.gg",
-"5628 stars on a 11-day-old repo (bought stars)"
+"5727 stars on a 11-day-old repo (bought stars)"
 ]
 },
-"expires": "2026-10-20T05:20:51+00:00"
+"expires": "2026-10-20T22:34:11+00:00"
 },
 "streamlit/streamlit": {
 "full_name": "streamlit/streamlit",
@@ -59350,7 +59506,7 @@
 "sumleo/RLCDAlignBench": {
 "full_name": "sumleo/RLCDAlignBench",
 "sha": "473b72f290234a49484c4d89c03aababcd74f758",
-"at": "2026-10-17T22:13:56+00:00",
+"at": "2026-10-18T22:34:34+00:00",
 "language": "Python",
 "size": 2745,
 "pushed_at": "2026-09-25",
@@ -59420,7 +59576,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T22:13:56+00:00"
+"expires": "2026-10-19T22:34:34+00:00"
 },
 "sunil-sadasivan/jevernetes": {
 "full_name": "sunil-sadasivan/jevernetes",
@@ -59744,7 +59900,7 @@
 "sybil-solutions/dsv41-flash-offload": {
 "full_name": "sybil-solutions/dsv41-flash-offload",
 "sha": "08802b6fe00101830d75733d2a7c2dd386e121e3",
-"at": "2026-10-16T19:59:40+00:00",
+"at": "2026-10-18T22:34:55+00:00",
 "language": "Python",
 "size": 379,
 "pushed_at": "2026-10-12",
@@ -59758,7 +59914,7 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"142 stars on a 14-day-old repo (bought stars)",
+"145 stars on a 16-day-old repo (bought stars)",
 "README link: link to a raw IP address (private)",
 "README link: non-web link scheme oci:",
 "required scanner not run: osv=error"
@@ -59820,11 +59976,11 @@
 "vet_hard": [
 "README link: link to a raw IP address (private)",
 "README link: non-web link scheme oci:",
-"142 stars on a 14-day-old repo (bought stars)"
+"145 stars on a 16-day-old repo (bought stars)"
 ],
 "vet_soft": []
 },
-"expires": "2026-10-18T19:59:40+00:00"
+"expires": "2026-10-20T22:34:55+00:00"
 },
 "sybil-solutions/glm-flash-lite": {
 "full_name": "sybil-solutions/glm-flash-lite",
@@ -60955,7 +61111,7 @@
 "thenotoriousJeremy/bindarr": {
 "full_name": "thenotoriousJeremy/bindarr",
 "sha": "d77f34685f008b3f8f11bc22532b5f3fc85489c0",
-"at": "2026-10-16T20:02:54+00:00",
+"at": "2026-10-18T22:35:15+00:00",
 "language": "JavaScript",
 "size": 19328,
 "pushed_at": "2026-10-11",
@@ -61026,12 +61182,12 @@
 ],
 "vet_soft": []
 },
-"expires": "2026-10-18T20:02:54+00:00"
+"expires": "2026-10-20T22:35:15+00:00"
 },
 "theopenlane/core": {
 "full_name": "theopenlane/core",
-"sha": "6bad43dc9c653c53e2c3085b7ced4aabf742d60b",
-"at": "2026-10-18T16:45:40+00:00",
+"sha": "62b43a23054e3ebb10e1b40e34fe5c9fa552c16f",
+"at": "2026-10-18T22:35:44+00:00",
 "language": "Go",
 "size": 479022,
 "pushed_at": "2026-10-18",
@@ -61066,7 +61222,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:45:40+00:00"
+"expires": "2026-10-20T22:35:44+00:00"
 },
 "thesnarkitecht/rembrandt": {
 "full_name": "thesnarkitecht/rembrandt",
@@ -61726,7 +61882,7 @@
 "toggio/SecurePair": {
 "full_name": "toggio/SecurePair",
 "sha": "a4153688987b57062ada7fb4f8283291cc918dfc",
-"at": "2026-10-17T22:17:08+00:00",
+"at": "2026-10-18T22:35:50+00:00",
 "language": "C++",
 "size": 173,
 "pushed_at": "2026-10-03",
@@ -61795,12 +61951,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T22:17:08+00:00"
+"expires": "2026-10-19T22:35:50+00:00"
 },
 "tokentimerch/tokentimer-core": {
 "full_name": "tokentimerch/tokentimer-core",
-"sha": "3a5e276c67467008f9c0bef50d1665bfa1bae794",
-"at": "2026-10-18T16:46:02+00:00",
+"sha": "86de4fd9f968e68acd7297f1c84c3a2492c57329",
+"at": "2026-10-18T22:36:05+00:00",
 "language": "JavaScript",
 "size": 104691,
 "pushed_at": "2026-10-18",
@@ -61839,12 +61995,12 @@
 "README link: chat invite link discord.gg"
 ]
 },
-"expires": "2026-10-20T16:46:02+00:00"
+"expires": "2026-10-20T22:36:05+00:00"
 },
 "tomaszboloz/SEOmi": {
 "full_name": "tomaszboloz/SEOmi",
 "sha": "aead4aea6bd4877c285885542b842378de6c7b6d",
-"at": "2026-10-16T20:04:22+00:00",
+"at": "2026-10-18T22:36:08+00:00",
 "language": "TypeScript",
 "size": 20747,
 "pushed_at": "2026-10-12",
@@ -61859,7 +62015,7 @@
 "result": "fail",
 "reasons": [
 "README link: link to a raw IP address (private)",
-"soft: owner account is 39 days old"
+"soft: owner account is 41 days old"
 ],
 "coverage": {
 "primary_language": "TypeScript",
@@ -61883,7 +62039,7 @@
 "code_scan_result": "pass",
 "blocking": [],
 "advisory": {
-"osv_vulnerabilities": 10
+"osv_vulnerabilities": 16
 },
 "engines": {
 "semgrep": "ran",
@@ -61902,7 +62058,7 @@
 "osv": {
 "status": "ran",
 "malicious": [],
-"vulnerable": 10
+"vulnerable": 16
 },
 "links": {
 "block": [
@@ -61915,10 +62071,10 @@
 "README link: link to a raw IP address (private)"
 ],
 "vet_soft": [
-"owner account is 39 days old"
+"owner account is 41 days old"
 ]
 },
-"expires": "2026-10-18T20:04:22+00:00"
+"expires": "2026-10-20T22:36:08+00:00"
 },
 "tomfunk/fungible": {
 "full_name": "tomfunk/fungible",
@@ -61993,12 +62149,12 @@
 "tony3liu/eido": {
 "full_name": "tony3liu/eido",
 "sha": "b80cad273ae81d8d8f37f2073a41a0d5532ac702",
-"at": "2026-10-16T20:05:35+00:00",
+"at": "2026-10-18T22:37:09+00:00",
 "language": "Rust",
-"size": 3203,
-"pushed_at": "2026-10-12",
+"size": 3417,
+"pushed_at": "2026-10-16",
 "created_at": "2026-10-08",
-"stars": 65,
+"stars": 88,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -62007,7 +62163,7 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"65 stars on a 8-day-old repo (bought stars)"
+"88 stars on a 10-day-old repo (bought stars)"
 ],
 "coverage": {
 "primary_language": "Rust",
@@ -62032,7 +62188,7 @@
 "blocking": [],
 "advisory": {
 "WARNING": 1,
-"osv_vulnerabilities": 70
+"osv_vulnerabilities": 77
 },
 "engines": {
 "semgrep": "ran",
@@ -62051,7 +62207,7 @@
 "osv": {
 "status": "ran",
 "malicious": [],
-"vulnerable": 70
+"vulnerable": 77
 },
 "links": {
 "block": [],
@@ -62059,11 +62215,11 @@
 "error": null
 },
 "vet_hard": [
-"65 stars on a 8-day-old repo (bought stars)"
+"88 stars on a 10-day-old repo (bought stars)"
 ],
 "vet_soft": []
 },
-"expires": "2026-10-18T20:05:35+00:00"
+"expires": "2026-10-20T22:37:09+00:00"
 },
 "tonyzedginidze/librecalculator": {
 "full_name": "tonyzedginidze/librecalculator",
@@ -62146,7 +62302,7 @@
 "tosun-si/duckless": {
 "full_name": "tosun-si/duckless",
 "sha": "c6954425fb918d83916736d5abe9443ee5c338b7",
-"at": "2026-10-16T20:06:06+00:00",
+"at": "2026-10-18T22:37:36+00:00",
 "language": "Python",
 "size": 740,
 "pushed_at": "2026-10-16",
@@ -62217,7 +62373,7 @@
 ],
 "vet_soft": []
 },
-"expires": "2026-10-18T20:06:06+00:00"
+"expires": "2026-10-20T22:37:36+00:00"
 },
 "tqec/tqec": {
 "full_name": "tqec/tqec",
@@ -62402,8 +62558,8 @@
 },
 "trycua/cua": {
 "full_name": "trycua/cua",
-"sha": "8f9a41d1fc5ca2a53232cba241a9f2912a761644",
-"at": "2026-10-18T16:46:06+00:00",
+"sha": "044ed871aa2df4dd54e56575efcc66fe9d245043",
+"at": "2026-10-18T22:37:53+00:00",
 "language": "Rust",
 "size": 612426,
 "pushed_at": "2026-10-18",
@@ -62444,7 +62600,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:46:06+00:00"
+"expires": "2026-10-20T22:37:53+00:00"
 },
 "tshmieldev/sharp": {
 "full_name": "tshmieldev/sharp",
@@ -62608,8 +62764,8 @@
 },
 "txpipe/dolos": {
 "full_name": "txpipe/dolos",
-"sha": "65e03315e3253ab40358f651e3be1d2147e874d2",
-"at": "2026-10-18T16:46:09+00:00",
+"sha": "42e6af893bb83c021848d4a75ab2b62178e73f27",
+"at": "2026-10-18T22:37:58+00:00",
 "language": "Rust",
 "size": 19572,
 "pushed_at": "2026-10-17",
@@ -62630,8 +62786,8 @@
 "primary_language": "Rust",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 16392016,
-"files": 833,
+"bytes": 16439987,
+"files": 834,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -62682,7 +62838,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:46:09+00:00"
+"expires": "2026-10-20T22:37:58+00:00"
 },
 "uji-labs/ito": {
 "full_name": "uji-labs/ito",
@@ -62841,8 +62997,8 @@
 },
 "uncle-andy-real/Morse-Cipher-Sprint": {
 "full_name": "uncle-andy-real/Morse-Cipher-Sprint",
-"sha": "49b09955add6e047844dee7962ed4758b0c10466",
-"at": "2026-10-18T16:46:45+00:00",
+"sha": "6774069e0367bb98ca05cd8545931c84a85c1d34",
+"at": "2026-10-18T22:38:31+00:00",
 "language": "HTML",
 "size": 288,
 "pushed_at": "2026-10-05",
@@ -62856,14 +63012,14 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"53 stars on a 26-day-old repo (bought stars)",
+"53 stars on a 27-day-old repo (bought stars)",
 "required scanner not run: osv=error"
 ],
 "coverage": {
 "primary_language": "HTML",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 192611,
+"bytes": 192719,
 "files": 6,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -62910,11 +63066,11 @@
 "error": null
 },
 "vet_hard": [
-"53 stars on a 26-day-old repo (bought stars)"
+"53 stars on a 27-day-old repo (bought stars)"
 ],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:46:45+00:00"
+"expires": "2026-10-20T22:38:31+00:00"
 },
 "unclecatvn/extension-debug-odoo": {
 "full_name": "unclecatvn/extension-debug-odoo",
@@ -63242,8 +63398,8 @@
 },
 "usekaneo/kaneo": {
 "full_name": "usekaneo/kaneo",
-"sha": "7bbb790d442c1aeaf68ff583648a1d6e4355f0eb",
-"at": "2026-10-18T12:28:41+00:00",
+"sha": "cfe528c1a724b62b06454d745fed209c734c33b0",
+"at": "2026-10-18T22:38:55+00:00",
 "language": "TypeScript",
 "size": 91834,
 "pushed_at": "2026-10-01",
@@ -63280,7 +63436,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T12:28:41+00:00"
+"expires": "2026-10-20T22:38:55+00:00"
 },
 "usnistgov/OSCAL": {
 "full_name": "usnistgov/OSCAL",
@@ -63403,13 +63559,13 @@
 },
 "uwuclxdy/clauth": {
 "full_name": "uwuclxdy/clauth",
-"sha": "9252f0da7413d5518e4c0cfc6f15d18c73678974",
-"at": "2026-10-17T22:18:31+00:00",
+"sha": "e117895eef36264c208cdc3787a400957288ef0a",
+"at": "2026-10-18T22:38:59+00:00",
 "language": "Rust",
-"size": 26014,
-"pushed_at": "2026-10-16",
+"size": 30818,
+"pushed_at": "2026-10-18",
 "created_at": "2026-04-28",
-"stars": 244,
+"stars": 245,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -63425,8 +63581,8 @@
 "primary_language": "Rust",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 18439977,
-"files": 347,
+"bytes": 19251389,
+"files": 356,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -63436,7 +63592,7 @@
 "has_k8s": false,
 "has_terraform": false,
 "dep_count": 0,
-"readme_bytes": 15619,
+"readme_bytes": 15672,
 "top_level_entries": 22
 },
 "engines_not_ran": [],
@@ -63478,17 +63634,17 @@
 ],
 "vet_soft": []
 },
-"expires": "2026-10-19T22:18:31+00:00"
+"expires": "2026-10-20T22:38:59+00:00"
 },
 "valory-xyz/trader": {
 "full_name": "valory-xyz/trader",
 "sha": "24b652d5f5e03d4c5e1afa444c1d45d60044d75d",
-"at": "2026-10-17T22:18:57+00:00",
+"at": "2026-10-18T22:39:23+00:00",
 "language": "Python",
 "size": 39309,
 "pushed_at": "2026-10-16",
 "created_at": "2023-07-03",
-"stars": 82,
+"stars": 83,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -63553,7 +63709,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T22:18:57+00:00"
+"expires": "2026-10-19T22:39:23+00:00"
 },
 "vigneshv1cky/alphadesk-terminal": {
 "full_name": "vigneshv1cky/alphadesk-terminal",
@@ -63790,7 +63946,7 @@
 "vivek-v-rao/price-check": {
 "full_name": "vivek-v-rao/price-check",
 "sha": "5d97654895302d21a77a9c9ccf4fc3c5dd8a47b4",
-"at": "2026-10-17T22:20:32+00:00",
+"at": "2026-10-18T22:39:58+00:00",
 "language": "Python",
 "size": 33,
 "pushed_at": "2026-09-28",
@@ -63860,7 +64016,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T22:20:32+00:00"
+"expires": "2026-10-19T22:39:58+00:00"
 },
 "volatilityfoundation/volatility3": {
 "full_name": "volatilityfoundation/volatility3",
@@ -63939,8 +64095,8 @@
 },
 "vortex-data/vortex": {
 "full_name": "vortex-data/vortex",
-"sha": "5fc5cb8b45877bb6e4b10e1b8ccafdea75787a60",
-"at": "2026-10-17T16:58:31+00:00",
+"sha": "92a7db079bbef1596ee729e66aa83854972532e1",
+"at": "2026-10-18T22:40:12+00:00",
 "language": "Rust",
 "size": 96285,
 "pushed_at": "2026-10-17",
@@ -63977,7 +64133,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-19T16:58:31+00:00"
+"expires": "2026-10-20T22:40:12+00:00"
 },
 "vvrnv/argo9s": {
 "full_name": "vvrnv/argo9s",
@@ -64174,7 +64330,7 @@
 "warvantage/social-science-paste": {
 "full_name": "warvantage/social-science-paste",
 "sha": "f7a6d89478c492852472c698ccb6e86edc956463",
-"at": "2026-10-17T22:20:47+00:00",
+"at": "2026-10-18T22:40:16+00:00",
 "language": "Swift",
 "size": 658,
 "pushed_at": "2026-09-08",
@@ -64243,7 +64399,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T22:20:47+00:00"
+"expires": "2026-10-19T22:40:16+00:00"
 },
 "wayphantomme/laby-finance": {
 "full_name": "wayphantomme/laby-finance",
@@ -64327,12 +64483,12 @@
 "wazuh/wazuh": {
 "full_name": "wazuh/wazuh",
 "sha": "ec80104bfd26c9862c76ea1a55dbd3a6f3dd2873",
-"at": "2026-10-16T20:09:25+00:00",
+"at": "2026-10-18T22:40:30+00:00",
 "language": "C++",
-"size": 580267,
-"pushed_at": "2026-10-09",
+"size": 577723,
+"pushed_at": "2026-10-17",
 "created_at": "2015-08-11",
-"stars": 17181,
+"stars": 17311,
 "curated": true,
 "scanner": {
 "semgrep": "1.177.0",
@@ -64341,7 +64497,7 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"repository too large to scan (580267 KB > 60000 KB)"
+"repository too large to scan (577723 KB > 60000 KB)"
 ],
 "coverage": {
 "primary_language": "C++",
@@ -64362,12 +64518,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T20:09:25+00:00"
+"expires": "2026-10-20T22:40:30+00:00"
 },
 "wboayue/rust-ibapi": {
 "full_name": "wboayue/rust-ibapi",
-"sha": "6b04083135ccd2f7e0b00da5ddedf7d0173edd67",
-"at": "2026-10-18T16:47:12+00:00",
+"sha": "73993f250439508175141fce080b5874dbfba6aa",
+"at": "2026-10-18T22:40:35+00:00",
 "language": "Rust",
 "size": 7837,
 "pushed_at": "2026-10-14",
@@ -64387,8 +64543,8 @@
 "primary_language": "Rust",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 5051429,
-"files": 561,
+"bytes": 5077586,
+"files": 563,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -64436,12 +64592,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-19T16:47:12+00:00"
+"expires": "2026-10-19T22:40:35+00:00"
 },
 "wbopan/tastebench": {
 "full_name": "wbopan/tastebench",
 "sha": "b636e868ff04b640c3ab94ad3160ed328dbd6256",
-"at": "2026-10-17T22:21:24+00:00",
+"at": "2026-10-18T22:40:54+00:00",
 "language": "Python",
 "size": 543,
 "pushed_at": "2026-09-23",
@@ -64511,7 +64667,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T22:21:24+00:00"
+"expires": "2026-10-19T22:40:54+00:00"
 },
 "weidutech/PentestPi": {
 "full_name": "weidutech/PentestPi",
@@ -64599,8 +64755,8 @@
 },
 "wekan/wekan": {
 "full_name": "wekan/wekan",
-"sha": "734e81fb8c1fd4344fa40790f3a7eefe21fee729",
-"at": "2026-10-18T16:47:33+00:00",
+"sha": "e4d025e0b41efce00f41ae70d27a95058185364a",
+"at": "2026-10-18T22:41:09+00:00",
 "language": "JavaScript",
 "size": 532050,
 "pushed_at": "2026-10-17",
@@ -64635,7 +64791,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:47:33+00:00"
+"expires": "2026-10-20T22:41:09+00:00"
 },
 "wh000wh000/awesome-claude-mods": {
 "full_name": "wh000wh000/awesome-claude-mods",
@@ -64682,13 +64838,13 @@
 },
 "wh000wh000/awesome-jev-live": {
 "full_name": "wh000wh000/awesome-jev-live",
-"sha": "a2ecbf33b3a37538fe07522471e8fb6e3217950b",
-"at": "2026-10-18T16:47:36+00:00",
+"sha": "909e4e81d2bfdd5c733c52e50ed17447fbda8f33",
+"at": "2026-10-18T22:41:13+00:00",
 "language": "Python",
-"size": 553930,
+"size": 558846,
 "pushed_at": "2026-10-18",
 "created_at": "2026-09-18",
-"stars": 348,
+"stars": 352,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -64697,7 +64853,7 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"repository too large to scan (553930 KB > 60000 KB)"
+"repository too large to scan (558846 KB > 60000 KB)"
 ],
 "coverage": {
 "primary_language": "Python",
@@ -64718,12 +64874,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:47:36+00:00"
+"expires": "2026-10-20T22:41:13+00:00"
 },
 "whirlchat/whirl": {
 "full_name": "whirlchat/whirl",
 "sha": "d57a1437d9ed28192a69b42fd8af831ad230c6a0",
-"at": "2026-10-16T20:10:16+00:00",
+"at": "2026-10-18T22:41:17+00:00",
 "language": "TypeScript",
 "size": 5196,
 "pushed_at": "2026-10-14",
@@ -64737,7 +64893,7 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"508 stars on a 14-day-old repo (bought stars)",
+"509 stars on a 16-day-old repo (bought stars)",
 "required scanner not run: osv=error"
 ],
 "coverage": {
@@ -64793,11 +64949,11 @@
 "error": null
 },
 "vet_hard": [
-"508 stars on a 14-day-old repo (bought stars)"
+"509 stars on a 16-day-old repo (bought stars)"
 ],
 "vet_soft": []
 },
-"expires": "2026-10-18T20:10:16+00:00"
+"expires": "2026-10-20T22:41:17+00:00"
 },
 "wikimedia/node-cssjanus": {
 "full_name": "wikimedia/node-cssjanus",
@@ -64872,12 +65028,12 @@
 "wilsonfreitas/awesome-quant": {
 "full_name": "wilsonfreitas/awesome-quant",
 "sha": "48e48a76b2054b5fe6eede6852ffef7783b992ce",
-"at": "2026-10-17T22:21:43+00:00",
+"at": "2026-10-18T22:42:05+00:00",
 "language": "HTML",
-"size": 9439,
-"pushed_at": "2026-10-09",
+"size": 9655,
+"pushed_at": "2026-10-18",
 "created_at": "2015-09-30",
-"stars": 30017,
+"stars": 30175,
 "curated": true,
 "scanner": {
 "semgrep": "1.177.0",
@@ -64942,12 +65098,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T22:21:43+00:00"
+"expires": "2026-10-19T22:42:05+00:00"
 },
 "wireshark/wireshark": {
 "full_name": "wireshark/wireshark",
-"sha": "322ebe7b11c2324dc780bc2e99efba56ce978187",
-"at": "2026-10-18T16:47:39+00:00",
+"sha": "c502e3e820c3d6a9419322fc9d41017cffc894f7",
+"at": "2026-10-18T22:42:22+00:00",
 "language": "C",
 "size": 1531397,
 "pushed_at": "2026-10-18",
@@ -64982,7 +65138,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:47:39+00:00"
+"expires": "2026-10-20T22:42:22+00:00"
 },
 "wireztna/wireztna-oss": {
 "full_name": "wireztna/wireztna-oss",
@@ -65158,12 +65314,12 @@
 "wyhuai/HumanX": {
 "full_name": "wyhuai/HumanX",
 "sha": "281e12bab53f1a69896ba4041a3ef3c948fdba43",
-"at": "2026-10-17T22:22:03+00:00",
+"at": "2026-10-18T22:42:26+00:00",
 "language": "Python",
 "size": 52409,
 "pushed_at": "2026-10-09",
 "created_at": "2026-10-05",
-"stars": 73,
+"stars": 75,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -65228,15 +65384,15 @@
 },
 "vet_hard": [],
 "vet_soft": [
-"73 stars on a 12-day-old repo (bought stars)"
+"75 stars on a 13-day-old repo (bought stars)"
 ]
 },
-"expires": "2026-10-18T22:22:03+00:00"
+"expires": "2026-10-19T22:42:26+00:00"
 },
 "xberg-io/xberg": {
 "full_name": "xberg-io/xberg",
-"sha": "8ea73079f3707b5ff73653c91512f31e35d29956",
-"at": "2026-10-18T16:47:42+00:00",
+"sha": "a46c9c9e8b568c71b5a1127978b52b3d5c211c69",
+"at": "2026-10-18T22:43:12+00:00",
 "language": "Rust",
 "size": 1002947,
 "pushed_at": "2026-10-18",
@@ -65275,7 +65431,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-20T16:47:42+00:00"
+"expires": "2026-10-20T22:43:12+00:00"
 },
 "xcena-dev/roof": {
 "full_name": "xcena-dev/roof",
@@ -65587,7 +65743,7 @@
 "yaoyuxiang-gnn/agent-guard": {
 "full_name": "yaoyuxiang-gnn/agent-guard",
 "sha": "1441643dd50698580f28758299350549e0d6bc21",
-"at": "2026-10-17T22:22:54+00:00",
+"at": "2026-10-18T22:43:17+00:00",
 "language": "Python",
 "size": 390,
 "pushed_at": "2026-10-02",
@@ -65656,15 +65812,15 @@
 },
 "vet_hard": [],
 "vet_soft": [
-"owner account is 86 days old"
+"owner account is 87 days old"
 ]
 },
-"expires": "2026-10-18T22:22:54+00:00"
+"expires": "2026-10-19T22:43:17+00:00"
 },
 "yarsa/nepal-compliance": {
 "full_name": "yarsa/nepal-compliance",
 "sha": "fbb9e95be233631713703b09bcb727044894c5c5",
-"at": "2026-10-17T22:23:10+00:00",
+"at": "2026-10-18T22:43:32+00:00",
 "language": "Python",
 "size": 1287,
 "pushed_at": "2026-10-12",
@@ -65733,7 +65889,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T22:23:10+00:00"
+"expires": "2026-10-19T22:43:32+00:00"
 },
 "yassirboudda/hermes-osint-ctf-agent": {
 "full_name": "yassirboudda/hermes-osint-ctf-agent",
@@ -65892,7 +66048,7 @@
 "yifanzhang-pro/Agora": {
 "full_name": "yifanzhang-pro/Agora",
 "sha": "8ac28a50ed506ce2dd1da9876a7708ffdccfe7e9",
-"at": "2026-10-17T22:23:28+00:00",
+"at": "2026-10-18T22:43:50+00:00",
 "language": "HTML",
 "size": 3478,
 "pushed_at": "2026-09-18",
@@ -65961,12 +66117,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T22:23:28+00:00"
+"expires": "2026-10-19T22:43:50+00:00"
 },
 "yonatangross/orchestkit": {
 "full_name": "yonatangross/orchestkit",
-"sha": "da4e75f21f50ad2dd2f92de479e02073aa5f4d5b",
-"at": "2026-10-18T16:47:46+00:00",
+"sha": "4f12500b9b7fd29e5f1b5a415ce51fca48524731",
+"at": "2026-10-18T22:44:04+00:00",
 "language": "TypeScript",
 "size": 404829,
 "pushed_at": "2026-10-18",
@@ -66009,7 +66165,7 @@
 "Scorecard Dangerous-Workflow 0/10"
 ]
 },
-"expires": "2026-10-20T16:47:46+00:00"
+"expires": "2026-10-20T22:44:04+00:00"
 },
 "youtube-jono/local-seo-agent": {
 "full_name": "youtube-jono/local-seo-agent",
@@ -66171,7 +66327,7 @@
 "yunfanye/openhouse-3d": {
 "full_name": "yunfanye/openhouse-3d",
 "sha": "b6e5d9b40b9f1d2c12775d8fd5e6a370897cb907",
-"at": "2026-10-17T22:23:43+00:00",
+"at": "2026-10-18T22:44:08+00:00",
 "language": "Python",
 "size": 46896,
 "pushed_at": "2026-09-26",
@@ -66243,7 +66399,7 @@
 "only 1 commit(s)"
 ]
 },
-"expires": "2026-10-18T22:23:43+00:00"
+"expires": "2026-10-19T22:44:08+00:00"
 },
 "yuuuki-creation/po0-clash": {
 "full_name": "yuuuki-creation/po0-clash",
@@ -66850,12 +67006,12 @@
 "zero-lab-ai/skills": {
 "full_name": "zero-lab-ai/skills",
 "sha": "1e2f93fed4c8fdb0d7fb35c72c3b0763d2d73cac",
-"at": "2026-10-16T20:14:34+00:00",
+"at": "2026-10-18T22:44:43+00:00",
 "language": "Python",
 "size": 262,
 "pushed_at": "2026-10-15",
 "created_at": "2026-10-11",
-"stars": 53,
+"stars": 70,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -66864,7 +67020,7 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"53 stars on a 5-day-old repo (bought stars)",
+"73 stars on a 7-day-old repo (bought stars)",
 "required scanner not run: osv=error"
 ],
 "coverage": {
@@ -66919,11 +67075,11 @@
 "error": null
 },
 "vet_hard": [
-"53 stars on a 5-day-old repo (bought stars)"
+"73 stars on a 7-day-old repo (bought stars)"
 ],
 "vet_soft": []
 },
-"expires": "2026-10-18T20:14:34+00:00"
+"expires": "2026-10-20T22:44:43+00:00"
 },
 "zgcagi/Harness-RSI": {
 "full_name": "zgcagi/Harness-RSI",
@@ -67154,7 +67310,7 @@
 "ziyang-theory/cryptography-research-skills": {
 "full_name": "ziyang-theory/cryptography-research-skills",
 "sha": "023517b8e46806c09722b36f99dc4cac22bab4a9",
-"at": "2026-10-17T22:24:20+00:00",
+"at": "2026-10-18T22:45:01+00:00",
 "language": "Python",
 "size": 664,
 "pushed_at": "2026-09-28",
@@ -67223,7 +67379,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-10-18T22:24:20+00:00"
+"expires": "2026-10-19T22:45:01+00:00"
 },
 "ziyangliu-666/FastMM": {
 "full_name": "ziyangliu-666/FastMM",
@@ -67299,8 +67455,8 @@
 },
 "zizmorcore/zizmor": {
 "full_name": "zizmorcore/zizmor",
-"sha": "ea0f7ac34e131fe9491e946e81b3d8fbee2b5171",
-"at": "2026-10-18T05:24:38+00:00",
+"sha": "672a5a275b5c5f0bc127c9341d3ee9cc4ef405f8",
+"at": "2026-10-18T22:45:17+00:00",
 "language": "Rust",
 "size": 6353,
 "pushed_at": "2026-10-18",
@@ -67318,8 +67474,8 @@
 "primary_language": "Rust",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 4040455,
-"files": 688,
+"bytes": 4050877,
+"files": 690,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -67367,7 +67523,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-01T05:24:38+00:00"
+"expires": "2026-11-01T22:45:17+00:00"
 },
 "zju3dv/SuperNav": {
 "full_name": "zju3dv/SuperNav",
@@ -67536,5 +67692,5 @@
 "semgrep_version": null,
 "ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325",
 "policy_version": 2,
-"generated_at": "2026-10-18T16:48:18+00:00"
+"generated_at": "2026-10-18T22:45:51+00:00"
 }
