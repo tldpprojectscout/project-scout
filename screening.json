@@ -305,13 +305,13 @@
 },
 "0xS4N4TG/kinetograph": {
 "full_name": "0xS4N4TG/kinetograph",
-"sha": "33becc432aab90b80a88b0e0d317f1f4e3d9301c",
-"at": "2026-11-01T06:01:05+00:00",
+"sha": "b3e199426fdd5012ae2c26fecdacb6ce4daacb37",
+"at": "2026-11-01T13:20:07+00:00",
 "language": "TypeScript",
-"size": 193739,
-"pushed_at": "2026-10-31",
+"size": 194592,
+"pushed_at": "2026-11-01",
 "created_at": "2026-10-23",
-"stars": 398,
+"stars": 423,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -320,8 +320,8 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"412 stars on a 9-day-old repo (bought stars)",
-"repository too large to scan (193739 KB > 60000 KB)"
+"423 stars on a 9-day-old repo (bought stars)",
+"repository too large to scan (194592 KB > 60000 KB)"
 ],
 "coverage": {
 "primary_language": "TypeScript",
@@ -340,11 +340,11 @@
 "error": null
 },
 "vet_hard": [
-"412 stars on a 9-day-old repo (bought stars)"
+"423 stars on a 9-day-old repo (bought stars)"
 ],
 "vet_soft": []
 },
-"expires": "2026-11-03T06:01:05+00:00"
+"expires": "2026-11-03T13:20:07+00:00"
 },
 "100yenadmin/hermes-teammates": {
 "full_name": "100yenadmin/hermes-teammates",
@@ -3104,8 +3104,8 @@
 },
 "AppitStudio/awesome-jev": {
 "full_name": "AppitStudio/awesome-jev",
-"sha": "772fd6f14c0a9ee6b13e88522ee245168ad3e8e7",
-"at": "2026-11-01T06:10:01+00:00",
+"sha": "06c48ff92889c405a8254bbd6e5a87e80b0e008c",
+"at": "2026-11-01T13:21:08+00:00",
 "language": "Python",
 "size": 14714,
 "pushed_at": "2026-10-18",
@@ -3126,8 +3126,8 @@
 "primary_language": "Python",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 18722398,
-"files": 2525,
+"bytes": 18773094,
+"files": 2536,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -3137,7 +3137,7 @@
 "has_k8s": false,
 "has_terraform": false,
 "dep_count": 3,
-"readme_bytes": 842465,
+"readme_bytes": 848496,
 "top_level_entries": 22
 },
 "engines_not_ran": [],
@@ -3177,7 +3177,7 @@
 ],
 "vet_soft": []
 },
-"expires": "2026-11-03T06:10:01+00:00"
+"expires": "2026-11-03T13:21:08+00:00"
 },
 "ArbakovMaxim/agent-arcade": {
 "full_name": "ArbakovMaxim/agent-arcade",
@@ -4285,8 +4285,8 @@
 },
 "BekbolatBolebay/LunarEC": {
 "full_name": "BekbolatBolebay/LunarEC",
-"sha": "0331d08bafdebe0fd7a75837949c0c5e68295753",
-"at": "2026-10-31T21:37:03+00:00",
+"sha": "cd23914a8c41c081e0d97a1f361477b303b8ce33",
+"at": "2026-11-01T13:21:49+00:00",
 "language": "TypeScript",
 "size": 33225,
 "pushed_at": "2026-09-30",
@@ -4304,7 +4304,7 @@
 "primary_language": "TypeScript",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 1442571,
+"bytes": 1442569,
 "files": 1359,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -4353,88 +4353,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-14T21:37:03+00:00"
-},
-"BenWestgate/Bails": {
-"full_name": "BenWestgate/Bails",
-"sha": "1628f78397933f63640f29475568ebb92d933c43",
-"at": "2026-10-31T12:28:53+00:00",
-"language": "Shell",
-"size": 3649,
-"pushed_at": "2026-10-31",
-"created_at": "2023-01-08",
-"stars": 62,
-"curated": false,
-"scanner": {
-"semgrep": "1.177.0",
-"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
-},
-"policy_version": 2,
-"result": "fail",
-"reasons": [
-"required scanner not run: osv=error",
-"soft: README link: chat invite link t.me",
-"soft: README links to t.me/"
-],
-"coverage": {
-"primary_language": "Shell",
-"supported": true,
-"note": "generic + language rules",
-"bytes": 988299,
-"files": 77,
-"notebooks_extracted": 0,
-"semgrepignore_removed": 0,
-"signals": {
-"has_tests": true,
-"has_dockerfile": false,
-"compose_services": 0,
-"has_k8s": false,
-"has_terraform": false,
-"dep_count": 0,
-"readme_bytes": 7529,
-"top_level_entries": 13
-},
-"engines_not_ran": [
-"osv=error"
-],
-"code_scan_result": "incomplete",
-"blocking": [],
-"advisory": {
-"osv_vulnerabilities": 0
-},
-"engines": {
-"semgrep": "ran",
-"yara": "ran",
-"clamav": "ran",
-"osv": "error"
-},
-"yara": {
-"status": "ran",
-"hits": []
-},
-"clamav": {
-"status": "ran",
-"hits": []
-},
-"osv": {
-"status": "error",
-"malicious": [],
-"vulnerable": 0
-},
-"links": {
-"block": [],
-"warn": [
-"chat invite link t.me"
-],
-"error": null
-},
-"vet_hard": [],
-"vet_soft": [
-"README links to t.me/",
-"README link: chat invite link t.me"
-]
-},
-"expires": "2026-11-02T12:28:53+00:00"
+"expires": "2026-11-15T13:21:49+00:00"
 },
 "BigDaddyJRich/hctp-recomp": {
 "full_name": "BigDaddyJRich/hctp-recomp",
@@ -4904,8 +4823,8 @@
 },
 "ChiefGyk3D/Clouds-Against-Humanity": {
 "full_name": "ChiefGyk3D/Clouds-Against-Humanity",
-"sha": "9723ae52b647e487890fd0cb6f75e8fe26f19b69",
-"at": "2026-11-01T06:14:55+00:00",
+"sha": "ab2912945f6c75fe72e04fdb16cf1e6b75cc359d",
+"at": "2026-11-01T13:22:21+00:00",
 "language": "Python",
 "size": 6913,
 "pushed_at": "2026-10-24",
@@ -4921,14 +4840,14 @@
 "reasons": [
 "README link: executable/archive download from bsky.app",
 "code scan: tldp.shell-download-pipe",
-"soft: 607 stars on a 21-day-old repo (bought stars)"
+"soft: 609 stars on a 21-day-old repo (bought stars)"
 ],
 "coverage": {
 "primary_language": "Python",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 12667324,
-"files": 613,
+"bytes": 13365239,
+"files": 627,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -4980,15 +4899,15 @@
 "README link: executable/archive download from bsky.app"
 ],
 "vet_soft": [
-"607 stars on a 21-day-old repo (bought stars)"
+"609 stars on a 21-day-old repo (bought stars)"
 ]
 },
-"expires": "2026-11-03T06:14:55+00:00"
+"expires": "2026-11-03T13:22:21+00:00"
 },
 "ChiefGyk3D/scrum-around-and-find-out": {
 "full_name": "ChiefGyk3D/scrum-around-and-find-out",
-"sha": "6d42222189a7df7d8d0ffa0b0d46c1dce639d9b0",
-"at": "2026-11-01T06:15:20+00:00",
+"sha": "c294f21879d658c7934cfdc726abe9928adddb80",
+"at": "2026-11-01T13:22:44+00:00",
 "language": "Python",
 "size": 1255,
 "pushed_at": "2026-10-20",
@@ -5006,8 +4925,8 @@
 "primary_language": "Python",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 6995525,
-"files": 466,
+"bytes": 7013236,
+"files": 467,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -5053,12 +4972,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-15T06:15:20+00:00"
+"expires": "2026-11-15T13:22:44+00:00"
 },
 "ChiemTrieuMinh/Neo-Strafe-Sprint": {
 "full_name": "ChiemTrieuMinh/Neo-Strafe-Sprint",
-"sha": "4a556d6fc3c7ab97f5d5dbe92cee5b1e5a01ab54",
-"at": "2026-11-01T06:15:45+00:00",
+"sha": "b3126db60d5eedad974a3b249839541dcc699f35",
+"at": "2026-11-01T13:23:06+00:00",
 "language": "HTML",
 "size": 225,
 "pushed_at": "2026-10-05",
@@ -5078,7 +4997,7 @@
 "primary_language": "HTML",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 198837,
+"bytes": 198889,
 "files": 6,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -5129,7 +5048,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-03T06:15:45+00:00"
+"expires": "2026-11-03T13:23:06+00:00"
 },
 "ChungKit-WAN/Quant-research-lab": {
 "full_name": "ChungKit-WAN/Quant-research-lab",
@@ -5282,13 +5201,13 @@
 },
 "ChurchCRM/CRM": {
 "full_name": "ChurchCRM/CRM",
-"sha": "a84332f3f6384b42f9b7786c8b583e978223c658",
-"at": "2026-10-31T21:38:41+00:00",
+"sha": "7e842c52368b2c9d8ad0b7803e22d0b6e7b83869",
+"at": "2026-11-01T13:23:27+00:00",
 "language": "PHP",
-"size": 2662349,
-"pushed_at": "2026-10-31",
+"size": 2660189,
+"pushed_at": "2026-11-01",
 "created_at": "2015-02-16",
-"stars": 978,
+"stars": 980,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -5297,7 +5216,7 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"repository too large to scan (2662349 KB > 60000 KB)"
+"repository too large to scan (2660189 KB > 60000 KB)"
 ],
 "coverage": {
 "primary_language": "PHP",
@@ -5322,12 +5241,12 @@
 "README link: chat invite link discord.gg"
 ]
 },
-"expires": "2026-11-02T21:38:41+00:00"
+"expires": "2026-11-03T13:23:27+00:00"
 },
 "ClayGendron/wasi-python": {
 "full_name": "ClayGendron/wasi-python",
-"sha": "01d0583384586da6b268f1d2a1ecd6414211ceac",
-"at": "2026-11-01T06:16:08+00:00",
+"sha": "433e673486768a7df26f89f9739cd1343f6490b0",
+"at": "2026-11-01T13:23:30+00:00",
 "language": "Python",
 "size": 18891,
 "pushed_at": "2026-10-29",
@@ -5345,8 +5264,8 @@
 "primary_language": "Python",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 44024728,
-"files": 4302,
+"bytes": 44238955,
+"files": 4317,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -5394,7 +5313,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-15T06:16:08+00:00"
+"expires": "2026-11-15T13:23:30+00:00"
 },
 "CluvexStudio/Strata": {
 "full_name": "CluvexStudio/Strata",
@@ -5470,8 +5389,8 @@
 },
 "CoWork-OS/CoWork-OS": {
 "full_name": "CoWork-OS/CoWork-OS",
-"sha": "c42bfbfc690c2166e81d4c71d9980a96530efbe1",
-"at": "2026-10-31T21:39:43+00:00",
+"sha": "13d2b1f97f84bbf2f4cf35e8fc095efb64562ed8",
+"at": "2026-11-01T13:24:34+00:00",
 "language": "TypeScript",
 "size": 135105,
 "pushed_at": "2026-10-31",
@@ -5519,7 +5438,7 @@
 "README link: chat invite link discord.gg"
 ]
 },
-"expires": "2026-11-02T21:39:43+00:00"
+"expires": "2026-11-03T13:24:34+00:00"
 },
 "CodeByPinar/riskops": {
 "full_name": "CodeByPinar/riskops",
@@ -6133,8 +6052,8 @@
 },
 "Cygnux-Labs/Tracekit": {
 "full_name": "Cygnux-Labs/Tracekit",
-"sha": "bd07318eab35d89807ce61e082f6b894327718ad",
-"at": "2026-11-01T06:19:14+00:00",
+"sha": "93857b0338a631c0a614d80e702c208b9f107c56",
+"at": "2026-11-01T13:24:39+00:00",
 "language": "Python",
 "size": 62951,
 "pushed_at": "2026-10-26",
@@ -6169,7 +6088,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-03T06:19:14+00:00"
+"expires": "2026-11-03T13:24:39+00:00"
 },
 "DKMgaming/zalo-multi-cskh-ai": {
 "full_name": "DKMgaming/zalo-multi-cskh-ai",
@@ -6247,8 +6166,8 @@
 },
 "DUNHKpcc/Claude-Guardian": {
 "full_name": "DUNHKpcc/Claude-Guardian",
-"sha": "316ca20602887a672a3b8fcecc7f397f7109351f",
-"at": "2026-10-31T12:33:52+00:00",
+"sha": "bad6d7874c18c6a5b37e9bbc9566107bbc9b361d",
+"at": "2026-11-01T13:24:43+00:00",
 "language": "Python",
 "size": 45881,
 "pushed_at": "2026-10-29",
@@ -6262,7 +6181,7 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"1561 stars on a 16-day-old repo (bought stars)",
+"1617 stars on a 17-day-old repo (bought stars)",
 "code scan: tldp.credential-store-access, tldp.persistence, tldp.shell-download-pipe",
 "soft: README link: chat invite link t.me",
 "soft: README links to t.me/"
@@ -6271,8 +6190,8 @@
 "primary_language": "Python",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 19987011,
-"files": 209,
+"bytes": 20039470,
+"files": 214,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -6282,7 +6201,7 @@
 "has_k8s": false,
 "has_terraform": false,
 "dep_count": 0,
-"readme_bytes": 21278,
+"readme_bytes": 21674,
 "top_level_entries": 14
 },
 "engines_not_ran": [],
@@ -6294,7 +6213,7 @@
 ],
 "advisory": {
 "ERROR": 1,
-"WARNING": 1,
+"WARNING": 3,
 "osv_vulnerabilities": 0
 },
 "engines": {
@@ -6324,14 +6243,14 @@
 "error": null
 },
 "vet_hard": [
-"1561 stars on a 16-day-old repo (bought stars)"
+"1617 stars on a 17-day-old repo (bought stars)"
 ],
 "vet_soft": [
 "README links to t.me/",
 "README link: chat invite link t.me"
 ]
 },
-"expires": "2026-11-02T12:33:52+00:00"
+"expires": "2026-11-03T13:24:43+00:00"
 },
 "DaVVinCi/FactorForge": {
 "full_name": "DaVVinCi/FactorForge",
@@ -6492,8 +6411,8 @@
 },
 "Dark9cloud/blue-streak-sync": {
 "full_name": "Dark9cloud/blue-streak-sync",
-"sha": "c73a98351deb968f810a635ab4e6937a1201391a",
-"at": "2026-11-01T06:20:09+00:00",
+"sha": "0a5781119a0487005466d889256a14c70b27184b",
+"at": "2026-11-01T13:25:32+00:00",
 "language": "HTML",
 "size": 220,
 "pushed_at": "2026-10-05",
@@ -6513,7 +6432,7 @@
 "primary_language": "HTML",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 201912,
+"bytes": 201966,
 "files": 6,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -6562,7 +6481,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-02T06:20:09+00:00"
+"expires": "2026-11-02T13:25:32+00:00"
 },
 "DataCraftersLab/craftys-fabric-skills": {
 "full_name": "DataCraftersLab/craftys-fabric-skills",
@@ -6710,46 +6629,6 @@
 },
 "expires": "2026-11-06T04:57:01+00:00"
 },
-"DefectDojo/django-DefectDojo": {
-"full_name": "DefectDojo/django-DefectDojo",
-"sha": "c360df03a9399cbe6b26138bd0289949c27eb732",
-"at": "2026-10-31T12:35:20+00:00",
-"language": "Python",
-"size": 921470,
-"pushed_at": "2026-10-31",
-"created_at": "2015-02-19",
-"stars": 5172,
-"curated": false,
-"scanner": {
-"semgrep": "1.177.0",
-"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
-},
-"policy_version": 2,
-"result": "fail",
-"reasons": [
-"repository too large to scan (921470 KB > 60000 KB)"
-],
-"coverage": {
-"primary_language": "Python",
-"supported": true,
-"note": "generic + language rules",
-"code_scan_result": "withheld",
-"blocking": [],
-"advisory": {},
-"engines": {},
-"yara": {},
-"clamav": {},
-"osv": {},
-"links": {
-"block": [],
-"warn": [],
-"error": null
-},
-"vet_hard": [],
-"vet_soft": []
-},
-"expires": "2026-11-02T12:35:20+00:00"
-},
 "DependencyTrack/dependency-track": {
 "full_name": "DependencyTrack/dependency-track",
 "sha": "53d0c81cd5058292ac285b0de15e33c61a41a250",
@@ -6792,8 +6671,8 @@
 },
 "Dicklesworthstone/franken_accounting": {
 "full_name": "Dicklesworthstone/franken_accounting",
-"sha": "1206b0238e983a161279240713eb91f18ee37c5b",
-"at": "2026-11-01T06:20:50+00:00",
+"sha": "7796e910d00a2a891e976f737040af9ce64da39f",
+"at": "2026-11-01T13:25:53+00:00",
 "language": "Rust",
 "size": 16747,
 "pushed_at": "2026-10-19",
@@ -6813,7 +6692,7 @@
 "primary_language": "Rust",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 44221201,
+"bytes": 44321414,
 "files": 1648,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -6824,7 +6703,7 @@
 "has_k8s": false,
 "has_terraform": false,
 "dep_count": 0,
-"readme_bytes": 145788,
+"readme_bytes": 145795,
 "top_level_entries": 24
 },
 "engines_not_ran": [],
@@ -6864,7 +6743,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-03T06:20:50+00:00"
+"expires": "2026-11-03T13:25:53+00:00"
 },
 "DjangoCRM/django-crm": {
 "full_name": "DjangoCRM/django-crm",
@@ -7435,8 +7314,8 @@
 },
 "Eurekaleo/awesome-ai-for-games": {
 "full_name": "Eurekaleo/awesome-ai-for-games",
-"sha": "3eb6b7dabb52dd903fc34dcb1acb4b3457e21c07",
-"at": "2026-10-31T12:36:32+00:00",
+"sha": "850e340ec665d0160154a372ca8dcd0cbf2a0fce",
+"at": "2026-11-01T13:26:42+00:00",
 "language": "TeX",
 "size": 74443,
 "pushed_at": "2026-10-04",
@@ -7473,7 +7352,7 @@
 "README links to t.me/"
 ]
 },
-"expires": "2026-11-02T12:36:32+00:00"
+"expires": "2026-11-03T13:26:42+00:00"
 },
 "FDE-GROUP/nestjs-saas-start": {
 "full_name": "FDE-GROUP/nestjs-saas-start",
@@ -8401,6 +8280,76 @@
 "vet_soft": []
 },
 "expires": "2026-11-02T05:58:33+00:00"
+},
+"GlotPress/GlotPress": {
+"full_name": "GlotPress/GlotPress",
+"sha": "fedb38b6cb4a7c4c4b07bdf8ce441c4e7309595d",
+"at": "2026-11-01T13:26:49+00:00",
+"language": "PHP",
+"size": 27407,
+"pushed_at": "2026-11-01",
+"created_at": "2015-08-27",
+"stars": 404,
+"curated": false,
+"scanner": {
+"semgrep": "1.177.0",
+"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
+},
+"policy_version": 2,
+"result": "pass",
+"reasons": [],
+"coverage": {
+"primary_language": "PHP",
+"supported": true,
+"note": "generic + language rules",
+"bytes": 2699701,
+"files": 248,
+"notebooks_extracted": 0,
+"semgrepignore_removed": 0,
+"signals": {
+"has_tests": true,
+"has_dockerfile": false,
+"compose_services": 0,
+"has_k8s": false,
+"has_terraform": false,
+"dep_count": 9,
+"readme_bytes": 2864,
+"top_level_entries": 32
+},
+"engines_not_ran": [],
+"code_scan_result": "pass",
+"blocking": [],
+"advisory": {
+"osv_vulnerabilities": 20
+},
+"engines": {
+"semgrep": "ran",
+"yara": "ran",
+"clamav": "ran",
+"osv": "ran"
+},
+"yara": {
+"status": "ran",
+"hits": []
+},
+"clamav": {
+"status": "ran",
+"hits": []
+},
+"osv": {
+"status": "ran",
+"malicious": [],
+"vulnerable": 20
+},
+"links": {
+"block": [],
+"warn": [],
+"error": null
+},
+"vet_hard": [],
+"vet_soft": []
+},
+"expires": "2026-11-15T13:26:49+00:00"
 },
 "Gre4ka43/Place-Together": {
 "full_name": "Gre4ka43/Place-Together",
@@ -9840,8 +9789,8 @@
 },
 "Infrasity-Labs/developer-marketing-jobs": {
 "full_name": "Infrasity-Labs/developer-marketing-jobs",
-"sha": "95fff03f8b5b075aec4ca001c3030b3560e64988",
-"at": "2026-10-31T12:37:06+00:00",
+"sha": "a8281e6bd6fb79e04e8fb71c537e37137613c040",
+"at": "2026-11-01T13:27:11+00:00",
 "language": "Python",
 "size": 17206,
 "pushed_at": "2026-09-02",
@@ -9861,7 +9810,7 @@
 "primary_language": "Python",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 906576,
+"bytes": 875131,
 "files": 122,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -9872,7 +9821,7 @@
 "has_k8s": false,
 "has_terraform": false,
 "dep_count": 4,
-"readme_bytes": 95311,
+"readme_bytes": 63866,
 "top_level_entries": 31
 },
 "engines_not_ran": [],
@@ -9913,7 +9862,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-02T12:37:06+00:00"
+"expires": "2026-11-03T13:27:11+00:00"
 },
 "InternScience/MLExpert": {
 "full_name": "InternScience/MLExpert",
@@ -11652,10 +11601,10 @@
 },
 "KhulekanisiyandaMchunu/llm-trading-arena": {
 "full_name": "KhulekanisiyandaMchunu/llm-trading-arena",
-"sha": "8cc487156935c6391fc6a2b0004d406083451fc8",
-"at": "2026-11-01T06:33:25+00:00",
+"sha": "a8c15e7cd1efc402e726567f132056fc08c7375e",
+"at": "2026-11-01T13:27:30+00:00",
 "language": "JavaScript",
-"size": 1372,
+"size": 1374,
 "pushed_at": "2026-11-01",
 "created_at": "2026-10-23",
 "stars": 65,
@@ -11674,7 +11623,7 @@
 "primary_language": "JavaScript",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 1452967,
+"bytes": 1453014,
 "files": 13,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -11725,7 +11674,7 @@
 ],
 "vet_soft": []
 },
-"expires": "2026-11-03T06:33:25+00:00"
+"expires": "2026-11-03T13:27:30+00:00"
 },
 "KipData/KiteSQL": {
 "full_name": "KipData/KiteSQL",
@@ -11803,8 +11752,8 @@
 },
 "KnifeLemon/Filee": {
 "full_name": "KnifeLemon/Filee",
-"sha": "51a6ba276594b5de70458ee2ffe74183521043d1",
-"at": "2026-11-01T06:34:07+00:00",
+"sha": "5811b463f0813b558eeb3cb160cf38fd2cc84c5e",
+"at": "2026-11-01T13:27:50+00:00",
 "language": "C#",
 "size": 8442,
 "pushed_at": "2026-10-12",
@@ -11824,7 +11773,7 @@
 "primary_language": "C#",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 20439498,
+"bytes": 20448202,
 "files": 1070,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -11875,7 +11824,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-03T06:34:07+00:00"
+"expires": "2026-11-03T13:27:50+00:00"
 },
 "KorroAi/unwalled": {
 "full_name": "KorroAi/unwalled",
@@ -12037,6 +11986,48 @@
 },
 "expires": "2026-11-02T06:04:28+00:00"
 },
+"LMMS/lmms": {
+"full_name": "LMMS/lmms",
+"sha": "0bfb1ac3a8e7753675e5ad04b8c2b5133b84144d",
+"at": "2026-11-01T13:28:15+00:00",
+"language": "C++",
+"size": 101285,
+"pushed_at": "2026-11-01",
+"created_at": "2014-01-09",
+"stars": 10576,
+"curated": false,
+"scanner": {
+"semgrep": "1.177.0",
+"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
+},
+"policy_version": 2,
+"result": "fail",
+"reasons": [
+"repository too large to scan (101285 KB > 60000 KB)"
+],
+"coverage": {
+"primary_language": "C++",
+"supported": true,
+"note": "generic + language rules",
+"code_scan_result": "withheld",
+"blocking": [],
+"advisory": {},
+"engines": {},
+"yara": {},
+"clamav": {},
+"osv": {},
+"links": {
+"block": [],
+"warn": [
+"chat invite link discord.gg"
+],
+"error": null
+},
+"vet_hard": [],
+"vet_soft": []
+},
+"expires": "2026-11-03T13:28:15+00:00"
+},
 "LSPosed/dexsql-release": {
 "full_name": "LSPosed/dexsql-release",
 "sha": "b867cfeb33da3d3dc32c74d6f05c741eb60586b2",
@@ -12166,6 +12157,83 @@
 ]
 },
 "expires": "2026-11-02T06:04:47+00:00"
+},
+"Lavagroabide/aegis-spreadwatch": {
+"full_name": "Lavagroabide/aegis-spreadwatch",
+"sha": "cce195ee5823739c4113fe027e14a1fe1d67603c",
+"at": "2026-11-01T13:28:19+00:00",
+"language": "TypeScript",
+"size": 1367,
+"pushed_at": "2026-10-30",
+"created_at": "2026-10-30",
+"stars": 133,
+"curated": false,
+"scanner": {
+"semgrep": "1.177.0",
+"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
+},
+"policy_version": 2,
+"result": "fail",
+"reasons": [
+"133 stars on a 1-day-old repo (bought stars)",
+"soft: owner account is 79 days old"
+],
+"coverage": {
+"primary_language": "TypeScript",
+"supported": true,
+"note": "generic + language rules",
+"bytes": 1985318,
+"files": 44,
+"notebooks_extracted": 0,
+"semgrepignore_removed": 0,
+"signals": {
+"has_tests": false,
+"has_dockerfile": false,
+"compose_services": 0,
+"has_k8s": false,
+"has_terraform": false,
+"dep_count": 15,
+"readme_bytes": 5960,
+"top_level_entries": 18
+},
+"engines_not_ran": [],
+"code_scan_result": "pass",
+"blocking": [],
+"advisory": {
+"osv_vulnerabilities": 3
+},
+"engines": {
+"semgrep": "ran",
+"yara": "ran",
+"clamav": "ran",
+"osv": "ran"
+},
+"yara": {
+"status": "ran",
+"hits": []
+},
+"clamav": {
+"status": "ran",
+"hits": []
+},
+"osv": {
+"status": "ran",
+"malicious": [],
+"vulnerable": 3
+},
+"links": {
+"block": [],
+"warn": [],
+"error": null
+},
+"vet_hard": [
+"133 stars on a 1-day-old repo (bought stars)"
+],
+"vet_soft": [
+"owner account is 79 days old"
+]
+},
+"expires": "2026-11-03T13:28:19+00:00"
 },
 "Leonxlnx/athenaion": {
 "full_name": "Leonxlnx/athenaion",
@@ -12959,26 +13027,28 @@
 },
 "Lyfxxk/Opengrep-Studio": {
 "full_name": "Lyfxxk/Opengrep-Studio",
-"sha": "1f99f2d9a14201c9201aa2741dabf8b63d85bee6",
-"at": "2026-10-31T12:38:52+00:00",
+"sha": "1ff0ba5c4bbd0a234c92dfd8b18c1e7934699fe8",
+"at": "2026-11-01T13:28:36+00:00",
 "language": "TypeScript",
-"size": 10267,
-"pushed_at": "2026-10-30",
+"size": 10286,
+"pushed_at": "2026-10-31",
 "created_at": "2026-10-24",
-"stars": 36,
+"stars": 43,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
 "ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
 },
 "policy_version": 2,
-"result": "pass",
-"reasons": [],
+"result": "fail",
+"reasons": [
+"50 stars on a 7-day-old repo (bought stars)"
+],
 "coverage": {
 "primary_language": "TypeScript",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 8337641,
+"bytes": 8183081,
 "files": 232,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -13024,10 +13094,12 @@
 "warn": [],
 "error": null
 },
-"vet_hard": [],
+"vet_hard": [
+"50 stars on a 7-day-old repo (bought stars)"
+],
 "vet_soft": []
 },
-"expires": "2026-11-14T12:38:52+00:00"
+"expires": "2026-11-03T13:28:36+00:00"
 },
 "M-med/Active-Directory-Simulation-Attack-": {
 "full_name": "M-med/Active-Directory-Simulation-Attack-",
@@ -13153,8 +13225,8 @@
 },
 "MISP/misp-galaxy": {
 "full_name": "MISP/misp-galaxy",
-"sha": "285d147754492321eed5deda8af6e4196b465ad8",
-"at": "2026-11-01T06:36:45+00:00",
+"sha": "a111a642eca895cc68ddb945149e92bafb040102",
+"at": "2026-11-01T13:28:54+00:00",
 "language": "Python",
 "size": 59104,
 "pushed_at": "2026-10-25",
@@ -13175,7 +13247,7 @@
 "primary_language": "Python",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 61066989,
+"bytes": 61073523,
 "files": 481,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -13251,7 +13323,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-03T06:36:45+00:00"
+"expires": "2026-11-03T13:28:54+00:00"
 },
 "MRdark-ops/php2shell": {
 "full_name": "MRdark-ops/php2shell",
@@ -13756,6 +13828,83 @@
 "vet_soft": []
 },
 "expires": "2026-11-02T12:42:05+00:00"
+},
+"ManufacturingSaw/horizon-capes-skins-minecraft": {
+"full_name": "ManufacturingSaw/horizon-capes-skins-minecraft",
+"sha": "fa849fd42dd24d840c6cd52564b6578c864e7ca7",
+"at": "2026-11-01T13:29:34+00:00",
+"language": "JavaScript",
+"size": 5016,
+"pushed_at": "2026-10-31",
+"created_at": "2026-10-31",
+"stars": 129,
+"curated": false,
+"scanner": {
+"semgrep": "1.177.0",
+"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
+},
+"policy_version": 2,
+"result": "fail",
+"reasons": [
+"130 stars on a 0-day-old repo (bought stars)",
+"soft: owner account is 79 days old"
+],
+"coverage": {
+"primary_language": "JavaScript",
+"supported": true,
+"note": "generic + language rules",
+"bytes": 5601587,
+"files": 47,
+"notebooks_extracted": 0,
+"semgrepignore_removed": 0,
+"signals": {
+"has_tests": false,
+"has_dockerfile": false,
+"compose_services": 0,
+"has_k8s": false,
+"has_terraform": false,
+"dep_count": 0,
+"readme_bytes": 9386,
+"top_level_entries": 16
+},
+"engines_not_ran": [],
+"code_scan_result": "pass",
+"blocking": [],
+"advisory": {
+"osv_vulnerabilities": 0
+},
+"engines": {
+"semgrep": "ran",
+"yara": "ran",
+"clamav": "ran",
+"osv": "ran"
+},
+"yara": {
+"status": "ran",
+"hits": []
+},
+"clamav": {
+"status": "ran",
+"hits": []
+},
+"osv": {
+"status": "ran",
+"malicious": [],
+"vulnerable": 0
+},
+"links": {
+"block": [],
+"warn": [],
+"error": null
+},
+"vet_hard": [
+"130 stars on a 0-day-old repo (bought stars)"
+],
+"vet_soft": [
+"owner account is 79 days old"
+]
+},
+"expires": "2026-11-03T13:29:34+00:00"
 },
 "MathiasDrizzy/lazymark": {
 "full_name": "MathiasDrizzy/lazymark",
@@ -14367,15 +14516,94 @@
 },
 "expires": "2026-11-02T06:06:57+00:00"
 },
+"MustacheCase/zanadir": {
+"full_name": "MustacheCase/zanadir",
+"sha": "1de79d3646cbee22891860769095a628f33b3e5f",
+"at": "2026-11-01T13:29:49+00:00",
+"language": "Go",
+"size": 4838,
+"pushed_at": "2026-11-01",
+"created_at": "2025-02-15",
+"stars": 180,
+"curated": false,
+"scanner": {
+"semgrep": "1.177.0",
+"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
+},
+"policy_version": 2,
+"result": "fail",
+"reasons": [
+"README link: curl-pipe-shell install",
+"code scan: tldp.shell-download-pipe"
+],
+"coverage": {
+"primary_language": "Go",
+"supported": true,
+"note": "generic + language rules",
+"bytes": 1121393,
+"files": 194,
+"notebooks_extracted": 0,
+"semgrepignore_removed": 0,
+"signals": {
+"has_tests": true,
+"has_dockerfile": true,
+"compose_services": 0,
+"has_k8s": false,
+"has_terraform": false,
+"dep_count": 19,
+"readme_bytes": 46169,
+"top_level_entries": 48
+},
+"engines_not_ran": [],
+"code_scan_result": "withheld",
+"blocking": [
+"tldp.shell-download-pipe"
+],
+"advisory": {
+"osv_vulnerabilities": 47
+},
+"engines": {
+"semgrep": "ran",
+"yara": "ran",
+"clamav": "ran",
+"osv": "ran"
+},
+"yara": {
+"status": "ran",
+"hits": []
+},
+"clamav": {
+"status": "ran",
+"hits": []
+},
+"osv": {
+"status": "ran",
+"malicious": [],
+"vulnerable": 47
+},
+"links": {
+"block": [
+"curl-pipe-shell install"
+],
+"warn": [],
+"error": null
+},
+"vet_hard": [
+"README link: curl-pipe-shell install"
+],
+"vet_soft": []
+},
+"expires": "2026-11-03T13:29:49+00:00"
+},
 "N1nEmAn/sapper-v2": {
 "full_name": "N1nEmAn/sapper-v2",
-"sha": "6098db01c44552c104a67e042827dbfac93ac140",
-"at": "2026-10-30T22:54:58+00:00",
+"sha": "05af883495c315b236b47a6f1e95c3ee8edaa58b",
+"at": "2026-11-01T13:30:05+00:00",
 "language": "Python",
-"size": 28383,
-"pushed_at": "2026-10-30",
+"size": 28552,
+"pushed_at": "2026-11-01",
 "created_at": "2026-10-30",
-"stars": 95,
+"stars": 407,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -14390,8 +14618,8 @@
 "primary_language": "Python",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 29666682,
-"files": 99,
+"bytes": 29835437,
+"files": 106,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -14401,7 +14629,7 @@
 "has_k8s": false,
 "has_terraform": false,
 "dep_count": 0,
-"readme_bytes": 8671,
+"readme_bytes": 11573,
 "top_level_entries": 18
 },
 "engines_not_ran": [
@@ -14441,10 +14669,10 @@
 },
 "vet_hard": [],
 "vet_soft": [
-"97 stars on a 0-day-old repo (bought stars)"
+"409 stars on a 1-day-old repo (bought stars)"
 ]
 },
-"expires": "2026-11-01T22:54:58+00:00"
+"expires": "2026-11-03T13:30:05+00:00"
 },
 "NEORUAA/HyperOS-AVD": {
 "full_name": "NEORUAA/HyperOS-AVD",
@@ -15619,8 +15847,8 @@
 },
 "OWASP/CheatSheetSeries": {
 "full_name": "OWASP/CheatSheetSeries",
-"sha": "87a1faf18a29a5c33d040b000eb3c60330c30b2c",
-"at": "2026-10-30T22:58:39+00:00",
+"sha": "3b93fa9b20ff78b65b0627266c22c5ef72c4dfaa",
+"at": "2026-11-01T13:30:26+00:00",
 "language": "JavaScript",
 "size": 2868156,
 "pushed_at": "2026-10-25",
@@ -15657,7 +15885,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-01T22:58:39+00:00"
+"expires": "2026-11-03T13:30:26+00:00"
 },
 "OWASP/Nest": {
 "full_name": "OWASP/Nest",
@@ -15823,8 +16051,8 @@
 },
 "OWASP/cornucopia": {
 "full_name": "OWASP/cornucopia",
-"sha": "292168cfdc223140895025661440d511d835473c",
-"at": "2026-10-30T22:59:23+00:00",
+"sha": "8b19ecce2c2cdcaceba727d292510324d7435d46",
+"at": "2026-11-01T13:30:30+00:00",
 "language": "Python",
 "size": 965122,
 "pushed_at": "2026-10-26",
@@ -15859,7 +16087,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-01T22:59:23+00:00"
+"expires": "2026-11-03T13:30:30+00:00"
 },
 "OWASP/cve-lite-cli": {
 "full_name": "OWASP/cve-lite-cli",
@@ -16434,79 +16662,6 @@
 },
 "expires": "2026-11-02T06:46:20+00:00"
 },
-"OneHumanAI/onehuman": {
-"full_name": "OneHumanAI/onehuman",
-"sha": "110403c94e0f80229b5411c754bcf56984b2c2bc",
-"at": "2026-10-22T12:43:01+00:00",
-"language": "TypeScript",
-"size": 3018,
-"pushed_at": "2026-10-05",
-"created_at": "2026-09-22",
-"stars": 26,
-"curated": false,
-"scanner": {
-"semgrep": "1.177.0",
-"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
-},
-"policy_version": 2,
-"result": "pass",
-"reasons": [],
-"coverage": {
-"primary_language": "TypeScript",
-"supported": true,
-"note": "generic + language rules",
-"bytes": 14514719,
-"files": 317,
-"notebooks_extracted": 0,
-"semgrepignore_removed": 0,
-"signals": {
-"has_tests": true,
-"has_dockerfile": false,
-"compose_services": 0,
-"has_k8s": false,
-"has_terraform": false,
-"dep_count": 12,
-"readme_bytes": 12866,
-"top_level_entries": 31
-},
-"engines_not_ran": [],
-"code_scan_result": "pass",
-"blocking": [],
-"advisory": {
-"WARNING": 8,
-"osv_vulnerabilities": 68
-},
-"engines": {
-"semgrep": "ran",
-"yara": "ran",
-"clamav": "ran",
-"osv": "ran"
-},
-"yara": {
-"status": "ran",
-"hits": []
-},
-"clamav": {
-"status": "ran",
-"hits": []
-},
-"osv": {
-"status": "ran",
-"malicious": [],
-"vulnerable": 68
-},
-"links": {
-"block": [],
-"warn": [],
-"error": null
-},
-"vet_hard": [],
-"vet_soft": [
-"only 1 commit(s)"
-]
-},
-"expires": "2026-11-05T12:43:01+00:00"
-},
 "OpSafari/laborix": {
 "full_name": "OpSafari/laborix",
 "sha": "fb38a256b0ca6c21cbf6128df70123bffcadb6cf",
@@ -16710,8 +16865,8 @@
 },
 "OpenLakeForge/openlakeforge": {
 "full_name": "OpenLakeForge/openlakeforge",
-"sha": "1f69a4c775fd44d8cf6b858050c3d322a59e10d1",
-"at": "2026-10-31T21:57:36+00:00",
+"sha": "69977b59f692e04eae64944b6b2f71d14e31d955",
+"at": "2026-11-01T13:30:36+00:00",
 "language": "Python",
 "size": 13311,
 "pushed_at": "2026-10-31",
@@ -16731,8 +16886,8 @@
 "primary_language": "Python",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 11448902,
-"files": 926,
+"bytes": 11481326,
+"files": 929,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -16783,10 +16938,10 @@
 },
 "vet_hard": [],
 "vet_soft": [
-"owner account is 33 days old"
+"owner account is 34 days old"
 ]
 },
-"expires": "2026-11-02T21:57:36+00:00"
+"expires": "2026-11-03T13:30:36+00:00"
 },
 "OpenRod/OpenRod": {
 "full_name": "OpenRod/OpenRod",
@@ -17485,91 +17640,6 @@
 },
 "expires": "2026-11-02T06:47:47+00:00"
 },
-"Pithus/bazaar": {
-"full_name": "Pithus/bazaar",
-"sha": "d62698f885848e6ad228d5525884b04675fa5335",
-"at": "2026-10-31T06:13:55+00:00",
-"language": "Python",
-"size": 17772,
-"pushed_at": "2026-10-31",
-"created_at": "2020-12-01",
-"stars": 303,
-"curated": false,
-"scanner": {
-"semgrep": "1.177.0",
-"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
-},
-"policy_version": 2,
-"result": "fail",
-"reasons": [
-"malicious dependency: @babel/traverse:GHSA-67hx-6x53-jw92",
-"yara: TLDP_Obfuscated_Payload"
-],
-"coverage": {
-"primary_language": "Python",
-"supported": true,
-"note": "generic + language rules",
-"bytes": 45530043,
-"files": 2998,
-"notebooks_extracted": 0,
-"semgrepignore_removed": 0,
-"signals": {
-"has_tests": true,
-"has_dockerfile": true,
-"compose_services": 0,
-"has_k8s": false,
-"has_terraform": false,
-"dep_count": 0,
-"readme_bytes": 4862,
-"top_level_entries": 30
-},
-"engines_not_ran": [],
-"code_scan_result": "withheld",
-"blocking": [],
-"advisory": {
-"WARNING": 51,
-"INFO": 14,
-"osv_vulnerabilities": 274
-},
-"engines": {
-"semgrep": "ran",
-"yara": "ran",
-"clamav": "ran",
-"osv": "ran"
-},
-"yara": {
-"status": "ran",
-"hits": [
-"TLDP_Obfuscated_Payload@bazaar/static/js/d3.v4.js",
-"TLDP_Obfuscated_Payload@bazaar/static/vendors/bootstrap-4.0.0/assets/js/docs.min.js",
-"TLDP_Obfuscated_Payload@bazaar/static/vendors/bootstrap-4.0.0/site/docs/4.5/assets/js/docs.min.js"
-]
-},
-"clamav": {
-"status": "ran",
-"hits": []
-},
-"osv": {
-"status": "ran",
-"malicious": [
-"@babel/traverse:GHSA-67hx-6x53-jw92"
-],
-"vulnerable": 274
-},
-"links": {
-"block": [],
-"warn": [
-"chat invite link discord.gg"
-],
-"error": null
-},
-"vet_hard": [],
-"vet_soft": [
-"README link: chat invite link discord.gg"
-]
-},
-"expires": "2026-11-02T06:13:55+00:00"
-},
 "Pluviobyte/dot2api": {
 "full_name": "Pluviobyte/dot2api",
 "sha": "66a761505ff73c5dca730260efcaeb5697db81ad",
@@ -17890,8 +17960,8 @@
 },
 "PostHog/posthog": {
 "full_name": "PostHog/posthog",
-"sha": "70f22ac817b68be54e5f8f013b92905c8e304eb9",
-"at": "2026-11-01T06:48:23+00:00",
+"sha": "bd7e396fbdd2714eb258a0f0d3c8ca96cb92a246",
+"at": "2026-11-01T13:32:13+00:00",
 "language": "Python",
 "size": 8375929,
 "pushed_at": "2026-10-26",
@@ -17926,7 +17996,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-03T06:48:23+00:00"
+"expires": "2026-11-03T13:32:13+00:00"
 },
 "PostHog/posthog.com": {
 "full_name": "PostHog/posthog.com",
@@ -17975,6 +18045,56 @@
 "vet_soft": []
 },
 "expires": "2026-11-02T12:48:13+00:00"
+},
+"PrismorSec/prismor": {
+"full_name": "PrismorSec/prismor",
+"sha": "68fbba50d4c09878b111d865df07d976e41bc56c",
+"at": "2026-11-01T13:32:16+00:00",
+"language": "Python",
+"size": 143813,
+"pushed_at": "2026-11-01",
+"created_at": "2026-02-20",
+"stars": 470,
+"curated": false,
+"scanner": {
+"semgrep": "1.177.0",
+"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
+},
+"policy_version": 2,
+"result": "fail",
+"reasons": [
+"README link: link to a raw IP address (private)",
+"repository too large to scan (143813 KB > 60000 KB)",
+"soft: README link: chat invite link discord.gg"
+],
+"coverage": {
+"primary_language": "Python",
+"supported": true,
+"note": "generic + language rules",
+"code_scan_result": "withheld",
+"blocking": [],
+"advisory": {},
+"engines": {},
+"yara": {},
+"clamav": {},
+"osv": {},
+"links": {
+"block": [
+"link to a raw IP address (private)"
+],
+"warn": [
+"chat invite link discord.gg"
+],
+"error": null
+},
+"vet_hard": [
+"README link: link to a raw IP address (private)"
+],
+"vet_soft": [
+"README link: chat invite link discord.gg"
+]
+},
+"expires": "2026-11-03T13:32:16+00:00"
 },
 "Problem99-io/kodeblue": {
 "full_name": "Problem99-io/kodeblue",
@@ -18945,91 +19065,6 @@
 },
 "expires": "2026-11-03T06:50:22+00:00"
 },
-"Rose22/openlumara": {
-"full_name": "Rose22/openlumara",
-"sha": "39bc14918d7814ebc8a1964e3a671839351d9820",
-"at": "2026-10-31T06:17:49+00:00",
-"language": "Python",
-"size": 4913,
-"pushed_at": "2026-10-31",
-"created_at": "2026-02-27",
-"stars": 526,
-"curated": false,
-"scanner": {
-"semgrep": "1.177.0",
-"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
-},
-"policy_version": 2,
-"result": "fail",
-"reasons": [
-"README link: curl-pipe-shell install",
-"code scan: tldp.credential-store-access, tldp.shell-download-pipe",
-"soft: README link: chat invite link discord.gg"
-],
-"coverage": {
-"primary_language": "Python",
-"supported": true,
-"note": "generic + language rules",
-"bytes": 4494568,
-"files": 459,
-"notebooks_extracted": 0,
-"semgrepignore_removed": 0,
-"signals": {
-"has_tests": true,
-"has_dockerfile": true,
-"compose_services": 0,
-"has_k8s": false,
-"has_terraform": false,
-"dep_count": 10,
-"readme_bytes": 8181,
-"top_level_entries": 21
-},
-"engines_not_ran": [],
-"code_scan_result": "withheld",
-"blocking": [
-"tldp.credential-store-access",
-"tldp.shell-download-pipe"
-],
-"advisory": {
-"osv_vulnerabilities": 7
-},
-"engines": {
-"semgrep": "ran",
-"yara": "ran",
-"clamav": "ran",
-"osv": "ran"
-},
-"yara": {
-"status": "ran",
-"hits": []
-},
-"clamav": {
-"status": "ran",
-"hits": []
-},
-"osv": {
-"status": "ran",
-"malicious": [],
-"vulnerable": 7
-},
-"links": {
-"block": [
-"curl-pipe-shell install"
-],
-"warn": [
-"chat invite link discord.gg"
-],
-"error": null
-},
-"vet_hard": [
-"README link: curl-pipe-shell install"
-],
-"vet_soft": [
-"README link: chat invite link discord.gg"
-]
-},
-"expires": "2026-11-02T06:17:49+00:00"
-},
 "SII-fkchen/SOTER": {
 "full_name": "SII-fkchen/SOTER",
 "sha": "0c4e84443e07b81bf7d6032ae940dac8e5debf42",
@@ -19389,8 +19424,8 @@
 },
 "SalamLang/Salam": {
 "full_name": "SalamLang/Salam",
-"sha": "bfc0a27512136f3698d5986664c65d6b5e20ec71",
-"at": "2026-11-01T06:51:20+00:00",
+"sha": "fa503c1f3834fcaae327d4be7c6492f51e5491b2",
+"at": "2026-11-01T13:32:26+00:00",
 "language": "TeX",
 "size": 158137,
 "pushed_at": "2026-10-31",
@@ -19446,7 +19481,7 @@
 "README link: chat invite link t.me"
 ]
 },
-"expires": "2026-11-03T06:51:20+00:00"
+"expires": "2026-11-03T13:32:26+00:00"
 },
 "Salehswt/AFTERMATH": {
 "full_name": "Salehswt/AFTERMATH",
@@ -19773,8 +19808,8 @@
 },
 "Sha-dow-thorne/MCT-Schulungskosten-Planer": {
 "full_name": "Sha-dow-thorne/MCT-Schulungskosten-Planer",
-"sha": "3104905d7b74a6296347f4c4c4fcad0990f32da0",
-"at": "2026-11-01T06:51:29+00:00",
+"sha": "daf9a9983794efe18fe2aa43b766c406464fb427",
+"at": "2026-11-01T13:32:31+00:00",
 "language": "HTML",
 "size": 239,
 "pushed_at": "2026-10-05",
@@ -19794,7 +19829,7 @@
 "primary_language": "HTML",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 197396,
+"bytes": 197443,
 "files": 6,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -19843,7 +19878,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-02T06:51:29+00:00"
+"expires": "2026-11-02T13:32:31+00:00"
 },
 "Sheltercosmo/JevSDSQL": {
 "full_name": "Sheltercosmo/JevSDSQL",
@@ -20156,6 +20191,46 @@
 },
 "expires": "2026-11-01T23:13:40+00:00"
 },
+"ShisatoYano/AutonomousVehicleControlBeginnersGuide": {
+"full_name": "ShisatoYano/AutonomousVehicleControlBeginnersGuide",
+"sha": "d31d79dfa925660fa1d66ca76450b4cfdd65c687",
+"at": "2026-11-01T13:32:51+00:00",
+"language": "Python",
+"size": 281905,
+"pushed_at": "2026-11-01",
+"created_at": "2022-07-01",
+"stars": 1927,
+"curated": false,
+"scanner": {
+"semgrep": "1.177.0",
+"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
+},
+"policy_version": 2,
+"result": "fail",
+"reasons": [
+"repository too large to scan (281905 KB > 60000 KB)"
+],
+"coverage": {
+"primary_language": "Python",
+"supported": true,
+"note": "generic + language rules",
+"code_scan_result": "withheld",
+"blocking": [],
+"advisory": {},
+"engines": {},
+"yara": {},
+"clamav": {},
+"osv": {},
+"links": {
+"block": [],
+"warn": [],
+"error": null
+},
+"vet_hard": [],
+"vet_soft": []
+},
+"expires": "2026-11-03T13:32:51+00:00"
+},
 "ShokoAnime/ShokoServer": {
 "full_name": "ShokoAnime/ShokoServer",
 "sha": "58a75d862eb5acf027e959ec63154ae61b0586df",
@@ -20200,12 +20275,87 @@
 },
 "expires": "2026-11-02T22:00:33+00:00"
 },
+"Shubhamkumartrichy/claude-trading-skills-india": {
+"full_name": "Shubhamkumartrichy/claude-trading-skills-india",
+"sha": "cc81dcffab9ddde4ee16c54162254fa6c7cc0562",
+"at": "2026-11-01T13:32:55+00:00",
+"language": "Python",
+"size": 1237,
+"pushed_at": "2026-11-01",
+"created_at": "2026-10-31",
+"stars": 28,
+"curated": false,
+"scanner": {
+"semgrep": "1.177.0",
+"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
+},
+"policy_version": 2,
+"result": "incomplete",
+"reasons": [
+"required scanner not run: osv=error"
+],
+"coverage": {
+"primary_language": "Python",
+"supported": true,
+"note": "generic + language rules",
+"bytes": 1970796,
+"files": 120,
+"notebooks_extracted": 0,
+"semgrepignore_removed": 0,
+"signals": {
+"has_tests": true,
+"has_dockerfile": false,
+"compose_services": 0,
+"has_k8s": false,
+"has_terraform": false,
+"dep_count": 0,
+"readme_bytes": 17865,
+"top_level_entries": 15
+},
+"engines_not_ran": [
+"osv=error"
+],
+"code_scan_result": "incomplete",
+"blocking": [],
+"advisory": {
+"ERROR": 2,
+"osv_vulnerabilities": 0
+},
+"engines": {
+"semgrep": "ran",
+"yara": "ran",
+"clamav": "ran",
+"osv": "error"
+},
+"yara": {
+"status": "ran",
+"hits": []
+},
+"clamav": {
+"status": "ran",
+"hits": []
+},
+"osv": {
+"status": "error",
+"malicious": [],
+"vulnerable": 0
+},
+"links": {
+"block": [],
+"warn": [],
+"error": null
+},
+"vet_hard": [],
+"vet_soft": []
+},
+"expires": "2026-11-02T13:32:55+00:00"
+},
 "Shudesu/line-harness-oss": {
 "full_name": "Shudesu/line-harness-oss",
-"sha": "eca129c18339abf41595073e62a70a8a6b0667c9",
-"at": "2026-11-01T06:51:52+00:00",
+"sha": "cf3ccd19bb943a645a55ab7937bf0f32f2e2a69c",
+"at": "2026-11-01T13:33:09+00:00",
 "language": "TypeScript",
-"size": 11021,
+"size": 11044,
 "pushed_at": "2026-11-01",
 "created_at": "2026-03-23",
 "stars": 613,
@@ -20223,7 +20373,7 @@
 "primary_language": "TypeScript",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 10439287,
+"bytes": 10442462,
 "files": 1022,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -20234,7 +20384,7 @@
 "has_k8s": false,
 "has_terraform": false,
 "dep_count": 4,
-"readme_bytes": 13965,
+"readme_bytes": 16289,
 "top_level_entries": 29
 },
 "engines_not_ran": [],
@@ -20275,7 +20425,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-03T06:51:52+00:00"
+"expires": "2026-11-03T13:33:09+00:00"
 },
 "SigmaHQ/sigma": {
 "full_name": "SigmaHQ/sigma",
@@ -20453,13 +20603,13 @@
 },
 "Slicer/Slicer": {
 "full_name": "Slicer/Slicer",
-"sha": "128fd5a309d01ad7e94f97059ee35f7751a6f2bd",
-"at": "2026-10-31T06:21:04+00:00",
+"sha": "b43f5f8d3da55b80ed86f39a68c9754db885f9ee",
+"at": "2026-11-01T13:33:45+00:00",
 "language": "C++",
-"size": 140595,
-"pushed_at": "2026-10-31",
+"size": 140571,
+"pushed_at": "2026-11-01",
 "created_at": "2020-03-12",
-"stars": 2694,
+"stars": 2695,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -20468,7 +20618,7 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"repository too large to scan (140595 KB > 60000 KB)"
+"repository too large to scan (140571 KB > 60000 KB)"
 ],
 "coverage": {
 "primary_language": "C++",
@@ -20489,7 +20639,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-02T06:21:04+00:00"
+"expires": "2026-11-03T13:33:45+00:00"
 },
 "SoShinySoChrome/human-incident-response-framework": {
 "full_name": "SoShinySoChrome/human-incident-response-framework",
@@ -20643,6 +20793,123 @@
 ]
 },
 "expires": "2026-11-03T06:54:10+00:00"
+},
+"Southclaws/storyden": {
+"full_name": "Southclaws/storyden",
+"sha": "08d9794abb1a36ff9791f6001b12ab4cb0b13f32",
+"at": "2026-11-01T13:33:48+00:00",
+"language": "Go",
+"size": 202119,
+"pushed_at": "2026-11-01",
+"created_at": "2021-11-15",
+"stars": 346,
+"curated": false,
+"scanner": {
+"semgrep": "1.177.0",
+"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
+},
+"policy_version": 2,
+"result": "fail",
+"reasons": [
+"repository too large to scan (202119 KB > 60000 KB)"
+],
+"coverage": {
+"primary_language": "Go",
+"supported": true,
+"note": "generic + language rules",
+"code_scan_result": "withheld",
+"blocking": [],
+"advisory": {},
+"engines": {},
+"yara": {},
+"clamav": {},
+"osv": {},
+"links": {
+"block": [],
+"warn": [],
+"error": null
+},
+"vet_hard": [],
+"vet_soft": []
+},
+"expires": "2026-11-03T13:33:48+00:00"
+},
+"SparrowPortray/horizon-free-capes": {
+"full_name": "SparrowPortray/horizon-free-capes",
+"sha": "d0b210e164f74fb41504dfc5afc4918820df3338",
+"at": "2026-11-01T13:33:51+00:00",
+"language": "JavaScript",
+"size": 4399,
+"pushed_at": "2026-10-31",
+"created_at": "2026-10-31",
+"stars": 169,
+"curated": false,
+"scanner": {
+"semgrep": "1.177.0",
+"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
+},
+"policy_version": 2,
+"result": "fail",
+"reasons": [
+"174 stars on a 0-day-old repo (bought stars)",
+"soft: owner account is 79 days old"
+],
+"coverage": {
+"primary_language": "JavaScript",
+"supported": true,
+"note": "generic + language rules",
+"bytes": 4815125,
+"files": 49,
+"notebooks_extracted": 0,
+"semgrepignore_removed": 0,
+"signals": {
+"has_tests": false,
+"has_dockerfile": false,
+"compose_services": 0,
+"has_k8s": false,
+"has_terraform": false,
+"dep_count": 0,
+"readme_bytes": 8829,
+"top_level_entries": 16
+},
+"engines_not_ran": [],
+"code_scan_result": "pass",
+"blocking": [],
+"advisory": {
+"osv_vulnerabilities": 0
+},
+"engines": {
+"semgrep": "ran",
+"yara": "ran",
+"clamav": "ran",
+"osv": "ran"
+},
+"yara": {
+"status": "ran",
+"hits": []
+},
+"clamav": {
+"status": "ran",
+"hits": []
+},
+"osv": {
+"status": "ran",
+"malicious": [],
+"vulnerable": 0
+},
+"links": {
+"block": [],
+"warn": [],
+"error": null
+},
+"vet_hard": [
+"174 stars on a 0-day-old repo (bought stars)"
+],
+"vet_soft": [
+"owner account is 79 days old"
+]
+},
+"expires": "2026-11-03T13:33:51+00:00"
 },
 "Spectrmachina/Ztrust": {
 "full_name": "Spectrmachina/Ztrust",
@@ -20814,8 +21081,8 @@
 },
 "StarRocks/starrocks": {
 "full_name": "StarRocks/starrocks",
-"sha": "52a3fa1b071ad26c44e3b707493a708aee101135",
-"at": "2026-11-01T06:55:00+00:00",
+"sha": "12f392862247bdf9a70d5299c91036ceafe52ef1",
+"at": "2026-11-01T13:34:04+00:00",
 "language": "Java",
 "size": 800194,
 "pushed_at": "2026-10-31",
@@ -20850,7 +21117,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-03T06:55:00+00:00"
+"expires": "2026-11-03T13:34:04+00:00"
 },
 "StartLuxLabs/StartLux-Prism": {
 "full_name": "StartLuxLabs/StartLux-Prism",
@@ -21491,8 +21758,8 @@
 },
 "Stensui/todo-bootcamp-lab": {
 "full_name": "Stensui/todo-bootcamp-lab",
-"sha": "3653b64a0b71671fdb1e4fb83d085d1aacfbcf63",
-"at": "2026-11-01T06:55:44+00:00",
+"sha": "589f18bd97300314c7148d4bfab9126b0da69eb4",
+"at": "2026-11-01T13:34:09+00:00",
 "language": "HTML",
 "size": 206,
 "pushed_at": "2026-10-05",
@@ -21512,7 +21779,7 @@
 "primary_language": "HTML",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 199057,
+"bytes": 199111,
 "files": 6,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -21563,7 +21830,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-03T06:55:44+00:00"
+"expires": "2026-11-03T13:34:09+00:00"
 },
 "Superalgos/Superalgos": {
 "full_name": "Superalgos/Superalgos",
@@ -22387,8 +22654,8 @@
 },
 "TheMoonPeople/ChronicleTwo": {
 "full_name": "TheMoonPeople/ChronicleTwo",
-"sha": "b06f36fe5e227d128870b050ce3eeb7bb8835915",
-"at": "2026-11-01T06:58:26+00:00",
+"sha": "6e74e740948dbe342d54b5e0861d090eca3210d5",
+"at": "2026-11-01T13:34:33+00:00",
 "language": "C++",
 "size": 13645,
 "pushed_at": "2026-10-15",
@@ -22408,8 +22675,8 @@
 "primary_language": "C++",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 179510041,
-"files": 11813,
+"bytes": 179550095,
+"files": 11815,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -22463,10 +22730,10 @@
 },
 "vet_hard": [],
 "vet_soft": [
-"owner account is 29 days old"
+"owner account is 30 days old"
 ]
 },
-"expires": "2026-11-03T06:58:26+00:00"
+"expires": "2026-11-03T13:34:33+00:00"
 },
 "TimeLovercc/mojito": {
 "full_name": "TimeLovercc/mojito",
@@ -22851,6 +23118,84 @@
 },
 "expires": "2026-11-03T07:01:13+00:00"
 },
+"Tyrrrz/Deorcify": {
+"full_name": "Tyrrrz/Deorcify",
+"sha": "72248bd6266e3503ab7cce42c819eb0c63cd7b62",
+"at": "2026-11-01T13:36:57+00:00",
+"language": "C#",
+"size": 95,
+"pushed_at": "2026-11-01",
+"created_at": "2023-02-08",
+"stars": 56,
+"curated": false,
+"scanner": {
+"semgrep": "1.177.0",
+"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
+},
+"policy_version": 2,
+"result": "incomplete",
+"reasons": [
+"required scanner not run: osv=error"
+],
+"coverage": {
+"primary_language": "C#",
+"supported": true,
+"note": "generic + language rules",
+"bytes": 45267,
+"files": 24,
+"notebooks_extracted": 0,
+"semgrepignore_removed": 0,
+"signals": {
+"has_tests": false,
+"has_dockerfile": false,
+"compose_services": 0,
+"has_k8s": false,
+"has_terraform": false,
+"dep_count": 0,
+"readme_bytes": 1315,
+"top_level_entries": 15
+},
+"engines_not_ran": [
+"osv=error"
+],
+"code_scan_result": "incomplete",
+"blocking": [],
+"advisory": {
+"osv_vulnerabilities": 0
+},
+"engines": {
+"semgrep": "ran",
+"yara": "ran",
+"clamav": "ran",
+"osv": "error"
+},
+"yara": {
+"status": "ran",
+"hits": []
+},
+"clamav": {
+"status": "ran",
+"hits": []
+},
+"osv": {
+"status": "error",
+"malicious": [],
+"vulnerable": 0
+},
+"links": {
+"block": [],
+"warn": [
+"chat invite link discord.gg"
+],
+"error": null
+},
+"vet_hard": [],
+"vet_soft": [
+"README link: chat invite link discord.gg"
+]
+},
+"expires": "2026-11-02T13:36:57+00:00"
+},
 "UCS-Care-Group/metriccraft": {
 "full_name": "UCS-Care-Group/metriccraft",
 "sha": "765eec66b7556dad7e21922875733cca4cef4a5b",
@@ -23013,13 +23358,13 @@
 },
 "UniClipboard/UniClipboard": {
 "full_name": "UniClipboard/UniClipboard",
-"sha": "7b3760db9c1e88dd5e143f8e58ba50d47883370f",
-"at": "2026-11-01T07:01:18+00:00",
+"sha": "ea1bbcde39f11be158349d2847c194e24a1ef6d8",
+"at": "2026-11-01T13:37:09+00:00",
 "language": "TypeScript",
-"size": 56996,
+"size": 57220,
 "pushed_at": "2026-11-01",
 "created_at": "2025-03-13",
-"stars": 1955,
+"stars": 1956,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -23037,8 +23382,8 @@
 "primary_language": "TypeScript",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 45580040,
-"files": 4806,
+"bytes": 48522422,
+"files": 5226,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -23049,7 +23394,7 @@
 "has_terraform": false,
 "dep_count": 38,
 "readme_bytes": 45521,
-"top_level_entries": 72
+"top_level_entries": 73
 },
 "engines_not_ran": [],
 "code_scan_result": "withheld",
@@ -23060,7 +23405,7 @@
 "tldp.shell-download-pipe"
 ],
 "advisory": {
-"WARNING": 48,
+"WARNING": 49,
 "INFO": 1,
 "ERROR": 2,
 "osv_vulnerabilities": 204
@@ -23101,7 +23446,7 @@
 "README link: chat invite link t.me"
 ]
 },
-"expires": "2026-11-03T07:01:18+00:00"
+"expires": "2026-11-03T13:37:09+00:00"
 },
 "UniXNU/UniXNU": {
 "full_name": "UniXNU/UniXNU",
@@ -25093,8 +25438,8 @@
 },
 "ZeroDayEvil/ai-security-tool": {
 "full_name": "ZeroDayEvil/ai-security-tool",
-"sha": "6e171237fcd3a4e197f00ec8e4e80b678bbd24b8",
-"at": "2026-11-01T07:10:20+00:00",
+"sha": "c9ffd73a383e5c1ed30432e5369499d05343c009",
+"at": "2026-11-01T13:38:46+00:00",
 "language": "HTML",
 "size": 2026,
 "pushed_at": "2026-09-19",
@@ -25119,7 +25464,7 @@
 "primary_language": "HTML",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 28345543,
+"bytes": 28345843,
 "files": 40,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -25182,7 +25527,7 @@
 "README link: chat invite link t.me"
 ]
 },
-"expires": "2026-11-03T07:10:20+00:00"
+"expires": "2026-11-03T13:38:46+00:00"
 },
 "Zesty0wl/hypervisaur": {
 "full_name": "Zesty0wl/hypervisaur",
@@ -25746,8 +26091,8 @@
 },
 "addonohnoba-cmd/clock-Sprint": {
 "full_name": "addonohnoba-cmd/clock-Sprint",
-"sha": "e560619f10495045b76729664642c0b6a30de63f",
-"at": "2026-11-01T07:13:33+00:00",
+"sha": "3d782f4331c427b495c663b84f128199abe44727",
+"at": "2026-11-01T13:39:05+00:00",
 "language": "HTML",
 "size": 244,
 "pushed_at": "2026-10-05",
@@ -25767,7 +26112,7 @@
 "primary_language": "HTML",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 205779,
+"bytes": 205829,
 "files": 6,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -25816,7 +26161,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-02T07:13:33+00:00"
+"expires": "2026-11-02T13:39:05+00:00"
 },
 "aftermathlabs/discord-crasher": {
 "full_name": "aftermathlabs/discord-crasher",
@@ -26303,8 +26648,8 @@
 },
 "airbytehq/airbyte": {
 "full_name": "airbytehq/airbyte",
-"sha": "ba9cebebaaf5d07d9e42d15930dd168e4882a162",
-"at": "2026-11-01T07:14:40+00:00",
+"sha": "f32a836c6ba98ded43c445f1aa9c17b4c100e741",
+"at": "2026-11-01T13:39:27+00:00",
 "language": "Python",
 "size": 956984,
 "pushed_at": "2026-11-01",
@@ -26339,7 +26684,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-03T07:14:40+00:00"
+"expires": "2026-11-03T13:39:27+00:00"
 },
 "aispace-sh/aispace-client": {
 "full_name": "aispace-sh/aispace-client",
@@ -26425,8 +26770,8 @@
 },
 "aixisstudio/Snitch": {
 "full_name": "aixisstudio/Snitch",
-"sha": "0ef4643b9020fa13117ded9efbd759a657a42d01",
-"at": "2026-10-30T23:25:57+00:00",
+"sha": "9fb255745eaf3f587911c78b95111dad898df7df",
+"at": "2026-11-01T13:39:30+00:00",
 "language": "Python",
 "size": 69038,
 "pushed_at": "2026-10-15",
@@ -26442,8 +26787,7 @@
 "reasons": [
 "README link: link to a raw IP address (private)",
 "README link: non-web link scheme file:",
-"repository too large to scan (69038 KB > 60000 KB)",
-"soft: 674 stars on a 29-day-old repo (bought stars)"
+"repository too large to scan (69038 KB > 60000 KB)"
 ],
 "coverage": {
 "primary_language": "Python",
@@ -26468,11 +26812,9 @@
 "README link: link to a raw IP address (private)",
 "README link: non-web link scheme file:"
 ],
-"vet_soft": [
-"674 stars on a 29-day-old repo (bought stars)"
-]
+"vet_soft": []
 },
-"expires": "2026-11-01T23:25:57+00:00"
+"expires": "2026-11-03T13:39:30+00:00"
 },
 "akaunting/akaunting": {
 "full_name": "akaunting/akaunting",
@@ -26516,8 +26858,8 @@
 },
 "aklivity/zilla": {
 "full_name": "aklivity/zilla",
-"sha": "39656818285d9948692c8d7cd1232f06148cd5e8",
-"at": "2026-11-01T07:15:03+00:00",
+"sha": "f2670a2656ecbd8cd4ddbbd1523d5288e4911e55",
+"at": "2026-11-01T13:39:33+00:00",
 "language": "Java",
 "size": 101319,
 "pushed_at": "2026-11-01",
@@ -26562,12 +26904,12 @@
 "README link: chat invite link discord.gg"
 ]
 },
-"expires": "2026-11-03T07:15:03+00:00"
+"expires": "2026-11-03T13:39:33+00:00"
 },
 "aldimirosilva/Cumrooms-PUNCH-Trainer-Suite": {
 "full_name": "aldimirosilva/Cumrooms-PUNCH-Trainer-Suite",
-"sha": "c493f18ef0d4e7ff09fcaa3c5f31f58e9adf9078",
-"at": "2026-11-01T07:15:06+00:00",
+"sha": "a1bd3b4c6c4ad3d0332172e946432f440c02b91f",
+"at": "2026-11-01T13:39:36+00:00",
 "language": "HTML",
 "size": 219,
 "pushed_at": "2026-10-05",
@@ -26587,7 +26929,7 @@
 "primary_language": "HTML",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 196576,
+"bytes": 196619,
 "files": 6,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -26638,7 +26980,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-03T07:15:06+00:00"
+"expires": "2026-11-03T13:39:36+00:00"
 },
 "alejandro-ao/pi-durable-demo": {
 "full_name": "alejandro-ao/pi-durable-demo",
@@ -28826,8 +29168,8 @@
 },
 "apache/datafusion": {
 "full_name": "apache/datafusion",
-"sha": "123747e7145cd06bb012506fa2be9e8092d0b544",
-"at": "2026-11-01T07:22:42+00:00",
+"sha": "6a9a1298e6f23afbc17c8f72ce130aac5edb1aef",
+"at": "2026-11-01T13:40:03+00:00",
 "language": "Rust",
 "size": 264433,
 "pushed_at": "2026-11-01",
@@ -28864,17 +29206,17 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-03T07:22:42+00:00"
+"expires": "2026-11-03T13:40:03+00:00"
 },
 "apache/magpie": {
 "full_name": "apache/magpie",
-"sha": "5520cf7497eefaca6897a89638feee457ef0048f",
-"at": "2026-11-01T07:22:46+00:00",
+"sha": "fdb56da8da4bcf929c266f302d6844b0de9aec8e",
+"at": "2026-11-01T13:40:06+00:00",
 "language": "Python",
-"size": 28295,
-"pushed_at": "2026-10-31",
+"size": 29609,
+"pushed_at": "2026-11-01",
 "created_at": "2026-04-28",
-"stars": 132,
+"stars": 133,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -28889,8 +29231,8 @@
 "primary_language": "Python",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 30348488,
-"files": 7023,
+"bytes": 32376187,
+"files": 7278,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -28900,7 +29242,7 @@
 "has_k8s": false,
 "has_terraform": false,
 "dep_count": 1,
-"readme_bytes": 14302,
+"readme_bytes": 14396,
 "top_level_entries": 48
 },
 "engines_not_ran": [],
@@ -28910,8 +29252,8 @@
 "tldp.shell-download-pipe"
 ],
 "advisory": {
-"WARNING": 25,
-"ERROR": 11,
+"WARNING": 26,
+"ERROR": 13,
 "osv_vulnerabilities": 10
 },
 "engines": {
@@ -28941,12 +29283,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-03T07:22:46+00:00"
+"expires": "2026-11-03T13:40:06+00:00"
 },
 "apache/seatunnel": {
 "full_name": "apache/seatunnel",
-"sha": "fcb404cd947da03a712c4ae9ee9068744bd946a5",
-"at": "2026-10-31T22:15:05+00:00",
+"sha": "b3db27900bd4da855f0247e791e672f7fe301a4e",
+"at": "2026-11-01T13:41:30+00:00",
 "language": "Java",
 "size": 79232,
 "pushed_at": "2026-10-31",
@@ -28981,7 +29323,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-02T22:15:05+00:00"
+"expires": "2026-11-03T13:41:30+00:00"
 },
 "aperod-network/aperod-node": {
 "full_name": "aperod-network/aperod-node",
@@ -29078,8 +29420,8 @@
 },
 "apimart-66/ai-api-aggregator": {
 "full_name": "apimart-66/ai-api-aggregator",
-"sha": "f46e001a1a8b34a86df4f5f03e2dc976c41279ba",
-"at": "2026-10-31T12:58:25+00:00",
+"sha": "3d7fce5173be270d4d7d9b72a8b8e32d8253bbb0",
+"at": "2026-11-01T13:41:33+00:00",
 "language": "Python",
 "size": 1368,
 "pushed_at": "2026-09-29",
@@ -29147,10 +29489,10 @@
 },
 "vet_hard": [],
 "vet_soft": [
-"owner account is 45 days old"
+"owner account is 46 days old"
 ]
 },
-"expires": "2026-11-01T12:58:25+00:00"
+"expires": "2026-11-02T13:41:33+00:00"
 },
 "apimartat5/llm-api-tutorial": {
 "full_name": "apimartat5/llm-api-tutorial",
@@ -29394,8 +29736,8 @@
 },
 "apimartjz/ai-api-gateway-tutorial": {
 "full_name": "apimartjz/ai-api-gateway-tutorial",
-"sha": "e58a05af632e3f4c3844791e47e778a0fb18727e",
-"at": "2026-10-31T12:58:40+00:00",
+"sha": "721de4dfa065e1a26e4d3afcb17f34b481fc9b03",
+"at": "2026-11-01T13:41:46+00:00",
 "language": "Python",
 "size": 6101,
 "pushed_at": "2026-10-15",
@@ -29407,11 +29749,9 @@
 "ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
 },
 "policy_version": 2,
-"result": "fail",
+"result": "incomplete",
 "reasons": [
-"62 stars on a 29-day-old repo (bought stars)",
-"required scanner not run: osv=error",
-"soft: owner account is 32 days old"
+"required scanner not run: osv=error"
 ],
 "coverage": {
 "primary_language": "Python",
@@ -29463,14 +29803,12 @@
 "warn": [],
 "error": null
 },
-"vet_hard": [
-"62 stars on a 29-day-old repo (bought stars)"
-],
+"vet_hard": [],
 "vet_soft": [
-"owner account is 32 days old"
+"owner account is 33 days old"
 ]
 },
-"expires": "2026-11-02T12:58:40+00:00"
+"expires": "2026-11-02T13:41:46+00:00"
 },
 "apimartlh08lf9/unified-ai-api-tutorial": {
 "full_name": "apimartlh08lf9/unified-ai-api-tutorial",
@@ -29634,8 +29972,8 @@
 },
 "apimartte5mam5j/ai-api-gateway-tutorial": {
 "full_name": "apimartte5mam5j/ai-api-gateway-tutorial",
-"sha": "f7fde9f6d6a4f5a2f3d0479f96ad025d0b467556",
-"at": "2026-10-31T12:59:09+00:00",
+"sha": "184750a3917fafefcb37a9917236fe1098c0a0d7",
+"at": "2026-11-01T13:41:59+00:00",
 "language": "Python",
 "size": 6102,
 "pushed_at": "2026-10-15",
@@ -29647,11 +29985,9 @@
 "ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
 },
 "policy_version": 2,
-"result": "fail",
+"result": "incomplete",
 "reasons": [
-"50 stars on a 29-day-old repo (bought stars)",
-"required scanner not run: osv=error",
-"soft: owner account is 32 days old"
+"required scanner not run: osv=error"
 ],
 "coverage": {
 "primary_language": "Python",
@@ -29703,14 +30039,12 @@
 "warn": [],
 "error": null
 },
-"vet_hard": [
-"50 stars on a 29-day-old repo (bought stars)"
-],
+"vet_hard": [],
 "vet_soft": [
-"owner account is 32 days old"
+"owner account is 33 days old"
 ]
 },
-"expires": "2026-11-02T12:59:09+00:00"
+"expires": "2026-11-02T13:41:59+00:00"
 },
 "apimartuys8r2uo/api-router-tutorial": {
 "full_name": "apimartuys8r2uo/api-router-tutorial",
@@ -29790,8 +30124,8 @@
 },
 "apimartw94zu4z/ai-gateway-tutorial": {
 "full_name": "apimartw94zu4z/ai-gateway-tutorial",
-"sha": "00a3d43933a0ca177ae3423c067c71223700b636",
-"at": "2026-10-31T12:59:25+00:00",
+"sha": "c2664cce4eba5104a994639a2770400620662eba",
+"at": "2026-11-01T13:42:12+00:00",
 "language": "Python",
 "size": 6106,
 "pushed_at": "2026-10-15",
@@ -29803,11 +30137,9 @@
 "ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
 },
 "policy_version": 2,
-"result": "fail",
+"result": "incomplete",
 "reasons": [
-"50 stars on a 29-day-old repo (bought stars)",
-"required scanner not run: osv=error",
-"soft: owner account is 32 days old"
+"required scanner not run: osv=error"
 ],
 "coverage": {
 "primary_language": "Python",
@@ -29859,14 +30191,12 @@
 "warn": [],
 "error": null
 },
-"vet_hard": [
-"50 stars on a 29-day-old repo (bought stars)"
-],
+"vet_hard": [],
 "vet_soft": [
-"owner account is 32 days old"
+"owner account is 33 days old"
 ]
 },
-"expires": "2026-11-02T12:59:25+00:00"
+"expires": "2026-11-02T13:42:12+00:00"
 },
 "apimartwt/openai-compatible-api-tutorial": {
 "full_name": "apimartwt/openai-compatible-api-tutorial",
@@ -30299,8 +30629,8 @@
 },
 "arjaythedev/twelve-dollar-server-challenge": {
 "full_name": "arjaythedev/twelve-dollar-server-challenge",
-"sha": "5ba6f51ef337100d8428416cf1cbb7827075a2e7",
-"at": "2026-11-01T07:26:15+00:00",
+"sha": "33523278a23baac6b07d21250e71f5312b7075af",
+"at": "2026-11-01T13:42:26+00:00",
 "language": "Python",
 "size": 201,
 "pushed_at": "2026-10-16",
@@ -30321,8 +30651,8 @@
 "primary_language": "Python",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 62085975,
-"files": 2687,
+"bytes": 62303472,
+"files": 2720,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -30374,10 +30704,86 @@
 },
 "vet_hard": [],
 "vet_soft": [
-"579 stars on a 28-day-old repo (bought stars)"
+"586 stars on a 28-day-old repo (bought stars)"
 ]
 },
-"expires": "2026-11-03T07:26:15+00:00"
+"expires": "2026-11-03T13:42:26+00:00"
+},
+"arkenforge/arken-core": {
+"full_name": "arkenforge/arken-core",
+"sha": "e05a7ec425c288bd6186558ba312b9ed656affbe",
+"at": "2026-11-01T13:43:48+00:00",
+"language": "Rust",
+"size": 114,
+"pushed_at": "2026-11-01",
+"created_at": "2026-10-29",
+"stars": 12,
+"curated": false,
+"scanner": {
+"semgrep": "1.177.0",
+"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
+},
+"policy_version": 2,
+"result": "incomplete",
+"reasons": [
+"required scanner not run: osv=error"
+],
+"coverage": {
+"primary_language": "Rust",
+"supported": true,
+"note": "generic + language rules",
+"bytes": 64531,
+"files": 31,
+"notebooks_extracted": 0,
+"semgrepignore_removed": 0,
+"signals": {
+"has_tests": false,
+"has_dockerfile": false,
+"compose_services": 0,
+"has_k8s": false,
+"has_terraform": false,
+"dep_count": 0,
+"readme_bytes": 4052,
+"top_level_entries": 7
+},
+"engines_not_ran": [
+"osv=error"
+],
+"code_scan_result": "incomplete",
+"blocking": [],
+"advisory": {
+"osv_vulnerabilities": 0
+},
+"engines": {
+"semgrep": "ran",
+"yara": "ran",
+"clamav": "ran",
+"osv": "error"
+},
+"yara": {
+"status": "ran",
+"hits": []
+},
+"clamav": {
+"status": "ran",
+"hits": []
+},
+"osv": {
+"status": "error",
+"malicious": [],
+"vulnerable": 0
+},
+"links": {
+"block": [],
+"warn": [],
+"error": null
+},
+"vet_hard": [],
+"vet_soft": [
+"owner account is 1 days old"
+]
+},
+"expires": "2026-11-02T13:43:48+00:00"
 },
 "arkenforge/arken-protocol": {
 "full_name": "arkenforge/arken-protocol",
@@ -30457,13 +30863,13 @@
 },
 "armanlife/firefox-vpn-client": {
 "full_name": "armanlife/firefox-vpn-client",
-"sha": "93dc6179065cc4424f100c2f3f17ee26f582ee74",
-"at": "2026-10-31T22:16:44+00:00",
+"sha": "b5f2d6c4fcffcc6240f5ce2480fc8a1082989e6b",
+"at": "2026-11-01T13:44:00+00:00",
 "language": "Go",
-"size": 2585,
-"pushed_at": "2026-10-27",
+"size": 3807,
+"pushed_at": "2026-11-01",
 "created_at": "2026-10-18",
-"stars": 527,
+"stars": 559,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -30472,7 +30878,7 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"539 stars on a 13-day-old repo (bought stars)",
+"562 stars on a 14-day-old repo (bought stars)",
 "README link: curl-pipe-shell install",
 "code scan: tldp.shell-download-pipe"
 ],
@@ -30480,8 +30886,8 @@
 "primary_language": "Go",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 11190514,
-"files": 1256,
+"bytes": 11173261,
+"files": 1255,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -30531,11 +30937,11 @@
 },
 "vet_hard": [
 "README link: curl-pipe-shell install",
-"539 stars on a 13-day-old repo (bought stars)"
+"562 stars on a 14-day-old repo (bought stars)"
 ],
 "vet_soft": []
 },
-"expires": "2026-11-02T22:16:44+00:00"
+"expires": "2026-11-03T13:44:00+00:00"
 },
 "armourinfosec/surfacemap": {
 "full_name": "armourinfosec/surfacemap",
@@ -30623,8 +31029,8 @@
 },
 "aryan24s-boop/math-drill-sprint": {
 "full_name": "aryan24s-boop/math-drill-sprint",
-"sha": "8e6a31e2f149cfc4e018ce97ef14cd36d152a8e0",
-"at": "2026-11-01T07:28:20+00:00",
+"sha": "f748535f847107d9801d441293d60b7894088517",
+"at": "2026-11-01T13:44:33+00:00",
 "language": "HTML",
 "size": 241,
 "pushed_at": "2026-10-05",
@@ -30644,7 +31050,7 @@
 "primary_language": "HTML",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 201082,
+"bytes": 201134,
 "files": 6,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -30693,7 +31099,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-02T07:28:20+00:00"
+"expires": "2026-11-02T13:44:33+00:00"
 },
 "assetnote/h3fuzz": {
 "full_name": "assetnote/h3fuzz",
@@ -30858,13 +31264,13 @@
 },
 "authelia/authelia": {
 "full_name": "authelia/authelia",
-"sha": "8326439e4fd4cb5d0a7b0bc6a00e2da4d8981c21",
-"at": "2026-11-01T07:28:56+00:00",
+"sha": "4fffd89dee139b46262b1e122aa3152f4b539cbd",
+"at": "2026-11-01T13:44:54+00:00",
 "language": "Go",
-"size": 90682,
-"pushed_at": "2026-10-31",
+"size": 90895,
+"pushed_at": "2026-11-01",
 "created_at": "2016-12-07",
-"stars": 29460,
+"stars": 29469,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -30873,7 +31279,7 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"repository too large to scan (90682 KB > 60000 KB)"
+"repository too large to scan (90895 KB > 60000 KB)"
 ],
 "coverage": {
 "primary_language": "Go",
@@ -30894,7 +31300,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-03T07:28:56+00:00"
+"expires": "2026-11-03T13:44:54+00:00"
 },
 "avhz/RustQuant": {
 "full_name": "avhz/RustQuant",
@@ -31223,8 +31629,8 @@
 },
 "aws/aws-sdk-pandas": {
 "full_name": "aws/aws-sdk-pandas",
-"sha": "3e24183dc70ff2f79a0a306ea083d0a5e79e27a0",
-"at": "2026-11-01T07:30:01+00:00",
+"sha": "8cd29dda04c6f2e7aa5d50864f66ddda9ec0d130",
+"at": "2026-11-01T13:44:58+00:00",
 "language": "Python",
 "size": 32657,
 "pushed_at": "2026-10-12",
@@ -31244,7 +31650,7 @@
 "primary_language": "Python",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 6534464,
+"bytes": 6534465,
 "files": 385,
 "notebooks_extracted": 43,
 "semgrepignore_removed": 0,
@@ -31296,7 +31702,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-03T07:30:01+00:00"
+"expires": "2026-11-03T13:44:58+00:00"
 },
 "ayon-ssp/The-SDE-Prep": {
 "full_name": "ayon-ssp/The-SDE-Prep",
@@ -31571,8 +31977,8 @@
 },
 "bemmoly/bemmoly": {
 "full_name": "bemmoly/bemmoly",
-"sha": "203d03c093c9c1012c6e61d8711ce709b5881211",
-"at": "2026-11-01T07:30:33+00:00",
+"sha": "4e46bdda188d28ccc050e615cf45e272bbeea49f",
+"at": "2026-11-01T13:45:19+00:00",
 "language": "TypeScript",
 "size": 80482,
 "pushed_at": "2026-10-21",
@@ -31619,7 +32025,7 @@
 "owner account is 24 days old"
 ]
 },
-"expires": "2026-11-03T07:30:33+00:00"
+"expires": "2026-11-03T13:45:19+00:00"
 },
 "better-isms/grcskills": {
 "full_name": "better-isms/grcskills",
@@ -31946,13 +32352,13 @@
 },
 "bitfocus/companion": {
 "full_name": "bitfocus/companion",
-"sha": "9166e7a0a07232e6df64cfd96a6e131c80401911",
-"at": "2026-10-30T23:46:31+00:00",
+"sha": "9ff45ec4b20a41d153960e5dff40f8896e41ad5b",
+"at": "2026-11-01T13:45:24+00:00",
 "language": "TypeScript",
-"size": 139318,
-"pushed_at": "2026-10-29",
+"size": 140307,
+"pushed_at": "2026-11-01",
 "created_at": "2018-04-23",
-"stars": 2345,
+"stars": 2350,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -31961,7 +32367,7 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"repository too large to scan (139318 KB > 60000 KB)"
+"repository too large to scan (140307 KB > 60000 KB)"
 ],
 "coverage": {
 "primary_language": "TypeScript",
@@ -31982,7 +32388,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-01T23:46:31+00:00"
+"expires": "2026-11-03T13:45:24+00:00"
 },
 "bl4ckr0ss3/ttpscope": {
 "full_name": "bl4ckr0ss3/ttpscope",
@@ -32936,10 +33342,10 @@
 },
 "bytebase/bytebase": {
 "full_name": "bytebase/bytebase",
-"sha": "7814f7293d78565a85624f827fcc386516fa0889",
-"at": "2026-11-01T07:32:10+00:00",
+"sha": "efc56d2e0eb50e178c727f064dbed4b1782f6b07",
+"at": "2026-11-01T13:45:30+00:00",
 "language": "Go",
-"size": 205048,
+"size": 205261,
 "pushed_at": "2026-11-01",
 "created_at": "2021-01-27",
 "stars": 14662,
@@ -32951,7 +33357,7 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"repository too large to scan (205048 KB > 60000 KB)"
+"repository too large to scan (205261 KB > 60000 KB)"
 ],
 "coverage": {
 "primary_language": "Go",
@@ -32974,7 +33380,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-03T07:32:10+00:00"
+"expires": "2026-11-03T13:45:30+00:00"
 },
 "c9dev/penguin-mail": {
 "full_name": "c9dev/penguin-mail",
@@ -33584,7 +33990,7 @@
 "chvp/NanoLedger": {
 "full_name": "chvp/NanoLedger",
 "sha": "8a458668ec45fbcffc78cbcc7df8a5d550fb634e",
-"at": "2026-10-31T13:02:44+00:00",
+"at": "2026-11-01T13:45:35+00:00",
 "language": "Kotlin",
 "size": 2356,
 "pushed_at": "2026-10-31",
@@ -33653,7 +34059,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-01T13:02:44+00:00"
+"expires": "2026-11-02T13:45:35+00:00"
 },
 "cinar/indicator": {
 "full_name": "cinar/indicator",
@@ -34501,6 +34907,85 @@
 },
 "expires": "2026-11-03T07:34:53+00:00"
 },
+"cloud-hypervisor/cloud-hypervisor": {
+"full_name": "cloud-hypervisor/cloud-hypervisor",
+"sha": "670bcd6040dae55675821bbb597cdc8e7e51179c",
+"at": "2026-11-01T13:45:52+00:00",
+"language": "Rust",
+"size": 38837,
+"pushed_at": "2026-11-01",
+"created_at": "2019-04-30",
+"stars": 6449,
+"curated": false,
+"scanner": {
+"semgrep": "1.177.0",
+"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
+},
+"policy_version": 2,
+"result": "fail",
+"reasons": [
+"code scan: secrets:detected-private-key, tldp.shell-download-pipe"
+],
+"coverage": {
+"primary_language": "Rust",
+"supported": true,
+"note": "generic + language rules",
+"bytes": 8215967,
+"files": 486,
+"notebooks_extracted": 0,
+"semgrepignore_removed": 0,
+"signals": {
+"has_tests": true,
+"has_dockerfile": true,
+"compose_services": 0,
+"has_k8s": false,
+"has_terraform": false,
+"dep_count": 0,
+"readme_bytes": 16114,
+"top_level_entries": 55
+},
+"engines_not_ran": [],
+"code_scan_result": "withheld",
+"blocking": [
+"secrets:detected-private-key",
+"tldp.shell-download-pipe"
+],
+"advisory": {
+"ERROR": 1,
+"WARNING": 1,
+"osv_vulnerabilities": 3
+},
+"engines": {
+"semgrep": "ran",
+"yara": "ran",
+"clamav": "ran",
+"osv": "ran"
+},
+"yara": {
+"status": "ran",
+"hits": []
+},
+"clamav": {
+"status": "ran",
+"hits": []
+},
+"osv": {
+"status": "ran",
+"malicious": [],
+"vulnerable": 3
+},
+"links": {
+"block": [
+"executable/archive download from cloud-images.ubuntu.com"
+],
+"warn": [],
+"error": null
+},
+"vet_hard": [],
+"vet_soft": []
+},
+"expires": "2026-11-03T13:45:52+00:00"
+},
 "cloudcell/gnosislab": {
 "full_name": "cloudcell/gnosislab",
 "sha": "d0b9907746520ee23e890624309b05bbb9cae2bd",
@@ -35218,11 +35703,11 @@
 },
 "cp2k/cp2k": {
 "full_name": "cp2k/cp2k",
-"sha": "4730b296b91573a5791e0ab435d9af647918bb4d",
-"at": "2026-11-01T07:36:15+00:00",
+"sha": "0934354740ee8e6fde2ca7eaf19597a199f958bf",
+"at": "2026-11-01T13:46:14+00:00",
 "language": "Fortran",
-"size": 325889,
-"pushed_at": "2026-10-31",
+"size": 325859,
+"pushed_at": "2026-11-01",
 "created_at": "2018-10-02",
 "stars": 1236,
 "curated": false,
@@ -35254,17 +35739,17 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-03T07:36:15+00:00"
+"expires": "2026-11-03T13:46:14+00:00"
 },
 "cplj/axiocairn-mcp": {
 "full_name": "cplj/axiocairn-mcp",
-"sha": "58b36235a7c501a1f3d491b7cfdf0d20cbd7d0dd",
-"at": "2026-10-31T22:21:33+00:00",
+"sha": "69f93f5a68bdc985e258efa0083c8fab628a3fd3",
+"at": "2026-11-01T13:46:18+00:00",
 "language": "Python",
-"size": 49,
-"pushed_at": "2026-10-30",
+"size": 62,
+"pushed_at": "2026-11-01",
 "created_at": "2026-10-26",
-"stars": 28,
+"stars": 36,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -35279,8 +35764,8 @@
 "primary_language": "Python",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 48379,
-"files": 20,
+"bytes": 54703,
+"files": 26,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -35290,8 +35775,8 @@
 "has_k8s": false,
 "has_terraform": false,
 "dep_count": 0,
-"readme_bytes": 11752,
-"top_level_entries": 13
+"readme_bytes": 12500,
+"top_level_entries": 15
 },
 "engines_not_ran": [
 "osv=error"
@@ -35328,7 +35813,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-01T22:21:33+00:00"
+"expires": "2026-11-02T13:46:18+00:00"
 },
 "craftsail/craftsail-growth": {
 "full_name": "craftsail/craftsail-growth",
@@ -36088,10 +36573,10 @@
 },
 "daniel-hauser/moneyman": {
 "full_name": "daniel-hauser/moneyman",
-"sha": "f049a9555f375826647f7fbc68e1c0e1f399d46c",
-"at": "2026-11-01T07:38:31+00:00",
+"sha": "56c8d583355df0eabcbbc270718884d815363d4d",
+"at": "2026-11-01T13:46:32+00:00",
 "language": "TypeScript",
-"size": 3578,
+"size": 3767,
 "pushed_at": "2026-11-01",
 "created_at": "2021-10-13",
 "stars": 108,
@@ -36109,7 +36594,7 @@
 "primary_language": "TypeScript",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 1543255,
+"bytes": 1541564,
 "files": 171,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -36161,7 +36646,7 @@
 ],
 "vet_soft": []
 },
-"expires": "2026-11-03T07:38:31+00:00"
+"expires": "2026-11-03T13:46:32+00:00"
 },
 "danielwh2/cube-motion": {
 "full_name": "danielwh2/cube-motion",
@@ -36317,8 +36802,8 @@
 },
 "danoszz/penthera": {
 "full_name": "danoszz/penthera",
-"sha": "97842157d70a72d228c8aee571d407a53a685fe0",
-"at": "2026-11-01T07:38:54+00:00",
+"sha": "031efe36019cf4c23f9ef6e5bfd458a736c9a71e",
+"at": "2026-11-01T13:46:48+00:00",
 "language": "JavaScript",
 "size": 25287,
 "pushed_at": "2026-10-31",
@@ -36339,8 +36824,8 @@
 "primary_language": "JavaScript",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 21247179,
-"files": 899,
+"bytes": 21245210,
+"files": 900,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -36350,7 +36835,7 @@
 "has_k8s": false,
 "has_terraform": false,
 "dep_count": 8,
-"readme_bytes": 30484,
+"readme_bytes": 30548,
 "top_level_entries": 46
 },
 "engines_not_ran": [],
@@ -36392,7 +36877,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-03T07:38:54+00:00"
+"expires": "2026-11-03T13:46:48+00:00"
 },
 "darek-margas/wifi-association-presence": {
 "full_name": "darek-margas/wifi-association-presence",
@@ -36515,8 +37000,8 @@
 },
 "data-privacy-stack/presidio": {
 "full_name": "data-privacy-stack/presidio",
-"sha": "dac42a22d06d3076925f8d3e577aefd67308cad1",
-"at": "2026-10-31T06:50:19+00:00",
+"sha": "fbe0ef4f29124bc3a3ab8a6562276dd9cfb269fd",
+"at": "2026-11-01T13:47:20+00:00",
 "language": "Python",
 "size": 342510,
 "pushed_at": "2026-10-25",
@@ -36553,7 +37038,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-02T06:50:19+00:00"
+"expires": "2026-11-03T13:47:20+00:00"
 },
 "datacharmer/test_db": {
 "full_name": "datacharmer/test_db",
@@ -37348,8 +37833,8 @@
 },
 "dependency-check/DependencyCheck": {
 "full_name": "dependency-check/DependencyCheck",
-"sha": "4eb67171a403bb267fb5af1cb6e448dace0464a5",
-"at": "2026-10-30T23:56:54+00:00",
+"sha": "cb125ee1be3dd9aaafdba7d5e670e3430e338121",
+"at": "2026-11-01T13:47:26+00:00",
 "language": "Java",
 "size": 316066,
 "pushed_at": "2026-10-26",
@@ -37384,7 +37869,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-01T23:56:54+00:00"
+"expires": "2026-11-03T13:47:26+00:00"
 },
 "derekross/linux-omarchy-mobile": {
 "full_name": "derekross/linux-omarchy-mobile",
@@ -37626,8 +38111,8 @@
 },
 "dev-null-sh/dev-null.sh": {
 "full_name": "dev-null-sh/dev-null.sh",
-"sha": "f06bde75389133ba4ad4f1af6d1504fba54a4ae5",
-"at": "2026-11-01T07:42:15+00:00",
+"sha": "6b534ca46e577eaa40720842fc50a01675f1e2e0",
+"at": "2026-11-01T13:47:30+00:00",
 "language": "PHP",
 "size": 78731,
 "pushed_at": "2026-10-29",
@@ -37641,7 +38126,7 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"617 stars on a 16-day-old repo (bought stars)",
+"621 stars on a 17-day-old repo (bought stars)",
 "repository too large to scan (78731 KB > 60000 KB)"
 ],
 "coverage": {
@@ -37661,11 +38146,11 @@
 "error": null
 },
 "vet_hard": [
-"617 stars on a 16-day-old repo (bought stars)"
+"621 stars on a 17-day-old repo (bought stars)"
 ],
 "vet_soft": []
 },
-"expires": "2026-11-03T07:42:15+00:00"
+"expires": "2026-11-03T13:47:30+00:00"
 },
 "devploit/php2shell": {
 "full_name": "devploit/php2shell",
@@ -38717,8 +39202,8 @@
 },
 "eater2/ai_agents_api_library": {
 "full_name": "eater2/ai_agents_api_library",
-"sha": "34e10148703e7153c33494cb432feb08ea21d513",
-"at": "2026-10-31T13:06:02+00:00",
+"sha": "0c771ea8134c42823b8d279f41ccf3f2cd62630b",
+"at": "2026-11-01T13:47:37+00:00",
 "language": "Python",
 "size": 9203,
 "pushed_at": "2026-10-24",
@@ -38732,14 +39217,13 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"README link: executable/archive download from ai-agents-api-library.vercel.app",
-"scan incomplete: Timeout"
+"README link: executable/archive download from ai-agents-api-library.vercel.app"
 ],
 "coverage": {
 "primary_language": "Python",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 15015013,
+"bytes": 14971805,
 "files": 317,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -38754,7 +39238,7 @@
 "top_level_entries": 31
 },
 "engines_not_ran": [],
-"code_scan_result": "incomplete",
+"code_scan_result": "pass",
 "blocking": [],
 "advisory": {
 "WARNING": 9,
@@ -38791,7 +39275,7 @@
 ],
 "vet_soft": []
 },
-"expires": "2026-11-02T13:06:02+00:00"
+"expires": "2026-11-03T13:47:37+00:00"
 },
 "eddieoz/fapico2": {
 "full_name": "eddieoz/fapico2",
@@ -39105,6 +39589,81 @@
 },
 "expires": "2026-11-03T07:44:08+00:00"
 },
+"elastic/cloudbeat": {
+"full_name": "elastic/cloudbeat",
+"sha": "08819a658b0cd05c084dba35e0c90e822a04708d",
+"at": "2026-11-01T13:48:20+00:00",
+"language": "Go",
+"size": 53649,
+"pushed_at": "2026-11-01",
+"created_at": "2022-02-14",
+"stars": 59,
+"curated": false,
+"scanner": {
+"semgrep": "1.177.0",
+"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
+},
+"policy_version": 2,
+"result": "fail",
+"reasons": [
+"code scan: secrets:detected-etc-shadow, tldp.credential-store-access"
+],
+"coverage": {
+"primary_language": "Go",
+"supported": true,
+"note": "generic + language rules",
+"bytes": 13353034,
+"files": 2252,
+"notebooks_extracted": 0,
+"semgrepignore_removed": 0,
+"signals": {
+"has_tests": true,
+"has_dockerfile": true,
+"compose_services": 0,
+"has_k8s": true,
+"has_terraform": true,
+"dep_count": 564,
+"readme_bytes": 2157,
+"top_level_entries": 44
+},
+"engines_not_ran": [],
+"code_scan_result": "withheld",
+"blocking": [
+"secrets:detected-etc-shadow",
+"tldp.credential-store-access"
+],
+"advisory": {
+"osv_vulnerabilities": 53
+},
+"engines": {
+"semgrep": "ran",
+"yara": "ran",
+"clamav": "ran",
+"osv": "ran"
+},
+"yara": {
+"status": "ran",
+"hits": []
+},
+"clamav": {
+"status": "ran",
+"hits": []
+},
+"osv": {
+"status": "ran",
+"malicious": [],
+"vulnerable": 53
+},
+"links": {
+"block": [],
+"warn": [],
+"error": null
+},
+"vet_hard": [],
+"vet_soft": []
+},
+"expires": "2026-11-03T13:48:20+00:00"
+},
 "elastic/connectors": {
 "full_name": "elastic/connectors",
 "sha": "33ac33cbd7841e0d93800b847f5a34c353d2549b",
@@ -39266,8 +39825,8 @@
 },
 "elastic/kibana": {
 "full_name": "elastic/kibana",
-"sha": "75a1993f4b4993cd19f40e7abeeb301c7d9acc0e",
-"at": "2026-10-31T22:26:34+00:00",
+"sha": "276dce01fa948ccd71ed26655cdcb8e004d0775c",
+"at": "2026-11-01T13:49:50+00:00",
 "language": "TypeScript",
 "size": 18278904,
 "pushed_at": "2026-10-30",
@@ -39302,7 +39861,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-02T22:26:34+00:00"
+"expires": "2026-11-03T13:49:50+00:00"
 },
 "elementalsouls/Claude-AgentHunter": {
 "full_name": "elementalsouls/Claude-AgentHunter",
@@ -39468,51 +40027,6 @@
 },
 "expires": "2026-11-03T07:44:33+00:00"
 },
-"elodin-sys/elodin": {
-"full_name": "elodin-sys/elodin",
-"sha": "7be66e793a9e4602f7046f1b3f62c02f154bc277",
-"at": "2026-11-01T07:45:27+00:00",
-"language": "Rust",
-"size": 269964,
-"pushed_at": "2026-10-31",
-"created_at": "2024-02-26",
-"stars": 552,
-"curated": false,
-"scanner": {
-"semgrep": "1.177.0",
-"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
-},
-"policy_version": 2,
-"result": "fail",
-"reasons": [
-"README link: curl-pipe-shell install",
-"repository too large to scan (269964 KB > 60000 KB)"
-],
-"coverage": {
-"primary_language": "Rust",
-"supported": true,
-"note": "generic + language rules",
-"code_scan_result": "withheld",
-"blocking": [],
-"advisory": {},
-"engines": {},
-"yara": {},
-"clamav": {},
-"osv": {},
-"links": {
-"block": [
-"curl-pipe-shell install"
-],
-"warn": [],
-"error": null
-},
-"vet_hard": [
-"README link: curl-pipe-shell install"
-],
-"vet_soft": []
-},
-"expires": "2026-11-03T07:45:27+00:00"
-},
 "elsechord/CyberGuard": {
 "full_name": "elsechord/CyberGuard",
 "sha": "36af9cb6ab32b67f01ac5d1f876b3d9e36601939",
@@ -39595,13 +40109,13 @@
 },
 "emanuele-em/kanzo": {
 "full_name": "emanuele-em/kanzo",
-"sha": "005424d4d0b4c2971278a14de6fbca6189605e6c",
-"at": "2026-10-31T00:02:32+00:00",
+"sha": "83a97df1140756bf698046e6d1b970e916ef1b2d",
+"at": "2026-11-01T13:49:54+00:00",
 "language": "Rust",
-"size": 3506,
-"pushed_at": "2026-10-28",
+"size": 3220,
+"pushed_at": "2026-11-01",
 "created_at": "2026-10-25",
-"stars": 186,
+"stars": 363,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -39612,13 +40126,13 @@
 "reasons": [
 "README link: curl-pipe-shell install",
 "code scan: tldp.shell-download-pipe",
-"soft: 197 stars on a 5-day-old repo (bought stars)"
+"soft: 374 stars on a 7-day-old repo (bought stars)"
 ],
 "coverage": {
 "primary_language": "Rust",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 2249263,
+"bytes": 2260917,
 "files": 44,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -39629,7 +40143,7 @@
 "has_k8s": false,
 "has_terraform": false,
 "dep_count": 0,
-"readme_bytes": 5603,
+"readme_bytes": 6058,
 "top_level_entries": 12
 },
 "engines_not_ran": [],
@@ -39670,10 +40184,10 @@
 "README link: curl-pipe-shell install"
 ],
 "vet_soft": [
-"197 stars on a 5-day-old repo (bought stars)"
+"374 stars on a 7-day-old repo (bought stars)"
 ]
 },
-"expires": "2026-11-02T00:02:32+00:00"
+"expires": "2026-11-03T13:49:54+00:00"
 },
 "emelia-io/claude-outreach": {
 "full_name": "emelia-io/claude-outreach",
@@ -39869,6 +40383,76 @@
 },
 "expires": "2026-11-03T07:45:46+00:00"
 },
+"emollick/audiologs": {
+"full_name": "emollick/audiologs",
+"sha": "01f2b389042f949e0d81ecc6f2838c8deb5160a2",
+"at": "2026-11-01T13:50:15+00:00",
+"language": "JavaScript",
+"size": 14650,
+"pushed_at": "2026-10-30",
+"created_at": "2026-10-29",
+"stars": 16,
+"curated": false,
+"scanner": {
+"semgrep": "1.177.0",
+"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
+},
+"policy_version": 2,
+"result": "pass",
+"reasons": [],
+"coverage": {
+"primary_language": "JavaScript",
+"supported": true,
+"note": "generic + language rules",
+"bytes": 17636671,
+"files": 113,
+"notebooks_extracted": 0,
+"semgrepignore_removed": 0,
+"signals": {
+"has_tests": false,
+"has_dockerfile": false,
+"compose_services": 0,
+"has_k8s": false,
+"has_terraform": false,
+"dep_count": 2,
+"readme_bytes": 10204,
+"top_level_entries": 13
+},
+"engines_not_ran": [],
+"code_scan_result": "pass",
+"blocking": [],
+"advisory": {
+"osv_vulnerabilities": 0
+},
+"engines": {
+"semgrep": "ran",
+"yara": "ran",
+"clamav": "ran",
+"osv": "ran"
+},
+"yara": {
+"status": "ran",
+"hits": []
+},
+"clamav": {
+"status": "ran",
+"hits": []
+},
+"osv": {
+"status": "ran",
+"malicious": [],
+"vulnerable": 0
+},
+"links": {
+"block": [],
+"warn": [],
+"error": null
+},
+"vet_hard": [],
+"vet_soft": []
+},
+"expires": "2026-11-15T13:50:15+00:00"
+},
 "enrique-lozano/Monekin": {
 "full_name": "enrique-lozano/Monekin",
 "sha": "352174117551f1b72210455cf25b48da506ea83a",
@@ -39988,77 +40572,6 @@
 ]
 },
 "expires": "2026-11-02T22:27:05+00:00"
-},
-"equinor/resdata": {
-"full_name": "equinor/resdata",
-"sha": "a0ef7daaf686434c16aeb2cd8c911282608fa348",
-"at": "2026-10-31T00:03:06+00:00",
-"language": "C++",
-"size": 27606,
-"pushed_at": "2026-10-29",
-"created_at": "2017-03-16",
-"stars": 128,
-"curated": false,
-"scanner": {
-"semgrep": "1.177.0",
-"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
-},
-"policy_version": 2,
-"result": "pass",
-"reasons": [],
-"coverage": {
-"primary_language": "C++",
-"supported": true,
-"note": "generic + language rules",
-"bytes": 6193039,
-"files": 515,
-"notebooks_extracted": 0,
-"semgrepignore_removed": 0,
-"signals": {
-"has_tests": true,
-"has_dockerfile": false,
-"compose_services": 0,
-"has_k8s": false,
-"has_terraform": false,
-"dep_count": 0,
-"readme_bytes": 2324,
-"top_level_entries": 29
-},
-"engines_not_ran": [],
-"code_scan_result": "pass",
-"blocking": [],
-"advisory": {
-"WARNING": 1,
-"osv_vulnerabilities": 0
-},
-"engines": {
-"semgrep": "ran",
-"yara": "ran",
-"clamav": "ran",
-"osv": "ran"
-},
-"yara": {
-"status": "ran",
-"hits": []
-},
-"clamav": {
-"status": "ran",
-"hits": []
-},
-"osv": {
-"status": "ran",
-"malicious": [],
-"vulnerable": 0
-},
-"links": {
-"block": [],
-"warn": [],
-"error": null
-},
-"vet_hard": [],
-"vet_soft": []
-},
-"expires": "2026-11-14T00:03:06+00:00"
 },
 "erdogant/benfordslaw": {
 "full_name": "erdogant/benfordslaw",
@@ -40571,11 +41084,11 @@
 },
 "existence-master/Sentient": {
 "full_name": "existence-master/Sentient",
-"sha": "abb16d6f585e55d7c73dcb001937c3487ccd0dda",
-"at": "2026-11-01T07:46:08+00:00",
+"sha": "2a3f848543c5a5c1ecbd9b1701beef677358286e",
+"at": "2026-11-01T13:50:31+00:00",
 "language": "Python",
-"size": 14318,
-"pushed_at": "2026-10-31",
+"size": 14677,
+"pushed_at": "2026-11-01",
 "created_at": "2025-02-20",
 "stars": 717,
 "curated": false,
@@ -40593,8 +41106,8 @@
 "primary_language": "Python",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 13242174,
-"files": 1082,
+"bytes": 13369398,
+"files": 1098,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -40646,7 +41159,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-03T07:46:08+00:00"
+"expires": "2026-11-03T13:50:31+00:00"
 },
 "fabien-w/sentinel1-water-unet": {
 "full_name": "fabien-w/sentinel1-water-unet",
@@ -40735,8 +41248,8 @@
 },
 "facebookincubator/velox": {
 "full_name": "facebookincubator/velox",
-"sha": "c9c8919a7bc32908063cc4b31bd943e5f47514c7",
-"at": "2026-11-01T07:46:54+00:00",
+"sha": "dbfe6d418f2136619142cc5c4aa29ca06a005a42",
+"at": "2026-11-01T13:51:09+00:00",
 "language": "C++",
 "size": 292499,
 "pushed_at": "2026-11-01",
@@ -40771,7 +41284,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-03T07:46:54+00:00"
+"expires": "2026-11-03T13:51:09+00:00"
 },
 "fayazara/robot-heads": {
 "full_name": "fayazara/robot-heads",
@@ -41292,8 +41805,8 @@
 },
 "firstcontributions/first-contributions": {
 "full_name": "firstcontributions/first-contributions",
-"sha": "aa6193f31b0dac822e8642644f329cfd7021c1d6",
-"at": "2026-11-01T07:47:00+00:00",
+"sha": "b901a56036ee3949ace6b3353d34c04f95c1148c",
+"at": "2026-11-01T13:51:14+00:00",
 "language": null,
 "size": 53591,
 "pushed_at": "2026-10-26",
@@ -41328,7 +41841,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-03T07:47:00+00:00"
+"expires": "2026-11-03T13:51:14+00:00"
 },
 "fitzforge/polestar": {
 "full_name": "fitzforge/polestar",
@@ -41381,6 +41894,46 @@
 ]
 },
 "expires": "2026-11-02T13:09:06+00:00"
+},
+"flarum/framework": {
+"full_name": "flarum/framework",
+"sha": "203e63fecfd12457e4dd02cb3c0da9b16223bb5a",
+"at": "2026-11-01T13:51:17+00:00",
+"language": "PHP",
+"size": 205802,
+"pushed_at": "2026-11-01",
+"created_at": "2014-12-20",
+"stars": 6766,
+"curated": false,
+"scanner": {
+"semgrep": "1.177.0",
+"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
+},
+"policy_version": 2,
+"result": "fail",
+"reasons": [
+"repository too large to scan (205802 KB > 60000 KB)"
+],
+"coverage": {
+"primary_language": "PHP",
+"supported": true,
+"note": "generic + language rules",
+"code_scan_result": "withheld",
+"blocking": [],
+"advisory": {},
+"engines": {},
+"yara": {},
+"clamav": {},
+"osv": {},
+"links": {
+"block": [],
+"warn": [],
+"error": null
+},
+"vet_hard": [],
+"vet_soft": []
+},
+"expires": "2026-11-03T13:51:17+00:00"
 },
 "florentPoux/3d-data-materials": {
 "full_name": "florentPoux/3d-data-materials",
@@ -41496,12 +42049,12 @@
 "frappe/books": {
 "full_name": "frappe/books",
 "sha": "8a4ae666b7805c641d66af53feeab16e00d23c9a",
-"at": "2026-10-02T13:03:07+00:00",
+"at": "2026-11-01T13:51:21+00:00",
 "language": "TypeScript",
-"size": 16802,
-"pushed_at": "2026-09-30",
+"size": 16814,
+"pushed_at": "2026-10-02",
 "created_at": "2018-01-08",
-"stars": 4997,
+"stars": 5005,
 "curated": true,
 "scanner": {
 "semgrep": "1.177.0",
@@ -41532,7 +42085,7 @@
 "code_scan_result": "pass",
 "blocking": [],
 "advisory": {
-"osv_vulnerabilities": 111
+"osv_vulnerabilities": 131
 },
 "engines": {
 "semgrep": "ran",
@@ -41551,7 +42104,7 @@
 "osv": {
 "status": "ran",
 "malicious": [],
-"vulnerable": 111
+"vulnerable": 131
 },
 "links": {
 "block": [
@@ -41565,12 +42118,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-01T13:03:07+00:00"
+"expires": "2026-12-01T13:51:21+00:00"
 },
 "frappe/crm": {
 "full_name": "frappe/crm",
-"sha": "55c61880e44c0bdcaafc19210f658d8c9c66cbdd",
-"at": "2026-10-31T00:04:23+00:00",
+"sha": "5b5bda6e3deed9cf173b5c71930b630d74acc14e",
+"at": "2026-11-01T13:51:49+00:00",
 "language": "Vue",
 "size": 117742,
 "pushed_at": "2026-09-28",
@@ -41609,17 +42162,17 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-02T00:04:23+00:00"
+"expires": "2026-11-03T13:51:49+00:00"
 },
 "frappe/erpnext": {
 "full_name": "frappe/erpnext",
-"sha": "b5f57b6d72030600adf74a5d5c01b03da8ec5101",
-"at": "2026-11-01T07:47:09+00:00",
+"sha": "78b8efbabf0d1bb0d770cc5171be32533a65ecdd",
+"at": "2026-11-01T13:51:52+00:00",
 "language": "Python",
-"size": 2053341,
+"size": 2054187,
 "pushed_at": "2026-11-01",
 "created_at": "2011-06-08",
-"stars": 40814,
+"stars": 40819,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -41628,7 +42181,7 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"repository too large to scan (2053341 KB > 60000 KB)"
+"repository too large to scan (2054187 KB > 60000 KB)"
 ],
 "coverage": {
 "primary_language": "Python",
@@ -41653,17 +42206,17 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-03T07:47:09+00:00"
+"expires": "2026-11-03T13:51:52+00:00"
 },
 "frappe/frappe": {
 "full_name": "frappe/frappe",
-"sha": "58a298d5499cc966dee85546056841bb9744afbd",
-"at": "2026-10-31T22:29:11+00:00",
+"sha": "8853f20e787570143cced73a4474cd65269502d7",
+"at": "2026-11-01T13:51:55+00:00",
 "language": "Python",
-"size": 1013199,
-"pushed_at": "2026-10-31",
+"size": 1014152,
+"pushed_at": "2026-11-01",
 "created_at": "2011-06-08",
-"stars": 11034,
+"stars": 11041,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -41672,7 +42225,7 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"repository too large to scan (1013199 KB > 60000 KB)"
+"repository too large to scan (1014152 KB > 60000 KB)"
 ],
 "coverage": {
 "primary_language": "Python",
@@ -41695,7 +42248,51 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-02T22:29:11+00:00"
+"expires": "2026-11-03T13:51:55+00:00"
+},
+"frappe/hrms": {
+"full_name": "frappe/hrms",
+"sha": "ffadbbfa51cefecdb265adbfb51e0aa87ca95f49",
+"at": "2026-11-01T13:51:57+00:00",
+"language": "Python",
+"size": 97997,
+"pushed_at": "2026-11-01",
+"created_at": "2022-06-08",
+"stars": 9001,
+"curated": false,
+"scanner": {
+"semgrep": "1.177.0",
+"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
+},
+"policy_version": 2,
+"result": "fail",
+"reasons": [
+"repository too large to scan (97997 KB > 60000 KB)"
+],
+"coverage": {
+"primary_language": "Python",
+"supported": true,
+"note": "generic + language rules",
+"code_scan_result": "withheld",
+"blocking": [],
+"advisory": {},
+"engines": {},
+"yara": {},
+"clamav": {},
+"osv": {},
+"links": {
+"block": [
+"password-protected download"
+],
+"warn": [
+"chat invite link t.me"
+],
+"error": null
+},
+"vet_hard": [],
+"vet_soft": []
+},
+"expires": "2026-11-03T13:51:57+00:00"
 },
 "frisket-dev/frisket": {
 "full_name": "frisket-dev/frisket",
@@ -41945,13 +42542,13 @@
 },
 "fzn0x/mixmusic": {
 "full_name": "fzn0x/mixmusic",
-"sha": "72d61df9e11956937970c36ab03e1c22d74b95d3",
-"at": "2026-11-01T07:47:30+00:00",
+"sha": "2fdfdb1f6e1d5745ea9ffdef019cc646f7fbbdab",
+"at": "2026-11-01T13:52:01+00:00",
 "language": "Go",
-"size": 26537,
+"size": 26563,
 "pushed_at": "2026-11-01",
 "created_at": "2026-10-18",
-"stars": 140,
+"stars": 152,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -41963,15 +42560,15 @@
 "README link: link to a raw IP address (private)",
 "README link: non-web link scheme mixmusic:",
 "code scan: tldp.credential-store-access",
-"soft: 149 stars on a 13-day-old repo (bought stars)",
+"soft: 152 stars on a 13-day-old repo (bought stars)",
 "soft: README link: chat invite link discord.com"
 ],
 "coverage": {
 "primary_language": "Go",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 24639053,
-"files": 550,
+"bytes": 25903253,
+"files": 676,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -41980,9 +42577,9 @@
 "compose_services": 0,
 "has_k8s": false,
 "has_terraform": false,
-"dep_count": 11,
-"readme_bytes": 19433,
-"top_level_entries": 27
+"dep_count": 12,
+"readme_bytes": 20067,
+"top_level_entries": 28
 },
 "engines_not_ran": [],
 "code_scan_result": "withheld",
@@ -41990,8 +42587,8 @@
 "tldp.credential-store-access"
 ],
 "advisory": {
-"WARNING": 175,
-"osv_vulnerabilities": 14
+"WARNING": 182,
+"osv_vulnerabilities": 7
 },
 "engines": {
 "semgrep": "ran",
@@ -42010,7 +42607,7 @@
 "osv": {
 "status": "ran",
 "malicious": [],
-"vulnerable": 14
+"vulnerable": 7
 },
 "links": {
 "block": [
@@ -42028,10 +42625,10 @@
 ],
 "vet_soft": [
 "README link: chat invite link discord.com",
-"149 stars on a 13-day-old repo (bought stars)"
+"152 stars on a 13-day-old repo (bought stars)"
 ]
 },
-"expires": "2026-11-03T07:47:30+00:00"
+"expires": "2026-11-03T13:52:01+00:00"
 },
 "gabe-santana/arkdraw": {
 "full_name": "gabe-santana/arkdraw",
@@ -42299,8 +42896,8 @@
 },
 "gergelyszabo94/csgo-trader-extension": {
 "full_name": "gergelyszabo94/csgo-trader-extension",
-"sha": "0a6f437e640365b857b1dd53576137646362fa25",
-"at": "2026-11-01T07:48:34+00:00",
+"sha": "356313a86317700ce86c5b9a206cbabb7de99164",
+"at": "2026-11-01T13:52:29+00:00",
 "language": "JavaScript",
 "size": 29258,
 "pushed_at": "2026-10-18",
@@ -42320,7 +42917,7 @@
 "primary_language": "JavaScript",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 26720722,
+"bytes": 26722778,
 "files": 489,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -42373,7 +42970,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-03T07:48:34+00:00"
+"expires": "2026-11-03T13:52:29+00:00"
 },
 "ghostfolio/ghostfolio": {
 "full_name": "ghostfolio/ghostfolio",
@@ -42815,8 +43412,8 @@
 },
 "goodnight000/api-anything": {
 "full_name": "goodnight000/api-anything",
-"sha": "26b96c95d1c30518252dc6e30269bdbf79aaf4cd",
-"at": "2026-11-01T07:49:10+00:00",
+"sha": "bda246984c0e64188c8c6a5e3ff69fd69bb60e9d",
+"at": "2026-11-01T13:52:55+00:00",
 "language": "TypeScript",
 "size": 12498,
 "pushed_at": "2026-10-26",
@@ -42837,8 +43434,8 @@
 "primary_language": "TypeScript",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 14791975,
-"files": 520,
+"bytes": 14795176,
+"files": 524,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -42848,7 +43445,7 @@
 "has_k8s": false,
 "has_terraform": false,
 "dep_count": 9,
-"readme_bytes": 31778,
+"readme_bytes": 31959,
 "top_level_entries": 23
 },
 "engines_not_ran": [],
@@ -42891,7 +43488,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-03T07:49:10+00:00"
+"expires": "2026-11-03T13:52:55+00:00"
 },
 "googIeuser/NETWatcher": {
 "full_name": "googIeuser/NETWatcher",
@@ -43672,8 +44269,8 @@
 },
 "grafana/grafana": {
 "full_name": "grafana/grafana",
-"sha": "a7c265f91c48d83f97d5849c4e4842983d8ab535",
-"at": "2026-10-31T07:05:21+00:00",
+"sha": "01f74f769f0e047658e9927dfe1e7c33bdd73900",
+"at": "2026-11-01T13:53:20+00:00",
 "language": "TypeScript",
 "size": 2103851,
 "pushed_at": "2026-10-30",
@@ -43708,7 +44305,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-02T07:05:21+00:00"
+"expires": "2026-11-03T13:53:20+00:00"
 },
 "greentfrapp/panel": {
 "full_name": "greentfrapp/panel",
@@ -43779,46 +44376,6 @@
 "vet_soft": []
 },
 "expires": "2026-11-10T13:23:56+00:00"
-},
-"growilabs/growi": {
-"full_name": "growilabs/growi",
-"sha": "371b94f10e294e64e68382580ffa5de32f022c70",
-"at": "2026-10-31T00:09:44+00:00",
-"language": "TypeScript",
-"size": 209245,
-"pushed_at": "2026-10-29",
-"created_at": "2017-02-16",
-"stars": 1475,
-"curated": false,
-"scanner": {
-"semgrep": "1.177.0",
-"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
-},
-"policy_version": 2,
-"result": "fail",
-"reasons": [
-"repository too large to scan (209245 KB > 60000 KB)"
-],
-"coverage": {
-"primary_language": "TypeScript",
-"supported": true,
-"note": "generic + language rules",
-"code_scan_result": "withheld",
-"blocking": [],
-"advisory": {},
-"engines": {},
-"yara": {},
-"clamav": {},
-"osv": {},
-"links": {
-"block": [],
-"warn": [],
-"error": null
-},
-"vet_hard": [],
-"vet_soft": []
-},
-"expires": "2026-11-02T00:09:44+00:00"
 },
 "guiIhermevieira/sentinel": {
 "full_name": "guiIhermevieira/sentinel",
@@ -44117,8 +44674,8 @@
 },
 "hackforla/website": {
 "full_name": "hackforla/website",
-"sha": "3db4c4d0063549f40e08f4eedc7ff9824dec1853",
-"at": "2026-10-31T13:09:35+00:00",
+"sha": "7d284dbdebf68b7ef5a99d3e504a20da22f91b46",
+"at": "2026-11-01T13:53:25+00:00",
 "language": "JavaScript",
 "size": 141141,
 "pushed_at": "2026-10-26",
@@ -44153,12 +44710,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-02T13:09:35+00:00"
+"expires": "2026-11-03T13:53:25+00:00"
 },
 "hahwul/dalfox": {
 "full_name": "hahwul/dalfox",
-"sha": "c23c048eff927e15ec6f9ca12c2f7ff271dc7308",
-"at": "2026-11-01T07:52:08+00:00",
+"sha": "3941916fc7b51a0bf90aad1733133ffa2c717baa",
+"at": "2026-11-01T13:53:28+00:00",
 "language": "Rust",
 "size": 128859,
 "pushed_at": "2026-11-01",
@@ -44193,14 +44750,14 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-03T07:52:08+00:00"
+"expires": "2026-11-03T13:53:28+00:00"
 },
 "hahwul/gori": {
 "full_name": "hahwul/gori",
-"sha": "2599dc826a24af9bd888783e862d231f74795048",
-"at": "2026-11-01T07:52:12+00:00",
+"sha": "99f5892d10da93c37a6cb5322d51a4f8edd96a19",
+"at": "2026-11-01T13:53:31+00:00",
 "language": "Crystal",
-"size": 92736,
+"size": 93883,
 "pushed_at": "2026-11-01",
 "created_at": "2026-06-13",
 "stars": 131,
@@ -44238,7 +44795,7 @@
 ],
 "vet_soft": []
 },
-"expires": "2026-11-03T07:52:12+00:00"
+"expires": "2026-11-03T13:53:31+00:00"
 },
 "halilozturkci/dfirswarm": {
 "full_name": "halilozturkci/dfirswarm",
@@ -44352,6 +44909,87 @@
 ]
 },
 "expires": "2026-11-12T06:39:36+00:00"
+},
+"haneenTawfiqM/real-time-intelligence-operations-solution-accelerator": {
+"full_name": "haneenTawfiqM/real-time-intelligence-operations-solution-accelerator",
+"sha": "2f30bde4f4b722ec1217c58224f46e722e5c72b4",
+"at": "2026-11-01T13:53:35+00:00",
+"language": "Rust",
+"size": 439,
+"pushed_at": "2026-11-01",
+"created_at": "2026-10-29",
+"stars": 82,
+"curated": false,
+"scanner": {
+"semgrep": "1.177.0",
+"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
+},
+"policy_version": 2,
+"result": "fail",
+"reasons": [
+"82 stars on a 2-day-old repo (bought stars)",
+"README link: cracked / pirated software wording",
+"required scanner not run: osv=error"
+],
+"coverage": {
+"primary_language": "Rust",
+"supported": true,
+"note": "generic + language rules",
+"bytes": 503003,
+"files": 13,
+"notebooks_extracted": 0,
+"semgrepignore_removed": 0,
+"signals": {
+"has_tests": false,
+"has_dockerfile": false,
+"compose_services": 0,
+"has_k8s": false,
+"has_terraform": false,
+"dep_count": 0,
+"readme_bytes": 18537,
+"top_level_entries": 8
+},
+"engines_not_ran": [
+"osv=error"
+],
+"code_scan_result": "incomplete",
+"blocking": [],
+"advisory": {
+"osv_vulnerabilities": 0
+},
+"engines": {
+"semgrep": "ran",
+"yara": "ran",
+"clamav": "ran",
+"osv": "error"
+},
+"yara": {
+"status": "ran",
+"hits": []
+},
+"clamav": {
+"status": "ran",
+"hits": []
+},
+"osv": {
+"status": "error",
+"malicious": [],
+"vulnerable": 0
+},
+"links": {
+"block": [
+"cracked / pirated software wording"
+],
+"warn": [],
+"error": null
+},
+"vet_hard": [
+"README link: cracked / pirated software wording",
+"82 stars on a 2-day-old repo (bought stars)"
+],
+"vet_soft": []
+},
+"expires": "2026-11-03T13:53:35+00:00"
 },
 "harrisariefkamis/PROJECT-DATA-ANALYST": {
 "full_name": "harrisariefkamis/PROJECT-DATA-ANALYST",
@@ -46742,76 +47380,6 @@
 },
 "expires": "2026-11-06T05:30:11+00:00"
 },
-"initPM/ai-personal-finance-intelligence": {
-"full_name": "initPM/ai-personal-finance-intelligence",
-"sha": "acbd14b592fd59ee3e1a1776591e2797790fea25",
-"at": "2026-10-23T05:30:25+00:00",
-"language": "TypeScript",
-"size": 164,
-"pushed_at": "2026-09-24",
-"created_at": "2026-09-24",
-"stars": 18,
-"curated": false,
-"scanner": {
-"semgrep": "1.177.0",
-"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
-},
-"policy_version": 2,
-"result": "pass",
-"reasons": [],
-"coverage": {
-"primary_language": "TypeScript",
-"supported": true,
-"note": "generic + language rules",
-"bytes": 271440,
-"files": 21,
-"notebooks_extracted": 0,
-"semgrepignore_removed": 0,
-"signals": {
-"has_tests": false,
-"has_dockerfile": false,
-"compose_services": 0,
-"has_k8s": false,
-"has_terraform": false,
-"dep_count": 18,
-"readme_bytes": 8988,
-"top_level_entries": 14
-},
-"engines_not_ran": [],
-"code_scan_result": "pass",
-"blocking": [],
-"advisory": {
-"osv_vulnerabilities": 7
-},
-"engines": {
-"semgrep": "ran",
-"yara": "ran",
-"clamav": "ran",
-"osv": "ran"
-},
-"yara": {
-"status": "ran",
-"hits": []
-},
-"clamav": {
-"status": "ran",
-"hits": []
-},
-"osv": {
-"status": "ran",
-"malicious": [],
-"vulnerable": 7
-},
-"links": {
-"block": [],
-"warn": [],
-"error": null
-},
-"vet_hard": [],
-"vet_soft": []
-},
-"expires": "2026-11-06T05:30:25+00:00"
-},
 "initial-d/ml-quant-trading": {
 "full_name": "initial-d/ml-quant-trading",
 "sha": "a544609d7eb128b845e29aac7d4a224149f73d8f",
@@ -47244,83 +47812,6 @@
 "vet_soft": []
 },
 "expires": "2026-11-03T07:55:57+00:00"
-},
-"issuerd/issuerd": {
-"full_name": "issuerd/issuerd",
-"sha": "6287270dbf40b66afa994852e78dd5f4de8781c6",
-"at": "2026-11-01T07:56:26+00:00",
-"language": "Rust",
-"size": 21362,
-"pushed_at": "2026-10-07",
-"created_at": "2026-09-23",
-"stars": 15,
-"curated": false,
-"scanner": {
-"semgrep": "1.177.0",
-"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
-},
-"policy_version": 2,
-"result": "fail",
-"reasons": [
-"code scan: tldp.shell-download-pipe"
-],
-"coverage": {
-"primary_language": "Rust",
-"supported": true,
-"note": "generic + language rules",
-"bytes": 32303811,
-"files": 1008,
-"notebooks_extracted": 0,
-"semgrepignore_removed": 0,
-"signals": {
-"has_tests": true,
-"has_dockerfile": true,
-"compose_services": 10,
-"has_k8s": false,
-"has_terraform": false,
-"dep_count": 0,
-"readme_bytes": 25943,
-"top_level_entries": 43
-},
-"engines_not_ran": [],
-"code_scan_result": "withheld",
-"blocking": [
-"tldp.shell-download-pipe"
-],
-"advisory": {
-"WARNING": 8,
-"osv_vulnerabilities": 3
-},
-"engines": {
-"semgrep": "ran",
-"yara": "ran",
-"clamav": "ran",
-"osv": "ran"
-},
-"yara": {
-"status": "ran",
-"hits": []
-},
-"clamav": {
-"status": "ran",
-"hits": []
-},
-"osv": {
-"status": "ran",
-"malicious": [],
-"vulnerable": 3
-},
-"links": {
-"block": [],
-"warn": [],
-"error": null
-},
-"vet_hard": [],
-"vet_soft": [
-"owner account is 41 days old"
-]
-},
-"expires": "2026-11-03T07:56:26+00:00"
 },
 "iweld/SQL_Coding_Challenge": {
 "full_name": "iweld/SQL_Coding_Challenge",
@@ -48061,6 +48552,46 @@
 "vet_soft": []
 },
 "expires": "2026-11-02T08:08:50+00:00"
+},
+"jellyfin/jellyfin-web": {
+"full_name": "jellyfin/jellyfin-web",
+"sha": "c9b552d690df432294fd774ce90eb031e3f3aa47",
+"at": "2026-11-01T13:54:08+00:00",
+"language": "JavaScript",
+"size": 217511,
+"pushed_at": "2026-11-01",
+"created_at": "2019-01-05",
+"stars": 3957,
+"curated": false,
+"scanner": {
+"semgrep": "1.177.0",
+"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
+},
+"policy_version": 2,
+"result": "fail",
+"reasons": [
+"repository too large to scan (217511 KB > 60000 KB)"
+],
+"coverage": {
+"primary_language": "JavaScript",
+"supported": true,
+"note": "generic + language rules",
+"code_scan_result": "withheld",
+"blocking": [],
+"advisory": {},
+"engines": {},
+"yara": {},
+"clamav": {},
+"osv": {},
+"links": {
+"block": [],
+"warn": [],
+"error": null
+},
+"vet_hard": [],
+"vet_soft": []
+},
+"expires": "2026-11-03T13:54:08+00:00"
 },
 "jgrossi/elephpant.me": {
 "full_name": "jgrossi/elephpant.me",
@@ -48860,8 +49391,8 @@
 },
 "kan0un/minsung-crypto-pair-trading-model-desktop": {
 "full_name": "kan0un/minsung-crypto-pair-trading-model-desktop",
-"sha": "69ca9e5625c19cd3e0511a705a631d9df6900515",
-"at": "2026-11-01T08:12:00+00:00",
+"sha": "1dee5b7f9ce0b0c9249ebbfad14488671056eb15",
+"at": "2026-11-01T13:54:15+00:00",
 "language": "Rust",
 "size": 82,
 "pushed_at": "2026-10-26",
@@ -48882,7 +49413,7 @@
 "primary_language": "Rust",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 67351,
+"bytes": 67398,
 "files": 8,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -48935,7 +49466,7 @@
 ],
 "vet_soft": []
 },
-"expires": "2026-11-03T08:12:00+00:00"
+"expires": "2026-11-03T13:54:15+00:00"
 },
 "kanaworksai-hue/audio-studio-mcp": {
 "full_name": "kanaworksai-hue/audio-studio-mcp",
@@ -49069,8 +49600,8 @@
 },
 "keenableai/needle": {
 "full_name": "keenableai/needle",
-"sha": "aec5cd12a2b23afb1d22625604c380f227b1d5e1",
-"at": "2026-11-01T08:12:18+00:00",
+"sha": "216dc24edd8af9d5e647ffd87ac283c3850a7c29",
+"at": "2026-11-01T13:54:28+00:00",
 "language": "Python",
 "size": 103472,
 "pushed_at": "2026-09-24",
@@ -49109,7 +49640,7 @@
 "README link: link without a host"
 ]
 },
-"expires": "2026-11-03T08:12:18+00:00"
+"expires": "2026-11-03T13:54:28+00:00"
 },
 "keplergl/kepler.gl": {
 "full_name": "keplergl/kepler.gl",
@@ -49428,8 +49959,8 @@
 },
 "khanhtq29vn/contextcraft": {
 "full_name": "khanhtq29vn/contextcraft",
-"sha": "966845af75f0af786e3a20818808b19c56adb74c",
-"at": "2026-11-01T08:15:20+00:00",
+"sha": "11f294d25f317ae9c735086b2be445352c28767b",
+"at": "2026-11-01T13:54:33+00:00",
 "language": "Python",
 "size": 511,
 "pushed_at": "2026-10-25",
@@ -49450,7 +49981,7 @@
 "primary_language": "Python",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 2386315,
+"bytes": 2386765,
 "files": 318,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -49501,7 +50032,7 @@
 "owner account is 12 days old"
 ]
 },
-"expires": "2026-11-03T08:15:20+00:00"
+"expires": "2026-11-03T13:54:33+00:00"
 },
 "kingrishabdugar/fizzdoc": {
 "full_name": "kingrishabdugar/fizzdoc",
@@ -49624,8 +50155,8 @@
 },
 "knadh/listmonk": {
 "full_name": "knadh/listmonk",
-"sha": "7891b1b92c0f532cca3f496157458fd6ff83220b",
-"at": "2026-11-01T08:15:58+00:00",
+"sha": "86ef53b46b063ff558c64a5601bd9e1935447974",
+"at": "2026-11-01T13:54:49+00:00",
 "language": "Go",
 "size": 53365,
 "pushed_at": "2026-10-24",
@@ -49643,7 +50174,7 @@
 "primary_language": "Go",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 8015106,
+"bytes": 8015476,
 "files": 463,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -49692,7 +50223,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-12-01T08:15:58+00:00"
+"expires": "2026-12-01T13:54:49+00:00"
 },
 "kobebeefg/ikea-clock-lab": {
 "full_name": "kobebeefg/ikea-clock-lab",
@@ -49929,13 +50460,13 @@
 },
 "konflux-ci/konflux-ci": {
 "full_name": "konflux-ci/konflux-ci",
-"sha": "d592cbc5b573e0934bec28ecae13c6b56ba4eca3",
-"at": "2026-10-31T07:21:04+00:00",
+"sha": "ba5a06b332f3153432fd619b1e1b65d4e606d7a9",
+"at": "2026-11-01T13:55:16+00:00",
 "language": "Go",
-"size": 15019,
-"pushed_at": "2026-10-31",
+"size": 15039,
+"pushed_at": "2026-11-01",
 "created_at": "2024-03-09",
-"stars": 217,
+"stars": 219,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -49950,7 +50481,7 @@
 "primary_language": "Go",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 8745676,
+"bytes": 8745663,
 "files": 918,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -49971,7 +50502,7 @@
 ],
 "advisory": {
 "WARNING": 10,
-"osv_vulnerabilities": 177
+"osv_vulnerabilities": 111
 },
 "engines": {
 "semgrep": "ran",
@@ -49990,7 +50521,7 @@
 "osv": {
 "status": "ran",
 "malicious": [],
-"vulnerable": 177
+"vulnerable": 111
 },
 "links": {
 "block": [],
@@ -50000,12 +50531,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-02T07:21:04+00:00"
+"expires": "2026-11-03T13:55:16+00:00"
 },
 "kosli-dev/ergo": {
 "full_name": "kosli-dev/ergo",
-"sha": "35589cc4f5aa28e6407dadab1a383ecc4824b9b7",
-"at": "2026-10-31T22:32:51+00:00",
+"sha": "4a36627f058ecb70425d0e302901b92709c9e55f",
+"at": "2026-11-01T13:55:55+00:00",
 "language": "Open Policy Agent",
 "size": 1641,
 "pushed_at": "2026-10-12",
@@ -50040,7 +50571,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-02T22:32:51+00:00"
+"expires": "2026-11-03T13:55:55+00:00"
 },
 "ktaletsk/jevframe": {
 "full_name": "ktaletsk/jevframe",
@@ -50394,8 +50925,8 @@
 },
 "lalabase/lalabase": {
 "full_name": "lalabase/lalabase",
-"sha": "58e041afd42611a416fe02d2e07036921f07fc98",
-"at": "2026-11-01T08:18:15+00:00",
+"sha": "a94853818146e7423e94c44f8bfbf0654f5c8059",
+"at": "2026-11-01T13:55:59+00:00",
 "language": "Ruby",
 "size": 14085,
 "pushed_at": "2026-10-25",
@@ -50409,16 +50940,16 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"108 stars on a 20-day-old repo (bought stars)",
+"113 stars on a 20-day-old repo (bought stars)",
 "code scan: secrets:detected-google-gcm-service-account",
-"soft: owner account is 35 days old"
+"soft: owner account is 36 days old"
 ],
 "coverage": {
 "primary_language": "Ruby",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 47879990,
-"files": 4304,
+"bytes": 47984958,
+"files": 4321,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -50437,7 +50968,7 @@
 "secrets:detected-google-gcm-service-account"
 ],
 "advisory": {
-"WARNING": 10,
+"WARNING": 13,
 "ERROR": 1,
 "osv_vulnerabilities": 24
 },
@@ -50466,89 +50997,18 @@
 "error": null
 },
 "vet_hard": [
-"108 stars on a 20-day-old repo (bought stars)"
+"113 stars on a 20-day-old repo (bought stars)"
 ],
 "vet_soft": [
-"owner account is 35 days old"
+"owner account is 36 days old"
 ]
 },
-"expires": "2026-11-03T08:18:15+00:00"
-},
-"lalalune/hyperliquid-source": {
-"full_name": "lalalune/hyperliquid-source",
-"sha": "6d727b9ea2ca4dc497c96a2de35cfba064e14dcc",
-"at": "2026-11-01T08:20:00+00:00",
-"language": "Python",
-"size": 14032,
-"pushed_at": "2026-11-01",
-"created_at": "2026-10-28",
-"stars": 28,
-"curated": false,
-"scanner": {
-"semgrep": "1.177.0",
-"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
-},
-"policy_version": 2,
-"result": "pass",
-"reasons": [],
-"coverage": {
-"primary_language": "Python",
-"supported": true,
-"note": "generic + language rules",
-"bytes": 138098840,
-"files": 7519,
-"notebooks_extracted": 0,
-"semgrepignore_removed": 0,
-"signals": {
-"has_tests": true,
-"has_dockerfile": true,
-"compose_services": 0,
-"has_k8s": false,
-"has_terraform": false,
-"dep_count": 1,
-"readme_bytes": 8064,
-"top_level_entries": 26
-},
-"engines_not_ran": [],
-"code_scan_result": "pass",
-"blocking": [],
-"advisory": {
-"WARNING": 6,
-"osv_vulnerabilities": 3
-},
-"engines": {
-"semgrep": "ran",
-"yara": "ran",
-"clamav": "ran",
-"osv": "ran"
-},
-"yara": {
-"status": "ran",
-"hits": []
-},
-"clamav": {
-"status": "ran",
-"hits": []
-},
-"osv": {
-"status": "ran",
-"malicious": [],
-"vulnerable": 3
-},
-"links": {
-"block": [],
-"warn": [],
-"error": null
-},
-"vet_hard": [],
-"vet_soft": []
-},
-"expires": "2026-11-15T08:20:00+00:00"
+"expires": "2026-11-03T13:55:59+00:00"
 },
 "lance-format/lance": {
 "full_name": "lance-format/lance",
-"sha": "e51db340eda02255e6b570b1d1066a908dae1eb4",
-"at": "2026-11-01T08:24:03+00:00",
+"sha": "c9b108191bd167a415c12b777338a00a33df2e9a",
+"at": "2026-11-01T13:57:35+00:00",
 "language": "Rust",
 "size": 116063,
 "pushed_at": "2026-11-01",
@@ -50600,7 +51060,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-03T08:24:03+00:00"
+"expires": "2026-11-03T13:57:35+00:00"
 },
 "lattifai/awesome-EmbeddingGemma": {
 "full_name": "lattifai/awesome-EmbeddingGemma",
@@ -50875,8 +51335,8 @@
 },
 "leodiegues/typepper": {
 "full_name": "leodiegues/typepper",
-"sha": "a6ee6d87befd7732ffc50aed33b4d1e44d8644ef",
-"at": "2026-11-01T08:24:38+00:00",
+"sha": "f10996730da507b6fd570a119cdef637fccaed0b",
+"at": "2026-11-01T13:57:39+00:00",
 "language": "Rust",
 "size": 13094,
 "pushed_at": "2026-10-26",
@@ -50951,7 +51411,7 @@
 ],
 "vet_soft": []
 },
-"expires": "2026-11-03T08:24:38+00:00"
+"expires": "2026-11-03T13:57:39+00:00"
 },
 "lerocha/chinook-database": {
 "full_name": "lerocha/chinook-database",
@@ -51029,13 +51489,13 @@
 },
 "letehaha/moneymatter": {
 "full_name": "letehaha/moneymatter",
-"sha": "00cf6c129531526a88d750b7bf7ce9ce0f39c1a2",
-"at": "2026-10-31T22:35:23+00:00",
+"sha": "c259383c310f9d1c79a2471c44e32b90468bb675",
+"at": "2026-11-01T13:57:55+00:00",
 "language": "TypeScript",
-"size": 50123,
-"pushed_at": "2026-10-30",
+"size": 50223,
+"pushed_at": "2026-11-01",
 "created_at": "2025-02-19",
-"stars": 196,
+"stars": 201,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -51048,7 +51508,7 @@
 "primary_language": "TypeScript",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 50549923,
+"bytes": 50549912,
 "files": 5798,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -51096,7 +51556,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-14T22:35:23+00:00"
+"expires": "2026-11-15T13:57:55+00:00"
 },
 "letox4/OsintHunter": {
 "full_name": "letox4/OsintHunter",
@@ -51294,10 +51754,10 @@
 },
 "lilalunalupita/pairs-trading-research-guide": {
 "full_name": "lilalunalupita/pairs-trading-research-guide",
-"sha": "9ae48a2638e118a8bba07ac64551bde0421aa6a3",
-"at": "2026-11-01T08:25:31+00:00",
+"sha": "8e0a43ea28a97c088bb4cba8e00ceeacf5ff69e8",
+"at": "2026-11-01T13:59:35+00:00",
 "language": "JavaScript",
-"size": 128,
+"size": 98,
 "pushed_at": "2026-11-01",
 "created_at": "2026-10-23",
 "stars": 58,
@@ -51316,7 +51776,7 @@
 "primary_language": "JavaScript",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 66285,
+"bytes": 66328,
 "files": 8,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -51367,12 +51827,12 @@
 ],
 "vet_soft": []
 },
-"expires": "2026-11-03T08:25:31+00:00"
+"expires": "2026-11-03T13:59:35+00:00"
 },
 "liquiditymapperfast/liquiditymapperfast.github.io": {
 "full_name": "liquiditymapperfast/liquiditymapperfast.github.io",
-"sha": "bc243e2841f289dbc9b37e46656c7869b7812722",
-"at": "2026-11-01T08:25:46+00:00",
+"sha": "1df11b4e9419e406a49cc4f3377e097a413ffed4",
+"at": "2026-11-01T13:59:48+00:00",
 "language": "TypeScript",
 "size": 4665,
 "pushed_at": "2026-10-18",
@@ -51394,8 +51854,8 @@
 "primary_language": "TypeScript",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 14133731,
-"files": 792,
+"bytes": 14142154,
+"files": 793,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -51405,7 +51865,7 @@
 "has_k8s": false,
 "has_terraform": false,
 "dep_count": 4,
-"readme_bytes": 112524,
+"readme_bytes": 112757,
 "top_level_entries": 17
 },
 "engines_not_ran": [],
@@ -51448,7 +51908,7 @@
 "owner account is 26 days old"
 ]
 },
-"expires": "2026-11-03T08:25:46+00:00"
+"expires": "2026-11-03T13:59:48+00:00"
 },
 "litmers-dev/litpage": {
 "full_name": "litmers-dev/litpage",
@@ -51540,8 +52000,8 @@
 },
 "log2timeline/plaso": {
 "full_name": "log2timeline/plaso",
-"sha": "1f93cb1f532bb16f610039d7833744cadb98d330",
-"at": "2026-11-01T08:26:20+00:00",
+"sha": "d47c68fe1be6b128662a1c02cd77a40aa57c3194",
+"at": "2026-11-01T14:00:17+00:00",
 "language": "Python",
 "size": 253068,
 "pushed_at": "2026-10-26",
@@ -51576,12 +52036,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-03T08:26:20+00:00"
+"expires": "2026-11-03T14:00:17+00:00"
 },
 "logicrw/awesome-jev-projects": {
 "full_name": "logicrw/awesome-jev-projects",
-"sha": "f5617be6a74cdecb199ec2e1e9e1f7f91674817d",
-"at": "2026-11-01T08:26:24+00:00",
+"sha": "36c1d14377e9c6767dd20e0dc9bcf40c5387ab0d",
+"at": "2026-11-01T14:00:21+00:00",
 "language": "JavaScript",
 "size": 20816,
 "pushed_at": "2026-10-18",
@@ -51601,8 +52061,8 @@
 "primary_language": "JavaScript",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 16600435,
-"files": 1119,
+"bytes": 16631740,
+"files": 1121,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -51651,7 +52111,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-03T08:26:24+00:00"
+"expires": "2026-11-03T14:00:21+00:00"
 },
 "lokutor-ai/ito": {
 "full_name": "lokutor-ai/ito",
@@ -51742,8 +52202,8 @@
 },
 "lovecake19ngoctran/claude-desktop-profiles": {
 "full_name": "lovecake19ngoctran/claude-desktop-profiles",
-"sha": "37edbb2a6eae31c7764ceabef431b22e8963c159",
-"at": "2026-11-01T08:26:58+00:00",
+"sha": "479b00a0950a7d7667bbb1d57aeb42eaa367084f",
+"at": "2026-11-01T14:00:47+00:00",
 "language": "HTML",
 "size": 519,
 "pushed_at": "2026-10-27",
@@ -51765,7 +52225,7 @@
 "primary_language": "HTML",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 521156,
+"bytes": 521214,
 "files": 9,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -51821,7 +52281,7 @@
 ],
 "vet_soft": []
 },
-"expires": "2026-11-03T08:26:58+00:00"
+"expires": "2026-11-03T14:00:47+00:00"
 },
 "ltoinel/Carbure": {
 "full_name": "ltoinel/Carbure",
@@ -53000,8 +53460,8 @@
 },
 "martinguirado95-ux/untangling-ml-complexity": {
 "full_name": "martinguirado95-ux/untangling-ml-complexity",
-"sha": "e8885772fc55ac7c2462ef2d6434c0d965c1da6c",
-"at": "2026-11-01T08:28:59+00:00",
+"sha": "c490603bcf11eefc7486f12b23aedd38f8ce170f",
+"at": "2026-11-01T14:01:12+00:00",
 "language": "HTML",
 "size": 227,
 "pushed_at": "2026-10-05",
@@ -53021,7 +53481,7 @@
 "primary_language": "HTML",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 201577,
+"bytes": 201622,
 "files": 6,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -53070,7 +53530,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-02T08:28:59+00:00"
+"expires": "2026-11-02T14:01:12+00:00"
 },
 "masaleem-oss/Fengard": {
 "full_name": "masaleem-oss/Fengard",
@@ -53282,6 +53742,46 @@
 },
 "expires": "2026-11-03T08:29:21+00:00"
 },
+"mattermost/mattermost": {
+"full_name": "mattermost/mattermost",
+"sha": "2b3fb21fe39e6d8178625aabd8b9176596ad4cf5",
+"at": "2026-11-01T14:01:32+00:00",
+"language": "TypeScript",
+"size": 1386730,
+"pushed_at": "2026-11-01",
+"created_at": "2015-06-15",
+"stars": 39497,
+"curated": false,
+"scanner": {
+"semgrep": "1.177.0",
+"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
+},
+"policy_version": 2,
+"result": "fail",
+"reasons": [
+"repository too large to scan (1386730 KB > 60000 KB)"
+],
+"coverage": {
+"primary_language": "TypeScript",
+"supported": true,
+"note": "generic + language rules",
+"code_scan_result": "withheld",
+"blocking": [],
+"advisory": {},
+"engines": {},
+"yara": {},
+"clamav": {},
+"osv": {},
+"links": {
+"block": [],
+"warn": [],
+"error": null
+},
+"vet_hard": [],
+"vet_soft": []
+},
+"expires": "2026-11-03T14:01:32+00:00"
+},
 "mattxslv/Selene": {
 "full_name": "mattxslv/Selene",
 "sha": "ab2ac0c126a2bcd7eba4446b51453c34594dc512",
@@ -53437,13 +53937,13 @@
 },
 "mcp-telegram/mcp-telegram": {
 "full_name": "mcp-telegram/mcp-telegram",
-"sha": "365abf9b92f251257a0bf9e45a4f0eeaf3bfd757",
-"at": "2026-10-31T07:28:31+00:00",
+"sha": "7f951e5bf16cbd2ec16b6e328dc5f65415d84e42",
+"at": "2026-11-01T14:01:37+00:00",
 "language": "TypeScript",
-"size": 3866,
-"pushed_at": "2026-10-26",
+"size": 3735,
+"pushed_at": "2026-11-01",
 "created_at": "2026-03-10",
-"stars": 58,
+"stars": 64,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -53458,8 +53958,8 @@
 "primary_language": "TypeScript",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 6587273,
-"files": 206,
+"bytes": 6622448,
+"files": 209,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -53509,7 +54009,7 @@
 ],
 "vet_soft": []
 },
-"expires": "2026-11-02T07:28:31+00:00"
+"expires": "2026-11-03T14:01:37+00:00"
 },
 "mealie-recipes/mealie": {
 "full_name": "mealie-recipes/mealie",
@@ -53633,8 +54133,8 @@
 },
 "mehmetbulutaktas458-dev/Aozora-Forge": {
 "full_name": "mehmetbulutaktas458-dev/Aozora-Forge",
-"sha": "0f85a128cfb90c1c013b34413b11bb90d2c4df88",
-"at": "2026-11-01T08:31:40+00:00",
+"sha": "d8deda6479f5f6665985dd55916b1ade520a3e38",
+"at": "2026-11-01T14:01:57+00:00",
 "language": "HTML",
 "size": 252,
 "pushed_at": "2026-10-05",
@@ -53654,7 +54154,7 @@
 "primary_language": "HTML",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 198262,
+"bytes": 198305,
 "files": 6,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -53703,7 +54203,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-02T08:31:40+00:00"
+"expires": "2026-11-02T14:01:57+00:00"
 },
 "mehmetsongur/Machine-Learning-in-Economics-and-Finance": {
 "full_name": "mehmetsongur/Machine-Learning-in-Economics-and-Finance",
@@ -54340,8 +54840,8 @@
 },
 "microsoft/PyRIT": {
 "full_name": "microsoft/PyRIT",
-"sha": "5000620fe939154923e2559a4bd32050d5586ede",
-"at": "2026-11-01T08:34:41+00:00",
+"sha": "f3a88daf2d8cfe42c3ee512d0536cd1a5c9682ba",
+"at": "2026-11-01T14:02:19+00:00",
 "language": "Python",
 "size": 482998,
 "pushed_at": "2026-11-01",
@@ -54378,7 +54878,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-03T08:34:41+00:00"
+"expires": "2026-11-03T14:02:19+00:00"
 },
 "microsoft/Security-101": {
 "full_name": "microsoft/Security-101",
@@ -54512,8 +55012,8 @@
 },
 "microsoft/fluentui": {
 "full_name": "microsoft/fluentui",
-"sha": "1d2e3b10bdfc230051dbcc35d0c56d2ba78001cc",
-"at": "2026-10-31T00:38:34+00:00",
+"sha": "a22af26f14588c5af093871bbf6150641250610e",
+"at": "2026-11-01T14:02:24+00:00",
 "language": "TypeScript",
 "size": 864820,
 "pushed_at": "2026-10-19",
@@ -54548,12 +55048,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-02T00:38:34+00:00"
+"expires": "2026-11-03T14:02:24+00:00"
 },
 "microsoft/mcp": {
 "full_name": "microsoft/mcp",
-"sha": "407bed9aa4ef353e6aaf8c6ea776a1cfc76388b0",
-"at": "2026-10-31T00:38:37+00:00",
+"sha": "7257a94355dd63ba4f1ba43fc5ae5dfcd1a7203d",
+"at": "2026-11-01T14:02:27+00:00",
 "language": "C#",
 "size": 314954,
 "pushed_at": "2026-10-12",
@@ -54588,7 +55088,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-02T00:38:37+00:00"
+"expires": "2026-11-03T14:02:27+00:00"
 },
 "microsoft/microsoft-ui-xaml": {
 "full_name": "microsoft/microsoft-ui-xaml",
@@ -55406,8 +55906,8 @@
 },
 "mlflow/mlflow": {
 "full_name": "mlflow/mlflow",
-"sha": "e8d8c09e79e5e0f69cc022409019fc0fb6ad2c30",
-"at": "2026-11-01T08:37:06+00:00",
+"sha": "f5defbabd26a613e12cd15f24c4da42529b9601e",
+"at": "2026-11-01T14:02:34+00:00",
 "language": "Python",
 "size": 1513583,
 "pushed_at": "2026-10-31",
@@ -55444,7 +55944,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-03T08:37:06+00:00"
+"expires": "2026-11-03T14:02:34+00:00"
 },
 "moajez/omni_geo": {
 "full_name": "moajez/omni_geo",
@@ -56526,8 +57026,8 @@
 },
 "mozilla/neqo": {
 "full_name": "mozilla/neqo",
-"sha": "7622a2384f1ec8778ec7db5408f75245921e0eb4",
-"at": "2026-11-01T08:38:51+00:00",
+"sha": "a5150f62698b28bf3131be7b2d075e3ffcd093b8",
+"at": "2026-11-01T14:02:41+00:00",
 "language": "Rust",
 "size": 16518,
 "pushed_at": "2026-10-26",
@@ -56547,8 +57047,8 @@
 "primary_language": "Rust",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 7718501,
-"files": 1789,
+"bytes": 7726754,
+"files": 1810,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -56594,12 +57094,12 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-02T08:38:51+00:00"
+"expires": "2026-11-02T14:02:41+00:00"
 },
 "mozilla/pontoon": {
 "full_name": "mozilla/pontoon",
-"sha": "981ca93e7489c9fbf4c87a54b5257ec07495c986",
-"at": "2026-10-31T00:44:11+00:00",
+"sha": "35977a1405e92c33c29a800a4d399bbead6240cb",
+"at": "2026-11-01T14:04:22+00:00",
 "language": "Python",
 "size": 52956,
 "pushed_at": "2026-10-26",
@@ -56619,7 +57119,7 @@
 "primary_language": "Python",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 16394974,
+"bytes": 16395530,
 "files": 1449,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -56670,7 +57170,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-02T00:44:11+00:00"
+"expires": "2026-11-03T14:04:22+00:00"
 },
 "mozilla/rhino": {
 "full_name": "mozilla/rhino",
@@ -58294,8 +58794,8 @@
 },
 "nateships/rolle": {
 "full_name": "nateships/rolle",
-"sha": "449dd64cd909f22ca826c81adf38bb7ec7dc0f90",
-"at": "2026-11-01T08:45:56+00:00",
+"sha": "4df1b4060ecf3f99ce9a926a96dbade16210005c",
+"at": "2026-11-01T14:05:03+00:00",
 "language": "Go",
 "size": 35694,
 "pushed_at": "2026-09-17",
@@ -58315,7 +58815,7 @@
 "primary_language": "Go",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 7839893,
+"bytes": 7839883,
 "files": 481,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -58368,7 +58868,7 @@
 "Scorecard: unmaintained"
 ]
 },
-"expires": "2026-11-03T08:45:56+00:00"
+"expires": "2026-11-03T14:05:03+00:00"
 },
 "naype888-cloud/nava-robertson-schrodinger": {
 "full_name": "naype888-cloud/nava-robertson-schrodinger",
@@ -58558,50 +59058,6 @@
 "vet_soft": []
 },
 "expires": "2026-11-02T08:46:57+00:00"
-},
-"neomjs/neo": {
-"full_name": "neomjs/neo",
-"sha": "35f3b907145c7fa5a0e14d56570adb42f40ba104",
-"at": "2026-10-31T22:44:16+00:00",
-"language": "JavaScript",
-"size": 252524,
-"pushed_at": "2026-10-31",
-"created_at": "2019-11-10",
-"stars": 3296,
-"curated": false,
-"scanner": {
-"semgrep": "1.177.0",
-"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
-},
-"policy_version": 2,
-"result": "fail",
-"reasons": [
-"repository too large to scan (252524 KB > 60000 KB)"
-],
-"coverage": {
-"primary_language": "JavaScript",
-"supported": true,
-"note": "generic + language rules",
-"code_scan_result": "withheld",
-"blocking": [],
-"advisory": {},
-"engines": {},
-"yara": {},
-"clamav": {},
-"osv": {},
-"links": {
-"block": [
-"password-protected download"
-],
-"warn": [
-"chat invite link discord.gg"
-],
-"error": null
-},
-"vet_hard": [],
-"vet_soft": []
-},
-"expires": "2026-11-02T22:44:16+00:00"
 },
 "nexibeo/jev-cookbook": {
 "full_name": "nexibeo/jev-cookbook",
@@ -59030,57 +59486,15 @@
 },
 "expires": "2026-11-02T08:48:01+00:00"
 },
-"nordic-institute/X-Road": {
-"full_name": "nordic-institute/X-Road",
-"sha": "941aa367fcb805aca20b151550cf23b3a694f590",
-"at": "2026-10-31T00:50:45+00:00",
-"language": "Java",
-"size": 386050,
-"pushed_at": "2026-10-29",
-"created_at": "2018-05-20",
-"stars": 873,
-"curated": false,
-"scanner": {
-"semgrep": "1.177.0",
-"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
-},
-"policy_version": 2,
-"result": "fail",
-"reasons": [
-"repository too large to scan (386050 KB > 60000 KB)"
-],
-"coverage": {
-"primary_language": "Java",
-"supported": true,
-"note": "generic + language rules",
-"code_scan_result": "withheld",
-"blocking": [],
-"advisory": {},
-"engines": {},
-"yara": {},
-"clamav": {},
-"osv": {},
-"links": {
-"block": [],
-"warn": [],
-"error": null
-},
-"vet_hard": [],
-"vet_soft": [
-"Scorecard Dangerous-Workflow 0/10"
-]
-},
-"expires": "2026-11-02T00:50:45+00:00"
-},
 "nota-daw/nota": {
 "full_name": "nota-daw/nota",
-"sha": "0493c15931057b8ec039d304eed018cc95bde9ae",
-"at": "2026-11-01T08:48:18+00:00",
+"sha": "55c3c29f5b7d1ab50692636bd7227611f94ebe18",
+"at": "2026-11-01T14:05:41+00:00",
 "language": "C#",
-"size": 190698,
+"size": 190948,
 "pushed_at": "2026-11-01",
 "created_at": "2026-08-25",
-"stars": 200,
+"stars": 202,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -59089,7 +59503,7 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"repository too large to scan (190698 KB > 60000 KB)",
+"repository too large to scan (190948 KB > 60000 KB)",
 "soft: README link: chat invite link discord.gg",
 "soft: owner account is 67 days old"
 ],
@@ -59117,7 +59531,7 @@
 "owner account is 67 days old"
 ]
 },
-"expires": "2026-11-03T08:48:18+00:00"
+"expires": "2026-11-03T14:05:41+00:00"
 },
 "nuxyel/bend-ml": {
 "full_name": "nuxyel/bend-ml",
@@ -59637,86 +60051,6 @@
 },
 "expires": "2026-11-03T08:50:25+00:00"
 },
-"open-nvr/open-nvr": {
-"full_name": "open-nvr/open-nvr",
-"sha": "544fda12ff33a4673cfa0a88c41fcc685223bf23",
-"at": "2026-11-01T08:52:50+00:00",
-"language": "Python",
-"size": 42888,
-"pushed_at": "2026-10-29",
-"created_at": "2026-03-30",
-"stars": 184,
-"curated": false,
-"scanner": {
-"semgrep": "1.177.0",
-"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
-},
-"policy_version": 2,
-"result": "fail",
-"reasons": [
-"code scan: secrets:detected-bcrypt-hash, tldp.shell-download-pipe",
-"malicious dependency: @babel/plugin-transform-modules-systemjs:GHSA-fv7c-fp4j-7gwp"
-],
-"coverage": {
-"primary_language": "Python",
-"supported": true,
-"note": "generic + language rules",
-"bytes": 46863960,
-"files": 1794,
-"notebooks_extracted": 0,
-"semgrepignore_removed": 0,
-"signals": {
-"has_tests": true,
-"has_dockerfile": true,
-"compose_services": 9,
-"has_k8s": false,
-"has_terraform": false,
-"dep_count": 0,
-"readme_bytes": 27130,
-"top_level_entries": 50
-},
-"engines_not_ran": [],
-"code_scan_result": "withheld",
-"blocking": [
-"secrets:detected-bcrypt-hash",
-"tldp.shell-download-pipe"
-],
-"advisory": {
-"WARNING": 30,
-"ERROR": 2,
-"osv_vulnerabilities": 112
-},
-"engines": {
-"semgrep": "ran",
-"yara": "ran",
-"clamav": "ran",
-"osv": "ran"
-},
-"yara": {
-"status": "ran",
-"hits": []
-},
-"clamav": {
-"status": "ran",
-"hits": []
-},
-"osv": {
-"status": "ran",
-"malicious": [
-"@babel/plugin-transform-modules-systemjs:GHSA-fv7c-fp4j-7gwp"
-],
-"vulnerable": 112
-},
-"links": {
-"block": [],
-"warn": [],
-"error": null
-},
-"vet_hard": [],
-"vet_soft": []
-},
-"expires": "2026-11-03T08:52:50+00:00"
-},
 "openSUSE/artwork": {
 "full_name": "openSUSE/artwork",
 "sha": "f9ef4460f8bac3e29ed7fc7e1ac6a1320a765dfb",
@@ -59841,76 +60175,6 @@
 },
 "expires": "2026-11-02T07:42:48+00:00"
 },
-"openfga/js-sdk": {
-"full_name": "openfga/js-sdk",
-"sha": "eb37ef1e0fe621b4e716157d197b8e99c1dc2cd3",
-"at": "2026-10-31T07:42:52+00:00",
-"language": "TypeScript",
-"size": 2049,
-"pushed_at": "2026-10-31",
-"created_at": "2022-04-18",
-"stars": 91,
-"curated": false,
-"scanner": {
-"semgrep": "1.177.0",
-"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
-},
-"policy_version": 2,
-"result": "pass",
-"reasons": [],
-"coverage": {
-"primary_language": "TypeScript",
-"supported": true,
-"note": "generic + language rules",
-"bytes": 757587,
-"files": 104,
-"notebooks_extracted": 0,
-"semgrepignore_removed": 0,
-"signals": {
-"has_tests": true,
-"has_dockerfile": false,
-"compose_services": 0,
-"has_k8s": false,
-"has_terraform": false,
-"dep_count": 13,
-"readme_bytes": 40877,
-"top_level_entries": 41
-},
-"engines_not_ran": [],
-"code_scan_result": "pass",
-"blocking": [],
-"advisory": {
-"osv_vulnerabilities": 2
-},
-"engines": {
-"semgrep": "ran",
-"yara": "ran",
-"clamav": "ran",
-"osv": "ran"
-},
-"yara": {
-"status": "ran",
-"hits": []
-},
-"clamav": {
-"status": "ran",
-"hits": []
-},
-"osv": {
-"status": "ran",
-"malicious": [],
-"vulnerable": 2
-},
-"links": {
-"block": [],
-"warn": [],
-"error": null
-},
-"vet_hard": [],
-"vet_soft": []
-},
-"expires": "2026-11-14T07:42:52+00:00"
-},
 "openfoodfoundation/openfoodnetwork": {
 "full_name": "openfoodfoundation/openfoodnetwork",
 "sha": "dc210ad0c2cb85ca1ddc4271250921bd28640969",
@@ -59953,8 +60217,8 @@
 },
 "opennavo/OpenNavo": {
 "full_name": "opennavo/OpenNavo",
-"sha": "9d169fbf9f242f4bd96be33982c5c9b17e42e538",
-"at": "2026-11-01T08:55:21+00:00",
+"sha": "4ddc10d4899532bd2b7d091a4ededfba161aac94",
+"at": "2026-11-01T14:05:48+00:00",
 "language": "Rust",
 "size": 26779,
 "pushed_at": "2026-10-22",
@@ -59968,7 +60232,7 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"77 stars on a 23-day-old repo (bought stars)",
+"79 stars on a 23-day-old repo (bought stars)",
 "README link: non-web link scheme opennavo:",
 "code scan: tldp.shell-download-pipe",
 "malicious dependency: github.com/nats-io/nats-server/v2:GHSA-52jh-2xxh-pwh6, github.com/nats-io/nats-server/v2:GO-2026-4829, node-forge:GHSA-6wvx-3r32-xmcg"
@@ -59977,7 +60241,7 @@
 "primary_language": "Rust",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 63925505,
+"bytes": 63929593,
 "files": 6661,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -60033,11 +60297,11 @@
 },
 "vet_hard": [
 "README link: non-web link scheme opennavo:",
-"77 stars on a 23-day-old repo (bought stars)"
+"79 stars on a 23-day-old repo (bought stars)"
 ],
 "vet_soft": []
 },
-"expires": "2026-11-03T08:55:21+00:00"
+"expires": "2026-11-03T14:05:48+00:00"
 },
 "openninoor/noteful-mcp": {
 "full_name": "openninoor/noteful-mcp",
@@ -60203,6 +60467,48 @@
 "vet_soft": []
 },
 "expires": "2026-11-03T08:57:08+00:00"
+},
+"openrocket/openrocket": {
+"full_name": "openrocket/openrocket",
+"sha": "b047c95d70fd01a48e5ec1593cea7524781817c7",
+"at": "2026-11-01T14:07:16+00:00",
+"language": "Java",
+"size": 485673,
+"pushed_at": "2026-11-01",
+"created_at": "2012-09-29",
+"stars": 3188,
+"curated": false,
+"scanner": {
+"semgrep": "1.177.0",
+"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
+},
+"policy_version": 2,
+"result": "fail",
+"reasons": [
+"repository too large to scan (485673 KB > 60000 KB)"
+],
+"coverage": {
+"primary_language": "Java",
+"supported": true,
+"note": "generic + language rules",
+"code_scan_result": "withheld",
+"blocking": [],
+"advisory": {},
+"engines": {},
+"yara": {},
+"clamav": {},
+"osv": {},
+"links": {
+"block": [],
+"warn": [
+"chat invite link discord.gg"
+],
+"error": null
+},
+"vet_hard": [],
+"vet_soft": []
+},
+"expires": "2026-11-03T14:07:16+00:00"
 },
 "opensearch-project/security": {
 "full_name": "opensearch-project/security",
@@ -60754,13 +61060,13 @@
 },
 "papisoV/Selenequant": {
 "full_name": "papisoV/Selenequant",
-"sha": "fbd45dcd8fb9ff8f8d1bc19afe384d076397e841",
-"at": "2026-11-01T08:59:05+00:00",
+"sha": "57334937865c2b1cbd57b579fe54998b89894660",
+"at": "2026-11-01T14:07:22+00:00",
 "language": "Python",
-"size": 10039,
-"pushed_at": "2026-10-29",
+"size": 10069,
+"pushed_at": "2026-11-01",
 "created_at": "2026-10-28",
-"stars": 40,
+"stars": 42,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -60777,8 +61083,8 @@
 "primary_language": "Python",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 30592183,
-"files": 3721,
+"bytes": 30691261,
+"files": 3729,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -60788,7 +61094,7 @@
 "has_k8s": false,
 "has_terraform": false,
 "dep_count": 36,
-"readme_bytes": 26184,
+"readme_bytes": 15230,
 "top_level_entries": 36
 },
 "engines_not_ran": [],
@@ -60835,7 +61141,7 @@
 "only 1 commit(s)"
 ]
 },
-"expires": "2026-11-03T08:59:05+00:00"
+"expires": "2026-11-03T14:07:22+00:00"
 },
 "paradigma-inc/limite-violetto": {
 "full_name": "paradigma-inc/limite-violetto",
@@ -61363,8 +61669,8 @@
 },
 "picassio/pi-phone": {
 "full_name": "picassio/pi-phone",
-"sha": "3032cb77e794a8b6c7fdc998000c70bed58777ea",
-"at": "2026-11-01T09:01:20+00:00",
+"sha": "0d8d87c9ad7f62b42f31f625b04c87a7e619cf21",
+"at": "2026-11-01T14:08:42+00:00",
 "language": "TypeScript",
 "size": 9129,
 "pushed_at": "2026-10-25",
@@ -61387,8 +61693,8 @@
 "primary_language": "TypeScript",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 17815790,
-"files": 1451,
+"bytes": 18142451,
+"files": 1515,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -61398,7 +61704,7 @@
 "has_k8s": false,
 "has_terraform": false,
 "dep_count": 39,
-"readme_bytes": 98011,
+"readme_bytes": 101787,
 "top_level_entries": 29
 },
 "engines_not_ran": [],
@@ -61444,7 +61750,7 @@
 ],
 "vet_soft": []
 },
-"expires": "2026-11-03T09:01:20+00:00"
+"expires": "2026-11-03T14:08:42+00:00"
 },
 "piggyvault/piggyvault": {
 "full_name": "piggyvault/piggyvault",
@@ -61803,46 +62109,6 @@
 "vet_soft": []
 },
 "expires": "2026-11-02T13:29:11+00:00"
-},
-"plclub/sf-in-lean": {
-"full_name": "plclub/sf-in-lean",
-"sha": "547aa60296fa532b4bbe9930917b82eafbbddc79",
-"at": "2026-10-31T07:48:56+00:00",
-"language": "Rocq Prover",
-"size": 4942,
-"pushed_at": "2026-10-31",
-"created_at": "2026-03-22",
-"stars": 198,
-"curated": false,
-"scanner": {
-"semgrep": "1.177.0",
-"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
-},
-"policy_version": 2,
-"result": "fail",
-"reasons": [
-"scanner coverage: primary language Rocq Prover is not parsed by Semgrep"
-],
-"coverage": {
-"primary_language": "Rocq Prover",
-"supported": false,
-"note": "primary language Rocq Prover is not parsed by Semgrep",
-"code_scan_result": "withheld",
-"blocking": [],
-"advisory": {},
-"engines": {},
-"yara": {},
-"clamav": {},
-"osv": {},
-"links": {
-"block": [],
-"warn": [],
-"error": null
-},
-"vet_hard": [],
-"vet_soft": []
-},
-"expires": "2026-11-02T07:48:56+00:00"
 },
 "plotly/dash": {
 "full_name": "plotly/dash",
@@ -62305,8 +62571,8 @@
 },
 "pyca/cryptography": {
 "full_name": "pyca/cryptography",
-"sha": "96b549e515658102cd9daf3c4cc5eda120eedf47",
-"at": "2026-10-31T13:29:17+00:00",
+"sha": "b13736634fb36f6905467bfdb085071ebad0cb29",
+"at": "2026-11-01T14:09:31+00:00",
 "language": "Python",
 "size": 90411,
 "pushed_at": "2026-10-25",
@@ -62341,7 +62607,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-02T13:29:17+00:00"
+"expires": "2026-11-03T14:09:31+00:00"
 },
 "pypa/hatch": {
 "full_name": "pypa/hatch",
@@ -62582,55 +62848,10 @@
 },
 "expires": "2026-11-02T01:09:04+00:00"
 },
-"radareorg/radare2": {
-"full_name": "radareorg/radare2",
-"sha": "f8a584ff62b12ca37d325b62129052a175dd288d",
-"at": "2026-11-01T09:03:48+00:00",
-"language": "C",
-"size": 215722,
-"pushed_at": "2026-10-31",
-"created_at": "2012-07-03",
-"stars": 25217,
-"curated": false,
-"scanner": {
-"semgrep": "1.177.0",
-"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
-},
-"policy_version": 2,
-"result": "fail",
-"reasons": [
-"repository too large to scan (215722 KB > 60000 KB)"
-],
-"coverage": {
-"primary_language": "C",
-"supported": true,
-"note": "generic + language rules",
-"code_scan_result": "withheld",
-"blocking": [],
-"advisory": {},
-"engines": {},
-"yara": {},
-"clamav": {},
-"osv": {},
-"links": {
-"block": [
-"non-web link scheme frida:"
-],
-"warn": [
-"chat invite link discord.gg",
-"chat invite link t.me"
-],
-"error": null
-},
-"vet_hard": [],
-"vet_soft": []
-},
-"expires": "2026-11-03T09:03:48+00:00"
-},
 "radionordestinter/multilingual-review-sentiment-lab": {
 "full_name": "radionordestinter/multilingual-review-sentiment-lab",
-"sha": "8391c708b346e2f9e245f8f34b39bcdea2bd97cb",
-"at": "2026-11-01T09:03:51+00:00",
+"sha": "8e621a26c6ea7e6a359540506e109e6150c18349",
+"at": "2026-11-01T14:09:34+00:00",
 "language": "HTML",
 "size": 281,
 "pushed_at": "2026-10-05",
@@ -62650,7 +62871,7 @@
 "primary_language": "HTML",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 201717,
+"bytes": 201764,
 "files": 6,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -62701,81 +62922,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-03T09:03:51+00:00"
-},
-"rahatsagor/CmdPalm": {
-"full_name": "rahatsagor/CmdPalm",
-"sha": "4d4fadf845029cd33fefc15b704ab821a24fe124",
-"at": "2026-10-31T22:50:02+00:00",
-"language": "Rust",
-"size": 9443,
-"pushed_at": "2026-10-23",
-"created_at": "2026-10-09",
-"stars": 100,
-"curated": false,
-"scanner": {
-"semgrep": "1.177.0",
-"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
-},
-"policy_version": 2,
-"result": "fail",
-"reasons": [
-"180 stars on a 22-day-old repo (bought stars)"
-],
-"coverage": {
-"primary_language": "Rust",
-"supported": true,
-"note": "generic + language rules",
-"bytes": 5716925,
-"files": 206,
-"notebooks_extracted": 0,
-"semgrepignore_removed": 0,
-"signals": {
-"has_tests": true,
-"has_dockerfile": false,
-"compose_services": 0,
-"has_k8s": false,
-"has_terraform": false,
-"dep_count": 0,
-"readme_bytes": 14252,
-"top_level_entries": 19
-},
-"engines_not_ran": [],
-"code_scan_result": "pass",
-"blocking": [],
-"advisory": {
-"osv_vulnerabilities": 1
-},
-"engines": {
-"semgrep": "ran",
-"yara": "ran",
-"clamav": "ran",
-"osv": "ran"
-},
-"yara": {
-"status": "ran",
-"hits": []
-},
-"clamav": {
-"status": "ran",
-"hits": []
-},
-"osv": {
-"status": "ran",
-"malicious": [],
-"vulnerable": 1
-},
-"links": {
-"block": [],
-"warn": [],
-"error": null
-},
-"vet_hard": [
-"180 stars on a 22-day-old repo (bought stars)"
-],
-"vet_soft": []
-},
-"expires": "2026-11-02T22:50:02+00:00"
+"expires": "2026-11-03T14:09:34+00:00"
 },
 "ram0verflow/ram0verflow": {
 "full_name": "ram0verflow/ram0verflow",
@@ -63125,8 +63272,8 @@
 },
 "reacher-z/Awesome-REA": {
 "full_name": "reacher-z/Awesome-REA",
-"sha": "96123e6a6e25e4bf64b37a1b8ff1de8645d29d24",
-"at": "2026-11-01T09:04:40+00:00",
+"sha": "ac2840ef7bf311f59d32350ab3b322eeab768ff6",
+"at": "2026-11-01T14:09:57+00:00",
 "language": "Python",
 "size": 37209,
 "pushed_at": "2026-10-31",
@@ -63140,13 +63287,13 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"739 stars on a 16-day-old repo (bought stars)"
+"751 stars on a 16-day-old repo (bought stars)"
 ],
 "coverage": {
 "primary_language": "Python",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 24963827,
+"bytes": 24971052,
 "files": 315,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -63157,7 +63304,7 @@
 "has_k8s": false,
 "has_terraform": false,
 "dep_count": 0,
-"readme_bytes": 342101,
+"readme_bytes": 342590,
 "top_level_entries": 16
 },
 "engines_not_ran": [],
@@ -63193,11 +63340,11 @@
 "error": null
 },
 "vet_hard": [
-"739 stars on a 16-day-old repo (bought stars)"
+"751 stars on a 16-day-old repo (bought stars)"
 ],
 "vet_soft": []
 },
-"expires": "2026-11-03T09:04:40+00:00"
+"expires": "2026-11-03T14:09:57+00:00"
 },
 "realZachi/pg-jev": {
 "full_name": "realZachi/pg-jev",
@@ -64462,76 +64609,6 @@
 ]
 },
 "expires": "2026-11-02T07:51:48+00:00"
-},
-"rojo-rbx/rojo": {
-"full_name": "rojo-rbx/rojo",
-"sha": "84e098e7522752d6ded3be11d6caf4dd255d51b8",
-"at": "2026-10-31T07:52:12+00:00",
-"language": "Rust",
-"size": 4946,
-"pushed_at": "2026-10-31",
-"created_at": "2017-11-30",
-"stars": 1839,
-"curated": false,
-"scanner": {
-"semgrep": "1.177.0",
-"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
-},
-"policy_version": 2,
-"result": "pass",
-"reasons": [],
-"coverage": {
-"primary_language": "Rust",
-"supported": true,
-"note": "generic + language rules",
-"bytes": 6124589,
-"files": 880,
-"notebooks_extracted": 0,
-"semgrepignore_removed": 0,
-"signals": {
-"has_tests": true,
-"has_dockerfile": false,
-"compose_services": 0,
-"has_k8s": false,
-"has_terraform": false,
-"dep_count": 0,
-"readme_bytes": 2236,
-"top_level_entries": 33
-},
-"engines_not_ran": [],
-"code_scan_result": "pass",
-"blocking": [],
-"advisory": {
-"osv_vulnerabilities": 45
-},
-"engines": {
-"semgrep": "ran",
-"yara": "ran",
-"clamav": "ran",
-"osv": "ran"
-},
-"yara": {
-"status": "ran",
-"hits": []
-},
-"clamav": {
-"status": "ran",
-"hits": []
-},
-"osv": {
-"status": "ran",
-"malicious": [],
-"vulnerable": 45
-},
-"links": {
-"block": [],
-"warn": [],
-"error": null
-},
-"vet_hard": [],
-"vet_soft": []
-},
-"expires": "2026-11-14T07:52:12+00:00"
 },
 "rolottr/bambu-bar": {
 "full_name": "rolottr/bambu-bar",
@@ -66350,7 +66427,7 @@
 "shinefuer/frugent": {
 "full_name": "shinefuer/frugent",
 "sha": "403c0395d25bcf4d896a710c0b75d878901eb909",
-"at": "2026-10-31T13:31:10+00:00",
+"at": "2026-11-01T14:10:45+00:00",
 "language": "Python",
 "size": 429,
 "pushed_at": "2026-10-30",
@@ -66420,7 +66497,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-01T13:31:10+00:00"
+"expires": "2026-11-02T14:10:45+00:00"
 },
 "shinthink/blitzstrike": {
 "full_name": "shinthink/blitzstrike",
@@ -67357,8 +67434,8 @@
 },
 "sno-ai/sno-station": {
 "full_name": "sno-ai/sno-station",
-"sha": "d80696aa854803f6224f2da7cf6eebb6de8f09ad",
-"at": "2026-10-31T08:00:43+00:00",
+"sha": "676749c633219650950baaa44c61dce8124ac88b",
+"at": "2026-11-01T14:11:01+00:00",
 "language": "TypeScript",
 "size": 18816,
 "pushed_at": "2026-10-11",
@@ -67379,7 +67456,7 @@
 "primary_language": "TypeScript",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 25031343,
+"bytes": 25030894,
 "files": 2020,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -67433,7 +67510,7 @@
 ],
 "vet_soft": []
 },
-"expires": "2026-11-02T08:00:43+00:00"
+"expires": "2026-11-03T14:11:01+00:00"
 },
 "snort3/snort3": {
 "full_name": "snort3/snort3",
@@ -67598,6 +67675,79 @@
 ]
 },
 "expires": "2026-11-02T22:51:43+00:00"
+},
+"solongate/agent-security": {
+"full_name": "solongate/agent-security",
+"sha": "ac919c6f49634744bb0b69ccc8d12535ce1eac69",
+"at": "2026-11-01T14:11:41+00:00",
+"language": "Go",
+"size": 11023,
+"pushed_at": "2026-11-01",
+"created_at": "2026-09-27",
+"stars": 159,
+"curated": false,
+"scanner": {
+"semgrep": "1.177.0",
+"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
+},
+"policy_version": 2,
+"result": "pass",
+"reasons": [],
+"coverage": {
+"primary_language": "Go",
+"supported": true,
+"note": "generic + language rules",
+"bytes": 9220532,
+"files": 342,
+"notebooks_extracted": 0,
+"semgrepignore_removed": 0,
+"signals": {
+"has_tests": true,
+"has_dockerfile": false,
+"compose_services": 0,
+"has_k8s": false,
+"has_terraform": false,
+"dep_count": 0,
+"readme_bytes": 15647,
+"top_level_entries": 14
+},
+"engines_not_ran": [],
+"code_scan_result": "pass",
+"blocking": [],
+"advisory": {
+"WARNING": 1,
+"osv_vulnerabilities": 466
+},
+"engines": {
+"semgrep": "ran",
+"yara": "ran",
+"clamav": "ran",
+"osv": "ran"
+},
+"yara": {
+"status": "ran",
+"hits": []
+},
+"clamav": {
+"status": "ran",
+"hits": []
+},
+"osv": {
+"status": "ran",
+"malicious": [],
+"vulnerable": 466
+},
+"links": {
+"block": [],
+"warn": [],
+"error": null
+},
+"vet_hard": [],
+"vet_soft": [
+"Scorecard: unmaintained"
+]
+},
+"expires": "2026-11-15T14:11:41+00:00"
 },
 "sopersone/cabbage-trading-machine": {
 "full_name": "sopersone/cabbage-trading-machine",
@@ -67816,8 +67966,8 @@
 },
 "spiceai/spiceai": {
 "full_name": "spiceai/spiceai",
-"sha": "23bacc2008e3d6120d946e7a16d8db20fd7f864a",
-"at": "2026-11-01T09:13:15+00:00",
+"sha": "fda3c6358c8a5157c1ab35047bfa1f23b3c69346",
+"at": "2026-11-01T14:12:11+00:00",
 "language": "Rust",
 "size": 290929,
 "pushed_at": "2026-11-01",
@@ -67856,7 +68006,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-03T09:13:15+00:00"
+"expires": "2026-11-03T14:12:11+00:00"
 },
 "sqlfluff/sqlfluff": {
 "full_name": "sqlfluff/sqlfluff",
@@ -68083,46 +68233,6 @@
 "vet_soft": []
 },
 "expires": "2026-11-02T22:52:16+00:00"
-},
-"stackrox/stackrox": {
-"full_name": "stackrox/stackrox",
-"sha": "946c260ecc197dd13f3ad0a5770b86738a4a748b",
-"at": "2026-10-31T08:01:44+00:00",
-"language": "Go",
-"size": 293788,
-"pushed_at": "2026-10-31",
-"created_at": "2021-12-01",
-"stars": 1314,
-"curated": false,
-"scanner": {
-"semgrep": "1.177.0",
-"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
-},
-"policy_version": 2,
-"result": "fail",
-"reasons": [
-"repository too large to scan (293788 KB > 60000 KB)"
-],
-"coverage": {
-"primary_language": "Go",
-"supported": true,
-"note": "generic + language rules",
-"code_scan_result": "withheld",
-"blocking": [],
-"advisory": {},
-"engines": {},
-"yara": {},
-"clamav": {},
-"osv": {},
-"links": {
-"block": [],
-"warn": [],
-"error": null
-},
-"vet_hard": [],
-"vet_soft": []
-},
-"expires": "2026-11-02T08:01:44+00:00"
 },
 "stanczykwyatt/copy-2fa": {
 "full_name": "stanczykwyatt/copy-2fa",
@@ -68360,86 +68470,6 @@
 },
 "expires": "2026-11-03T09:13:21+00:00"
 },
-"stoatchat/stoatchat": {
-"full_name": "stoatchat/stoatchat",
-"sha": "18b656465888d1cf08773eae33d4fbc85a29a4df",
-"at": "2026-10-31T08:01:48+00:00",
-"language": "Rust",
-"size": 9973,
-"pushed_at": "2026-10-31",
-"created_at": "2021-06-15",
-"stars": 3431,
-"curated": false,
-"scanner": {
-"semgrep": "1.177.0",
-"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
-},
-"policy_version": 2,
-"result": "fail",
-"reasons": [
-"malicious dependency: @babel/plugin-transform-modules-systemjs:GHSA-fv7c-fp4j-7gwp, node-forge:GHSA-6wvx-3r32-xmcg"
-],
-"coverage": {
-"primary_language": "Rust",
-"supported": true,
-"note": "generic + language rules",
-"bytes": 6793534,
-"files": 649,
-"notebooks_extracted": 0,
-"semgrepignore_removed": 0,
-"signals": {
-"has_tests": true,
-"has_dockerfile": true,
-"compose_services": 9,
-"has_k8s": false,
-"has_terraform": false,
-"dep_count": 0,
-"readme_bytes": 13984,
-"top_level_entries": 30
-},
-"engines_not_ran": [],
-"code_scan_result": "withheld",
-"blocking": [],
-"advisory": {
-"WARNING": 8,
-"osv_vulnerabilities": 340
-},
-"engines": {
-"semgrep": "ran",
-"yara": "ran",
-"clamav": "ran",
-"osv": "ran"
-},
-"yara": {
-"status": "ran",
-"hits": []
-},
-"clamav": {
-"status": "ran",
-"hits": []
-},
-"osv": {
-"status": "ran",
-"malicious": [
-"@babel/plugin-transform-modules-systemjs:GHSA-fv7c-fp4j-7gwp",
-"node-forge:GHSA-6wvx-3r32-xmcg"
-],
-"vulnerable": 340
-},
-"links": {
-"block": [
-"link embeds credentials",
-"non-web link scheme mongodb:",
-"non-web link scheme redis:"
-],
-"warn": [],
-"error": null
-},
-"vet_hard": [],
-"vet_soft": []
-},
-"expires": "2026-11-02T08:01:48+00:00"
-},
 "stockalgo/stolgo": {
 "full_name": "stockalgo/stolgo",
 "sha": "1b99e2c8e677084247c60c6bfe3d951fcdb3466c",
@@ -68513,8 +68543,8 @@
 },
 "storytold/gridcraft": {
 "full_name": "storytold/gridcraft",
-"sha": "15c9d8c10b84e2a8e06cccfa012ab97906809869",
-"at": "2026-11-01T09:13:26+00:00",
+"sha": "5e415cdd34d287b90a4a9df67eb4f532f6f72d96",
+"at": "2026-11-01T14:12:16+00:00",
 "language": "Rust",
 "size": 7885,
 "pushed_at": "2026-10-21",
@@ -68529,14 +68559,14 @@
 "result": "fail",
 "reasons": [
 "README link: link to a raw IP address (private)",
-"soft: 6951 stars on a 25-day-old repo (bought stars)",
+"soft: 6969 stars on a 25-day-old repo (bought stars)",
 "soft: README link: chat invite link discord.gg"
 ],
 "coverage": {
 "primary_language": "Rust",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 12842620,
+"bytes": 12847385,
 "files": 732,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -68589,10 +68619,10 @@
 ],
 "vet_soft": [
 "README link: chat invite link discord.gg",
-"6951 stars on a 25-day-old repo (bought stars)"
+"6969 stars on a 25-day-old repo (bought stars)"
 ]
 },
-"expires": "2026-11-03T09:13:26+00:00"
+"expires": "2026-11-03T14:12:16+00:00"
 },
 "streamlit/streamlit": {
 "full_name": "streamlit/streamlit",
@@ -69350,8 +69380,8 @@
 },
 "syedmubashirpc-dev/wechat-message-activator": {
 "full_name": "syedmubashirpc-dev/wechat-message-activator",
-"sha": "d46c0dc053698c6a318d7607e1042c3a72bbb237",
-"at": "2026-11-01T09:14:28+00:00",
+"sha": "99dc43a92b5d01937c904466e50a5663de5a1a53",
+"at": "2026-11-01T14:12:41+00:00",
 "language": "Rust",
 "size": 79,
 "pushed_at": "2026-10-31",
@@ -69368,14 +69398,14 @@
 "82 stars on a 2-day-old repo (bought stars)",
 "README link: cracked / pirated software wording",
 "content policy: advertises 'activator'",
-"soft: owner account is 83 days old",
+"soft: owner account is 84 days old",
 "yara: TLDP_Obfuscated_Payload"
 ],
 "coverage": {
 "primary_language": "Rust",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 93572,
+"bytes": 93619,
 "files": 8,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -69430,10 +69460,10 @@
 "82 stars on a 2-day-old repo (bought stars)"
 ],
 "vet_soft": [
-"owner account is 83 days old"
+"owner account is 84 days old"
 ]
 },
-"expires": "2026-11-03T09:14:28+00:00"
+"expires": "2026-11-03T14:12:41+00:00"
 },
 "syhunt/php2shell-protection": {
 "full_name": "syhunt/php2shell-protection",
@@ -70212,83 +70242,6 @@
 },
 "expires": "2026-11-02T08:04:48+00:00"
 },
-"tcchen2026/VibeOffice": {
-"full_name": "tcchen2026/VibeOffice",
-"sha": "32ff53a5da0e75ebac11acdb0251cd3d8c7bf408",
-"at": "2026-10-31T08:05:04+00:00",
-"language": "JavaScript",
-"size": 9798,
-"pushed_at": "2026-10-18",
-"created_at": "2026-10-08",
-"stars": 1006,
-"curated": false,
-"scanner": {
-"semgrep": "1.177.0",
-"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
-},
-"policy_version": 2,
-"result": "fail",
-"reasons": [
-"1179 stars on a 23-day-old repo (bought stars)",
-"scan incomplete: Timeout"
-],
-"coverage": {
-"primary_language": "JavaScript",
-"supported": true,
-"note": "generic + language rules",
-"bytes": 17801895,
-"files": 497,
-"notebooks_extracted": 0,
-"semgrepignore_removed": 0,
-"signals": {
-"has_tests": true,
-"has_dockerfile": false,
-"compose_services": 0,
-"has_k8s": false,
-"has_terraform": false,
-"dep_count": 0,
-"readme_bytes": 7743,
-"top_level_entries": 11
-},
-"engines_not_ran": [],
-"code_scan_result": "incomplete",
-"blocking": [],
-"advisory": {
-"WARNING": 3,
-"ERROR": 5,
-"osv_vulnerabilities": 7
-},
-"engines": {
-"semgrep": "ran",
-"yara": "ran",
-"clamav": "ran",
-"osv": "ran"
-},
-"yara": {
-"status": "ran",
-"hits": []
-},
-"clamav": {
-"status": "ran",
-"hits": []
-},
-"osv": {
-"status": "ran",
-"malicious": [],
-"vulnerable": 7
-},
-"links": {
-"block": [],
-"warn": [],
-"error": null
-},
-"vet_hard": [
-"1179 stars on a 23-day-old repo (bought stars)"
-],
-"vet_soft": []
-},
-"expires": "2026-11-02T08:05:04+00:00"
-},
 "teleport-computer/teleport-gramine-rs": {
 "full_name": "teleport-computer/teleport-gramine-rs",
 "sha": "77ee3cdec267f57da421b7da354f619be69fe42b",
@@ -70497,10 +70450,10 @@
 },
 "theinvinciblepanther/etf-rotation-paper-bot": {
 "full_name": "theinvinciblepanther/etf-rotation-paper-bot",
-"sha": "58bf8bbcb5bee0241c10ba3a14eab1a4a7fc2e30",
-"at": "2026-11-01T09:16:09+00:00",
+"sha": "f477d17a85a442de9f9e04bcd6c87953b87e4ff1",
+"at": "2026-11-01T14:12:59+00:00",
 "language": "Python",
-"size": 386,
+"size": 388,
 "pushed_at": "2026-11-01",
 "created_at": "2026-10-23",
 "stars": 59,
@@ -70519,7 +70472,7 @@
 "primary_language": "Python",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 399916,
+"bytes": 399965,
 "files": 9,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -70570,7 +70523,7 @@
 ],
 "vet_soft": []
 },
-"expires": "2026-11-03T09:16:09+00:00"
+"expires": "2026-11-03T14:12:59+00:00"
 },
 "thenotoriousJeremy/bindarr": {
 "full_name": "thenotoriousJeremy/bindarr",
@@ -70727,13 +70680,13 @@
 },
 "theorem-labs/oss-verify-proofs": {
 "full_name": "theorem-labs/oss-verify-proofs",
-"sha": "a6839bb9e433b34c0d0710df5280194528877139",
-"at": "2026-10-31T01:25:02+00:00",
+"sha": "293953e8dbd3b7207b8accf5b0c049e2c47fb4b1",
+"at": "2026-11-01T14:13:18+00:00",
 "language": "Rocq Prover",
-"size": 2359408,
-"pushed_at": "2026-10-28",
+"size": 2359412,
+"pushed_at": "2026-11-01",
 "created_at": "2026-10-22",
-"stars": 180,
+"stars": 188,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
@@ -70762,86 +70715,10 @@
 },
 "vet_hard": [],
 "vet_soft": [
-"187 stars on a 8-day-old repo (bought stars)"
+"188 stars on a 9-day-old repo (bought stars)"
 ]
 },
-"expires": "2026-11-02T01:25:02+00:00"
-},
-"thesysdev/open-intelligent-ui": {
-"full_name": "thesysdev/open-intelligent-ui",
-"sha": "16ef26475999e3a021a50b1607a03717c0721255",
-"at": "2026-10-31T08:08:43+00:00",
-"language": "TypeScript",
-"size": 35049,
-"pushed_at": "2026-10-17",
-"created_at": "2026-10-08",
-"stars": 772,
-"curated": false,
-"scanner": {
-"semgrep": "1.177.0",
-"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
-},
-"policy_version": 2,
-"result": "fail",
-"reasons": [
-"code scan: tldp.credential-store-access"
-],
-"coverage": {
-"primary_language": "TypeScript",
-"supported": true,
-"note": "generic + language rules",
-"bytes": 18652483,
-"files": 115,
-"notebooks_extracted": 0,
-"semgrepignore_removed": 0,
-"signals": {
-"has_tests": true,
-"has_dockerfile": false,
-"compose_services": 0,
-"has_k8s": false,
-"has_terraform": false,
-"dep_count": 19,
-"readme_bytes": 19739,
-"top_level_entries": 16
-},
-"engines_not_ran": [],
-"code_scan_result": "withheld",
-"blocking": [
-"tldp.credential-store-access"
-],
-"advisory": {
-"osv_vulnerabilities": 7
-},
-"engines": {
-"semgrep": "ran",
-"yara": "ran",
-"clamav": "ran",
-"osv": "ran"
-},
-"yara": {
-"status": "ran",
-"hits": []
-},
-"clamav": {
-"status": "ran",
-"hits": []
-},
-"osv": {
-"status": "ran",
-"malicious": [],
-"vulnerable": 7
-},
-"links": {
-"block": [],
-"warn": [],
-"error": null
-},
-"vet_hard": [],
-"vet_soft": [
-"887 stars on a 23-day-old repo (bought stars)"
-]
-},
-"expires": "2026-11-02T08:08:43+00:00"
+"expires": "2026-11-03T14:13:18+00:00"
 },
 "thinkst/opencanary": {
 "full_name": "thinkst/opencanary",
@@ -70922,7 +70799,7 @@
 "third-intelligence/RubatoCodec": {
 "full_name": "third-intelligence/RubatoCodec",
 "sha": "4850b86cfe4d86d51493797bb88ee32f911c6d92",
-"at": "2026-10-31T13:33:55+00:00",
+"at": "2026-11-01T14:13:21+00:00",
 "language": "Python",
 "size": 1033,
 "pushed_at": "2026-10-30",
@@ -70992,7 +70869,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-01T13:33:55+00:00"
+"expires": "2026-11-02T14:13:21+00:00"
 },
 "thomasmeadows/HiveDispatch": {
 "full_name": "thomasmeadows/HiveDispatch",
@@ -71543,8 +71420,8 @@
 },
 "tomaszboloz/SEOmi": {
 "full_name": "tomaszboloz/SEOmi",
-"sha": "fddddb4d14e3adaa1920c559ee4ac31659b0dc8e",
-"at": "2026-11-01T09:19:07+00:00",
+"sha": "16624b78bd9288a85ecc6f08a028f6f89efa7044",
+"at": "2026-11-01T14:13:37+00:00",
 "language": "TypeScript",
 "size": 20747,
 "pushed_at": "2026-10-12",
@@ -71565,7 +71442,7 @@
 "primary_language": "TypeScript",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 42499708,
+"bytes": 42500489,
 "files": 4909,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -71583,7 +71460,7 @@
 "code_scan_result": "pass",
 "blocking": [],
 "advisory": {
-"osv_vulnerabilities": 9
+"osv_vulnerabilities": 8
 },
 "engines": {
 "semgrep": "ran",
@@ -71602,7 +71479,7 @@
 "osv": {
 "status": "ran",
 "malicious": [],
-"vulnerable": 9
+"vulnerable": 8
 },
 "links": {
 "block": [
@@ -71618,7 +71495,7 @@
 "owner account is 55 days old"
 ]
 },
-"expires": "2026-11-03T09:19:07+00:00"
+"expires": "2026-11-03T14:13:37+00:00"
 },
 "tomfunk/fungible": {
 "full_name": "tomfunk/fungible",
@@ -71959,54 +71836,6 @@
 },
 "expires": "2026-11-02T01:26:42+00:00"
 },
-"tqec/tqec": {
-"full_name": "tqec/tqec",
-"sha": "488583330740d900bce6da7b2a6697ea6963dd79",
-"at": "2026-10-31T08:10:06+00:00",
-"language": "Python",
-"size": 217768,
-"pushed_at": "2026-10-31",
-"created_at": "2023-10-19",
-"stars": 390,
-"curated": false,
-"scanner": {
-"semgrep": "1.177.0",
-"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
-},
-"policy_version": 2,
-"result": "fail",
-"reasons": [
-"README link: file-sharing host drive.google.com",
-"README link: non-web link scheme git+https:",
-"repository too large to scan (217768 KB > 60000 KB)"
-],
-"coverage": {
-"primary_language": "Python",
-"supported": true,
-"note": "generic + language rules",
-"code_scan_result": "withheld",
-"blocking": [],
-"advisory": {},
-"engines": {},
-"yara": {},
-"clamav": {},
-"osv": {},
-"links": {
-"block": [
-"file-sharing host drive.google.com",
-"non-web link scheme git+https:"
-],
-"warn": [],
-"error": null
-},
-"vet_hard": [
-"README link: file-sharing host drive.google.com",
-"README link: non-web link scheme git+https:"
-],
-"vet_soft": []
-},
-"expires": "2026-11-02T08:10:06+00:00"
-},
 "tradingview/lightweight-charts": {
 "full_name": "tradingview/lightweight-charts",
 "sha": "c9ec1cec25583a0200f3c85ad9019d19c1d65f97",
@@ -72182,8 +72011,8 @@
 },
 "trycua/cua": {
 "full_name": "trycua/cua",
-"sha": "8db684185a93e854bb7811189d69f933bb15f55d",
-"at": "2026-11-01T09:20:32+00:00",
+"sha": "0cdcec94bc9988d41087d470b32f1fad2ba28691",
+"at": "2026-11-01T14:14:45+00:00",
 "language": "Rust",
 "size": 681264,
 "pushed_at": "2026-11-01",
@@ -72224,7 +72053,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-03T09:20:32+00:00"
+"expires": "2026-11-03T14:14:45+00:00"
 },
 "tugrawork-creator/saas-motion-kit": {
 "full_name": "tugrawork-creator/saas-motion-kit",
@@ -73038,11 +72867,11 @@
 },
 "uniswap-python/uniswap-python": {
 "full_name": "uniswap-python/uniswap-python",
-"sha": "8aed11459929f8964120163627dc00c3f1e833c1",
-"at": "2026-10-31T13:36:22+00:00",
+"sha": "29d8f0b8624ddd31eb47211a332683f89354df53",
+"at": "2026-11-01T14:14:50+00:00",
 "language": "Python",
-"size": 6076,
-"pushed_at": "2026-10-30",
+"size": 6079,
+"pushed_at": "2026-11-01",
 "created_at": "2018-12-29",
 "stars": 1017,
 "curated": false,
@@ -73061,8 +72890,8 @@
 "primary_language": "Python",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 1633205,
-"files": 118,
+"bytes": 1638130,
+"files": 120,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -73119,7 +72948,7 @@
 ],
 "vet_soft": []
 },
-"expires": "2026-11-02T13:36:22+00:00"
+"expires": "2026-11-03T14:14:50+00:00"
 },
 "unstablebuild/rune": {
 "full_name": "unstablebuild/rune",
@@ -73414,8 +73243,8 @@
 },
 "uwuclxdy/clauth": {
 "full_name": "uwuclxdy/clauth",
-"sha": "6901bbe9302f30131b76dd59aa4e4d6de32ca6d9",
-"at": "2026-11-01T09:23:57+00:00",
+"sha": "2e528ce807ef819aba74019d1f92dacb5157d63c",
+"at": "2026-11-01T14:15:09+00:00",
 "language": "Rust",
 "size": 47613,
 "pushed_at": "2026-10-27",
@@ -73436,7 +73265,7 @@
 "primary_language": "Rust",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 25670910,
+"bytes": 26159379,
 "files": 369,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -73489,7 +73318,7 @@
 ],
 "vet_soft": []
 },
-"expires": "2026-11-03T09:23:57+00:00"
+"expires": "2026-11-03T14:15:09+00:00"
 },
 "vaishantsah/watson-AI-osint-all-in-one": {
 "full_name": "vaishantsah/watson-AI-osint-all-in-one",
@@ -74075,6 +73904,48 @@
 },
 "expires": "2026-11-02T08:15:42+00:00"
 },
+"vimeo/psalm": {
+"full_name": "vimeo/psalm",
+"sha": "9816b1e102218930648f1c864e9c74fea7d26b4b",
+"at": "2026-11-01T14:15:33+00:00",
+"language": "PHP",
+"size": 139500,
+"pushed_at": "2026-11-01",
+"created_at": "2016-11-21",
+"stars": 5897,
+"curated": false,
+"scanner": {
+"semgrep": "1.177.0",
+"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
+},
+"policy_version": 2,
+"result": "fail",
+"reasons": [
+"repository too large to scan (139500 KB > 60000 KB)"
+],
+"coverage": {
+"primary_language": "PHP",
+"supported": true,
+"note": "generic + language rules",
+"code_scan_result": "withheld",
+"blocking": [],
+"advisory": {},
+"engines": {},
+"yara": {},
+"clamav": {},
+"osv": {},
+"links": {
+"block": [],
+"warn": [
+"chat invite link t.me"
+],
+"error": null
+},
+"vet_hard": [],
+"vet_soft": []
+},
+"expires": "2026-11-03T14:15:33+00:00"
+},
 "visualHFT/VisualHFT": {
 "full_name": "visualHFT/VisualHFT",
 "sha": "5ec50ce56855a4f47879b30acc3c5a033a4ef7a9",
@@ -74577,8 +74448,8 @@
 },
 "wangwanjie/gately": {
 "full_name": "wangwanjie/gately",
-"sha": "6f5924ccd151dbee34aa84f1605ea8bb27fb4046",
-"at": "2026-11-01T09:27:02+00:00",
+"sha": "6d63ce2d644f0e3cc281db4943b4c7eef23a7ab7",
+"at": "2026-11-01T14:15:38+00:00",
 "language": "Go",
 "size": 59873,
 "pushed_at": "2026-10-29",
@@ -74592,7 +74463,7 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"435 stars on a 16-day-old repo (bought stars)",
+"436 stars on a 16-day-old repo (bought stars)",
 "README link: password-protected download",
 "soft: README link: chat invite link t.me",
 "soft: README links to t.me/"
@@ -74601,8 +74472,8 @@
 "primary_language": "Go",
 "supported": true,
 "note": "generic + language rules",
-"bytes": 31770187,
-"files": 2340,
+"bytes": 32434618,
+"files": 2367,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
 "signals": {
@@ -74612,7 +74483,7 @@
 "has_k8s": false,
 "has_terraform": false,
 "dep_count": 44,
-"readme_bytes": 52104,
+"readme_bytes": 52352,
 "top_level_entries": 24
 },
 "engines_not_ran": [],
@@ -74652,14 +74523,14 @@
 },
 "vet_hard": [
 "README link: password-protected download",
-"435 stars on a 16-day-old repo (bought stars)"
+"436 stars on a 16-day-old repo (bought stars)"
 ],
 "vet_soft": [
 "README links to t.me/",
 "README link: chat invite link t.me"
 ]
 },
-"expires": "2026-11-03T09:27:02+00:00"
+"expires": "2026-11-03T14:15:38+00:00"
 },
 "wannabeyourfriend/awesome-harness-evolution": {
 "full_name": "wannabeyourfriend/awesome-harness-evolution",
@@ -75085,8 +74956,8 @@
 },
 "wekan/wekan": {
 "full_name": "wekan/wekan",
-"sha": "dd2082b0ead151389aeda281adfc429c76bac1d2",
-"at": "2026-10-31T22:57:17+00:00",
+"sha": "27040c6f2fe3eaa683dd32a678bd2f1bde9d8b98",
+"at": "2026-11-01T14:16:24+00:00",
 "language": "JavaScript",
 "size": 493584,
 "pushed_at": "2026-10-25",
@@ -75121,7 +74992,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-02T22:57:17+00:00"
+"expires": "2026-11-03T14:16:24+00:00"
 },
 "wh000wh000/awesome-claude-mods": {
 "full_name": "wh000wh000/awesome-claude-mods",
@@ -75168,8 +75039,8 @@
 },
 "wh000wh000/awesome-jev-live": {
 "full_name": "wh000wh000/awesome-jev-live",
-"sha": "966fb9c06c9a972d5f62c0eeb5b4060bceab90c5",
-"at": "2026-11-01T09:28:48+00:00",
+"sha": "03d616513e75e880499576d25b3c38e226c3f747",
+"at": "2026-11-01T14:16:27+00:00",
 "language": "Python",
 "size": 558846,
 "pushed_at": "2026-10-18",
@@ -75209,7 +75080,7 @@
 ],
 "vet_soft": []
 },
-"expires": "2026-11-03T09:28:48+00:00"
+"expires": "2026-11-03T14:16:27+00:00"
 },
 "wikimedia/node-cssjanus": {
 "full_name": "wikimedia/node-cssjanus",
@@ -75436,8 +75307,8 @@
 },
 "wireshark/wireshark": {
 "full_name": "wireshark/wireshark",
-"sha": "a7af303e275553545b4138c519d2b1759c667417",
-"at": "2026-11-01T09:29:09+00:00",
+"sha": "a31b130610d393f2f15dc187dee1b58a485c3256",
+"at": "2026-11-01T14:16:31+00:00",
 "language": "C",
 "size": 1542257,
 "pushed_at": "2026-10-26",
@@ -75472,7 +75343,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-03T09:29:09+00:00"
+"expires": "2026-11-03T14:16:31+00:00"
 },
 "wireztna/wireztna-oss": {
 "full_name": "wireztna/wireztna-oss",
@@ -75797,20 +75668,23 @@
 "xiaoyixuan0308-cyber/pawpath-shelter-management": {
 "full_name": "xiaoyixuan0308-cyber/pawpath-shelter-management",
 "sha": "91d65fd0ce66b618c3643b29169cf4c4e1daefaf",
-"at": "2026-10-18T12:31:00+00:00",
+"at": "2026-11-01T14:16:35+00:00",
 "language": "TypeScript",
 "size": 2058,
 "pushed_at": "2026-10-18",
 "created_at": "2026-10-17",
-"stars": 21,
+"stars": 192,
 "curated": false,
 "scanner": {
 "semgrep": "1.177.0",
 "ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
 },
 "policy_version": 2,
-"result": "pass",
-"reasons": [],
+"result": "fail",
+"reasons": [
+"192 stars on a 15-day-old repo (bought stars)",
+"soft: only 2 commit(s)"
+],
 "coverage": {
 "primary_language": "TypeScript",
 "supported": true,
@@ -75833,7 +75707,7 @@
 "code_scan_result": "pass",
 "blocking": [],
 "advisory": {
-"osv_vulnerabilities": 2
+"osv_vulnerabilities": 7
 },
 "engines": {
 "semgrep": "ran",
@@ -75852,19 +75726,21 @@
 "osv": {
 "status": "ran",
 "malicious": [],
-"vulnerable": 2
+"vulnerable": 7
 },
 "links": {
 "block": [],
 "warn": [],
 "error": null
 },
-"vet_hard": [],
+"vet_hard": [
+"192 stars on a 15-day-old repo (bought stars)"
+],
 "vet_soft": [
 "only 2 commit(s)"
 ]
 },
-"expires": "2026-11-01T12:31:00+00:00"
+"expires": "2026-11-03T14:16:35+00:00"
 },
 "xingjian-bai/opal": {
 "full_name": "xingjian-bai/opal",
@@ -76405,6 +76281,85 @@
 },
 "expires": "2026-11-02T13:37:34+00:00"
 },
+"yetone/alma-relay": {
+"full_name": "yetone/alma-relay",
+"sha": "716d4a8cd68e13227ec2dc7e3b92923180ac8e9a",
+"at": "2026-11-01T14:16:51+00:00",
+"language": "JavaScript",
+"size": 96,
+"pushed_at": "2026-11-01",
+"created_at": "2026-10-31",
+"stars": 291,
+"curated": false,
+"scanner": {
+"semgrep": "1.177.0",
+"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
+},
+"policy_version": 2,
+"result": "fail",
+"reasons": [
+"README link: link to a raw IP address (private)",
+"soft: 295 stars on a 1-day-old repo (bought stars)"
+],
+"coverage": {
+"primary_language": "JavaScript",
+"supported": true,
+"note": "generic + language rules",
+"bytes": 227473,
+"files": 24,
+"notebooks_extracted": 0,
+"semgrepignore_removed": 0,
+"signals": {
+"has_tests": true,
+"has_dockerfile": true,
+"compose_services": 4,
+"has_k8s": false,
+"has_terraform": false,
+"dep_count": 2,
+"readme_bytes": 9568,
+"top_level_entries": 20
+},
+"engines_not_ran": [],
+"code_scan_result": "pass",
+"blocking": [],
+"advisory": {
+"osv_vulnerabilities": 0
+},
+"engines": {
+"semgrep": "ran",
+"yara": "ran",
+"clamav": "ran",
+"osv": "ran"
+},
+"yara": {
+"status": "ran",
+"hits": []
+},
+"clamav": {
+"status": "ran",
+"hits": []
+},
+"osv": {
+"status": "ran",
+"malicious": [],
+"vulnerable": 0
+},
+"links": {
+"block": [
+"link to a raw IP address (private)"
+],
+"warn": [],
+"error": null
+},
+"vet_hard": [
+"README link: link to a raw IP address (private)"
+],
+"vet_soft": [
+"295 stars on a 1-day-old repo (bought stars)"
+]
+},
+"expires": "2026-11-03T14:16:51+00:00"
+},
 "yibie/awesome-jev": {
 "full_name": "yibie/awesome-jev",
 "sha": "519064216c249d38a8cf1ee63bd7c2a6b1c5d323",
@@ -76482,6 +76437,54 @@
 "vet_soft": []
 },
 "expires": "2026-11-02T08:20:58+00:00"
+},
+"yonatangross/orchestkit": {
+"full_name": "yonatangross/orchestkit",
+"sha": "a4f4f618f6257a91ecff39e9fa0a98273770f04f",
+"at": "2026-11-01T14:17:04+00:00",
+"language": "TypeScript",
+"size": 416662,
+"pushed_at": "2026-11-01",
+"created_at": "2025-12-31",
+"stars": 300,
+"curated": false,
+"scanner": {
+"semgrep": "1.177.0",
+"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
+},
+"policy_version": 2,
+"result": "fail",
+"reasons": [
+"README link: non-web link scheme op:",
+"repository too large to scan (416662 KB > 60000 KB)",
+"soft: Scorecard Dangerous-Workflow 0/10"
+],
+"coverage": {
+"primary_language": "TypeScript",
+"supported": true,
+"note": "generic + language rules",
+"code_scan_result": "withheld",
+"blocking": [],
+"advisory": {},
+"engines": {},
+"yara": {},
+"clamav": {},
+"osv": {},
+"links": {
+"block": [
+"non-web link scheme op:"
+],
+"warn": [],
+"error": null
+},
+"vet_hard": [
+"README link: non-web link scheme op:"
+],
+"vet_soft": [
+"Scorecard Dangerous-Workflow 0/10"
+]
+},
+"expires": "2026-11-03T14:17:04+00:00"
 },
 "youtube-jono/local-seo-agent": {
 "full_name": "youtube-jono/local-seo-agent",
@@ -77135,14 +77138,14 @@
 },
 "zaproxy/zaproxy": {
 "full_name": "zaproxy/zaproxy",
-"sha": "3fc32cecdd6f31abbf5525ef72f0e6ad93f03e98",
-"at": "2026-10-31T01:39:42+00:00",
+"sha": "3649fc2742a447eaadeb03407bd1ad6026c9d72d",
+"at": "2026-11-01T14:17:09+00:00",
 "language": "Java",
-"size": 202537,
-"pushed_at": "2026-10-23",
+"size": 202464,
+"pushed_at": "2026-11-01",
 "created_at": "2015-06-03",
-"stars": 16032,
-"curated": true,
+"stars": 16086,
+"curated": false,
 "scanner": {
 "semgrep": "1.177.0",
 "ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
@@ -77150,7 +77153,7 @@
 "policy_version": 2,
 "result": "fail",
 "reasons": [
-"repository too large to scan (202537 KB > 60000 KB)"
+"repository too large to scan (202464 KB > 60000 KB)"
 ],
 "coverage": {
 "primary_language": "Java",
@@ -77171,7 +77174,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-02T01:39:42+00:00"
+"expires": "2026-11-03T14:17:09+00:00"
 },
 "zeek/zeek": {
 "full_name": "zeek/zeek",
@@ -77508,10 +77511,84 @@
 },
 "expires": "2026-11-02T22:58:24+00:00"
 },
+"zero-trace-usa/Zero-Trace-OT-Guard": {
+"full_name": "zero-trace-usa/Zero-Trace-OT-Guard",
+"sha": "5ca394f316fccb8d3bd9ebaae78b8fb5c50a3dd2",
+"at": "2026-11-01T14:17:13+00:00",
+"language": "Python",
+"size": 2169,
+"pushed_at": "2026-11-01",
+"created_at": "2026-10-29",
+"stars": 15,
+"curated": false,
+"scanner": {
+"semgrep": "1.177.0",
+"ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325"
+},
+"policy_version": 2,
+"result": "incomplete",
+"reasons": [
+"required scanner not run: osv=error"
+],
+"coverage": {
+"primary_language": "Python",
+"supported": true,
+"note": "generic + language rules",
+"bytes": 2840033,
+"files": 57,
+"notebooks_extracted": 0,
+"semgrepignore_removed": 0,
+"signals": {
+"has_tests": true,
+"has_dockerfile": false,
+"compose_services": 0,
+"has_k8s": false,
+"has_terraform": false,
+"dep_count": 0,
+"readme_bytes": 8051,
+"top_level_entries": 16
+},
+"engines_not_ran": [
+"osv=error"
+],
+"code_scan_result": "incomplete",
+"blocking": [],
+"advisory": {
+"osv_vulnerabilities": 0
+},
+"engines": {
+"semgrep": "ran",
+"yara": "ran",
+"clamav": "ran",
+"osv": "error"
+},
+"yara": {
+"status": "ran",
+"hits": []
+},
+"clamav": {
+"status": "ran",
+"hits": []
+},
+"osv": {
+"status": "error",
+"malicious": [],
+"vulnerable": 0
+},
+"links": {
+"block": [],
+"warn": [],
+"error": null
+},
+"vet_hard": [],
+"vet_soft": []
+},
+"expires": "2026-11-02T14:17:13+00:00"
+},
 "zgcagi/Harness-RSI": {
 "full_name": "zgcagi/Harness-RSI",
-"sha": "9bc63ecd75a8dc9e2731b00083999fe3e6c61c3a",
-"at": "2026-11-01T09:32:54+00:00",
+"sha": "d521b13978806e6132c56cf4adb280e3d969f41b",
+"at": "2026-11-01T14:17:26+00:00",
 "language": "TeX",
 "size": 37396,
 "pushed_at": "2026-10-23",
@@ -77531,7 +77608,7 @@
 "primary_language": "TeX",
 "supported": true,
 "note": "documentation repo: generic (regex) rules only",
-"bytes": 14095222,
+"bytes": 14225938,
 "files": 42,
 "notebooks_extracted": 0,
 "semgrepignore_removed": 0,
@@ -77542,7 +77619,7 @@
 "has_k8s": false,
 "has_terraform": false,
 "dep_count": 0,
-"readme_bytes": 48588,
+"readme_bytes": 48806,
 "top_level_entries": 13
 },
 "engines_not_ran": [
@@ -77580,7 +77657,7 @@
 "vet_hard": [],
 "vet_soft": []
 },
-"expires": "2026-11-02T09:32:54+00:00"
+"expires": "2026-11-02T14:17:26+00:00"
 },
 "zhtyyx/codex-seo": {
 "full_name": "zhtyyx/codex-seo",
@@ -78064,5 +78141,5 @@
 "semgrep_version": null,
 "ruleset_sha256": "a1c27781667d4f223e8d80574ec78ea09673c3495ee933e71005b85dd70ae325",
 "policy_version": 2,
-"generated_at": "2026-11-01T09:34:34+00:00"
+"generated_at": "2026-11-01T14:17:58+00:00"
 }
